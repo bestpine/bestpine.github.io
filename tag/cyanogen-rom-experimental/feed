@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CyanogenMod &#187; cyanogen rom experimental</title>
+	<atom:link href="http://www.cyanogenmod.org/tag/cyanogen-rom-experimental/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Thu, 13 Nov 2014 07:54:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+		<item>
+		<title>4.1.8!</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-8</link>
+		<comments>http://www.cyanogenmod.org/blog/4-1-8#comments</comments>
+		<pubDate>Sun, 13 Sep 2009 07:15:14 +0000</pubDate>
+		<dc:creator>Steve Kondik</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[cyanogen rom experimental]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-8</guid>
+		<description><![CDATA[<p>Crashes are gone! Lots of changes to improve performance and interactivity. Check out how smooth the VK is now! Many more changes. Get it with CM updater and check the XDA thread.</p>]]></description>
+				<content:encoded><![CDATA[<p>Crashes are gone!  Lots of changes to improve performance and interactivity.  Check out how smooth the VK is now!  Many more changes.  Get it with CM updater and check the XDA thread.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/4-1-8/feed</wfw:commentRss>
+		<slash:comments>65</slash:comments>
+		</item>
+		<item>
+		<title>4.1.7 has landed</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-7-has-landed</link>
+		<comments>http://www.cyanogenmod.org/blog/4-1-7-has-landed#comments</comments>
+		<pubDate>Fri, 11 Sep 2009 03:46:21 +0000</pubDate>
+		<dc:creator>Steve Kondik</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[cyanogen rom experimental]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-7-has-landed</guid>
+		<description><![CDATA[<p>Latest and greatest is 4.1.7! New version of BFS and lots of new supporting code. Some other bugs fixes, and also a new version of the HTC_IME that I ported from Hero. Get it now with CM Updater!</p>]]></description>
+				<content:encoded><![CDATA[<p>Latest and greatest is 4.1.7!  New version of BFS and lots of new supporting code.  Some other bugs fixes, and also a new version of the HTC_IME that I ported from Hero.  Get it now with CM Updater!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/4-1-7-has-landed/feed</wfw:commentRss>
+		<slash:comments>70</slash:comments>
+		</item>
+		<item>
+		<title>CM-4.1 ExperiMENTAL is out!</title>
+		<link>http://www.cyanogenmod.org/blog/cm-4-1-experimental-is-out</link>
+		<comments>http://www.cyanogenmod.org/blog/cm-4-1-experimental-is-out#comments</comments>
+		<pubDate>Sun, 30 Aug 2009 22:40:31 +0000</pubDate>
+		<dc:creator>Steve Kondik</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[cyanogen rom experimental]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cm-4-1-experimental-is-out</guid>
+		<description><![CDATA[<p>This version is based on v4.0.4 with Global Search added and lots of bugs fixed. Turn on &#8220;Experimental Updates&#8221; and get it with CM Updater.</p>]]></description>
+				<content:encoded><![CDATA[<p>This version is based on v4.0.4 with Global Search added and lots of bugs fixed.  Turn on &#8220;Experimental Updates&#8221; and get it with CM Updater.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/cm-4-1-experimental-is-out/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 2/12 queries in 0.022 seconds using apc
+Object Caching 316/334 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:15:42 by W3 Total Cache -->

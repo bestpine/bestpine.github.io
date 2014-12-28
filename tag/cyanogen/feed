@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CyanogenMod &#187; cyanogen</title>
+	<atom:link href="http://www.cyanogenmod.org/tag/cyanogen/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Thu, 13 Nov 2014 07:54:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+		<item>
+		<title>CyanogenMod 4.1.999</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999</link>
+		<comments>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999#comments</comments>
+		<pubDate>Wed, 07 Oct 2009 19:57:38 +0000</pubDate>
+		<dc:creator>MrADeveci</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[cyanogen]]></category>
+		<category><![CDATA[experimental]]></category>
+		<category><![CDATA[Rom]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=438</guid>
+		<description><![CDATA[<p>I&#8217;m calling this 4.1.999 because I&#8217;m waiting for the MT3G OTA, and my new installer is a little different. The ROM itself should be incredibly stable, though. This is a modified version of AOSP 1.6 without the proprietary bits. In order to get up and running the first time, you&#8217;ll need to follow some simple instructions.</p> <p>Please visit the <a href="http://wiki.cyanogenmod.org">Wiki </a>for information on how to install the Rom.</p>]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m calling this 4.1.999 because I&#8217;m waiting for the MT3G OTA, and my new installer is a little different. The ROM itself should be incredibly stable, though. This is a modified version of AOSP 1.6 without the proprietary bits. In order to get up and running the first time, you&#8217;ll need to follow some simple instructions.</p>
+<p>Please visit the <a href="http://wiki.cyanogenmod.org">Wiki </a>for information on how to install the Rom.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999/feed</wfw:commentRss>
+		<slash:comments>157</slash:comments>
+		</item>
+		<item>
+		<title>Android 1.6 inside &#8211; 4.1.5 is here.</title>
+		<link>http://www.cyanogenmod.org/blog/android-1-6-inside-4-1-5-is-here</link>
+		<comments>http://www.cyanogenmod.org/blog/android-1-6-inside-4-1-5-is-here#comments</comments>
+		<pubDate>Tue, 08 Sep 2009 07:39:43 +0000</pubDate>
+		<dc:creator>MrADeveci</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[cm updater]]></category>
+		<category><![CDATA[cyanogen]]></category>
+		<category><![CDATA[cyanogen rom]]></category>
+		<category><![CDATA[donut]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=272</guid>
+		<description><![CDATA[<p>Get it now : <a href="http://n0rp.chemlab.org/android/experimental/update-cm-4.1.5-signed.zip">http://n0rp.chemlab.org/android/experimental/update-cm-4.1.5-signed.zip</a></p> <p>or download via CM Updater!</p> <p><strong>&#8212;- v4.1.5</strong> * Fixed video (YouTube, etc) * Fixed FilePicker (PDFViewer, etc) * Improved speed at which the in-call screen is displayed * Removed GooglePartnerSetup since it causes mass ANRs and it doesn&#8217;t actually seem to do anything useful that I can figure out * Should work better on Magic 32B now. * Fixed protected apps issue * Camcorder is still broken * Lock screen is still default.. next version.</p>]]></description>
+				<content:encoded><![CDATA[<p>Get it now : <a href="http://n0rp.chemlab.org/android/experimental/update-cm-4.1.5-signed.zip">http://n0rp.chemlab.org/android/experimental/update-cm-4.1.5-signed.zip</a></p>
+<p>or download via CM Updater!</p>
+<p><strong>&#8212;- v4.1.5</strong><br />
+* Fixed video (YouTube, etc)<br />
+* Fixed FilePicker (PDFViewer, etc)<br />
+* Improved speed at which the in-call screen is displayed<br />
+* Removed GooglePartnerSetup since it causes mass ANRs and it doesn&#8217;t actually seem to do anything useful that I can figure out<br />
+* Should work better on Magic 32B now.<br />
+* Fixed protected apps issue<br />
+* Camcorder is still broken<br />
+* Lock screen is still default.. next version.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/android-1-6-inside-4-1-5-is-here/feed</wfw:commentRss>
+		<slash:comments>22</slash:comments>
+		</item>
+		<item>
+		<title>CM Updater &#8211; With Theme Update Support</title>
+		<link>http://www.cyanogenmod.org/blog/cm-updater-with-theme-update-support</link>
+		<comments>http://www.cyanogenmod.org/blog/cm-updater-with-theme-update-support#comments</comments>
+		<pubDate>Thu, 03 Sep 2009 21:59:20 +0000</pubDate>
+		<dc:creator>MrADeveci</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[cm updater]]></category>
+		<category><![CDATA[cyanogen]]></category>
+		<category><![CDATA[downloads]]></category>
+		<category><![CDATA[Rom]]></category>
+		<category><![CDATA[theme]]></category>
+		<category><![CDATA[themes]]></category>
+		<category><![CDATA[update]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=256</guid>
+		<description><![CDATA[<p>Coming soon&#8230;&#8230;&#8230;&#8230; not long now, <a href="http://www.omegabestreplicawatch.com">watch</a> this space!</p> <p><a href="http://forum.xda-developers.com/showthread.php?t=554579" target="_blank">http://forum.xda-developers.com/showthread.php?t=554579</a></p>]]></description>
+				<content:encoded><![CDATA[<p>Coming soon&#8230;&#8230;&#8230;&#8230; not long now, <a href="http://www.omegabestreplicawatch.com">watch</a> this space!</p>
+<p><a href="http://forum.xda-developers.com/showthread.php?t=554579" target="_blank">http://forum.xda-developers.com/showthread.php?t=554579</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/cm-updater-with-theme-update-support/feed</wfw:commentRss>
+		<slash:comments>12</slash:comments>
+		</item>
+		<item>
+		<title>CM Logo Contest &#8211; Closing Date 09/09/09</title>
+		<link>http://www.cyanogenmod.org/blog/cm-logo-contest-closing-date-090909</link>
+		<comments>http://www.cyanogenmod.org/blog/cm-logo-contest-closing-date-090909#comments</comments>
+		<pubDate>Sat, 29 Aug 2009 18:17:30 +0000</pubDate>
+		<dc:creator>MrADeveci</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[competition]]></category>
+		<category><![CDATA[contest]]></category>
+		<category><![CDATA[cyanogen]]></category>
+		<category><![CDATA[logo]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=232</guid>
+		<description><![CDATA[<p>So far we have had a few entries, but there must be a cut-off point. That&#8217;s going to be 09/09/09.</p> <p>So get your submissions in and get the opportunity to display your work here!</p> <p>Submissions so far :</p> <p>KPICASA_GALLERY(CMLogoContest)</p>]]></description>
+				<content:encoded><![CDATA[<p>So far we have had a few entries, but there must be a cut-off point. That&#8217;s going to be 09/09/09.</p>
+<p>So get your submissions in and get the opportunity to display your work here!</p>
+<p>Submissions so far :</p>
+<p>KPICASA_GALLERY(CMLogoContest)</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/cm-logo-contest-closing-date-090909/feed</wfw:commentRss>
+		<slash:comments>32</slash:comments>
+		</item>
+		<item>
+		<title>CyanogenMod Screenshots anyone?</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-screenshots-anyone</link>
+		<comments>http://www.cyanogenmod.org/blog/cyanogenmod-screenshots-anyone#comments</comments>
+		<pubDate>Tue, 25 Aug 2009 11:26:37 +0000</pubDate>
+		<dc:creator>MrADeveci</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[cyanogen]]></category>
+		<category><![CDATA[screens]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=100</guid>
+		<description><![CDATA[<p>Does anyone have any screen shots for the latest ROM &#8230;&#8230;&#8230;&#8230; or can provide a link where I can get hold of some that have been created.</p> <p>The &#8216;Screens&#8217; page is in need of some images for the ROM!</p> <p>Thanks!</p>]]></description>
+				<content:encoded><![CDATA[<p>Does anyone have any screen shots for the latest ROM &#8230;&#8230;&#8230;&#8230; or can provide a link where I can get hold of some that have been created.</p>
+<p>The &#8216;Screens&#8217; page is in need of some images for the ROM!</p>
+<p>Thanks!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/cyanogenmod-screenshots-anyone/feed</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+		</item>
+		<item>
+		<title>New website launched!</title>
+		<link>http://www.cyanogenmod.org/blog/new-website-launched</link>
+		<comments>http://www.cyanogenmod.org/blog/new-website-launched#comments</comments>
+		<pubDate>Mon, 24 Aug 2009 23:44:20 +0000</pubDate>
+		<dc:creator>MrADeveci</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[cyanogen]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[website]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=94</guid>
+		<description><![CDATA[<p>Welcome to the new website, officially launched today &#8230;&#8230; this is the new one stop shop for all things Cyanogen!</p> <p>Ideas, love &#8230;.. or feedback? Feel free to leave a comment so that this site can be improved all the time!</p>]]></description>
+				<content:encoded><![CDATA[<p>Welcome to the new website, officially launched today &#8230;&#8230; this is the new one stop shop for all things Cyanogen!</p>
+<p>Ideas, love &#8230;.. or feedback? Feel free to leave a comment so that this site can be improved all the time!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/new-website-launched/feed</wfw:commentRss>
+		<slash:comments>15</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 3/6 queries in 0.018 seconds using apc
+Object Caching 510/512 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 03:12:21 by W3 Total Cache -->

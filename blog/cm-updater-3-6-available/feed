@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: CM Updater 3.6 Available!</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/cm-updater-3-6-available/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/cm-updater-3-6-available</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: pardeep</title>
+		<link>http://www.cyanogenmod.org/blog/cm-updater-3-6-available/comment-page-1#comment-65109</link>
+		<dc:creator>pardeep</dc:creator>
+		<pubDate>Wed, 19 Nov 2014 07:25:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cm-updater-3-6-available#comment-65109</guid>
+		<description><![CDATA[Were is the link to download the same as nothing presnet in Google Play Store.]]></description>
+		<content:encoded><![CDATA[<p>Were is the link to download the same as nothing presnet in Google Play Store.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Arnaud François</title>
+		<link>http://www.cyanogenmod.org/blog/cm-updater-3-6-available/comment-page-1#comment-54756</link>
+		<dc:creator>Arnaud François</dc:creator>
+		<pubDate>Thu, 11 Oct 2012 13:28:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cm-updater-3-6-available#comment-54756</guid>
+		<description><![CDATA[ system settings&gt;About Phone&gt;&gt;CyanogenMod updates]]></description>
+		<content:encoded><![CDATA[<p> system settings&gt;About Phone&gt;&gt;CyanogenMod updates</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: McKay Christensen</title>
+		<link>http://www.cyanogenmod.org/blog/cm-updater-3-6-available/comment-page-1#comment-54720</link>
+		<dc:creator>McKay Christensen</dc:creator>
+		<pubDate>Thu, 11 Oct 2012 09:14:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cm-updater-3-6-available#comment-54720</guid>
+		<description><![CDATA[Is the word &quot;here&quot; supposed to be a link or something? I will admit I am not the smartest man...  but it seems like this page is missing something. Like a link to the CM Updater 3.6.
+
+Also, I can&#039;t find anything in the Play Store that looks official. I just got a new Galaxy Nexus with the M release and am excited to try out this supposed Updater, but for the life of me I can&#039;t find out how or where to get it. From what Google has told me, it is built into the nightlies (I have the M series and can&#039;t find it there). Also it seems there was an updater a long time ago that Google frowned upon and therefore no longer exists. 
+
+Does anyone have any current link or way to get this updater?]]></description>
+		<content:encoded><![CDATA[<p>Is the word &#8220;here&#8221; supposed to be a link or something? I will admit I am not the smartest man&#8230;  but it seems like this page is missing something. Like a link to the CM Updater 3.6.</p>
+<p>Also, I can&#8217;t find anything in the Play Store that looks official. I just got a new Galaxy Nexus with the M release and am excited to try out this supposed Updater, but for the life of me I can&#8217;t find out how or where to get it. From what Google has told me, it is built into the nightlies (I have the M series and can&#8217;t find it there). Also it seems there was an updater a long time ago that Google frowned upon and therefore no longer exists. </p>
+<p>Does anyone have any current link or way to get this updater?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Mian Dong</title>
+		<link>http://www.cyanogenmod.org/blog/cm-updater-3-6-available/comment-page-1#comment-16279</link>
+		<dc:creator>Mian Dong</dc:creator>
+		<pubDate>Sat, 02 Oct 2010 03:24:48 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cm-updater-3-6-available#comment-16279</guid>
+		<description><![CDATA[Good]]></description>
+		<content:encoded><![CDATA[<p>Good</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: StarkRG</title>
+		<link>http://www.cyanogenmod.org/blog/cm-updater-3-6-available/comment-page-1#comment-87</link>
+		<dc:creator>StarkRG</dc:creator>
+		<pubDate>Fri, 28 Aug 2009 23:18:46 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cm-updater-3-6-available#comment-87</guid>
+		<description><![CDATA[Can the updater be used to switch from JF or do we have to switch manually first?]]></description>
+		<content:encoded><![CDATA[<p>Can the updater be used to switch from JF or do we have to switch manually first?</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/12 queries in 0.016 seconds using apc
+Object Caching 261/263 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:15:30 by W3 Total Cache -->

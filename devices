@@ -1,0 +1,1666 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);</script><title>Devices – CyanogenMod</title>
+<meta name="generator" content="MediaWiki 1.22.2" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="CyanogenMod (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://wiki.cyanogenmod.org/api.php?action=rsd" />
+<link rel="alternate" type="application/atom+xml" title="Atom-Feed für „CyanogenMod“" href="/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="http://wiki.cyanogenmod.org/load.php?debug=false&amp;lang=de&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://wiki.cyanogenmod.org/load.php?debug=false&amp;lang=de&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: mediawiki-cmw_:resourceloader:filter:minify-css:7:dbfad3b53522f30dd0fd0cfda5dae673 */</style>
+
+<script src="http://wiki.cyanogenmod.org/load.php?debug=false&amp;lang=de&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Devices","wgTitle":"Devices","wgCurRevisionId":26984,"wgRevisionId":26984,"wgArticleId":3,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Devices","wgIsProbablyEditable":false,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgVectorEnabledModules":{"collapsiblenav":false,"collapsibletabs":true,"expandablesearch":false,"footercleanup":false,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":false,"dialogs":false,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgULSLanguages":{"qqq":"Nachrichtendokumentation","ab":"Abchasisch","ace":"Aceh-Sprache","af":"Afrikaans","ak":"Akan","aln":"Gheg Albanian","am":"Amharisch","an":"Aragonesisch","ang":"Altenglisch","anp":"Angika","ar":"Arabisch","arc":"Aramäisch","arn":"Araukanisch","ary":"Moroccan Spoken Arabic","arz":"Egyptian Spoken Arabic","as":"Assamesisch","ast":"Asturianisch","av":"Awarisch","avk":"Kotava","ay":"Aymara","az":"Aserbaidschanisch","azb":"South Azerbaijani","ba":"Baschkirisch","bar":"Bavarian","bbc":"Batak Toba","bbc-latn":"Batak Toba","bcc":"Southern Balochi","bcl":"Bikol Central","be":"Weißrussisch","be-tarask":"Belarusian (Taraškievica orthography)","bg":"Bulgarisch","bh":"Biharisch","bho":"Bhodschpuri","bi":"Bislama","bjn":"Banjar","bm":"Bambara-Sprache","bn":"Bengalisch","bo":"Tibetisch","bpy":"Bishnupria Manipuri","bqi":"Bakhtiari","br":"Bretonisch","brh":"Brahui","bs":"Bosnisch","bug":"Buginesisch","bxr":"буряад","ca":"Katalanisch","cbk-zam":"Chavacano de Zamboanga","cdo":"Min Dong Chinese","ce":"Tschetschenisch","ceb":"Cebuano","ch":"Chamorro-Sprache","chr":"Cherokee","ckb":"Sorani","co":"Korsisch","cps":"Capiznon","crh":"Krimtatarisch","crh-latn":"Crimean Turkish (Latin script)","crh-cyrl":"Crimean Turkish (Cyrillic script)","cs":"Tschechisch","csb":"Kaschubisch","cu":"Kirchenslawisch","cv":"Tschuwaschisch","cy":"Walisisch","da":"Dänisch","de":"Deutsch","de-at":"Österreichisches Deutsch","de-ch":"Schweizer Hochdeutsch","de-formal":"German (formal address)","diq":"Zazaki","dsb":"Niedersorbisch","dtp":"Central Dusun","dv":"Maledivisch","dz":"Bhutanisch","ee":"Ewe-Sprache","egl":"Emiliàn","el":"Griechisch","eml":"Emiliano-Romagnolo","en":"Englisch","en-ca":"Kanadisches Englisch","en-gb":"Britisches Englisch","eo":"Esperanto","es":"Spanisch","et":"Estnisch","eu":"Baskisch","ext":"Extremaduran","fa":"Persisch","ff":"Ful","fi":"Finnisch","fit":"meänkieli","fj":"Fidschianisch","fo":"Färöisch","fr":"Französisch","frc":"Cajun French","frp":"Franco-Provençal","frr":"Nordfriesisch","fur":"Friulisch","fy":"Westfriesisch","ga":"Irisch","gag":"Gagauz","gan":"Gan","gan-hans":"Simplified Gan script","gan-hant":"Traditional Gan script","gd":"Schottisches Gälisch","gl":"Galizisch","glk":"Gilaki","gn":"Guarani","got":"Gotisch","grc":"Altgriechisch","gsw":"Schweizerdeutsch","gu":"Gujarati","gv":"Manx","ha":"Hausa","hak":"Hakka","haw":"Hawaiisch","he":"Hebräisch","hi":"Hindi","hif":"Fiji Hindi","hif-latn":"Fiji Hindi (Latin script)","hil":"Hiligaynon-Sprache","hr":"Kroatisch","hsb":"Obersorbisch","ht":"Haitianisch","hu":"Ungarisch","hy":"Armenisch","ia":"Interlingua","id":"Indonesisch","ie":"Interlingue","ig":"Igbo-Sprache","ii":"Sichuan Yi","ik":"Inupiak","ike-cans":"Eastern Canadian (Aboriginal syllabics)","ike-latn":"Eastern Canadian (Latin script)","ilo":"Ilokano-Sprache","inh":"Inguschisch","io":"Ido-Sprache","is":"Isländisch","it":"Italienisch","iu":"Inukitut","ja":"Japanisch","jam":"Jamaican Creole English","jbo":"Lojban","jut":"Jutish","jv":"Javanisch","ka":"Georgisch","kaa":"Karakalpakisch","kab":"Kabylisch","kbd":"Kabardinisch","kbd-cyrl":"Адыгэбзэ","kg":"Kongolesisch","khw":"Khowar","kiu":"Kirmanjki","kk":"Kasachisch","kk-arab":"Kazakh (Arabic script)","kk-cyrl":"Kazakh (Cyrillic script)","kk-latn":"Kazakh (Latin script)","kk-cn":"Kazakh (China)","kk-kz":"Kazakh (Kazakhstan)","kk-tr":"Kazakh (Turkey)","kl":"Grönländisch","km":"Kambodschanisch","kn":"Kannada","ko":"Koreanisch","ko-kp":"한국어 (조선)","koi":"Komi-Permyak","krc":"Karatschaiisch-Balkarisch","kri":"Krio","krj":"Kinaray-a","ks":"Kaschmirisch","ks-arab":"Kashmiri (Arabic script)","ks-deva":"Kashmiri (Devanagari script)","ksh":"Colognian","ku":"Kurdisch","ku-latn":"Kurdish (Latin script)","ku-arab":"كوردي (عەرەبی)‏","kv":"Komi-Sprache","kw":"Kornisch","ky":"Kirgisisch","la":"Latein","lad":"Ladino","lb":"Luxemburgisch","lbe":"лакку","lez":"Lesgisch","lfn":"Lingua Franca Nova","lg":"Ganda-Sprache","li":"Limburgisch","lij":"Ligure","liv":"Līvõ kēļ","lmo":"lumbaart","ln":"Lingala","lo":"Laotisch","loz":"Rotse-Sprache","lt":"Litauisch","ltg":"Latgalian","lus":"Lushai-Sprache","lv":"Lettisch","lzh":"Literary Chinese","lzz":"Lazuri","mai":"Maithili","map-bms":"Basa Banyumasan","mdf":"Moksha","mg":"Malagassi-Sprache","mhr":"Eastern Mari","mi":"Maori","min":"Minangkabau-Sprache","mk":"Mazedonisch","ml":"Malayalam","mn":"Mongolisch","mo":"Moldauisch","mr":"Marathi","mrj":"Hill Mari","ms":"Malaiisch","mt":"Maltesisch","mwl":"Mirandesisch","my":"Birmanisch","myv":"Ersja-Mordwinisch","mzn":"Mazanderani","na":"Nauruisch","nah":"Nahuatl","nan":"Min Nan Chinese","nap":"Neapolitanisch","nb":"Norwegisch Bokmål","nds":"Niederdeutsch","nds-nl":"Low Saxon (Netherlands)","ne":"Nepalesisch","new":"Newari","niu":"Niue-Sprache","nl":"Niederländisch","nl-informal":"Nederlands (informeel)‎","nn":"Norwegisch Nynorsk","nov":"Novial","nso":"Nord-Sotho-Sprache","nv":"Navajo","ny":"Nyanja-Sprache","oc":"Okzitanisch","om":"Oromo","or":"Orija","os":"Ossetisch","pa":"Pandschabisch","pag":"Pangasinan-Sprache","pam":"Pampanggan-Sprache","pap":"Papiamento","pcd":"Picard","pdc":"Deitsch","pdt":"Plautdietsch","pfl":"Pälzisch","pi":"Pali","pih":"Norfuk / Pitkern","pl":"Polnisch","pms":"Piedmontese","pnb":"Western Punjabi","pnt":"Pontic","prg":"Prussian","ps":"Paschtu","pt":"Portugiesisch","pt-br":"Brasilianisches Portugiesisch","qu":"Quechua","qug":"Runa shimi","rgn":"Romagnol","rif":"Tarifit","rm":"Rätoromanisch","rmy":"Romani","ro":"Rumänisch","roa-tara":"tarandíne","ru":"Russisch","rue":"Rusyn","rup":"Aromunisch","ruq":"Megleno-Romanian","ruq-cyrl":"Megleno-Romanian (Cyrillic script)","ruq-latn":"Megleno-Romanian (Latin script)","sa":"Sanskrit","sah":"Jakutisch","sat":"Santali","sc":"Sardisch","scn":"Sizilianisch","sco":"Schottisch","sd":"Sindhi","sdc":"Sassaresu","se":"Nord-Samisch","sei":"Cmique Itom","sg":"Sango","sgs":"Samogitian","sh":"Serbo-Kroatisch","shi":"Tachelhit","si":"Singhalesisch","sk":"Slowakisch","sl":"Slowenisch","sli":"Lower Silesian","sm":"Samoanisch","sma":"Süd-Samisch","sn":"Shona","so":"Somali","sq":"Albanisch","sr":"Serbisch","sr-ec":"Serbian (Cyrillic script)","sr-el":"Serbian (Latin script)","srn":"Srananisch","ss":"Swazi","st":"Süd-Sotho-Sprache","stq":"Seeltersk","su":"Sundanesisch","sv":"Schwedisch","sw":"Suaheli","szl":"Silesian","ta":"Tamilisch","tcy":"Tulu","te":"Telugu","tet":"Tetum-Sprache","tg":"Tadschikisch","tg-cyrl":"Tajik (Cyrillic script)","tg-latn":"Tajik (Latin script)","th":"Thailändisch","ti":"Tigrinja","tk":"Turkmenisch","tl":"Tagalog","tly":"толышә зывон","tn":"Tswana-Sprache","to":"Tongaisch","tokipona":"Toki Pona","tpi":"Neumelanesisch","tr":"Türkisch","tru":"Turoyo","ts":"Tsonga","tt":"Tatarisch","tt-cyrl":"Tatar (Cyrillic script)","tt-latn":"Tatar (Latin script)","ty":"Tahitisch","tyv":"Tuwinisch","udm":"Udmurtisch","ug":"Uigurisch","ug-arab":"Uyghur (Arabic script)","ug-latn":"Uyghur (Latin script)","uk":"Ukrainisch","ur":"Urdu","uz":"Usbekisch","ve":"Venda-Sprache","vec":"vèneto","vep":"Veps","vi":"Vietnamesisch","vls":"West-Vlams","vmf":"Upper Franconian","vo":"Volapük","vot":"Wotisch","vro":"Võro","wa":"Wallonisch","war":"Waray","wo":"Wolof","wuu":"Wu","xal":"Kalmückisch","xh":"Xhosa","xmf":"Mingrelian","yi":"Jiddisch","yo":"Yoruba","yue":"Kantonesisch","za":"Zhuang","zea":"Zeeuws","zh":"Chinesisch","zh-cn":"Chinese (China)","zh-hans":"Chinesisch (vereinfacht)","zh-hant":"Chinesisch (traditionell)","zh-hk":"Chinese (Hong Kong)","zh-mo":"中文（澳門）‎","zh-my":"中文（马来西亚）‎","zh-sg":"Chinese (Singapore)","zh-tw":"Chinese (Taiwan)","zu":"Zulu"},"wgULSAcceptLanguageList":["de-de","de","en-us","en"]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":1,"vector-simplesearch":1,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,
+"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"useeditwarning":1,"prefershttps":1,"openid-hide":0,"openid-update-on-login-nickname":false,"openid-update-on-login-email":false,"openid-update-on-login-fullname":false,"openid-update-on-login-language":false,"openid-update-on-login-timezone":false,"translate":0,"translate-editlangs":"default","translate-jsedit":1,"translate-recent-groups":"","uls-preferences":"","language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs1198":false,"searchNs1199":
+false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});},{},{});
+/* cache key: mediawiki-cmw_:resourceloader:filter:minify-js:7:41050f6313ebbd314f1522d569c3612d */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.translate","mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.uls.init","skins.vector.js"]);
+}</script>
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr capitalize-all-nouns ns-0 ns-subject page-Devices skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;" lang="de" dir="ltr"></div>
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Devices</span></h1>
+			<div id="bodyContent">
+								<div id="siteSub">Aus CyanogenMod</div>
+								<div id="contentSub" lang="de" dir="ltr"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Wechseln zu:					<a href="#mw-navigation">Navigation</a>, 					<a href="#p-search">Suche</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-pt-languages noprint" lang="de" dir="ltr"><table><tbody><tr valign="top"><td class="mw-pt-languages-label">Andere Sprachen:</td><td class="mw-pt-languages-list"><a href="/w/Devices/ar" title="Devices/ar">Arabisch</a> <img src="/extensions/Translate/resources/images/prog-5.png" alt="80%" title="80%" width="9" height="9" /> • ‎<a href="/w/Devices/da" title="Devices/da">Dänisch</a> <img src="/extensions/Translate/resources/images/prog-5.png" alt="80%" title="80%" width="9" height="9" /> • ‎<a href="/w/Devices/de" title="Devices/de"><span class="mw-pt-languages-ui">Deutsch</span></a> <img src="/extensions/Translate/resources/images/prog-5.png" alt="80%" title="80%" width="9" height="9" /> • ‎<a href="/w/Devices/el" title="Devices/el">Griechisch</a> <img src="/extensions/Translate/resources/images/prog-4.png" alt="60%" title="60%" width="9" height="9" /> • ‎<span class="mw-pt-languages-selected">Englisch</span> <img src="/extensions/Translate/resources/images/prog-5.png" alt="100%" title="100%" width="9" height="9" /> • ‎<a href="/w/Devices/es" title="Devices/es">Spanisch</a> <img src="/extensions/Translate/resources/images/prog-5.png" alt="80%" title="80%" width="9" height="9" /> • ‎<a href="/w/Devices/fa" title="Devices/fa">Persisch</a> <img src="/extensions/Translate/resources/images/prog-5.png" alt="80%" title="80%" width="9" height="9" /> • ‎<a href="/w/Devices/fr" title="Devices/fr">Französisch</a> <img src="/extensions/Translate/resources/images/prog-5.png" alt="80%" title="80%" width="9" height="9" /> • ‎<a href="/w/Devices/it" title="Devices/it">Italienisch</a> <img src="/extensions/Translate/resources/images/prog-5.png" alt="80%" title="80%" width="9" height="9" /> • ‎<a href="/w/Devices/ja" title="Devices/ja">Japanisch</a> <img src="/extensions/Translate/resources/images/prog-5.png" alt="100%" title="100%" width="9" height="9" /> • ‎<a href="/w/Devices/ko" title="Devices/ko">Koreanisch</a> <img src="/extensions/Translate/resources/images/prog-5.png" alt="100%" title="100%" width="9" height="9" /> • ‎<a href="/w/Devices/ms" title="Devices/ms">Malaiisch</a> <img src="/extensions/Translate/resources/images/prog-3.png" alt="50%" title="50%" width="9" height="9" /> • ‎<a href="/w/Devices/nl" title="Devices/nl">Niederländisch</a> <img src="/extensions/Translate/resources/images/prog-5.png" alt="80%" title="80%" width="9" height="9" /> • ‎<a href="/w/Devices/pl" title="Devices/pl">Polnisch</a> <img src="/extensions/Translate/resources/images/prog-4.png" alt="70%" title="70%" width="9" height="9" /> • ‎<a href="/w/Devices/pt" title="Devices/pt">Portugiesisch</a> <img src="/extensions/Translate/resources/images/prog-5.png" alt="100%" title="100%" width="9" height="9" /> • ‎<a href="/w/Devices/pt-br" title="Devices/pt-br">Brasilianisches Portugiesisch</a> <img src="/extensions/Translate/resources/images/prog-5.png" alt="80%" title="80%" width="9" height="9" /> • ‎<a href="/w/Devices/ru" title="Devices/ru">Russisch</a> <img src="/extensions/Translate/resources/images/prog-5.png" alt="80%" title="80%" width="9" height="9" /> • ‎<a href="/w/Devices/si" title="Devices/si">Singhalesisch</a> <img src="/extensions/Translate/resources/images/prog-3.png" alt="40%" title="40%" width="9" height="9" /> • ‎<a href="/w/Devices/sv" title="Devices/sv">Schwedisch</a> <img src="/extensions/Translate/resources/images/prog-3.png" alt="50%" title="50%" width="9" height="9" /> • ‎<a href="/w/Devices/ug" title="Devices/ug">Uigurisch</a> <img src="/extensions/Translate/resources/images/prog-5.png" alt="80%" title="80%" width="9" height="9" /> • ‎<a href="/w/Devices/uk" title="Devices/uk">Ukrainisch</a> <img src="/extensions/Translate/resources/images/prog-5.png" alt="80%" title="80%" width="9" height="9" /> • ‎<a href="/w/Devices/zh-cn" title="Devices/zh-cn">Chinese (China)</a> <img src="/extensions/Translate/resources/images/prog-5.png" alt="100%" title="100%" width="9" height="9" /> • ‎<a href="/w/Devices/zh-hans" title="Devices/zh-hans">Chinesisch (vereinfacht)</a> <img src="/extensions/Translate/resources/images/prog-1.png" alt="10%" title="10%" width="9" height="9" /> • ‎<a href="/w/Devices/zh-tw" title="Devices/zh-tw">Chinese (Taiwan)</a> <img src="/extensions/Translate/resources/images/prog-5.png" alt="80%" title="80%" width="9" height="9" /></td></tr></tbody></table></div>
+<div style="background:#373332; color:#ccc; margin:15px 0 10px; padding:12px 90px 8px; text-align: center; font-size: 110%; position:relative;">
+<p><a href="/w/About" title="About"><img alt="Main-page-about-cm.png" src="/images/thumb/f/f1/Main-page-about-cm.png/70px-Main-page-about-cm.png" width="70" height="28" srcset="/images/thumb/f/f1/Main-page-about-cm.png/105px-Main-page-about-cm.png 1.5x, /images/thumb/f/f1/Main-page-about-cm.png/140px-Main-page-about-cm.png 2x" /></a><a href="/w/Devices" title="Devices"><img alt="Main-page-devices.png" src="/images/thumb/b/b7/Main-page-devices.png/150px-Main-page-devices.png" width="150" height="60" srcset="/images/b/b7/Main-page-devices.png 1.5x, /images/b/b7/Main-page-devices.png 2x" /></a><a href="/w/Support" title="Support"><img alt="Main-page-support-2.png" src="/images/thumb/8/8b/Main-page-support-2.png/70px-Main-page-support-2.png" width="70" height="28" srcset="/images/thumb/8/8b/Main-page-support-2.png/105px-Main-page-support-2.png 1.5x, /images/thumb/8/8b/Main-page-support-2.png/140px-Main-page-support-2.png 2x" /></a><a href="/w/Community" title="Community"><img alt="Main-page-community.png" src="/images/thumb/8/87/Main-page-community.png/70px-Main-page-community.png" width="70" height="28" srcset="/images/thumb/8/87/Main-page-community.png/105px-Main-page-community.png 1.5x, /images/thumb/8/87/Main-page-community.png/140px-Main-page-community.png 2x" /></a><a href="http://www.cyanogenmod.org/blog" target="_blank" rel="nofollow"><img alt="Main-page-news-2.png" src="/images/thumb/c/ca/Main-page-news-2.png/70px-Main-page-news-2.png" width="70" height="28" srcset="/images/thumb/c/ca/Main-page-news-2.png/105px-Main-page-news-2.png 1.5x, /images/thumb/c/ca/Main-page-news-2.png/140px-Main-page-news-2.png 2x" /></a><a href="/w/Development" title="Development"><img alt="Main-page-dev-center.png" src="/images/thumb/3/3e/Main-page-dev-center.png/70px-Main-page-dev-center.png" width="70" height="28" srcset="/images/thumb/3/3e/Main-page-dev-center.png/105px-Main-page-dev-center.png 1.5x, /images/thumb/3/3e/Main-page-dev-center.png/140px-Main-page-dev-center.png 2x" /></a>
+</p>
+<div style="display:inline; position:absolute; bottom:0; right:10px;"><span class="plainlinks"><a href="http://goo.gl/JjhfY" target="_blank" rel="nofollow"><img alt="Cid-wink.png" src="/images/1/15/Cid-wink.png" width="70" height="84" /></a></span></div>
+</div>
+<h2><span class="mw-headline" id="Officially-supported_CyanogenMod_devices">Officially-supported CyanogenMod devices</span></h2>
+<div class="infoBox" style="position:relative; padding:5px 5px 5px 73px; margin:0.4em 0 0.5em; background:#ddd; min-height:57px;">
+<div class="bar"></div>
+<p style="font-size:110%;"><b>Helpful Tip</b></p>
+<p>Choose a filter criteria (i.e., select from the <i>vendor</i> options) to view the specified devices.
+</p>
+</div>
+<p><br />
+</p>
+<p id="cmDeviceFilterList">
+<span class="device" data-searchable="Acer A700 a700" data-type="tablet" data-vendor="Acer" data-cmversions="10, 10.1, 10.2, 11" data-soc="NVIDIA Tegra 3" data-cpucores="quad" data-cpufreq="1.3 GHz" data-ram="1GB" data-screendimension="257 mm (10.1 in)"><a href="/w/A700_Info" title="A700 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/0/07/A700_landscape.png/200px-A700_landscape.png" alt="a700" /></span>
+<span class="name">Acer A700</span>
+<span class="codename">a700</span>
+</a></span>
+<span class="device" data-searchable="Advent Vega vega" data-type="tablet" data-vendor="Advent" data-cmversions="7" data-soc="NVIDIA Tegra 2" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="257 mm (10.1 in)"><a href="/w/Vega_Info" title="Vega Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/9/93/Vega_landscape.png/200px-Vega_landscape.png" alt="vega" /></span>
+<span class="name">Advent Vega</span>
+<span class="codename">vega</span>
+</a></span>
+<span class="device" data-searchable="Amazon Kindle Fire (1st Gen) otter" data-type="tablet" data-vendor="Amazon" data-cmversions="10.1, 10.2, 11" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="178 mm (7.0 in)"><a href="/w/Otter_Info" title="Otter Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/9/9f/Otter.png/200px-Otter.png" alt="otter" /></span>
+<span class="name">Amazon Kindle Fire (1st Gen)</span>
+<span class="codename">otter</span>
+</a></span>
+<span class="device" data-searchable="Amazon Kindle Fire X (1st Gen) otterx" data-type="tablet" data-vendor="Amazon" data-cmversions="11" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="178 mm (7.0 in)"><a href="/w/Otterx_Info" title="Otterx Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/9/9f/Otter.png/200px-Otter.png" alt="otterx" /></span>
+<span class="name">Amazon Kindle Fire X (1st Gen)</span>
+<span class="codename">otterx</span>
+</a></span>
+<span class="device" data-searchable="Amazon Kindle Fire (2nd Gen) otter2" data-type="tablet" data-vendor="Amazon" data-cmversions="10.1, 10.2, 11" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="178 mm (7.0 in)"><a href="/w/Otter2_Info" title="Otter2 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/9/9f/Otter.png/200px-Otter.png" alt="otter2" /></span>
+<span class="name">Amazon Kindle Fire (2nd Gen)</span>
+<span class="codename">otter2</span>
+</a></span>
+<span class="device" data-searchable="Amazon Kindle Fire HD 7" data-type="tablet" data-vendor="Amazon" data-cmversions="11" data-soc="TI OMAP4460" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="180 mm (7.0 in)"><a href="/w/Tate_Info" title="Tate Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/6/6e/Tate.png/200px-Tate.png" alt="tate" /></span>
+<span class="name">Amazon Kindle Fire HD 7" (2012)</span>
+<span class="codename">tate</span>
+</a></span>
+<span class="device" data-searchable="Amazon Kindle Fire HD 8.9" data-type="tablet" data-vendor="Amazon" data-cmversions="11" data-soc="TI OMAP4470" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="230 mm (8.9 in)"><a href="/w/Jem_Info" title="Jem Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/31/Jem.png/200px-Jem.png" alt="jem" /></span>
+<span class="name">Amazon Kindle Fire HD 8.9"</span>
+<span class="codename">jem</span>
+</a></span>
+<span class="device" data-searchable="Asus Transformer tf101" data-type="tablet" data-vendor="Asus" data-cmversions="9, 10" data-soc="NVIDIA Tegra 2 250 T20" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="257 mm (10.1 in)"><a href="/w/Tf101_Info" title="Tf101 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/0/0a/Tf101.png/200px-Tf101.png" alt="tf101" /></span>
+<span class="name">Asus Transformer</span>
+<span class="codename">tf101</span>
+</a></span>
+<span class="device" data-searchable="Asus Transformer Prime tf201" data-type="tablet" data-vendor="Asus" data-cmversions="9, 10.1" data-soc="NVIDIA Tegra 3 AP30H" data-cpucores="quad" data-cpufreq="1.3 GHz" data-ram="1GB" data-screendimension="257 mm (10.1 in)"><a href="/w/Tf201_Info" title="Tf201 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/0/0a/Tf101.png/200px-Tf101.png" alt="tf201" /></span>
+<span class="name">Asus Transformer Prime</span>
+<span class="codename">tf201</span>
+</a></span>
+<span class="device" data-searchable="Asus Transformer Pad tf300t" data-type="tablet" data-vendor="Asus" data-cmversions="9, 10, 10.1, 10.2, 11" data-soc="NVIDIA Tegra 3 T30L" data-cpucores="quad" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="257 mm (10.1 in)"><a href="/w/Tf300t_Info" title="Tf300t Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/0/0a/Tf101.png/200px-Tf101.png" alt="tf300t" /></span>
+<span class="name">Asus Transformer Pad</span>
+<span class="codename">tf300t</span>
+</a></span>
+<span class="device" data-searchable="Asus Transformer Pad Infinity tf700t" data-type="tablet" data-vendor="Asus" data-cmversions="10, 10.1, 10.2, 11" data-soc="NVIDIA Tegra 3 T33" data-cpucores="quad" data-cpufreq="1.6 GHz" data-ram="1GB" data-screendimension="257 mm (10.1 in)"><a href="/w/Tf700t_Info" title="Tf700t Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/0/0a/Tf101.png/200px-Tf101.png" alt="tf700t" /></span>
+<span class="name">Asus Transformer Pad Infinity</span>
+<span class="codename">tf700t</span>
+</a></span>
+<span class="device" data-searchable="Asus Transformer Pad tf701t" data-type="tablet" data-vendor="Asus" data-cmversions="11" data-soc="NVIDIA Tegra 4" data-cpucores="quad" data-cpufreq="1.9 GHz" data-ram="2GB" data-screendimension="257 mm (10.1 in)"><a href="/w/Tf701t_Info" title="Tf701t Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/d/db/Tf701t.png/200px-Tf701t.png" alt="tf701t" /></span>
+<span class="name">Asus Transformer Pad</span>
+<span class="codename">tf701t</span>
+</a></span>
+<span class="device" data-searchable="Barnes &amp; Noble Nook Color encore" data-type="tablet" data-vendor="Barnes &amp; Noble" data-cmversions="7, 10, 10.1, 10.2, 11" data-soc="TI OMAP3621" data-cpucores="single" data-cpufreq="800 MHz" data-ram="512MB" data-screendimension="178 mm (7.0 in)"><a href="/w/Encore_Info" title="Encore Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/3/32/Encore.png" alt="encore" /></span>
+<span class="name">Barnes &amp; Noble Nook Color</span>
+<span class="codename">encore</span>
+</a></span>
+<span class="device" data-searchable="Barnes &amp; Noble Nook Tablet acclaim" data-type="tablet" data-vendor="Barnes &amp; Noble" data-cmversions="10.1, 10.2, 11" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="178 mm (7.0 in)"><a href="/w/Acclaim_Info" title="Acclaim Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/5/54/Acclaim.png/200px-Acclaim.png" alt="acclaim" /></span>
+<span class="name">Barnes &amp; Noble Nook Tablet</span>
+<span class="codename">acclaim</span>
+</a></span>
+<span class="device" data-searchable="Barnes &amp; Noble Nook HD hummingbird" data-type="tablet" data-vendor="Barnes &amp; Noble" data-cmversions="10.1, 10.2, 11" data-soc="TI OMAP4470" data-cpucores="dual" data-cpufreq="1.3 GHz" data-ram="1GB" data-screendimension="178 mm (7.0 in)"><a href="/w/Hummingbird_Info" title="Hummingbird Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/4/45/Ovation.png/200px-Ovation.png" alt="hummingbird" /></span>
+<span class="name">Barnes &amp; Noble Nook HD</span>
+<span class="codename">hummingbird</span>
+</a></span>
+<span class="device" data-searchable="Barnes &amp; Noble Nook HD+ ovation" data-type="tablet" data-vendor="Barnes &amp; Noble" data-cmversions="10.1, 10.2, 11" data-soc="TI OMAP4470" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="229 mm (9.0 in)"><a href="/w/Ovation_Info" title="Ovation Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/5/52/Ovation2.png/200px-Ovation2.png" alt="ovation" /></span>
+<span class="name">Barnes &amp; Noble Nook HD+</span>
+<span class="codename">ovation</span>
+</a></span>
+<span class="device" data-searchable="Commtiva z71 z71" data-type="phone" data-vendor="Commtiva" data-cmversions="7" data-soc="Qualcomm MSM7227" data-cpucores="single" data-cpufreq="600 MHz" data-ram="256MB" data-screendimension="81 mm (3.2 in)"><a href="/w/Z71_Info" title="Z71 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/0/04/Z71.png/200px-Z71.png" alt="z71" /></span>
+<span class="name">Commtiva z71</span>
+<span class="codename">z71</span>
+</a></span>
+<span class="device" data-searchable="Geeksphone One one" data-type="phone" data-vendor="Geeksphone" data-cmversions="7" data-soc="Qualcomm MSM7225" data-cpucores="single" data-cpufreq="528 MHz" data-ram="256MB" data-screendimension="81 mm (3.2 in)"><a href="/w/One_Info" title="One Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/9/9c/One.png" alt="one" /></span>
+<span class="name">Geeksphone One</span>
+<span class="codename">one</span>
+</a></span>
+<span class="device" data-searchable="Geeksphone Zero zero" data-type="phone" data-vendor="Geeksphone" data-cmversions="7" data-soc="Qualcomm MSM7227" data-cpucores="single" data-cpufreq="600 MHz" data-ram="256MB" data-screendimension="81 mm (3.2 in)"><a href="/w/Zero_Info" title="Zero Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/3/3c/Zero.png" alt="zero" /></span>
+<span class="name">Geeksphone Zero</span>
+<span class="codename">zero</span>
+</a></span>
+<span class="device" data-searchable="Google Galaxy Nexus (GSM) maguro" data-type="phone" data-vendor="Google" data-cmversions="9, 10, 10.1, 10.2, 11" data-soc="TI OMAP4460" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="119 mm (4.7 in)"><a href="/w/Maguro_Info" title="Maguro Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/a/a7/Gnex.png/200px-Gnex.png" alt="maguro" /></span>
+<span class="name">Google Galaxy Nexus (GSM)</span>
+<span class="codename">maguro</span>
+</a></span>
+<span class="device" data-searchable="Google Galaxy Nexus (Sprint) toroplus" data-type="phone" data-vendor="Google" data-cmversions="9, 10, 10.1, 10.2, 11" data-soc="TI OMAP4460" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="119 mm (4.7 in)"><a href="/w/Toroplus_Info" title="Toroplus Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/a/a7/Gnex.png/200px-Gnex.png" alt="toroplus" /></span>
+<span class="name">Google Galaxy Nexus (Sprint)</span>
+<span class="codename">toroplus</span>
+</a></span>
+<span class="device" data-searchable="Google Galaxy Nexus (Verizon) toro" data-type="phone" data-vendor="Google" data-cmversions="9, 10, 10.1, 10.2, 11" data-soc="TI OMAP4460" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="119 mm (4.7 in)"><a href="/w/Toro_Info" title="Toro Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/a/a7/Gnex.png/200px-Gnex.png" alt="toro" /></span>
+<span class="name">Google Galaxy Nexus (Verizon)</span>
+<span class="codename">toro</span>
+</a></span>
+<span class="device" data-searchable="Google Nexus 4 mako" data-type="phone" data-vendor="Google" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm APQ8064" data-cpucores="quad" data-cpufreq="1.5 GHz" data-ram="2GB" data-screendimension="119 mm (4.7 in)"><a href="/w/Mako_Info" title="Mako Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/a/a6/Mako.png" alt="mako" /></span>
+<span class="name">Google Nexus 4</span>
+<span class="codename">mako</span>
+</a></span>
+<span class="device" data-searchable="Google Nexus 5 hammerhead" data-type="phone" data-vendor="Google" data-cmversions="11" data-soc="Qualcomm Snapdragon 800" data-cpucores="quad" data-cpufreq="2.26 GHz" data-ram="2GB" data-screendimension="127 mm (5.0 in)"><a href="/w/Hammerhead_Info" title="Hammerhead Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/8/8a/Nexus5.png/200px-Nexus5.png" alt="hammerhead" /></span>
+<span class="name">Google Nexus 5</span>
+<span class="codename">hammerhead</span>
+</a></span>
+<span class="device" data-searchable="Google Nexus 7 (Wi-Fi, 2012 version) grouper" data-type="tablet" data-vendor="Google" data-cmversions="10, 10.1, 10.2, 11" data-soc="NVIDIA Tegra 3" data-cpucores="quad" data-cpufreq="1.3 GHz" data-ram="1GB" data-screendimension="178 mm (7.0 in)"><a href="/w/Grouper_Info" title="Grouper Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/c/c4/Grouper.png/200px-Grouper.png" alt="grouper" /></span>
+<span class="name">Google Nexus 7 (Wi-Fi, 2012 version)</span>
+<span class="codename">grouper</span>
+</a></span>
+<span class="device" data-searchable="Google Nexus 7 (GSM, 2012 version) tilapia" data-type="tablet" data-vendor="Google" data-cmversions="10, 10.1, 10.2, 11" data-soc="NVIDIA Tegra 3" data-cpucores="quad" data-cpufreq="1.3 GHz" data-ram="1GB" data-screendimension="178 mm (7.0 in)"><a href="/w/Tilapia_Info" title="Tilapia Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/c/c4/Grouper.png/200px-Grouper.png" alt="tilapia" /></span>
+<span class="name">Google Nexus 7 (GSM, 2012 version)</span>
+<span class="codename">tilapia</span>
+</a></span>
+<span class="device" data-searchable="Google Nexus 7 (Wi-Fi, 2013 version) flo" data-type="tablet" data-vendor="Google" data-cmversions="10.2, 11" data-soc="Qualcomm Snapdragon S4 Pro" data-cpucores="quad" data-cpufreq="1.5 GHz" data-ram="2GB" data-screendimension="178 mm (7.0 in)"><a href="/w/Flo_Info" title="Flo Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/f/f0/Nexus7-2013.png/200px-Nexus7-2013.png" alt="flo" /></span>
+<span class="name">Google Nexus 7 (Wi-Fi, 2013 version)</span>
+<span class="codename">flo</span>
+</a></span>
+<span class="device" data-searchable="Google Nexus 7 (LTE, 2013 version) deb" data-type="tablet" data-vendor="Google" data-cmversions="10.2, 11" data-soc="Qualcomm Snapdragon S4 Pro" data-cpucores="quad" data-cpufreq="1.5 GHz" data-ram="2GB" data-screendimension="178 mm (7.0 in)"><a href="/w/Deb_Info" title="Deb Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/f/f0/Nexus7-2013.png/200px-Nexus7-2013.png" alt="deb" /></span>
+<span class="name">Google Nexus 7 (LTE, 2013 version)</span>
+<span class="codename">deb</span>
+</a></span>
+<span class="device" data-searchable="Google Nexus 10 manta" data-type="tablet" data-vendor="Google" data-cmversions="10.1, 10.2, 11" data-soc="Samsung Exynos 5" data-cpucores="dual" data-cpufreq="1.7 GHz" data-ram="2GB" data-screendimension="255 mm (10.0 in)"><a href="/w/Manta_Info" title="Manta Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/2/2d/Manta.png/200px-Manta.png" alt="manta" /></span>
+<span class="name">Google Nexus 10</span>
+<span class="codename">manta</span>
+</a></span>
+<span class="device" data-searchable="Google Nexus One passion" data-type="phone" data-vendor="Google" data-cmversions="7" data-soc="Qualcomm QSD8250" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="94 mm (3.7 in)"><a href="/w/Passion_Info" title="Passion Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/8/88/Passion.png" alt="passion" /></span>
+<span class="name">Google Nexus One</span>
+<span class="codename">passion</span>
+</a></span>
+<span class="device" data-searchable="Google Nexus Q steelhead" data-type="media device" data-vendor="Google" data-cmversions="10.1, 10.2" data-soc="TI OMAP4460" data-cpucores="dual" data-cpufreq="" data-ram="1GB" data-screendimension="no screen"><a href="/w/Steelhead_Info" title="Steelhead Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/d/dd/Steelhead.png/200px-Steelhead.png" alt="steelhead" /></span>
+<span class="name">Google Nexus Q</span>
+<span class="codename">steelhead</span>
+</a></span>
+<span class="device" data-searchable="Google Nexus S crespo" data-type="phone" data-vendor="Google" data-cmversions="7, 9, 10, 10.1, 10.2, 11" data-soc="Samsung S5PC110" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="102 mm (4.0 in)"><a href="/w/Crespo_Info" title="Crespo Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/9/9e/Crespo.png" alt="crespo" /></span>
+<span class="name">Google Nexus S</span>
+<span class="codename">crespo</span>
+</a></span>
+<span class="device" data-searchable="Google Nexus S 4G crespo4g" data-type="phone" data-vendor="Google" data-cmversions="7, 9, 10, 10.1" data-soc="Samsung S5PC110" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="102 mm (4.0 in)"><a href="/w/Crespo4g_Info" title="Crespo4g Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/9/9e/Crespo.png" alt="crespo4g" /></span>
+<span class="name">Google Nexus S 4G</span>
+<span class="codename">crespo4g</span>
+</a></span>
+<span class="device" data-searchable="Hardkernel ODROID-U2 odroidu2" data-type="dev board" data-vendor="Hardkernel" data-cmversions="10.1, 10.2" data-soc="Samsung Exynos 4412" data-cpucores="quad" data-cpufreq="1.7 GHz" data-ram="2GB" data-screendimension="no screen"><a href="/w/Odroidu2_Info" title="Odroidu2 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/1/15/Odroidu2.png/200px-Odroidu2.png" alt="odroidu2" /></span>
+<span class="name">Hardkernel ODROID-U2</span>
+<span class="codename">odroidu2</span>
+</a></span>
+<span class="device" data-searchable="Hewlett Packard Touchpad tenderloin" data-type="tablet" data-vendor="Hewlett Packard" data-cmversions="7, 9" data-soc="Qualcomm APQ8060" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="246 mm (9.7 in)"><a href="/w/Tenderloin_Info" title="Tenderloin Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/c/c9/Tenderloin.png/200px-Tenderloin.png" alt="tenderloin" /></span>
+<span class="name">Hewlett Packard Touchpad</span>
+<span class="codename">tenderloin</span>
+</a></span>
+<span class="device" data-searchable="HTC Amaze 4G ruby" data-type="phone" data-vendor="HTC" data-cmversions="10" data-soc="Qualcomm APQ8060" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Ruby_Info" title="Ruby Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/a/a9/Ruby.png" alt="ruby" /></span>
+<span class="name">HTC Amaze 4G</span>
+<span class="codename">ruby</span>
+</a></span>
+<span class="device" data-searchable="HTC Aria liberty" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm MSM7227" data-cpucores="single" data-cpufreq="600 MHz" data-ram="384MB" data-screendimension="81 mm (3.2 in)"><a href="/w/Liberty_Info" title="Liberty Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/3/32/Aria.png" alt="liberty" /></span>
+<span class="name">HTC Aria</span>
+<span class="codename">liberty</span>
+</a></span>
+<span class="device" data-searchable="HTC Desire (GSM) bravo" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm QSD8650" data-cpucores="single" data-cpufreq="1 GHz" data-ram="576MB" data-screendimension="94 mm (3.7 in)"><a href="/w/Bravo_Info" title="Bravo Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/e/e6/Desire.png" alt="bravo" /></span>
+<span class="name">HTC Desire (GSM)</span>
+<span class="codename">bravo</span>
+</a></span>
+<span class="device" data-searchable="HTC Desire (CDMA) bravoc" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm QSD8650" data-cpucores="single" data-cpufreq="1 GHz" data-ram="576MB" data-screendimension="94 mm (3.7 in)"><a href="/w/Bravoc_Info" title="Bravoc Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/e/e6/Desire.png" alt="bravoc" /></span>
+<span class="name">HTC Desire (CDMA)</span>
+<span class="codename">bravoc</span>
+</a></span>
+<span class="device" data-searchable="HTC Desire 816 a5" data-type="phone" data-vendor="HTC" data-cmversions="11" data-soc="Qualcomm MSM8226 Snapdragon 400" data-cpucores="quad" data-cpufreq="1.6 GHz" data-ram="1.5GB" data-screendimension="139.7 mm (5.5 in)"><a href="/w/A5_Info" title="A5 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/5/5e/816.png/200px-816.png" alt="a5" /></span>
+<span class="name">HTC Desire 816</span>
+<span class="codename">a5</span>
+</a></span>
+<span class="device" data-searchable="HTC Desire HD / Inspire 4G ace" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="768MB" data-screendimension="109 mm (4.3 in)"><a href="/w/Ace_Info" title="Ace Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/3/3c/Ace.png" alt="ace" /></span>
+<span class="name">HTC Desire HD / Inspire 4G</span>
+<span class="codename">ace</span>
+</a></span>
+<span class="device" data-searchable="HTC Desire S saga" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="768MB" data-screendimension="94 mm (3.7 in)"><a href="/w/Saga_Info" title="Saga Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/8/85/Desires.png" alt="saga" /></span>
+<span class="name">HTC Desire S</span>
+<span class="codename">saga</span>
+</a></span>
+<span class="device" data-searchable="HTC Droid DNA dlx" data-type="phone" data-vendor="HTC" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm Snapdragon S4 Pro APQ8064" data-cpucores="quad" data-cpufreq="1.5 GHz" data-ram="2GB" data-screendimension="119 mm (4.7 in)"><a href="/w/Dlx_Info" title="Dlx Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/7/7e/Dlx.png/200px-Dlx.png" alt="dlx" /></span>
+<span class="name">HTC Droid DNA</span>
+<span class="codename">dlx</span>
+</a></span>
+<span class="device" data-searchable="HTC Eris desirec" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm MSM7600" data-cpucores="single" data-cpufreq="528 MHz" data-ram="288MB" data-screendimension="81 mm (3.2 in)"><a href="/w/Desirec_Info" title="Desirec Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/8/81/Desirec.png" alt="desirec" /></span>
+<span class="name">HTC Eris</span>
+<span class="codename">desirec</span>
+</a></span>
+<span class="device" data-searchable="HTC Evo 3D (GSM) shooteru" data-type="phone" data-vendor="HTC" data-cmversions="9" data-soc="Qualcomm MSM8660" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Shooteru_Info" title="Shooteru Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/e/ed/Shooter.png" alt="shooteru" /></span>
+<span class="name">HTC Evo 3D (GSM)</span>
+<span class="codename">shooteru</span>
+</a></span>
+<span class="device" data-searchable="HTC Evo 4G supersonic" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm QSD8650" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="109 mm (4.3 in)"><a href="/w/Supersonic_Info" title="Supersonic Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/6/6d/Supersonic.png" alt="supersonic" /></span>
+<span class="name">HTC Evo 4G</span>
+<span class="codename">supersonic</span>
+</a></span>
+<span class="device" data-searchable="HTC EVO 4G LTE jewel" data-type="phone" data-vendor="HTC" data-cmversions="10, 10.1, 10.2, 11" data-soc="Qualcomm MSM8960" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="119 mm (4.7 in)"><a href="/w/Jewel_Info" title="Jewel Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/c/ca/Jewel.png/200px-Jewel.png" alt="jewel" /></span>
+<span class="name">HTC EVO 4G LTE</span>
+<span class="codename">jewel</span>
+</a></span>
+<span class="device" data-searchable="HTC Evo Shift 4G speedy" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm MSM7630" data-cpucores="single" data-cpufreq="800 MHz" data-ram="512MB" data-screendimension="91 mm (3.6 in)"><a href="/w/Speedy_Info" title="Speedy Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/a/a5/Speedy.png" alt="speedy" /></span>
+<span class="name">HTC Evo Shift 4G</span>
+<span class="codename">speedy</span>
+</a></span>
+<span class="device" data-searchable="HTC G1 dream_sapphire" data-type="phone" data-vendor="HTC" data-cmversions="6" data-soc="Qualcomm MSM7201A" data-cpucores="single" data-cpufreq="528 MHz" data-ram="192MB" data-screendimension="81 mm (3.2 in)"><a href="/w/Dream_sapphire_Info" title="Dream sapphire Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/8/83/Dream.png" alt="dream_sapphire" /></span>
+<span class="name">HTC G1</span>
+<span class="codename">dream_sapphire</span>
+</a></span>
+<span class="device" data-searchable="HTC G2 / Desire Z vision" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm MSM7230" data-cpucores="single" data-cpufreq="800 MHz" data-ram="512MB" data-screendimension="94 mm (3.7 in)"><a href="/w/Vision_Info" title="Vision Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/1/18/Vision.png" alt="vision" /></span>
+<span class="name">HTC G2 / Desire Z</span>
+<span class="codename">vision</span>
+</a></span>
+<span class="device" data-searchable="HTC myTouch 3G Slide espresso" data-type="phone (slider)" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm MSM7227" data-cpucores="single" data-cpufreq="600 MHz" data-ram="512MB" data-screendimension="86 mm (3.4 in)"><a href="/w/Espresso_Info" title="Espresso Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/a/ad/Espresso.png" alt="espresso" /></span>
+<span class="name">HTC myTouch 3G Slide</span>
+<span class="codename">espresso</span>
+</a></span>
+<span class="device" data-searchable="HTC myTouch 4G / Panache glacier" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="768MB" data-screendimension="97 mm (3.8 in)"><a href="/w/Glacier_Info" title="Glacier Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/2/24/Glacier.png" alt="glacier" /></span>
+<span class="name">HTC myTouch 4G / Panache</span>
+<span class="codename">glacier</span>
+</a></span>
+<span class="device" data-searchable="HTC myTouch 4G Slide doubleshot" data-type="phone (slider)" data-vendor="HTC" data-cmversions="9" data-soc="Qualcomm MSM8260" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="768MB" data-screendimension="94 mm (3.7 in)"><a href="/w/Doubleshot_Info" title="Doubleshot Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/e/e2/Doubleshot.png/200px-Doubleshot.png" alt="doubleshot" /></span>
+<span class="name">HTC myTouch 4G Slide</span>
+<span class="codename">doubleshot</span>
+</a></span>
+<span class="device" data-searchable="HTC Hero (GSM) hero" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm MSM7200A" data-cpucores="single" data-cpufreq="528 MHz" data-ram="288MB" data-screendimension="81 mm (3.2 in)"><a href="/w/Hero_Info" title="Hero Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/d/d9/Hero.png" alt="hero" /></span>
+<span class="name">HTC Hero (GSM)</span>
+<span class="codename">hero</span>
+</a></span>
+<span class="device" data-searchable="HTC Hero (CDMA) heroc" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm MSM7600A" data-cpucores="single" data-cpufreq="528 MHz" data-ram="288MB" data-screendimension="81 mm (3.2 in)"><a href="/w/Heroc_Info" title="Heroc Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/4/44/Heroc.png" alt="heroc" /></span>
+<span class="name">HTC Hero (CDMA)</span>
+<span class="codename">heroc</span>
+</a></span>
+<span class="device" data-searchable="HTC Incredible inc" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm QSD8650" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="94 mm (3.7 in)"><a href="/w/Inc_Info" title="Inc Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/6/6b/Inc.png" alt="inc" /></span>
+<span class="name">HTC Incredible</span>
+<span class="codename">inc</span>
+</a></span>
+<span class="device" data-searchable="HTC Incredible 2 vivow" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm MSM8655" data-cpucores="single" data-cpufreq="1 GHz" data-ram="768MB" data-screendimension="102 mm (4.0 in)"><a href="/w/Vivow_Info" title="Vivow Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/c/cb/Vivow.png" alt="vivow" /></span>
+<span class="name">HTC Incredible 2</span>
+<span class="codename">vivow</span>
+</a></span>
+<span class="device" data-searchable="HTC Droid Incredible 4G LTE fireball" data-type="phone" data-vendor="HTC" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm MSM8960" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="102 mm (4.0 in)"><a href="/w/Fireball_Info" title="Fireball Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/a/ae/Fireball.png/200px-Fireball.png" alt="fireball" /></span>
+<span class="name">HTC Droid Incredible 4G LTE</span>
+<span class="codename">fireball</span>
+</a></span> 
+<span class="device" data-searchable="HTC Incredible S vivo" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="768MB" data-screendimension="102 mm (4.0 in)"><a href="/w/Vivo_Info" title="Vivo Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/1/11/Vivo.png" alt="vivo" /></span>
+<span class="name">HTC Incredible S</span>
+<span class="codename">vivo</span>
+</a></span>
+<span class="device" data-searchable="HTC Legend legend" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm MSM7227" data-cpucores="single" data-cpufreq="600 MHz" data-ram="384MB" data-screendimension="81 mm (3.2 in)"><a href="/w/Legend_Info" title="Legend Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/1/10/Legend.png" alt="legend" /></span>
+<span class="name">HTC Legend</span>
+<span class="codename">legend</span>
+</a></span>
+<span class="device" data-searchable="HTC Magic dream_sapphire" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm MSM7201A" data-cpucores="single" data-cpufreq="528 MHz" data-ram="192MB" data-screendimension="81 mm (3.2 in)"><a href="/w/Dream_sapphire_Info" title="Dream sapphire Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/8/83/Dream.png" alt="dream_sapphire" /></span>
+<span class="name">HTC Magic</span>
+<span class="codename">dream_sapphire</span>
+</a></span>
+<span class="device" data-searchable="HTC One Mini m4" data-type="phone" data-vendor="HTC" data-cmversions="11" data-soc="Qualcomm Snapdragon 400" data-cpucores="dual" data-cpufreq="1.4 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/M4_Info" title="M4 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/d/db/M4.png/200px-M4.png" alt="m4" /></span>
+<span class="name">HTC One Mini</span>
+<span class="codename">m4</span>
+</a></span>
+<span class="device" data-searchable="HTC One Mini 2 memul" data-type="phone" data-vendor="HTC" data-cmversions="11" data-soc="Qualcomm Snapdragon 400" data-cpucores="quad" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="114 mm (4.5 in)"><a href="/w/Memul_Info" title="Memul Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/f/f1/Memul.png/200px-Memul.png" alt="memul" /></span>
+<span class="name">HTC One Mini 2</span>
+<span class="codename">memul</span>
+</a></span>
+<span class="device" data-searchable="HTC One (GSM) m7" data-type="phone" data-vendor="HTC" data-cmversions="11" data-soc="Qualcomm Snapdragon 600" data-cpucores="quad" data-cpufreq="1.7 GHz" data-ram="2GB" data-screendimension="119 mm (4.7 in)"><a href="/w/M7_Info" title="M7 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/b/b8/M7.png/200px-M7.png" alt="m7" /></span>
+<span class="name">HTC One (GSM)</span>
+<span class="codename">m7</span>
+</a></span>
+<span class="device" data-searchable="HTC One (Sprint) m7spr" data-type="phone" data-vendor="HTC" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm Snapdragon 600" data-cpucores="quad" data-cpufreq="1.7 GHz" data-ram="2GB" data-screendimension="119 mm (4.7 in)"><a href="/w/M7spr_Info" title="M7spr Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/b/b8/M7.png/200px-M7.png" alt="m7spr" /></span>
+<span class="name">HTC One (Sprint)</span>
+<span class="codename">m7spr</span>
+</a></span>
+<span class="device" data-searchable="HTC One (Verizon) m7vzw" data-type="phone" data-vendor="HTC" data-cmversions="10.2, 11" data-soc="Qualcomm Snapdragon 600" data-cpucores="quad" data-cpufreq="1.7 GHz" data-ram="2GB" data-screendimension="119 mm (4.7 in)"><a href="/w/M7vzw_Info" title="M7vzw Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/b/b8/M7.png/200px-M7.png" alt="m7vzw" /></span>
+<span class="name">HTC One (Verizon)</span>
+<span class="codename">m7vzw</span>
+</a></span>
+<span class="device" data-searchable="HTC One (M8) m8" data-type="phone" data-vendor="HTC" data-cmversions="11" data-soc="Qualcomm MSM8974AB Snapdragon 801" data-cpucores="quad" data-cpufreq="2.3 GHz" data-ram="2GB" data-screendimension="119 mm (4.7 in)"><a href="/w/M8_Info" title="M8 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/5/55/M8.png/200px-M8.png" alt="m8" /></span>
+<span class="name">HTC One (M8)</span>
+<span class="codename">m8</span>
+</a></span>
+<span class="device" data-searchable="HTC One Max (GSM) t6" data-type="phone" data-vendor="HTC" data-cmversions="11" data-soc="Qualcomm Snapdragon 600" data-cpucores="quad" data-cpufreq="1.7 GHz" data-ram="2GB" data-screendimension="150 mm (5.9 in)"><a href="/w/T6_Info" title="T6 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/e/e6/T6.png/200px-T6.png" alt="t6" /></span>
+<span class="name">HTC One Max (GSM)</span>
+<span class="codename">t6</span>
+</a></span>
+<span class="device" data-searchable="HTC One Max (Sprint) t6spr" data-type="phone" data-vendor="HTC" data-cmversions="11" data-soc="Qualcomm Snapdragon 600" data-cpucores="quad" data-cpufreq="1.7 GHz" data-ram="2GB" data-screendimension="150 mm (5.9 in)"><a href="/w/T6spr_Info" title="T6spr Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/e/e6/T6.png/200px-T6.png" alt="t6spr" /></span>
+<span class="name">HTC One Max (Sprint)</span>
+<span class="codename">t6spr</span>
+</a></span>
+<span class="device" data-searchable="HTC One Max (Verizon) t6vzw" data-type="phone" data-vendor="HTC" data-cmversions="11" data-soc="Qualcomm Snapdragon 600" data-cpucores="quad" data-cpufreq="1.7 GHz" data-ram="2GB" data-screendimension="150 mm (5.9 in)"><a href="/w/T6vzw_Info" title="T6vzw Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/e/e6/T6.png/200px-T6.png" alt="t6vzw" /></span>
+<span class="name">HTC One Max (Verizon)</span>
+<span class="codename">t6vzw</span>
+</a></span>
+<span class="device" data-searchable="HTC One S ville" data-type="phone" data-vendor="HTC" data-cmversions="10, 10.1, 10.2, 11" data-soc="Qualcomm MSM8960" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Ville_Info" title="Ville Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/2/23/Ville.png/200px-Ville.png" alt="ville" /></span>
+<span class="name">HTC One S</span>
+<span class="codename">ville</span>
+</a></span>
+<span class="device" data-searchable="HTC One X endeavoru" data-type="phone" data-vendor="HTC" data-cmversions="10, 10.1, 10.2, 11" data-soc="NVIDIA Tegra 3 AP33" data-cpucores="quad" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="119 mm (4.7 in)"><a href="/w/Endeavoru_Info" title="Endeavoru Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/8/81/Endeavoru.png/200px-Endeavoru.png" alt="endeavoru" /></span>
+<span class="name">HTC One X</span>
+<span class="codename">endeavoru</span>
+</a></span>
+<span class="device" data-searchable="HTC One X+ (International) enrc2b" data-type="phone" data-vendor="HTC" data-cmversions="10.1, 10.2, 11" data-soc="NVIDIA Tegra 3 AP37" data-cpucores="quad" data-cpufreq="1.7 GHz" data-ram="1GB" data-screendimension="119 mm (4.7 in)"><a href="/w/Enrc2b_Info" title="Enrc2b Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/f/fe/Enrc2b.png/200px-Enrc2b.png" alt="enrc2b" /></span>
+<span class="name">HTC One X+ (International)</span>
+<span class="codename">enrc2b</span>
+</a></span>
+<span class="device" data-searchable="HTC One XL evita" data-type="phone" data-vendor="HTC" data-cmversions="10, 10.1, 10.2, 11" data-soc="Qualcomm MSM8960" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="119 mm (4.7 in)"><a href="/w/Evita_Info" title="Evita Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/c/c8/Evita.png" alt="evita" /></span>
+<span class="name">HTC One XL</span>
+<span class="codename">evita</span>
+</a></span>
+<span class="device" data-searchable="HTC Raider 4G holiday" data-type="phone" data-vendor="HTC" data-cmversions="10" data-soc="Qualcomm MSM8660" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="114 mm (4.5 in)"><a href="/w/Holiday_Info" title="Holiday Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/7/7e/Holiday.png" alt="holiday" /></span>
+<span class="name">HTC Raider 4G</span>
+<span class="codename">holiday</span>
+</a></span>
+<span class="device" data-searchable="HTC Sensation pyramid" data-type="phone" data-vendor="HTC" data-cmversions="9, 10" data-soc="Qualcomm MSM8260" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="768MB" data-screendimension="109 mm (4.3 in)"><a href="/w/Pyramid_Info" title="Pyramid Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/f/f1/Pyramid.png" alt="pyramid" /></span>
+<span class="name">HTC Sensation</span>
+<span class="codename">pyramid</span>
+</a></span>
+<span class="device" data-searchable="HTC Tattoo click" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm MSM7225" data-cpucores="single" data-cpufreq="528 MHz" data-ram="256MB" data-screendimension="71 mm (2.8 in)"><a href="/w/Click_Info" title="Click Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/f/f7/Click.png/200px-Click.png" alt="click" /></span>
+<span class="name">HTC Tattoo</span>
+<span class="codename">click</span>
+</a></span>
+<span class="device" data-searchable="HTC Wildfire buzz" data-type="phone" data-vendor="HTC" data-cmversions="7" data-soc="Qualcomm MSM7225" data-cpucores="single" data-cpufreq="528 MHz" data-ram="384MB" data-screendimension="81 mm (3.2 in)"><a href="/w/Buzz_Info" title="Buzz Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/4/4e/Buzz.png" alt="buzz" /></span>
+<span class="name">HTC Wildfire</span>
+<span class="codename">buzz</span>
+</a></span>
+<span class="device" data-searchable="Huawei IDEOS u8150" data-type="phone" data-vendor="Huawei" data-cmversions="7" data-soc="Qualcomm MSM7225" data-cpucores="single" data-cpufreq="528 MHz" data-ram="256MB" data-screendimension="71 mm (2.8 in)"><a href="/w/U8150_Info" title="U8150 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/0/0c/U8150.png" alt="u8150" /></span>
+<span class="name">Huawei IDEOS</span>
+<span class="codename">u8150</span>
+</a></span>
+<span class="device" data-searchable="Huawei Vodafone Smart u8160" data-type="phone" data-vendor="Huawei" data-cmversions="7" data-soc="Qualcomm MSM7225" data-cpucores="single" data-cpufreq="528 MHz" data-ram="256MB" data-screendimension="71 mm (2.8 in)"><a href="/w/U8160_Info" title="U8160 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/2/24/U8160.png/200px-U8160.png" alt="u8160" /></span>
+<span class="name">Huawei Vodafone Smart</span>
+<span class="codename">u8160</span>
+</a></span>
+<span class="device" data-searchable="Huawei T-Mobile Pulse u8220" data-type="phone" data-vendor="Huawei" data-cmversions="7" data-soc="Qualcomm MSM7200A" data-cpucores="single" data-cpufreq="528 MHz" data-ram="192MB" data-screendimension="89 mm (3.5 in)"><a href="/w/U8220_Info" title="U8220 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/4/4e/U8220.png" alt="u8220" /></span>
+<span class="name">Huawei T-Mobile Pulse</span>
+<span class="codename">u8220</span>
+</a></span>
+<span class="device" data-searchable="LG G Pad 8.3 v500" data-type="tablet" data-vendor="LG" data-cmversions="11" data-soc="Qualcomm Snapdragon 600 APQ8064T" data-cpucores="quad" data-cpufreq="1.7 GHz" data-ram="2GB" data-screendimension="210 mm (8.3 in)"><a href="/w/V500_Info" title="V500 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/a/a4/V500.png/200px-V500.png" alt="v500" /></span>
+<span class="name">LG G Pad 8.3</span>
+<span class="codename">v500</span>
+</a></span>
+<span class="device" data-searchable="LG G2 d802" data-type="phone" data-vendor="LG" data-cmversions="10.2, 11" data-soc="Qualcomm Snapdragon 800 MSM8974" data-cpucores="quad" data-cpufreq="2.26 GHz" data-ram="2GB" data-screendimension="130 mm (5.2 in)"><a href="/w/D802_Info" title="D802 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/31/LG_G2.png/200px-LG_G2.png" alt="d802" /></span>
+<span class="name">LG G2</span>
+<span class="codename">d802</span>
+</a></span>
+<span class="device" data-searchable="LG G2 (AT&amp;T) d800" data-type="phone" data-vendor="LG" data-cmversions="10.2, 11" data-soc="Qualcomm Snapdragon 800 MSM8974" data-cpucores="quad" data-cpufreq="2.26 GHz" data-ram="2GB" data-screendimension="130 mm (5.2 in)"><a href="/w/D800_Info" title="D800 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/31/LG_G2.png/200px-LG_G2.png" alt="d800" /></span>
+<span class="name">LG G2 (AT&amp;T)</span>
+<span class="codename">d800</span>
+</a></span>
+<span class="device" data-searchable="LG G2 (Sprint) ls980" data-type="phone" data-vendor="LG" data-cmversions="10.2, 11" data-soc="Qualcomm Snapdragon 800 (MSM8974)" data-cpucores="quad" data-cpufreq="2.2 GHz" data-ram="2GB" data-screendimension="132 mm (5.2 in)"><a href="/w/Ls980_Info" title="Ls980 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/31/LG_G2.png/200px-LG_G2.png" alt="ls980" /></span>
+<span class="name">LG G2 (Sprint)</span>
+<span class="codename">ls980</span>
+</a></span>
+<span class="device" data-searchable="LG G2 (T-Mobile) d801" data-type="phone" data-vendor="LG" data-cmversions="10.2, 11" data-soc="Qualcomm Snapdragon 800 MSM8974" data-cpucores="quad" data-cpufreq="2.26 GHz" data-ram="2GB" data-screendimension="130 mm (5.2 in)"><a href="/w/D801_Info" title="D801 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/31/LG_G2.png/200px-LG_G2.png" alt="d801" /></span>
+<span class="name">LG G2 (T-Mobile)</span>
+<span class="codename">d801</span>
+</a></span>
+<span class="device" data-searchable="LG G2 (Verizon) vs980" data-type="phone" data-vendor="LG" data-cmversions="10.2, 11" data-soc="Qualcomm Snapdragon 800 MSM8974" data-cpucores="quad" data-cpufreq="2.26 GHz" data-ram="2GB" data-screendimension="130 mm (5.2 in)"><a href="/w/Vs980_Info" title="Vs980 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/31/LG_G2.png/200px-LG_G2.png" alt="vs980" /></span>
+<span class="name">LG G2 (Verizon)</span>
+<span class="codename">vs980</span>
+</a></span>
+<span class="device" data-searchable="LG G2x p999" data-type="phone" data-vendor="LG" data-cmversions="7" data-soc="NVIDIA Tegra 2" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="102 mm (4.0 in)"><a href="/w/P999_Info" title="P999 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/b/b6/P999.png/200px-P999.png" alt="p999" /></span>
+<span class="name">LG G2x</span>
+<span class="codename">p999</span>
+</a></span>
+<span class="device" data-searchable="LG myTouch e739" data-type="phone" data-vendor="LG" data-cmversions="7, 9" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="97 mm (3.8 in)"><a href="/w/E739_Info" title="E739 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/a/af/E739.png" alt="e739" /></span>
+<span class="name">LG myTouch</span>
+<span class="codename">e739</span>
+</a></span>
+<span class="device" data-searchable="LG MyTouch Q c800" data-type="phone (slider)" data-vendor="LG" data-cmversions="9" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="89 mm (3.5 in)"><a href="/w/C800_Info" title="C800 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/9/98/C800.png/200px-C800.png" alt="c800" /></span>
+<span class="name">LG MyTouch Q</span>
+<span class="codename">c800</span>
+</a></span>
+<span class="device" data-searchable="LG Nitro HD / Optimus 4G LTE p930" data-type="phone" data-vendor="LG" data-cmversions="10, 10.1, 10.2, 11" data-soc="Qualcomm APQ8060" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="114 mm (4.5 in)"><a href="/w/P930_Info" title="P930 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/5/54/P930.png/200px-P930.png" alt="p930" /></span>
+<span class="name">LG Nitro HD / Optimus 4G LTE</span>
+<span class="codename">p930</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus 2X p990" data-type="phone" data-vendor="LG" data-cmversions="7, 10.1" data-soc="NVIDIA Tegra 2" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="384MB" data-screendimension="102 mm (4.0 in)"><a href="/w/P990_Info" title="P990 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/9/9b/P990.png" alt="p990" /></span>
+<span class="name">LG Optimus 2X</span>
+<span class="codename">p990</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus 3D p920" data-type="phone" data-vendor="LG" data-cmversions="10" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="109 mm (4.3 in)"><a href="/w/P920_Info" title="P920 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/a/a0/P920.png" alt="p920" /></span>
+<span class="name">LG Optimus 3D</span>
+<span class="codename">p920</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus 4X HD p880" data-type="phone" data-vendor="LG" data-cmversions="10.1, 10.2, 11" data-soc="NVIDIA Tegra 3" data-cpucores="quad" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="119 mm (4.7 in)"><a href="/w/P880_Info" title="P880 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/2/21/P880.png/200px-P880.png" alt="p880" /></span>
+<span class="name">LG Optimus 4X HD</span>
+<span class="codename">p880</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus Black p970" data-type="phone" data-vendor="LG" data-cmversions="7, 10, 10.1" data-soc="TI OMAP3630" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="102 mm (4.0 in)"><a href="/w/P970_Info" title="P970 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/f/fe/P970.png" alt="p970" /></span>
+<span class="name">LG Optimus Black</span>
+<span class="codename">p970</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus Chic e720" data-type="phone" data-vendor="LG" data-cmversions="7" data-soc="Qualcomm MSM7227" data-cpucores="single" data-cpufreq="600 MHz" data-ram="512MB" data-screendimension="81 mm (3.2 in)"><a href="/w/E720_Info" title="E720 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/7/79/E720.png/200px-E720.png" alt="e720" /></span>
+<span class="name">LG Optimus Chic</span>
+<span class="codename">e720</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus G e975" data-type="phone" data-vendor="LG" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm APQ8064" data-cpucores="quad" data-cpufreq="1.5 GHz" data-ram="2GB" data-screendimension="119 mm (4.7 in)"><a href="/w/E975_Info" title="E975 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/e/ef/LG-Optimus-G.png/200px-LG-Optimus-G.png" alt="e975" /></span>
+<span class="name">LG Optimus G</span>
+<span class="codename">e975</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus G (ATT) e970" data-type="phone" data-vendor="LG" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm Snapdragon S4 Pro (APQ8064)" data-cpucores="quad" data-cpufreq="1.5 GHz" data-ram="2GB" data-screendimension="119 mm (4.7 in)"><a href="/w/E970_Info" title="E970 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/e/ef/LG-Optimus-G.png/200px-LG-Optimus-G.png" alt="e970" /></span>
+<span class="name">LG Optimus G (ATT)</span>
+<span class="codename">e970</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus G (Telus/Rogers) e973" data-type="phone" data-vendor="LG" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm Snapdragon S4 Pro (APQ8064)" data-cpucores="quad" data-cpufreq="1.5 GHz" data-ram="2GB" data-screendimension="119 mm (4.7 in)"><a href="/w/E973_Info" title="E973 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/e/ef/LG-Optimus-G.png/200px-LG-Optimus-G.png" alt="e973" /></span>
+<span class="name">LG Optimus G (Telus/Rogers)</span>
+<span class="codename">e973</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus G (Sprint) ls970" data-type="phone" data-vendor="LG" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm Snapdragon S4 Pro (APQ8064)" data-cpucores="quad" data-cpufreq="1.5 GHz" data-ram="2GB" data-screendimension="119 mm (4.7 in)"><a href="/w/Ls970_Info" title="Ls970 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/e/ef/LG-Optimus-G.png/200px-LG-Optimus-G.png" alt="ls970" /></span>
+<span class="name">LG Optimus G (Sprint)</span>
+<span class="codename">ls970</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus G Pro e980" data-type="phone" data-vendor="LG" data-cmversions="10.2, 11" data-soc="Qualcomm Snapdragon 600 (APQ8064)" data-cpucores="quad" data-cpufreq="1.7 GHz" data-ram="2GB" data-screendimension="140 mm (5.5 in)"><a href="/w/E980_Info" title="E980 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/4/40/E980.png/200px-E980.png" alt="e980" /></span>
+<span class="name">LG Optimus G Pro</span>
+<span class="codename">e980</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus Hub e510" data-type="phone" data-vendor="LG" data-cmversions="7" data-soc="Qualcomm MSM7227T" data-cpucores="single" data-cpufreq="800 MHz" data-ram="512MB" data-screendimension="89 mm (3.5 in)"><a href="/w/E510_Info" title="E510 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/b/ba/E510.png" alt="e510" /></span>
+<span class="name">LG Optimus Hub</span>
+<span class="codename">e510</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus L3 e400" data-type="phone" data-vendor="LG" data-cmversions="9" data-soc="Qualcomm MSM7225A" data-cpucores="single" data-cpufreq="800 MHz" data-ram="384MB" data-screendimension="81 mm (3.2 in)"><a href="/w/E400_Info" title="E400 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/7/7a/E400.png/200px-E400.png" alt="e400" /></span>
+<span class="name">LG Optimus L3</span>
+<span class="codename">e400</span>
+</a></span>
+
+
+
+<span class="device" data-searchable="LG Optimus L5 e610" data-type="phone" data-vendor="LG" data-cmversions="10" data-soc="Qualcomm MSM7225A Snapdragon" data-cpucores="single" data-cpufreq="800 MHz" data-ram="512MB" data-screendimension="102 mm (4.0 in)"><a href="/w/E610_Info" title="E610 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/1/14/E610.png/200px-E610.png" alt="e610" /></span>
+<span class="name">LG Optimus L5</span>
+<span class="codename">e610</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus L7 p700" data-type="phone" data-vendor="LG" data-cmversions="10" data-soc="Qualcomm MSM7227A" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="109 mm (4.3 in)"><a href="/w/P700_Info" title="P700 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/a/a4/LG_Optimus_L7.png/200px-LG_Optimus_L7.png" alt="p700" /></span>
+<span class="name">LG Optimus L7</span>
+<span class="codename">p700</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus L9 p760" data-type="phone" data-vendor="LG" data-cmversions="10.1, 10.2" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="119 mm (4.7 in)"><a href="/w/P760_Info" title="P760 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/3e/LG-Optimus-L9.png/200px-LG-Optimus-L9.png" alt="p760" /></span>
+<span class="name">LG Optimus L9</span>
+<span class="codename">p760</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus LTE (SK Telecom) su640" data-type="phone" data-vendor="LG" data-cmversions="9, 10, 10.1" data-soc="Qualcomm MSM8660" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="114 mm (4.5 in)"><a href="/w/Su640_Info" title="Su640 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/f/f4/Su640.png/200px-Su640.png" alt="su640" /></span>
+<span class="name">LG Optimus LTE (SK Telecom)</span>
+<span class="codename">su640</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus Me p350" data-type="phone" data-vendor="LG" data-cmversions="7" data-soc="Qualcomm MSM7227" data-cpucores="single" data-cpufreq="600 MHz" data-ram="140MB" data-screendimension="71 mm (2.8 in)"><a href="/w/P350_Info" title="P350 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/c/c7/P350.png" alt="p350" /></span>
+<span class="name">LG Optimus Me</span>
+<span class="codename">p350</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus One p500" data-type="phone" data-vendor="LG" data-cmversions="7" data-soc="Qualcomm MSM7227" data-cpucores="single" data-cpufreq="600 MHz" data-ram="512MB" data-screendimension="81 mm (3.2 in)"><a href="/w/P500_Info" title="P500 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/7/70/P500.png" alt="p500" /></span>
+<span class="name">LG Optimus One</span>
+<span class="codename">p500</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus Pro c660" data-type="phone" data-vendor="LG" data-cmversions="7" data-soc="Qualcomm MSM7227T" data-cpucores="single" data-cpufreq="800 MHz" data-ram="256MB" data-screendimension="71 mm (2.8 in)"><a href="/w/C660_Info" title="C660 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/9/98/C660.png/200px-C660.png" alt="c660" /></span>
+<span class="name">LG Optimus Pro</span>
+<span class="codename">c660</span>
+</a></span>
+<span class="device" data-searchable="LG Optimus Sol e730" data-type="phone" data-vendor="LG" data-cmversions="7, 9" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="97 mm (3.8 in)"><a href="/w/E730_Info" title="E730 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/1/16/E730.png/200px-E730.png" alt="e730" /></span>
+<span class="name">LG Optimus Sol</span>
+<span class="codename">e730</span>
+</a></span>
+<span class="device" data-searchable="LG Spectrum vs920" data-type="phone" data-vendor="LG" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm MSM8660" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="114 mm (4.5 in)"><a href="/w/Vs920_Info" title="Vs920 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/4/46/Vs920.png/200px-Vs920.png" alt="vs920" /></span>
+<span class="name">LG Spectrum</span>
+<span class="codename">vs920</span>
+</a></span>
+<span class="device" data-searchable="LG Thrill 4G p925" data-type="phone" data-vendor="LG" data-cmversions="7" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="109 mm (4.3 in)"><a href="/w/P925_Info" title="P925 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/2/23/P925.png" alt="p925" /></span>
+<span class="name">LG Thrill 4G</span>
+<span class="codename">p925</span>
+</a></span>
+<span class="device" data-searchable="Motorola Atrix 4G olympus" data-type="phone" data-vendor="Motorola" data-cmversions="7" data-soc="NVIDIA Tegra 2" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Olympus_Info" title="Olympus Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/4/4d/Olympus.png/200px-Olympus.png" alt="olympus" /></span>
+<span class="name">Motorola Atrix 4G</span>
+<span class="codename">olympus</span>
+</a></span>
+<span class="device" data-searchable="Motorola Atrix HD mb886" data-type="phone" data-vendor="Motorola" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm MSM8960" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="114 mm (4.5 in)"><a href="/w/Mb886_Info" title="Mb886 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/0/0f/Mb886.png/200px-Mb886.png" alt="mb886" /></span>
+<span class="name">Motorola Atrix HD</span>
+<span class="codename">mb886</span>
+</a></span>
+<span class="device" data-searchable="Motorola Backflip motus" data-type="phone" data-vendor="Motorola" data-cmversions="7" data-soc="Qualcomm MSM7201A" data-cpucores="single" data-cpufreq="528 MHz" data-ram="256MB" data-screendimension="79 mm (3.1 in)"><a href="/w/Motus_Info" title="Motus Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/6/6d/Motus.png" alt="motus" /></span>
+<span class="name">Motorola Backflip</span>
+<span class="codename">motus</span>
+</a></span>
+<span class="device" data-searchable="Motorola Cliq morrison" data-type="phone" data-vendor="Motorola" data-cmversions="7" data-soc="Qualcomm MSM7201A" data-cpucores="single" data-cpufreq="528 MHz" data-ram="256MB" data-screendimension="79 mm (3.1 in)"><a href="/w/Morrison_Info" title="Morrison Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/d/d4/Morrison.png" alt="morrison" /></span>
+<span class="name">Motorola Cliq</span>
+<span class="codename">morrison</span>
+</a></span>
+<span class="device" data-searchable="Motorola Cliq XT zeppelin" data-type="phone" data-vendor="Motorola" data-cmversions="7" data-soc="Qualcomm MSM7201A" data-cpucores="single" data-cpufreq="528 MHz" data-ram="256MB" data-screendimension="79 mm (3.1 in)"><a href="/w/Zeppelin_Info" title="Zeppelin Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/f/fc/Zeppelin.png" alt="zeppelin" /></span>
+<span class="name">Motorola Cliq XT</span>
+<span class="codename">zeppelin</span>
+</a></span>
+<span class="device" data-searchable="Motorola Defy jordan" data-type="phone" data-vendor="Motorola" data-cmversions="7" data-soc="TI OMAP3630" data-cpucores="single" data-cpufreq="800 MHz" data-ram="512MB" data-screendimension="94 mm (3.7 in)"><a href="/w/Jordan_Info" title="Jordan Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/e/e4/Jordan.png" alt="jordan" /></span>
+<span class="name">Motorola Defy</span>
+<span class="codename">jordan</span>
+</a></span>
+<span class="device" data-searchable="Motorola Droid sholes" data-type="phone (slider)" data-vendor="Motorola" data-cmversions="7" data-soc="TI OMAP3430" data-cpucores="single" data-cpufreq="600 MHz" data-ram="256MB" data-screendimension="94 mm (3.7 in)"><a href="/w/Sholes_Info" title="Sholes Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/0/0d/Sholes.png" alt="sholes" /></span>
+<span class="name">Motorola Droid</span>
+<span class="codename">sholes</span>
+</a></span>
+<span class="device" data-searchable="Motorola Droid 2 droid2" data-type="phone (slider)" data-vendor="Motorola" data-cmversions="7" data-soc="TI OMAP3630" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="94 mm (3.7 in)"><a href="/w/Droid2_Info" title="Droid2 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/7/72/Droid2.png" alt="droid2" /></span>
+<span class="name">Motorola Droid 2</span>
+<span class="codename">droid2</span>
+</a></span>
+<span class="device" data-searchable="Motorola Droid 2 Global droid2we" data-type="phone (slider)" data-vendor="Motorola" data-cmversions="7" data-soc="TI OMAP3640" data-cpucores="single" data-cpufreq="1.2 GHz" data-ram="512MB" data-screendimension="94 mm (3.7 in)"><a href="/w/Droid2we_Info" title="Droid2we Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/7/72/Droid2.png" alt="droid2we" /></span>
+<span class="name">Motorola Droid 2 Global</span>
+<span class="codename">droid2we</span>
+</a></span>
+<span class="device" data-searchable="Motorola Droid 3 solana" data-type="phone" data-vendor="Motorola" data-cmversions="10.1" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="102 mm (4.0 in)"><a href="/w/Solana_Info" title="Solana Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/32/Solana.png/200px-Solana.png" alt="solana" /></span>
+<span class="name">Motorola Droid 3</span>
+<span class="codename">solana</span>
+</a></span>
+<span class="device" data-searchable="Motorola Droid 4 maserati" data-type="phone (slider)" data-vendor="Motorola" data-cmversions="10.1, 10.2, 11" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="102 mm (4.0 in)"><a href="/w/Maserati_Info" title="Maserati Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/4/40/Maserati.png/200px-Maserati.png" alt="maserati" /></span>
+<span class="name">Motorola Droid 4</span>
+<span class="codename">maserati</span>
+</a></span>
+<span class="device" data-searchable="Motorola Droid RAZR HD, and RAZR M moto_msm8960" data-type="phone" data-vendor="Motorola" data-cmversions="11" data-soc="Qualcomm MSM8960" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="119 mm (4.7 in)"><a href="/w/Moto_msm8960_Info" title="Moto msm8960 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/3c/Xt926.png/200px-Xt926.png" alt="moto_msm8960" /></span>
+<span class="name">Motorola Droid RAZR HD, and RAZR M</span>
+<span class="codename">moto_msm8960</span>
+</a></span>
+<span class="device" data-searchable="Motorola Moto X Unified - Droid Maxx Dev Edition moto_msm8960dt" data-type="phone" data-vendor="Motorola" data-cmversions="11" data-soc="Motorola X8 (Qualcomm Snapdragon S4 Pro MSM8960AB)" data-cpucores="dual" data-cpufreq="1.7 GHz" data-ram="2GB" data-screendimension="&#39;&#39;&#39;Moto X:&#39;&#39;&#39; 119 mm (4.7 in), &#39;&#39;&#39;Droid MAXX:&#39;&#39;&#39; 127 mm (5.0 in)"><a href="/w/Moto_msm8960dt_Info" title="Moto msm8960dt Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/e/e2/MotoX.png/200px-MotoX.png" alt="moto_msm8960dt" /></span>
+<span class="name">Motorola Moto X Unified - Droid Maxx Dev Edition</span>
+<span class="codename">moto_msm8960dt</span>
+</a></span>
+<span class="device" data-searchable="Motorola Droid Bionic targa" data-type="phone" data-vendor="Motorola" data-cmversions="10.1, 10.2, 11" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Targa_Info" title="Targa Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/5/52/Targa.png" alt="targa" /></span>
+<span class="name">Motorola Droid Bionic</span>
+<span class="codename">targa</span>
+</a></span>
+<span class="device" data-searchable="Motorola Droid RAZR M xt907" data-type="phone" data-vendor="Motorola" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm MSM8960" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Xt907_Info" title="Xt907 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/1/1d/Xt907.png/200px-Xt907.png" alt="xt907" /></span>
+<span class="name">Motorola Droid RAZR M</span>
+<span class="codename">xt907</span>
+</a></span>
+<span class="device" data-searchable="Motorola Droid RAZR/RAZR MAXX (CDMA) spyder" data-type="phone" data-vendor="Motorola" data-cmversions="10.1, 10.2, 11" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Spyder_Info" title="Spyder Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/c/ca/Spyder.png" alt="spyder" /></span>
+<span class="name">Motorola Droid RAZR/RAZR MAXX (CDMA)</span>
+<span class="codename">spyder</span>
+</a></span>
+<span class="device" data-searchable="Motorola Droid RAZR HD/RAZR HD MAXX (CDMA) xt926" data-type="phone" data-vendor="Motorola" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm MSM8960" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="119 mm (4.7 in)"><a href="/w/Xt926_Info" title="Xt926 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/3c/Xt926.png/200px-Xt926.png" alt="xt926" /></span>
+<span class="name">Motorola Droid RAZR HD/RAZR HD MAXX (CDMA)</span>
+<span class="codename">xt926</span>
+</a></span>
+<span class="device" data-searchable="Motorola Droid X shadow" data-type="phone" data-vendor="Motorola" data-cmversions="7" data-soc="TI OMAP3630-1000" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="109 mm (4.3 in)"><a href="/w/Shadow_Info" title="Shadow Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/8/8e/Shadow.png" alt="shadow" /></span>
+<span class="name">Motorola Droid X</span>
+<span class="codename">shadow</span>
+</a></span>
+<span class="device" data-searchable="Motorola Photon 4G sunfire" data-type="phone" data-vendor="Motorola" data-cmversions="7" data-soc="NVIDIA Tegra 2 250 AP20H" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Sunfire_Info" title="Sunfire Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/a/aa/Sunfire.png" alt="sunfire" /></span>
+<span class="name">Motorola Photon 4G</span>
+<span class="codename">sunfire</span>
+</a></span>
+<span class="device" data-searchable="Motorola Photon Q xt897" data-type="phone (slider)" data-vendor="Motorola" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm MSM8960" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Xt897_Info" title="Xt897 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/c/ca/Xt897.png/200px-Xt897.png" alt="xt897" /></span>
+<span class="name">Motorola Photon Q</span>
+<span class="codename">xt897</span>
+</a></span>
+<span class="device" data-searchable="Motorola Photon Q (CDMA) xt897c" data-type="phone (slider)" data-vendor="Motorola" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm MSM8960" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Xt897c_Info" title="Xt897c Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/c/ca/Xt897.png/200px-Xt897.png" alt="xt897c" /></span>
+<span class="name">Motorola Photon Q (CDMA)</span>
+<span class="codename">xt897c</span>
+</a></span>
+<span class="device" data-searchable="Motorola RAZR/RAZR MAXX (GSM) umts_spyder" data-type="phone" data-vendor="Motorola" data-cmversions="10.1, 10.2, 11" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Umts_spyder_Info" title="Umts spyder Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/5/50/Umts_spyder.png/200px-Umts_spyder.png" alt="umts_spyder" /></span>
+<span class="name">Motorola RAZR/RAZR MAXX (GSM)</span>
+<span class="codename">umts_spyder</span>
+</a></span>
+<span class="device" data-searchable="Motorola RAZR HD (GSM) xt925" data-type="phone" data-vendor="Motorola" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm MSM8960" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="119 mm (4.7 in)"><a href="/w/Xt925_Info" title="Xt925 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/5/5f/Xt925.png/200px-Xt925.png" alt="xt925" /></span>
+<span class="name">Motorola RAZR HD (GSM)</span>
+<span class="codename">xt925</span>
+</a></span>
+<span class="device" data-searchable="Motorola Xoom (Wi-Fi) wingray" data-type="tablet" data-vendor="Motorola" data-cmversions="9, 10, 10.1" data-soc="NVIDIA Tegra 2 250 T20" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="257 mm (10.1 in)"><a href="/w/Wingray_Info" title="Wingray Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/e/e2/Wingray.png/200px-Wingray.png" alt="wingray" /></span>
+<span class="name">Motorola Xoom (Wi-Fi)</span>
+<span class="codename">wingray</span>
+</a></span>
+<span class="device" data-searchable="Motorola Xoom (GSM) everest" data-type="tablet" data-vendor="Motorola" data-cmversions="10, 10.1" data-soc="NVIDIA Tegra 2 250 T20" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="257 mm (10.1 in)"><a href="/w/Everest_Info" title="Everest Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/e/e2/Wingray.png/200px-Wingray.png" alt="everest" /></span>
+<span class="name">Motorola Xoom (GSM)</span>
+<span class="codename">everest</span>
+</a></span>
+<span class="device" data-searchable="Motorola Xoom (CDMA) stingray" data-type="tablet" data-vendor="Motorola" data-cmversions="10, 10.1" data-soc="NVIDIA Tegra 2 250 T20" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="257 mm (10.1 in)"><a href="/w/Stingray_Info" title="Stingray Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/e/e2/Wingray.png/200px-Wingray.png" alt="stingray" /></span>
+<span class="name">Motorola Xoom (CDMA)</span>
+<span class="codename">stingray</span>
+</a></span>
+<span class="device" data-searchable="Motorola Moto G falcon" data-type="phone" data-vendor="Motorola" data-cmversions="11" data-soc="Qualcomm Snapdragon 400" data-cpucores="quad" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="114 mm (4.5 in)"><a href="/w/Falcon_Info" title="Falcon Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/36/MotoG.png/200px-MotoG.png" alt="falcon" /></span>
+<span class="name">Motorola Moto G</span>
+<span class="codename">falcon</span>
+</a></span>
+<span class="device" data-searchable="Motorola Moto G 4G peregrine" data-type="phone" data-vendor="Motorola" data-cmversions="11" data-soc="Qualcomm Snapdragon 400 MSM8926" data-cpucores="quad" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="114 mm (4.5 in)"><a href="/w/Peregrine_Info" title="Peregrine Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/7/74/Moto-g-lte.png/200px-Moto-g-lte.png" alt="peregrine" /></span>
+<span class="name">Motorola Moto G 4G</span>
+<span class="codename">peregrine</span>
+</a></span>
+<span class="device" data-searchable="Motorola Moto X - Tmobile moto_msm8960dt" data-type="phone" data-vendor="Motorola" data-cmversions="10.2, 11" data-soc="Motorola X8 (Qualcomm Snapdragon S4 Pro MSM8960)" data-cpucores="dual" data-cpufreq="1.7 GHz" data-ram="2GB" data-screendimension="119 mm (4.7 in)"><a href="/w/Moto_msm8960dt_Info" title="Moto msm8960dt Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/e/e2/MotoX.png/200px-MotoX.png" alt="moto_msm8960dt" /></span>
+<span class="name">Motorola Moto X - Tmobile</span>
+<span class="codename">moto_msm8960dt</span>
+</a></span>
+<span class="device" data-searchable="Motorola Moto X - International GSM moto_msm8960dt" data-type="phone" data-vendor="Motorola" data-cmversions="10.2, 11" data-soc="Motorola X8 (Qualcomm Snapdragon S4 Pro MSM8960)" data-cpucores="dual" data-cpufreq="1.7 GHz" data-ram="2GB" data-screendimension="119 mm (4.7 in)"><a href="/w/Moto_msm8960dt_Info" title="Moto msm8960dt Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/e/e2/MotoX.png/200px-MotoX.png" alt="moto_msm8960dt" /></span>
+<span class="name">Motorola Moto X - International GSM</span>
+<span class="codename">moto_msm8960dt</span>
+</a></span>
+<span class="device" data-searchable="Motorola Moto X - Verizon CDMA xt1060" data-type="phone" data-vendor="Motorola" data-cmversions="10.2, 11" data-soc="Motorola X8 (Qualcomm Snapdragon S4 Pro MSM8960)" data-cpucores="dual" data-cpufreq="1.7 GHz" data-ram="2GB" data-screendimension="119 mm (4.7 in)"><a href="/w/Xt1060_Info" title="Xt1060 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/e/e2/MotoX.png/200px-MotoX.png" alt="xt1060" /></span>
+<span class="name">Motorola Moto X - Verizon CDMA</span>
+<span class="codename">xt1060</span>
+</a></span>
+<span class="device" data-searchable="OnePlus One bacon" data-type="phone" data-vendor="OnePlus" data-cmversions="11" data-soc="Qualcomm Snapdragon 801" data-cpucores="quad" data-cpufreq="2.5 GHz" data-ram="3GB" data-screendimension="139.7 mm (5.5 in)"><a href="/w/Bacon_Info" title="Bacon Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/f/f6/Bacon.png/200px-Bacon.png" alt="bacon" /></span>
+<span class="name">OnePlus One</span>
+<span class="codename">bacon</span>
+</a></span>
+<span class="device" data-searchable="Oppo Find 5 find5" data-type="phone" data-vendor="Oppo" data-cmversions="10.1, 11" data-soc="Qualcomm APQ8064" data-cpucores="quad" data-cpufreq="1.5 GHz" data-ram="2GB" data-screendimension="127 mm (5.0 in)"><a href="/w/Find5_Info" title="Find5 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/3d/Find5.png/200px-Find5.png" alt="find5" /></span>
+<span class="name">Oppo Find 5</span>
+<span class="codename">find5</span>
+</a></span>
+<span class="device" data-searchable="Oppo Find 7a find7" data-type="phone" data-vendor="Oppo" data-cmversions="11" data-soc="Qualcomm Snapdragon 801" data-cpucores="quad" data-cpufreq="2.27 GHz" data-ram="2GB" data-screendimension="139.7 mm (5.5 in)"><a href="/w/Find7_Info" title="Find7 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/1/14/Find7.png/200px-Find7.png" alt="find7" /></span>
+<span class="name">Oppo Find 7a</span>
+<span class="codename">find7</span>
+</a></span>
+<span class="device" data-searchable="Oppo N1 n1" data-type="phone" data-vendor="Oppo" data-cmversions="10.2, 11" data-soc="Qualcomm Snapdragon 600" data-cpucores="quad" data-cpufreq="1.7 GHz" data-ram="2GB" data-screendimension="150 mm (5.9 in)"><a href="/w/N1_Info" title="N1 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/c/c5/OppoN1.png/200px-OppoN1.png" alt="n1" /></span>
+<span class="name">Oppo N1</span>
+<span class="codename">n1</span>
+</a></span>
+<span class="device" data-searchable="Samsung Captivate captivatemtd" data-type="phone" data-vendor="Samsung" data-cmversions="7, 9, 10, 10.1, 10.2, 11" data-soc="Samsung Exynos 3" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="102 mm (4.0 in)"><a href="/w/Captivatemtd_Info" title="Captivatemtd Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/f/fd/Captivatemtd.png/200px-Captivatemtd.png" alt="captivatemtd" /></span>
+<span class="name">Samsung Captivate</span>
+<span class="codename">captivatemtd</span>
+</a></span>
+<span class="device" data-searchable="Samsung Epic 4G epicmtd" data-type="phone" data-vendor="Samsung" data-cmversions="7, 9, 10, 10.1, 11" data-soc="Samsung Exynos 3" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="102 mm (4.0 in)"><a href="/w/Epicmtd_Info" title="Epicmtd Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/2/21/Epic4g.png/200px-Epic4g.png" alt="epicmtd" /></span>
+<span class="name">Samsung Epic 4G</span>
+<span class="codename">epicmtd</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Exhilarate exhilarate" data-type="phone" data-vendor="Samsung" data-cmversions="10.2, 11" data-soc="" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="102 mm (4.0 in)"><a href="/w/Exhilarate_Info" title="Exhilarate Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/5/50/Exhilarate.png/200px-Exhilarate.png" alt="exhilarate" /></span>
+<span class="name">Samsung Galaxy Exhilarate</span>
+<span class="codename">exhilarate</span>
+</a></span>
+<span class="device" data-searchable="Samsung Fascinate fascinatemtd" data-type="phone" data-vendor="Samsung" data-cmversions="7, 10.1" data-soc="Samsung Exynos 3" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="102 mm (4.0 in)"><a href="/w/Fascinatemtd_Info" title="Fascinatemtd Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/a/a9/Fascinatemtd.png/200px-Fascinatemtd.png" alt="fascinatemtd" /></span>
+<span class="name">Samsung Fascinate</span>
+<span class="codename">fascinatemtd</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Ace cooper" data-type="phone" data-vendor="Samsung" data-cmversions="7" data-soc="Qualcomm MSM7227" data-cpucores="single" data-cpufreq="800 MHz" data-ram="384MB" data-screendimension="89 mm (3.5 in)"><a href="/w/Cooper_Info" title="Cooper Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/1/12/Cooper.png/200px-Cooper.png" alt="cooper" /></span>
+<span class="name">Samsung Galaxy Ace</span>
+<span class="codename">cooper</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Mini tass" data-type="phone" data-vendor="Samsung" data-cmversions="7" data-soc="Qualcomm MSM7227" data-cpucores="single" data-cpufreq="600 MHz" data-ram="384MB" data-screendimension="79 mm (3.1 in)"><a href="/w/Tass_Info" title="Tass Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/1/1b/Tass.png/200px-Tass.png" alt="tass" /></span>
+<span class="name">Samsung Galaxy Mini</span>
+<span class="codename">tass</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Note (International) n7000" data-type="phablet" data-vendor="Samsung" data-cmversions="9, 10, 10.1, 10.2" data-soc="Samsung Exynos 4210" data-cpucores="dual" data-cpufreq="1.4 GHz" data-ram="1GB" data-screendimension="135 mm (5.3 in)"><a href="/w/N7000_Info" title="N7000 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/c/cc/Note.png/200px-Note.png" alt="n7000" /></span>
+<span class="name">Samsung Galaxy Note (International)</span>
+<span class="codename">n7000</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Note (AT&amp;T) quincyatt" data-type="phablet" data-vendor="Samsung" data-cmversions="9, 10, 10.1, 10.2" data-soc="Qualcomm MSM8660" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="135 mm (5.3 in)"><a href="/w/Quincyatt_Info" title="Quincyatt Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/7/79/I717.png/200px-I717.png" alt="quincyatt" /></span>
+<span class="name">Samsung Galaxy Note (AT&amp;T)</span>
+<span class="codename">quincyatt</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Note (TMO) quincytmo" data-type="phablet" data-vendor="Samsung" data-cmversions="10, 10.1, 10.2" data-soc="Qualcomm MSM8660" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="135 mm (5.3 in)"><a href="/w/Quincytmo_Info" title="Quincytmo Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/9/9c/T879.png/200px-T879.png" alt="quincytmo" /></span>
+<span class="name">Samsung Galaxy Note (TMO)</span>
+<span class="codename">quincytmo</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Note 2 n7100" data-type="phablet" data-vendor="Samsung" data-cmversions="10.1, 10.2, 11" data-soc="Samsung Exynos 4412" data-cpucores="quad" data-cpufreq="1.6 GHz" data-ram="2GB" data-screendimension="141 mm (5.5 in)"><a href="/w/N7100_Info" title="N7100 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/d/de/N7100.png/200px-N7100.png" alt="n7100" /></span>
+<span class="name">Samsung Galaxy Note 2</span>
+<span class="codename">n7100</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Note 2 LTE t0lte" data-type="phablet" data-vendor="Samsung" data-cmversions="10.1, 10.2, 11" data-soc="Samsung Exynos 4412" data-cpucores="quad" data-cpufreq="1.6 GHz" data-ram="2GB" data-screendimension="141 mm (5.5 in)"><a href="/w/T0lte_Info" title="T0lte Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/4/45/N7105.png/200px-N7105.png" alt="t0lte" /></span>
+<span class="name">Samsung Galaxy Note 2 LTE</span>
+<span class="codename">t0lte</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Note 2 LTE (Sprint) l900" data-type="phablet" data-vendor="Samsung" data-cmversions="10.1, 10.2, 11" data-soc="Samsung Exynos 4412" data-cpucores="quad" data-cpufreq="1.6 GHz" data-ram="2GB" data-screendimension="141 mm (5.5 in)"><a href="/w/L900_Info" title="L900 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/d/de/N7100.png/200px-N7100.png" alt="l900" /></span>
+<span class="name">Samsung Galaxy Note 2 LTE (Sprint)</span>
+<span class="codename">l900</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Note 2 LTE (US Cellular) r950" data-type="phablet" data-vendor="Samsung" data-cmversions="10.1, 10.2, 11" data-soc="Samsung Exynos 4412" data-cpucores="quad" data-cpufreq="1.6 GHz" data-ram="2GB" data-screendimension="141 mm (5.5 in)"><a href="/w/R950_Info" title="R950 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/d/de/N7100.png/200px-N7100.png" alt="r950" /></span>
+<span class="name">Samsung Galaxy Note 2 LTE (US Cellular)</span>
+<span class="codename">r950</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Note 2 LTE (Verizon) i605" data-type="phablet" data-vendor="Samsung" data-cmversions="10.1, 11" data-soc="Samsung Exynos 4412" data-cpucores="quad" data-cpufreq="1.6 GHz" data-ram="2GB" data-screendimension="141 mm (5.5 in)"><a href="/w/I605_Info" title="I605 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/d/de/N7100.png/200px-N7100.png" alt="i605" /></span>
+<span class="name">Samsung Galaxy Note 2 LTE (Verizon)</span>
+<span class="codename">i605</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Note 3 LTE hlte" data-type="phablet" data-vendor="Samsung" data-cmversions="11" data-soc="Qualcomm Snapdragon 800" data-cpucores="quad" data-cpufreq="2.3 GHz" data-ram="3GB" data-screendimension="140 mm (5.7 in)"><a href="/w/Hlte_Info" title="Hlte Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/0/0a/Hlte.png/200px-Hlte.png" alt="hlte" /></span>
+<span class="name">Samsung Galaxy Note 3 LTE</span>
+<span class="codename">hlte</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S4 LTE-A (GT-I9506) ks01lte" data-type="phone" data-vendor="Samsung" data-cmversions="11" data-soc="Qualcomm Snapdragon 800" data-cpucores="quad" data-cpufreq="2.3 GHz" data-ram="2GB" data-screendimension="127 mm (5.0 in)"><a href="/w/Ks01lte_Info" title="Ks01lte Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/d/d0/Ks01lte.png/200px-Ks01lte.png" alt="ks01lte" /></span>
+<span class="name">Samsung Galaxy S4 LTE-A (GT-I9506)</span>
+<span class="codename">ks01lte</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Note 8.0 (GSM) n5100" data-type="tablet" data-vendor="Samsung" data-cmversions="10.2, 11" data-soc="Samsung Exynos 4412" data-cpucores="quad" data-cpufreq="1.6 GHz" data-ram="2GB" data-screendimension="203 mm (8.0 in)"><a href="/w/N5100_Info" title="N5100 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/b/b6/N5100-5110.png/200px-N5100-5110.png" alt="n5100" /></span>
+<span class="name">Samsung Galaxy Note 8.0 (GSM)</span>
+<span class="codename">n5100</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Note 8.0 (LTE) n5120" data-type="tablet" data-vendor="Samsung" data-cmversions="11" data-soc="Samsung Exynos 4412" data-cpucores="quad" data-cpufreq="1.6 GHz" data-ram="2GB" data-screendimension="203 mm (8.0 in)"><a href="/w/N5120_Info" title="N5120 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/b/b6/N5100-5110.png/200px-N5100-5110.png" alt="n5120" /></span>
+<span class="name">Samsung Galaxy Note 8.0 (LTE)</span>
+<span class="codename">n5120</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Note 8.0 (Wi-fi) n5110" data-type="tablet" data-vendor="Samsung" data-cmversions="10.2, 11" data-soc="Samsung Exynos 4412" data-cpucores="quad" data-cpufreq="1.6 GHz" data-ram="2GB" data-screendimension="203 mm (8.0 in)"><a href="/w/N5110_Info" title="N5110 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/b/b6/N5100-5110.png/200px-N5100-5110.png" alt="n5110" /></span>
+<span class="name">Samsung Galaxy Note 8.0 (Wi-fi)</span>
+<span class="codename">n5110</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Note 10.1 (Wi-Fi) n8013" data-type="tablet" data-vendor="Samsung" data-cmversions="10.1, 10.2" data-soc="Samsung Exynos 4412" data-cpucores="quad" data-cpufreq="1.4 GHz" data-ram="2GB" data-screendimension="260 mm (10.2 in)"><a href="/w/N8013_Info" title="N8013 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/4/41/N8000_landscape.png/200px-N8000_landscape.png" alt="n8013" /></span>
+<span class="name">Samsung Galaxy Note 10.1 (Wi-Fi)</span>
+<span class="codename">n8013</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Note 10.1 (GSM) n8000" data-type="tablet" data-vendor="Samsung" data-cmversions="10.1, 10.2" data-soc="Samsung Exynos 4412" data-cpucores="quad" data-cpufreq="1.4 GHz" data-ram="2GB" data-screendimension="260 mm (10.2 in)"><a href="/w/N8000_Info" title="N8000 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/4/41/N8000_landscape.png/200px-N8000_landscape.png" alt="n8000" /></span>
+<span class="name">Samsung Galaxy Note 10.1 (GSM)</span>
+<span class="codename">n8000</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Note 10.1 (Verizon) i925" data-type="tablet" data-vendor="Samsung" data-cmversions="10.1, 10.2, 11" data-soc="Samsung Exynos 4412" data-cpucores="quad" data-cpufreq="1.4 GHz" data-ram="2GB" data-screendimension="260 mm (10.2 in)"><a href="/w/I925_Info" title="I925 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/4/41/N8000_landscape.png/200px-N8000_landscape.png" alt="i925" /></span>
+<span class="name">Samsung Galaxy Note 10.1 (Verizon)</span>
+<span class="codename">i925</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Player 4.0 ypg1" data-type="tablet" data-vendor="Samsung" data-cmversions="11" data-soc="" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="102 mm (4.0 in)"><a href="/w/Ypg1_Info" title="Ypg1 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/d/df/Ypg1.png/200px-Ypg1.png" alt="ypg1" /></span>
+<span class="name">Samsung Galaxy Player 4.0</span>
+<span class="codename">ypg1</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Premier superior" data-type="phone" data-vendor="Samsung" data-cmversions="10.2, 11" data-soc="TI OMAP 4470" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="119 mm (4.7 in)"><a href="/w/Superior_Info" title="Superior Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/f/f4/Superior.png/200px-Superior.png" alt="superior" /></span>
+<span class="name">Samsung Galaxy Premier</span>
+<span class="codename">superior</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy R i9103" data-type="phone" data-vendor="Samsung" data-cmversions="10.1" data-soc="NVIDIA Tegra 2 AP20H" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="107 mm (4.2 in)"><a href="/w/I9103_Info" title="I9103 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/9/9b/I9103.png/200px-I9103.png" alt="i9103" /></span>
+<span class="name">Samsung Galaxy R</span>
+<span class="codename">i9103</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S galaxysmtd" data-type="phone" data-vendor="Samsung" data-cmversions="7, 9, 10, 10.1, 10.2, 11" data-soc="Samsung Exynos 3" data-cpucores="single" data-cpufreq="1.2 GHz (underclocked to 1 Ghz)" data-ram="512MB" data-screendimension="102 mm (4.0 in)"><a href="/w/Galaxysmtd_Info" title="Galaxysmtd Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/a/a8/Galaxysmtd.png/200px-Galaxysmtd.png" alt="galaxysmtd" /></span>
+<span class="name">Samsung Galaxy S</span>
+<span class="codename">galaxysmtd</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S B galaxysbmtd" data-type="phone" data-vendor="Samsung" data-cmversions="7, 9, 10, 10.1, 10.2, 11" data-soc="Samsung Exynos 3" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="102 mm (4.0 in)"><a href="/w/Galaxysbmtd_Info" title="Galaxysbmtd Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/a/a8/Galaxysmtd.png/200px-Galaxysmtd.png" alt="galaxysbmtd" /></span>
+<span class="name">Samsung Galaxy S B</span>
+<span class="codename">galaxysbmtd</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S Blaze 4G t769" data-type="phone" data-vendor="Samsung" data-cmversions="9, 10, 10.1, 10.2, 11" data-soc="Qualcomm MSM8260" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="102 mm (4.0 in)"><a href="/w/T769_Info" title="T769 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/b/bd/Blaze.png" alt="t769" /></span>
+<span class="name">Samsung Galaxy S Blaze 4G</span>
+<span class="codename">t769</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S Relay 4G apexqtmo" data-type="phone (slider)" data-vendor="Samsung" data-cmversions="10.2, 11" data-soc="Qualcomm Snapdragon MSM8260A" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="102 mm (4.0 in)"><a href="/w/Apexqtmo_Info" title="Apexqtmo Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/36/Apexqtmo.png/200px-Apexqtmo.png" alt="apexqtmo" /></span>
+<span class="name">Samsung Galaxy S Relay 4G</span>
+<span class="codename">apexqtmo</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S II i9100" data-type="phone" data-vendor="Samsung" data-cmversions="7, 9, 10, 10.1, 10.2, 11" data-soc="Samsung Exynos 4210" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/I9100_Info" title="I9100 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/f/f3/I9100.png" alt="i9100" /></span>
+<span class="name">Samsung Galaxy S II</span>
+<span class="codename">i9100</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S II G i9100g" data-type="phone" data-vendor="Samsung" data-cmversions="9, 10, 10.1, 10.2, 11" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/I9100g_Info" title="I9100g Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/f/f3/I9100.png" alt="i9100g" /></span>
+<span class="name">Samsung Galaxy S II G</span>
+<span class="codename">i9100g</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S II (AT&amp;T) i777" data-type="phone" data-vendor="Samsung" data-cmversions="7, 9, 10, 10.1, 10.2" data-soc="Samsung Exynos 4210" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/I777_Info" title="I777 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/7/7c/I777.png/200px-I777.png" alt="i777" /></span>
+<span class="name">Samsung Galaxy S II (AT&amp;T)</span>
+<span class="codename">i777</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S II (T-Mobile) hercules" data-type="phone" data-vendor="Samsung" data-cmversions="9, 10, 10.1, 10.2, 11" data-soc="Qualcomm APQ8060" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="114 mm (4.5 in)"><a href="/w/Hercules_Info" title="Hercules Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/2/26/Samsung-Galaxy-SII-T989.png/200px-Samsung-Galaxy-SII-T989.png" alt="hercules" /></span>
+<span class="name">Samsung Galaxy S II (T-Mobile)</span>
+<span class="codename">hercules</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S II Epic 4G Touch d710" data-type="phone" data-vendor="Samsung" data-cmversions="10.1, 10.2, 11" data-soc="Samsung Exynos 4210" data-cpucores="dual" data-cpufreq="1.2 GHz" data-ram="1GB" data-screendimension="114 mm (4.5 in)"><a href="/w/D710_Info" title="D710 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/3c/D710.png/200px-D710.png" alt="d710" /></span>
+<span class="name">Samsung Galaxy S II Epic 4G Touch</span>
+<span class="codename">d710</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S II Skyrocket skyrocket" data-type="phone" data-vendor="Samsung" data-cmversions="9, 10, 10.1, 10.2, 11" data-soc="Qualcomm APQ8060" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="114 mm (4.5 in)"><a href="/w/Skyrocket_Info" title="Skyrocket Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/e/e1/Skyrocket.png/200px-Skyrocket.png" alt="skyrocket" /></span>
+<span class="name">Samsung Galaxy S II Skyrocket</span>
+<span class="codename">skyrocket</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S III (International) i9300" data-type="phone" data-vendor="Samsung" data-cmversions="9, 10, 10.1, 10.2, 11" data-soc="Samsung Exynos 4412" data-cpucores="quad" data-cpufreq="1.4 GHz" data-ram="1GB" data-screendimension="122 mm (4.8 in)"><a href="/w/I9300_Info" title="I9300 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/a/a7/I9300.png/200px-I9300.png" alt="i9300" /></span>
+<span class="name">Samsung Galaxy S III (International)</span>
+<span class="codename">i9300</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S III LTE (International) i9305" data-type="phone" data-vendor="Samsung" data-cmversions="10.1, 10.2, 11" data-soc="Samsung Exynos 4412" data-cpucores="quad" data-cpufreq="1.4 GHz" data-ram="2GB" data-screendimension="122 mm (4.8 in)"><a href="/w/I9305_Info" title="I9305 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/a/a7/I9300.png/200px-I9300.png" alt="i9305" /></span>
+<span class="name">Samsung Galaxy S III LTE (International)</span>
+<span class="codename">i9305</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S III LTE d2lte" data-type="phone" data-vendor="Samsung" data-cmversions="11" data-soc="Qualcomm MSM8960" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="2GB" data-screendimension="122 mm (4.8 in)"><a href="/w/D2lte_Info" title="D2lte Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/a/a7/I9300.png/200px-I9300.png" alt="d2lte" /></span>
+<span class="name">Samsung Galaxy S III LTE</span>
+<span class="codename">d2lte</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S4 jflte" data-type="phone" data-vendor="Samsung" data-cmversions="11" data-soc="Qualcomm Snapdragon 600" data-cpucores="quad" data-cpufreq="1.9 GHz" data-ram="2GB" data-screendimension="127 mm (5.0 in)"><a href="/w/Jflte_Info" title="Jflte Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/6/6e/Jflte.png/200px-Jflte.png" alt="jflte" /></span>
+<span class="name">Samsung Galaxy S4</span>
+<span class="codename">jflte</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S4 (International) i9500" data-type="phone" data-vendor="Samsung" data-cmversions="11" data-soc="Samsung Exynos 5 Octa 5410" data-cpucores="quad" data-cpufreq="1.6 GHz" data-ram="2GB" data-screendimension="127 mm (5.0 in)"><a href="/w/I9500_Info" title="I9500 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/6/6e/Jflte.png/200px-Jflte.png" alt="i9500" /></span>
+<span class="name">Samsung Galaxy S4 (International)</span>
+<span class="codename">i9500</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S4 Active jactivelte" data-type="phone" data-vendor="Samsung" data-cmversions="11" data-soc="Qualcomm Snapdragon 600" data-cpucores="" data-cpufreq="1.9 GHz" data-ram="2GB" data-screendimension=""><a href="/w/Jactivelte_Info" title="Jactivelte Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/1/16/Jactivelte.png/200px-Jactivelte.png" alt="jactivelte" /></span>
+<span class="name">Samsung Galaxy S4 Active</span>
+<span class="codename">jactivelte</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S4 Mini (International 3G) serrano3gxx" data-type="phone" data-vendor="Samsung" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm Snapdragon 400" data-cpucores="dual" data-cpufreq="1.7 GHz" data-ram="1.5GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Serrano3gxx_Info" title="Serrano3gxx Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/0/04/Serranoltexx.png/200px-Serranoltexx.png" alt="serrano3gxx" /></span>
+<span class="name">Samsung Galaxy S4 Mini (International 3G)</span>
+<span class="codename">serrano3gxx</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy S4 Mini (International LTE) serranoltexx" data-type="phone" data-vendor="Samsung" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm Snapdragon 400" data-cpucores="dual" data-cpufreq="1.7 GHz" data-ram="1.5GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Serranoltexx_Info" title="Serranoltexx Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/0/04/Serranoltexx.png/200px-Serranoltexx.png" alt="serranoltexx" /></span>
+<span class="name">Samsung Galaxy S4 Mini (International LTE)</span>
+<span class="codename">serranoltexx</span>
+</a></span>
+
+
+<span class="device" data-searchable="Samsung Galaxy S5 klte" data-type="phone" data-vendor="Samsung" data-cmversions="11" data-soc="Qualcomm Snapdragon 801" data-cpucores="quad" data-cpufreq="2.5 GHz" data-ram="2 GB" data-screendimension="130 mm (5.1 in)"><a href="/w/Klte_Info" title="Klte Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/7/77/Klte.png/200px-Klte.png" alt="klte" /></span>
+<span class="name">Samsung Galaxy S5</span>
+<span class="codename">klte</span>
+</a></span> 
+<span class="device" data-searchable="Samsung Galaxy Tab (CDMA) p1c" data-type="tablet" data-vendor="Samsung" data-cmversions="9, 10" data-soc="Samsung Exynos 3" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="178 mm (7.0 in)"><a href="/w/P1c_Info" title="P1c Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/c/cc/P1.png/200px-P1.png" alt="p1c" /></span>
+<span class="name">Samsung Galaxy Tab (CDMA)</span>
+<span class="codename">p1c</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab (GSM) p1" data-type="tablet" data-vendor="Samsung" data-cmversions="9, 10, 11" data-soc="Samsung S5PC110" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="178 mm (7.0 in)"><a href="/w/P1_Info" title="P1 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/c/cc/P1.png/200px-P1.png" alt="p1" /></span>
+<span class="name">Samsung Galaxy Tab (GSM)</span>
+<span class="codename">p1</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab (P1000L) p1l" data-type="tablet" data-vendor="Samsung" data-cmversions="9, 10" data-soc="Samsung S5PC110" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="178 mm (7.0 in)"><a href="/w/P1l_Info" title="P1l Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/c/cc/P1.png/200px-P1.png" alt="p1l" /></span>
+<span class="name">Samsung Galaxy Tab (P1000L)</span>
+<span class="codename">p1l</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab (P1000N) p1n" data-type="tablet" data-vendor="Samsung" data-cmversions="9, 10" data-soc="Samsung S5PC110" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="178 mm (7.0 in)"><a href="/w/P1n_Info" title="P1n Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/c/cc/P1.png/200px-P1.png" alt="p1n" /></span>
+<span class="name">Samsung Galaxy Tab (P1000N)</span>
+<span class="codename">p1n</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab 2 7.0 (GSM) p3100" data-type="tablet" data-vendor="Samsung" data-cmversions="9, 10, 10.1, 10.2, 11" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="178 mm (7.0 in)"><a href="/w/P3100_Info" title="P3100 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/9/91/P3100.png/200px-P3100.png" alt="p3100" /></span>
+<span class="name">Samsung Galaxy Tab 2 7.0 (GSM)</span>
+<span class="codename">p3100</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab 2 7.0 (Wi-Fi) p3110" data-type="tablet" data-vendor="Samsung" data-cmversions="9, 10, 10.1, 11" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="178 mm (7.0 in)"><a href="/w/P3110_Info" title="P3110 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/9/91/P3100.png/200px-P3100.png" alt="p3110" /></span>
+<span class="name">Samsung Galaxy Tab 2 7.0 (Wi-Fi)</span>
+<span class="codename">p3110</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab 2 7.0 (Wi-Fi + IR) p3113" data-type="tablet" data-vendor="Samsung" data-cmversions="9, 10" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="178 mm (7.0 in)"><a href="/w/P3113_Info" title="P3113 Info" class="mw-redirect">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/9/91/P3100.png/200px-P3100.png" alt="p3113" /></span>
+<span class="name">Samsung Galaxy Tab 2 7.0 (Wi-Fi + IR)</span>
+<span class="codename">p3113</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab 8.9 (GSM) p5" data-type="tablet" data-vendor="Samsung" data-cmversions="9" data-soc="NVIDIA Tegra 2" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="226 mm (8.9 in)"><a href="/w/P5_Info" title="P5 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/4/41/P5_landscape.png/200px-P5_landscape.png" alt="p5" /></span>
+<span class="name">Samsung Galaxy Tab 8.9 (GSM)</span>
+<span class="codename">p5</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab 8.9 (WiFi) p5wifi" data-type="tablet" data-vendor="Samsung" data-cmversions="9" data-soc="NVIDIA Tegra 250 T20" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="226mm (8.9 in)"><a href="/w/P5wifi_Info" title="P5wifi Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/4/41/P5_landscape.png/200px-P5_landscape.png" alt="p5wifi" /></span>
+<span class="name">Samsung Galaxy Tab 8.9 (WiFi)</span>
+<span class="codename">p5wifi</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab 10.1 (GSM) p4" data-type="tablet" data-vendor="Samsung" data-cmversions="9, 10, 10.1" data-soc="NVIDIA Tegra 2" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="257 mm (10.1 in)"><a href="/w/P4_Info" title="P4 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/c/c8/P4_landscape.png/200px-P4_landscape.png" alt="p4" /></span>
+<span class="name">Samsung Galaxy Tab 10.1 (GSM)</span>
+<span class="codename">p4</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab 10.1 (TMO) p4tmo" data-type="tablet" data-vendor="Samsung" data-cmversions="9, 10, 10.1" data-soc="NVIDIA Tegra 2" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="257 mm (10.1 in)"><a href="/w/P4tmo_Info" title="P4tmo Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/3b/P4tmo_landscape.png/200px-P4tmo_landscape.png" alt="p4tmo" /></span>
+<span class="name">Samsung Galaxy Tab 10.1 (TMO)</span>
+<span class="codename">p4tmo</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab 10.1 (Verizon) p4vzw" data-type="tablet" data-vendor="Samsung" data-cmversions="9, 10, 10.1" data-soc="NVIDIA Tegra 2" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="257 mm (10.1 in)"><a href="/w/P4vzw_Info" title="P4vzw Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/9/9a/P4vzw.png/200px-P4vzw.png" alt="p4vzw" /></span>
+<span class="name">Samsung Galaxy Tab 10.1 (Verizon)</span>
+<span class="codename">p4vzw</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab 10.1 (Wi-Fi) p4wifi" data-type="tablet" data-vendor="Samsung" data-cmversions="9, 10, 10.1" data-soc="NVIDIA Tegra 2" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="257 mm (10.1 in)"><a href="/w/P4wifi_Info" title="P4wifi Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/c/c8/P4_landscape.png/200px-P4_landscape.png" alt="p4wifi" /></span>
+<span class="name">Samsung Galaxy Tab 10.1 (Wi-Fi)</span>
+<span class="codename">p4wifi</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab 10.1v p3" data-type="tablet" data-vendor="Samsung" data-cmversions="9, 10, 10.1" data-soc="NVIDIA Tegra 2" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="257 mm (10.1 in)"><a href="/w/P3_Info" title="P3 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/7/72/P3_landscape.png/200px-P3_landscape.png" alt="p3" /></span>
+<span class="name">Samsung Galaxy Tab 10.1v</span>
+<span class="codename">p3</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab 2 10.1 (GSM) p5100" data-type="tablet" data-vendor="Samsung" data-cmversions="9, 10, 10.1, 10.2, 11" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="257 mm (10.1 in)"><a href="/w/P5100_Info" title="P5100 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/5/5f/P5100_landscape.png/200px-P5100_landscape.png" alt="p5100" /></span>
+<span class="name">Samsung Galaxy Tab 2 10.1 (GSM)</span>
+<span class="codename">p5100</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab 2 10.1 (Wi-Fi) p5110" data-type="tablet" data-vendor="Samsung" data-cmversions="9, 10, 10.1, 10.2, 11" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="257 mm (10.1 in)"><a href="/w/P5110_Info" title="P5110 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/5/5f/P5100_landscape.png/200px-P5100_landscape.png" alt="p5110" /></span>
+<span class="name">Samsung Galaxy Tab 2 10.1 (Wi-Fi)</span>
+<span class="codename">p5110</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab 2 10.1 (Wi-Fi + IR) p5113" data-type="tablet" data-vendor="Samsung" data-cmversions="9, 10" data-soc="TI OMAP4430" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="257 mm (10.1 in)"><a href="/w/P5113_Info" title="P5113 Info" class="mw-redirect">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/5/5f/P5100_landscape.png/200px-P5100_landscape.png" alt="p5113" /></span>
+<span class="name">Samsung Galaxy Tab 2 10.1 (Wi-Fi + IR)</span>
+<span class="codename">p5113</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab Pro 8.4 mondrianwifi" data-type="tablet" data-vendor="Samsung" data-cmversions="11" data-soc="Qualcomm Snapdragon 800" data-cpucores="quad" data-cpufreq="2.26 GHz" data-ram="2GB" data-screendimension="213 mm (8.4 in)"><a href="/w/Mondrianwifi_Info" title="Mondrianwifi Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/4/46/Mondrianwifi.png/200px-Mondrianwifi.png" alt="mondrianwifi" /></span>
+<span class="name">Samsung Galaxy Tab Pro 8.4</span>
+<span class="codename">mondrianwifi</span>
+</a></span>
+<span class="device" data-searchable="Samsung Galaxy Tab Pro 10.1 Wi-Fi picassowifi" data-type="tablet" data-vendor="Samsung" data-cmversions="11" data-soc="Exynos 5420" data-cpucores="octa" data-cpufreq="1.9 GHz and 1.5 GHz" data-ram="2GB" data-screendimension="257 mm (10.1 in)"><a href="/w/Picassowifi_Info" title="Picassowifi Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/5/5b/Picasso.png/200px-Picasso.png" alt="picassowifi" /></span>
+<span class="name">Samsung Galaxy Tab Pro 10.1 Wi-Fi</span>
+<span class="codename">picassowifi</span>
+</a></span>
+<span class="device" data-searchable="Samsung Mesmerize mesmerizemtd" data-type="phone" data-vendor="Samsung" data-cmversions="7, 10.1" data-soc="Samsung S5PC110" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="102 mm (4.0 in)"><a href="/w/Mesmerizemtd_Info" title="Mesmerizemtd Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/1/11/Mesmerize.png/200px-Mesmerize.png" alt="mesmerizemtd" /></span>
+<span class="name">Samsung Mesmerize</span>
+<span class="codename">mesmerizemtd</span>
+</a></span>
+<span class="device" data-searchable="Samsung Showcase showcasemtd" data-type="phone" data-vendor="Samsung" data-cmversions="7" data-soc="Samsung S5PC110" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="102 mm (4.0 in)"><a href="/w/Showcasemtd_Info" title="Showcasemtd Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/6/62/Showcasemtd.png/200px-Showcasemtd.png" alt="showcasemtd" /></span>
+<span class="name">Samsung Showcase</span>
+<span class="codename">showcasemtd</span>
+</a></span>
+<span class="device" data-searchable="Samsung Vibrant vibrantmtd" data-type="phone" data-vendor="Samsung" data-cmversions="7, 9, 10, 10.1" data-soc="Samsung S5PC110" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="102 mm (4.0 in)"><a href="/w/Vibrantmtd_Info" title="Vibrantmtd Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/d/d1/Vibrantmtd.png/200px-Vibrantmtd.png" alt="vibrantmtd" /></span>
+<span class="name">Samsung Vibrant</span>
+<span class="codename">vibrantmtd</span>
+</a></span>
+<span class="device" data-searchable="Sony Ericsson Live with Walkman coconut" data-type="phone" data-vendor="Sony Ericsson" data-cmversions="7, 9, 10" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="81 mm (3.2 in)"><a href="/w/Coconut_Info" title="Coconut Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/2/2f/Coconut.png/200px-Coconut.png" alt="coconut" /></span>
+<span class="name">Sony Ericsson Live with Walkman</span>
+<span class="codename">coconut</span>
+</a></span>
+<span class="device" data-searchable="Sony Ericsson Xperia Active satsuma" data-type="phone" data-vendor="Sony Ericsson" data-cmversions="7, 9, 10" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="76 mm (3.0 in)"><a href="/w/Satsuma_Info" title="Satsuma Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/5/52/Satsuma.png/200px-Satsuma.png" alt="satsuma" /></span>
+<span class="name">Sony Ericsson Xperia Active</span>
+<span class="codename">satsuma</span>
+</a></span>
+<span class="device" data-searchable="Sony Ericsson Xperia Arc anzu" data-type="phone" data-vendor="Sony Ericsson" data-cmversions="7, 9, 10" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="107 mm (4.2 in)"><a href="/w/Anzu_Info" title="Anzu Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/b/b7/Anzu.png/200px-Anzu.png" alt="anzu" /></span>
+<span class="name">Sony Ericsson Xperia Arc</span>
+<span class="codename">anzu</span>
+</a></span>
+<span class="device" data-searchable="Sony Ericsson Xperia Mini smultron" data-type="phone" data-vendor="Sony Ericsson" data-cmversions="7, 9, 10" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="76 mm (3.0 in)"><a href="/w/Smultron_Info" title="Smultron Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/7/7d/Smultron.png/200px-Smultron.png" alt="smultron" /></span>
+<span class="name">Sony Ericsson Xperia Mini</span>
+<span class="codename">smultron</span>
+</a></span>
+<span class="device" data-searchable="Sony Ericsson Xperia Mini Pro mango" data-type="phone (slider)" data-vendor="Sony Ericsson" data-cmversions="7, 9, 10" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="76 mm (3.0 in)"><a href="/w/Mango_Info" title="Mango Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/38/Mango.png/200px-Mango.png" alt="mango" /></span>
+<span class="name">Sony Ericsson Xperia Mini Pro</span>
+<span class="codename">mango</span>
+</a></span>
+<span class="device" data-searchable="Sony Ericsson Xperia Neo hallon" data-type="phone" data-vendor="Sony Ericsson" data-cmversions="7, 9, 10" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="94 mm (3.7 in)"><a href="/w/Hallon_Info" title="Hallon Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/7/7c/Hallon.png/200px-Hallon.png" alt="hallon" /></span>
+<span class="name">Sony Ericsson Xperia Neo</span>
+<span class="codename">hallon</span>
+</a></span>
+<span class="device" data-searchable="Sony Ericsson Xperia Neo V haida" data-type="phone" data-vendor="Sony Ericsson" data-cmversions="9, 10" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="94 mm (3.7 in)"><a href="/w/Haida_Info" title="Haida Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/9/90/Haida.png/200px-Haida.png" alt="haida" /></span>
+<span class="name">Sony Ericsson Xperia Neo V</span>
+<span class="codename">haida</span>
+</a></span>
+<span class="device" data-searchable="Sony Ericsson Xperia Play (GSM) zeus" data-type="phone (slider)" data-vendor="Sony Ericsson" data-cmversions="7, 9" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="102 mm (4.0 in)"><a href="/w/Zeus_Info" title="Zeus Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/3c/Zeus.png/200px-Zeus.png" alt="zeus" /></span>
+<span class="name">Sony Ericsson Xperia Play (GSM)</span>
+<span class="codename">zeus</span>
+</a></span>
+<span class="device" data-searchable="Sony Ericsson Xperia Play (CDMA) zeusc" data-type="phone (slider)" data-vendor="Sony Ericsson" data-cmversions="7, 9" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="102 mm (4.0 in)"><a href="/w/Zeusc_Info" title="Zeusc Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/3c/Zeus.png/200px-Zeus.png" alt="zeusc" /></span>
+<span class="name">Sony Ericsson Xperia Play (CDMA)</span>
+<span class="codename">zeusc</span>
+</a></span>
+<span class="device" data-searchable="Sony Ericsson Xperia Pro iyokan" data-type="phone (slider)" data-vendor="Sony Ericsson" data-cmversions="7, 9, 10" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="94 mm (3.7 in)"><a href="/w/Iyokan_Info" title="Iyokan Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/b/b8/Iyokan.png/200px-Iyokan.png" alt="iyokan" /></span>
+<span class="name">Sony Ericsson Xperia Pro</span>
+<span class="codename">iyokan</span>
+</a></span>
+<span class="device" data-searchable="Sony Ericsson Xperia Ray urushi" data-type="phone" data-vendor="Sony Ericsson" data-cmversions="7, 9, 10" data-soc="Qualcomm MSM8255" data-cpucores="single" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="84 mm (3.3 in)"><a href="/w/Urushi_Info" title="Urushi Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/d/de/Urushi.png/200px-Urushi.png" alt="urushi" /></span>
+<span class="name">Sony Ericsson Xperia Ray</span>
+<span class="codename">urushi</span>
+</a></span>
+<span class="device" data-searchable="Sony Ericsson Xperia X8 shakira" data-type="phone" data-vendor="Sony Ericsson" data-cmversions="7" data-soc="Qualcomm MSM7227" data-cpucores="single" data-cpufreq="600 MHz" data-ram="168MB" data-screendimension="76 mm (3.0 in)"><a href="/w/Shakira_Info" title="Shakira Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/2/2c/Shakira.png" alt="shakira" /></span>
+<span class="name">Sony Ericsson Xperia X8</span>
+<span class="codename">shakira</span>
+</a></span>
+<span class="device" data-searchable="Sony Ericsson Xperia X10 es209ra" data-type="phone" data-vendor="Sony Ericsson" data-cmversions="7" data-soc="Qualcomm QSD8250" data-cpucores="single" data-cpufreq="1 GHz" data-ram="384MB" data-screendimension="102 mm (4.0 in)"><a href="/w/Es209ra_Info" title="Es209ra Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/3/31/Es209ra.png" alt="es209ra" /></span>
+<span class="name">Sony Ericsson Xperia X10</span>
+<span class="codename">es209ra</span>
+</a></span>
+<span class="device" data-searchable="Sony Ericsson Xperia X10 Mini robyn" data-type="phone" data-vendor="Sony Ericsson" data-cmversions="7" data-soc="Qualcomm MSM7227" data-cpucores="single" data-cpufreq="600 MHz" data-ram="128MB" data-screendimension="65 mm (2.6 in)"><a href="/w/Robyn_Info" title="Robyn Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/2/2b/Robyn.png" alt="robyn" /></span>
+<span class="name">Sony Ericsson Xperia X10 Mini</span>
+<span class="codename">robyn</span>
+</a></span>
+<span class="device" data-searchable="Sony Ericsson Xperia X10 Mini Pro mimmi" data-type="phone (slider)" data-vendor="Sony Ericsson" data-cmversions="7" data-soc="Qualcomm MSM7227" data-cpucores="single" data-cpufreq="600 MHz" data-ram="128MB" data-screendimension="65 mm (2.6 in)"><a href="/w/Mimmi_Info" title="Mimmi Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/7/7c/Mimmi.png" alt="mimmi" /></span>
+<span class="name">Sony Ericsson Xperia X10 Mini Pro</span>
+<span class="codename">mimmi</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia acro S hikari" data-type="phone" data-vendor="Sony" data-cmversions="9, 10" data-soc="Qualcomm MSM8260" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Hikari_Info" title="Hikari Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/e/ee/Hikari.png/200px-Hikari.png" alt="hikari" /></span>
+<span class="name">Sony Xperia acro S</span>
+<span class="codename">hikari</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia Ion aoba" data-type="phone" data-vendor="Sony" data-cmversions="9" data-soc="Qualcomm MSM8260" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="116 mm (4.6 in)"><a href="/w/Aoba_Info" title="Aoba Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/4/42/Aoba.png/200px-Aoba.png" alt="aoba" /></span>
+<span class="name">Sony Xperia Ion</span>
+<span class="codename">aoba</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia S nozomi" data-type="phone" data-vendor="Sony" data-cmversions="9, 10" data-soc="Qualcomm MSM8260" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Nozomi_Info" title="Nozomi Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/0/0b/Nozomi.png/200px-Nozomi.png" alt="nozomi" /></span>
+<span class="name">Sony Xperia S</span>
+<span class="codename">nozomi</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia SP huashan" data-type="phone" data-vendor="Sony" data-cmversions="11" data-soc="Qualcomm Snapdragon S4 Pro MSM8960T" data-cpucores="dual" data-cpufreq="1.7 GHz" data-ram="1GB" data-screendimension="116 mm (4.6 in)"><a href="/w/Huashan_Info" title="Huashan Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/3/3e/Huashan.png/200px-Huashan.png" alt="huashan" /></span>
+<span class="name">Sony Xperia SP</span>
+<span class="codename">huashan</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia L taoshan" data-type="phone" data-vendor="Sony" data-cmversions="11" data-soc="Qualcomm MSM8230 Snapdragon" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Taoshan_Info" title="Taoshan Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/d/d9/Taoshan.png/200px-Taoshan.png" alt="taoshan" /></span>
+<span class="name">Sony Xperia L</span>
+<span class="codename">taoshan</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia T mint" data-type="phone" data-vendor="Sony" data-cmversions="10, 10.1, 10.2, 11" data-soc="Qualcomm MSM8260A" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="116 mm (4.6 in)"><a href="/w/Mint_Info" title="Mint Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/1/13/Mint.png/200px-Mint.png" alt="mint" /></span>
+<span class="name">Sony Xperia T</span>
+<span class="codename">mint</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia TX hayabusa" data-type="phone" data-vendor="Sony" data-cmversions="10.1" data-soc="Qualcomm Snapdragon S4 Plus MSM8260-A" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="116 mm (4.55 in)"><a href="/w/Hayabusa_Info" title="Hayabusa Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/7/78/Hayabusa.png/200px-Hayabusa.png" alt="hayabusa" /></span>
+<span class="name">Sony Xperia TX</span>
+<span class="codename">hayabusa</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia Tablet Z LTE pollux" data-type="tablet" data-vendor="Sony" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm APQ8064" data-cpucores="quad" data-cpufreq="1.5 GHz" data-ram="2GB" data-screendimension="257 mm (10.1 in)"><a href="/w/Pollux_Info" title="Pollux Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/7/7b/Pollux.png/200px-Pollux.png" alt="pollux" /></span>
+<span class="name">Sony Xperia Tablet Z LTE</span>
+<span class="codename">pollux</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia Tablet Z Wifi pollux_windy" data-type="tablet" data-vendor="Sony" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm APQ8064" data-cpucores="quad" data-cpufreq="1.5 GHz" data-ram="2GB" data-screendimension="257 mm (10.1 in)"><a href="/w/Pollux_windy_Info" title="Pollux windy Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/7/7b/Pollux.png/200px-Pollux.png" alt="pollux_windy" /></span>
+<span class="name">Sony Xperia Tablet Z Wifi</span>
+<span class="codename">pollux_windy</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia V tsubasa" data-type="phone" data-vendor="Sony" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm MSM8960" data-cpucores="dual" data-cpufreq="1.5 GHz" data-ram="1GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Tsubasa_Info" title="Tsubasa Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/3/30/Tsubasa.png" alt="tsubasa" /></span>
+<span class="name">Sony Xperia V</span>
+<span class="codename">tsubasa</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia Z yuga" data-type="phone" data-vendor="Sony" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm APQ8064, Qualcomm MDM9215M" data-cpucores="quad" data-cpufreq="1.5 GHz" data-ram="2GB" data-screendimension="127 mm (5.0 in)"><a href="/w/Yuga_Info" title="Yuga Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/4/44/Yuga.png" alt="yuga" /></span>
+<span class="name">Sony Xperia Z</span>
+<span class="codename">yuga</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia ZL odin" data-type="phone" data-vendor="Sony" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm APQ8064" data-cpucores="quad" data-cpufreq="1.5 GHz" data-ram="2GB" data-screendimension="127 mm (5.0 in)"><a href="/w/Odin_Info" title="Odin Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/e/e5/OdinX.png" alt="odin" /></span>
+<span class="name">Sony Xperia ZL</span>
+<span class="codename">odin</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia ZR dogo" data-type="phone" data-vendor="Sony" data-cmversions="10.1, 10.2, 11" data-soc="Qualcomm APQ8064, Qualcomm MDM9215M" data-cpucores="quad" data-cpufreq="1.5 GHz" data-ram="2GB" data-screendimension="116 mm (4.6 in)"><a href="/w/Dogo_Info" title="Dogo Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/4/44/Yuga.png" alt="dogo" /></span>
+<span class="name">Sony Xperia ZR</span>
+<span class="codename">dogo</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia Z Ultra togari" data-type="phone" data-vendor="Sony" data-cmversions="10.2, 11" data-soc="Qualcomm MSM8974" data-cpucores="quad" data-cpufreq="2.2 GHz" data-ram="2GB" data-screendimension="162 mm (6.4 in)"><a href="/w/Togari_Info" title="Togari Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/a/a2/Togari.png/200px-Togari.png" alt="togari" /></span>
+<span class="name">Sony Xperia Z Ultra</span>
+<span class="codename">togari</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia Z Ultra (Google Play Edition) togari_gpe" data-type="phone" data-vendor="Sony" data-cmversions="11" data-soc="Qualcomm MSM8974" data-cpucores="quad" data-cpufreq="2.2 GHz" data-ram="2GB" data-screendimension="162 mm (6.4 in)"><a href="/w/Togari_gpe_Info" title="Togari gpe Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/a/a2/Togari.png/200px-Togari.png" alt="togari_gpe" /></span>
+<span class="name">Sony Xperia Z Ultra (Google Play Edition)</span>
+<span class="codename">togari_gpe</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia Z1 honami" data-type="phone" data-vendor="Sony" data-cmversions="10.2, 11" data-soc="Qualcomm MSM8974" data-cpucores="quad" data-cpufreq="2.2 GHz" data-ram="2GB" data-screendimension="127 mm (5.0 in)"><a href="/w/Honami_Info" title="Honami Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/4/40/Honami.png/200px-Honami.png" alt="honami" /></span>
+<span class="name">Sony Xperia Z1</span>
+<span class="codename">honami</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia Z1 Compact amami" data-type="phone" data-vendor="Sony" data-cmversions="11" data-soc="Qualcomm MSM8974" data-cpucores="quad" data-cpufreq="2.2 GHz" data-ram="2GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Amami_Info" title="Amami Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/9/9a/Amami.png/200px-Amami.png" alt="amami" /></span>
+<span class="name">Sony Xperia Z1 Compact</span>
+<span class="codename">amami</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia Z2 sirius" data-type="phone" data-vendor="Sony" data-cmversions="11" data-soc="Qualcomm Snapdragon MSM8974AB 801" data-cpucores="quad" data-cpufreq="2.3 GHz" data-ram="3GB" data-screendimension="130 mm (5.19 in)"><a href="/w/Sirius_Info" title="Sirius Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/1/18/Sirius.png/200px-Sirius.png" alt="sirius" /></span>
+<span class="name">Sony Xperia Z2</span>
+<span class="codename">sirius</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia Z2 Tablet (GSM/LTE) castor" data-type="tablet" data-vendor="Sony" data-cmversions="11" data-soc="Qualcomm Snapdragon 801 APQ8074AB" data-cpucores="quad" data-cpufreq="2.3 GHz" data-ram="3GB" data-screendimension="257 mm (10.1 in)"><a href="/w/Castor_Info" title="Castor Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/4/44/Castor.png/200px-Castor.png" alt="castor" /></span>
+<span class="name">Sony Xperia Z2 Tablet (GSM/LTE)</span>
+<span class="codename">castor</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia Z2 Tablet (WiFi) castor_windy" data-type="tablet" data-vendor="Sony" data-cmversions="11" data-soc="Qualcomm Snapdragon 801 APQ8074AB" data-cpucores="quad" data-cpufreq="2.3 GHz" data-ram="3GB" data-screendimension="257 mm (10.1 in)"><a href="/w/Castor_windy_Info" title="Castor windy Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/4/44/Castor.png/200px-Castor.png" alt="castor_windy" /></span>
+<span class="name">Sony Xperia Z2 Tablet (WiFi)</span>
+<span class="codename">castor_windy</span>
+</a></span>
+<span class="device" data-searchable="Sony Xperia M nicki" data-type="phone" data-vendor="Sony" data-cmversions="11" data-soc="Qualcomm Snapdragon S4 Plus MSM8227" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="1GB" data-screendimension="107 mm (4.0 in)"><a href="/w/Nicki_Info" title="Nicki Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/a/a5/Nicki.png/200px-Nicki.png" alt="nicki" /></span>
+<span class="name">Sony Xperia M</span>
+<span class="codename">nicki</span>
+</a></span>
+<span class="device" data-searchable="Viewsonic G Tablet smb_a1002" data-type="tablet" data-vendor="Viewsonic" data-cmversions="7" data-soc="NVIDIA Tegra 2" data-cpucores="dual" data-cpufreq="1 GHz" data-ram="512MB" data-screendimension="257 mm (10.1 in)"><a href="/w/Smb_a1002_Info" title="Smb a1002 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/8/87/A1002.png/200px-A1002.png" alt="smb_a1002" /></span>
+<span class="name">Viewsonic G Tablet</span>
+<span class="codename">smb_a1002</span>
+</a></span>
+<span class="device" data-searchable="Xiaomi Mi2(s) aries" data-type="phone" data-vendor="Xiaomi" data-cmversions="11" data-soc="Qualcomm APQ8064 / Qualcomm APQ8064T (&#39;&#39;&#39;s&#39;&#39;&#39;)" data-cpucores="quad" data-cpufreq="1.5 GHz / 1.7 GHz (&#39;&#39;&#39;s&#39;&#39;&#39;)" data-ram="2GB" data-screendimension="109 mm (4.3 in)"><a href="/w/Aries_Info" title="Aries Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/0/06/Aries.png/200px-Aries.png" alt="aries" /></span>
+<span class="name">Xiaomi Mi2(s)</span>
+<span class="codename">aries</span>
+</a></span>
+<span class="device" data-searchable="ZTE Blade blade" data-type="phone" data-vendor="ZTE" data-cmversions="7" data-soc="Qualcomm MSM7227" data-cpucores="single" data-cpufreq="600 MHz" data-ram="512MB or 256MB" data-screendimension="89 mm (3.5 in)"><a href="/w/Blade_Info" title="Blade Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/a/ad/Blade.png/200px-Blade.png" alt="blade" /></span>
+<span class="name">ZTE Blade</span>
+<span class="codename">blade</span>
+</a></span>
+<span class="device" data-searchable="ZTE Skate skate" data-type="phone" data-vendor="ZTE" data-cmversions="7" data-soc="Qualcomm MSM7227" data-cpucores="single" data-cpufreq="800 MHz" data-ram="512MB" data-screendimension="109 mm (4.3 in)"><a href="/w/Skate_Info" title="Skate Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/c/c9/Skate2.png/200px-Skate2.png" alt="skate" /></span>
+<span class="name">ZTE Skate</span>
+<span class="codename">skate</span>
+</a></span>
+<span class="device" data-searchable="ZTE v9 v9" data-type="tablet" data-vendor="ZTE" data-cmversions="7" data-soc="Qualcomm MSM7227" data-cpucores="single" data-cpufreq="600 MHz" data-ram="512MB" data-screendimension="178 mm (7.0 in)"><a href="/w/V9_Info" title="V9 Info">
+<span class="image"><img src="http&#58;//wiki.cyanogenmod.org/images/thumb/c/c5/V9.png/200px-V9.png" alt="v9" /></span>
+<span class="name">ZTE v9</span>
+<span class="codename">v9</span>
+</a></span></p>
+<div id="cmDeviceFilterEmptyNote">No devices have been selected.  Change the filters above to see the results here! Remember to select the appropriate vendor. If you are uncertain about the name of the vendor, select <b>show all devices</b>.</div>
+<h2><span class="mw-headline" id="Device_status_overview">Device status overview</span></h2>
+<p>The <a href="/w/Device_Status" title="Device Status">device status</a> page is updated each time an M build is released. CM maintainers test their device(s) on the <i>stable/cm-11.0</i> branch a week before release and make a judgement call about whether an M release is suitable. In the event that a device is not scheduled for M, this page lists the reason. Missing one M cycle does not mean the device has been abandoned; it will be retested for the next M cycle.
+</p>
+<h2><span class="mw-headline" id="Unofficial_ports_.26_projects">Unofficial ports &amp; projects</span></h2>
+<p>Don't see your device in the list above?
+</p><p>CyanogenMod is an open source project and many are encouraged to port to various devices. Many of these for one reason or another are not yet "officially recognized" (and do not have official builds), but it may be good to know they exist.
+</p><p><a href="/w/Unofficial_Ports" title="Unofficial Ports">The list of unofficially-ported devices</a>
+</p>
+<h2><span class="mw-headline" id="Add_a_new_official_device_to_the_wiki">Add a new official device to the wiki</span></h2>
+<div class="mw-collapsible mw-collapsed">
+<p>Select <b>[Expand]</b> to the right for instructions.
+</p>
+<div class="mw-collapsible-content">
+<div style="background:#27AAE1; color:#fff; padding: 4px; text-align:center;"><b>Add a device to the wiki</b></div>
+<div class="warningBox" style="position:relative; padding:5px 5px 5px 73px; margin:0.4em 0 0.5em; background:#faa; min-height:57px;">
+<div class="bar"></div>
+<p style="font-size:110%; color:#333;"><b>WARNING: No unofficial devices</b></p>
+<p>Please, do not create new pages for devices which are not officially supported by CyanogenMod. Instead, add the device to the <a href="/w/Unofficial_Ports" title="Unofficial Ports">Unofficial Ports</a> page.
+</p>
+</div>
+<div class="infoBox" style="position:relative; padding:5px 5px 5px 73px; margin:0.4em 0 0.5em; background:#ddd; min-height:57px;">
+<div class="bar"></div>
+<p style="font-size:110%;"><b>Note: </b></p>
+<p>When following these steps, replace <span style="color:blue;">codename</span> with the codename of the device, <b>matching the upper/lower-case of the blue text exactly.</b>
+</p>
+</div>
+<p><br />
+<b>1. Upload an image for the device</b>
+</p>
+<dl>
+<dd>If you are creating pages for a new variant of an existing device, search the <a href="/w/Special:ListFiles" title="Special:ListFiles">File list</a> for the filename of your device's image. Then, you can move on to the next step. If you are creating pages for a device that is not on the wiki, then use the <a href="/w/Special:Upload" title="Special:Upload">Upload file</a> page to upload an image of your device. For the "Destination filename", use:
+<dl>
+<dd><code><span style="color:blue;">Codename</span>.png</code>
+</dd>
+</dl>
+</dd>
+<dd><span style="text-decoration:underline;">Be sure the background of your image is transparent (use the png image type)</span>. See <a rel="nofollow" target="_blank" class="external text" href="http://wiki.cyanogenmod.org/w/File:M4.png">M4.png</a> for an example.
+</dd>
+</dl>
+<p><b>2. Set up the device template</b>
+</p>
+<dl>
+<dd>The device template is the "universal settings" template, one per device. Copy the <a rel="nofollow" target="_blank" class="external text" href="http://wiki.cyanogenmod.org/index.php?title=Template:Device_codename&amp;action=edit">generic device template</a>, then paste it into a <b>new page</b> with following template name:
+<dl>
+<dd><code>Template:Device_codename</code>
+</dd>
+</dl>
+</dd>
+<dd>You can copy this URL, replacing the codename, to initiate the page creation:
+<dl>
+<dd><code>http://wiki.cyanogenmod.org/index.php?title=Template:Device_<span style="color:blue;">codename</span>&amp;action=edit</code>
+</dd>
+</dl>
+</dd>
+<dd>Fill in as many fields as you are able. Input the image filename of the device as <code><span style="color:blue;">Codename</span>.png</code>. Then, save the new template. Example: <a href="/w/Template:Device_grouper" title="Template:Device grouper">Template:Device_grouper</a> for the Nexus 7 (2012) tablet.
+</dd>
+</dl>
+<p><b>3. Create the device <i>Info</i> page</b>
+</p>
+<dl>
+<dd>Now we can begin to create the actual pages users will view. The gateway to all device subpages is the <i>Info</i> page:
+<dl>
+<dd><code>Codename_Info</code>
+</dd>
+</dl>
+</dd>
+<dd>You can copy this URL, replacing the Codename, to initiate the page creation:
+<dl>
+<dd><code>http://wiki.cyanogenmod.org/index.php?title=<span style="color:blue;">Codename</span>_Info&amp;action=edit</code>
+</dd>
+</dl>
+</dd>
+<dd>In this page, simply insert the following single line of content:
+<dl>
+<dd><code>{{device_<span style="color:blue;">codename</span>|function=device_info}}</code>
+</dd>
+</dl>
+</dd>
+</dl>
+<p><b>4. Create the device <i>How To Install</i> page</b>
+</p>
+<dl>
+<dd>From the device Info page created in the previous step, click on the auto-generated link <i>How to install CyanogenMod on the (device name)</i>.  It should take you to the following empty page:
+<dl>
+<dd><code>Install_CM_for_codename</code>
+</dd>
+</dl>
+</dd>
+<dd>In this page, simply insert the following single line of content:
+<dl>
+<dd><code>{{device_<span style="color:blue;">codename</span>|function=device_install}}</code>
+</dd>
+</dl>
+</dd>
+<dd>Save the page. You now should see an auto-generated installation walkthrough page for the device.
+</dd>
+</dl>
+<p><b>5. Create the device <i>Known Issues</i> page</b>
+</p>
+<dl>
+<dd>From the device Info page created in step 3, click on the auto-generated link <i>Known Issues page for the (device name)</i>.  It should take you to the following empty page:
+<dl>
+<dd><code>Known_Issues_page_for_codename</code>
+</dd>
+</dl>
+</dd>
+<dd>In this page, insert the following content:
+<dl>
+<dd><code>{{device_<span style="color:blue;">codename</span>|function=device_notes}}<br />==CyanogenMod 11==<br />*</code>
+</dd>
+</dl>
+</dd>
+<dd>Save the page. You now should see a mostly empty page with a header informing users how to post known issues.
+</dd>
+</dl>
+<p><b>6. Create the device <i>Build Walkthrough</i> page</b>
+</p>
+<dl>
+<dd>From the device Info page created in step 3, click on the auto-generated link <i>How to Build CyanogenMod for the (device name)</i>.  It should take you to the following empty page:
+<dl>
+<dd><code>Build_for_codename</code>
+</dd>
+</dl>
+</dd>
+<dd>In this page, simple insert the following single line of content:
+<dl>
+<dd><code>{{device_<span style="color:blue;">codename</span>|function=device_build}}</code>
+</dd>
+</dl>
+</dd>
+</dl>
+<p><b>7. Add it to the list</b>
+</p>
+<dl>
+<dd>Now that all of the device pages been created, we can add it to the master list. View the source of <a rel="nofollow" target="_blank" class="external text" href="http://wiki.cyanogenmod.org/index.php?title=Template:Devices_ALL&amp;action=edit">this template</a> and find the appropriate place for your device to appear in the list. The list is organized alphabetically by the device <b>name</b>, not the codename. Here's what to add to the list:
+<dl>
+<dd><code>{{device_<span style="color:blue;">codename</span>|function={{{function}}}}}</code>
+</dd>
+</dl>
+</dd>
+<dd>Finally, verify your device was added to the <strong class="selflink">Devices</strong> page successfully (i.e. reload this page, with the instructions). <b>That's it!</b>
+</dd>
+</dl>
+</div></div>
+
+<!-- 
+NewPP limit report
+CPU time usage: 4.196 second
+Real time usage: 5.497 second
+Preprocessor visited node count: 27767/1000000
+Preprocessor generated node count: 125195/1000000
+Post‐expand include size: 424393/2097152 byte
+Template argument size: 47772/2097152 byte
+Highest expansion depth: 6/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key mediawiki-cmw_:pcache:idhash:3-0!*!0!!de!2!* and timestamp 20141227220508
+ -->
+</div>								<div class="printfooter">
+				Von „<a href="http://wiki.cyanogenmod.org/index.php?title=Devices&amp;oldid=26984">http://wiki.cyanogenmod.org/index.php?title=Devices&amp;oldid=26984</a>“				</div>
+												<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigationsmenü</h2>
+			<div id="mw-head">
+				<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+	<h3 id="p-personal-label">Meine Werkzeuge</h3>
+	<ul lang="de" dir="ltr">
+<li id="pt-uls" class="active"><a href="#" class="uls-trigger">Deutsch</a></li><li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Devices&amp;type=signup">Benutzerkonto anlegen</a></li><li id="pt-openidlogin"><a href="/index.php?title=Special:OpenIDLogin&amp;returnto=Devices">Anmelden / Benutzerkonto erstellen mit OpenID</a></li>	</ul>
+</div>
+				<div id="left-navigation">
+					<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+	<h3 id="p-namespaces-label">Namensräume</h3>
+	<ul lang="de" dir="ltr">
+					<li  id="ca-nstab-main" class="selected"><span><a href="/w/Devices"  title="Seiteninhalt anzeigen [c]" accesskey="c">Seite</a></span></li>
+					<li  id="ca-talk"><span><a href="/w/Talk:Devices"  title="Diskussion zum Seiteninhalt [t]" accesskey="t">Diskussion</a></span></li>
+			</ul>
+</div>
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3 id="p-variants-label"><span>Varianten</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+				</div>
+				<div id="right-navigation">
+					<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+	<h3 id="p-views-label">Ansichten</h3>
+	<ul lang="de" dir="ltr">
+					<li id="ca-view" class="selected"><span><a href="/w/Devices" >Lesen</a></span></li>
+					<li id="ca-viewsource"><span><a href="/index.php?title=Devices&amp;action=edit"  title="Diese Seite ist geschützt. Ihr Quelltext kann dennoch angesehen und kopiert werden. [e]" accesskey="e">Quelltext anzeigen</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Devices&amp;action=history"  title="Frühere Versionen dieser Seite [h]" accesskey="h">Versionsgeschichte</a></span></li>
+			</ul>
+</div>
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+	<h3 id="p-cactions-label"><span>Aktionen</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul lang="de" dir="ltr">
+					</ul>
+	</div>
+</div>
+<div id="p-search" role="search">
+	<h3 lang="de" dir="ltr"><label for="searchInput">Suche</label></h3>
+	<form action="/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" placeholder="Suchen" title="CyanogenMod durchsuchen [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Suche nach Seiten, die diesen Text enthalten" id="searchButton"><img src="/skins/vector/images/search-ltr.png?303" alt="Suchen" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+				</div>
+			</div>
+			<div id="mw-panel">
+					<div id="p-logo" role="banner"><a style="background-image: url(/images/6/6e/Cid_head.png);" href="/w/Main_Page"  title="Hauptseite"></a></div>
+				<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+	<h3 lang="de" dir="ltr" id='p-navigation-label'>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/w/Main_Page" title="Hauptseite besuchen [z]" accesskey="z">Hauptseite</a></li>
+			<li id="n-Devices"><a href="/w/Devices">Devices</a></li>
+			<li id="n-About-CM"><a href="/w/About">About CM</a></li>
+			<li id="n-Report-a-Wiki-Problem"><a href="/w/Wiki_Problems">Report a Wiki Problem</a></li>
+			<li id="n-Recent-Changes"><a href="/w/Special:RecentChanges">Recent Changes</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-Get_CyanogenMod' aria-labelledby='p-Get_CyanogenMod-label'>
+	<h3 lang="de" dir="ltr" id='p-Get_CyanogenMod-label'>Get CyanogenMod</h3>
+	<div class="body">
+		<ul>
+			<li id="n-Official-Downloads"><a href="http://download.cyanogenmod.org" rel="nofollow" target="_blank">Official Downloads</a></li>
+			<li id="n-Unofficial-Ports"><a href="/w/Unofficial_Ports">Unofficial Ports</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-General_Support' aria-labelledby='p-General_Support-label'>
+	<h3 lang="de" dir="ltr" id='p-General_Support-label'>General Support</h3>
+	<div class="body">
+		<ul>
+			<li id="n-Start-Here"><a href="/w/Support">Start Here</a></li>
+			<li id="n-Chat"><a href="/w/CM_IRC_channels">Chat</a></li>
+			<li id="n-Forums"><a href="http://forum.cyanogenmod.org" rel="nofollow" target="_blank">Forums</a></li>
+			<li id="n-Google.2B-Community"><a href="https://plus.google.com/communities/107373456059326217974" rel="nofollow" target="_blank">Google+ Community</a></li>
+			<li id="n-Issue-Tracker"><a href="/w/Jira">Issue Tracker</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-Community' aria-labelledby='p-Community-label'>
+	<h3 lang="de" dir="ltr" id='p-Community-label'>Community</h3>
+	<div class="body">
+		<ul>
+			<li id="n-Start-Here"><a href="/w/Community">Start Here</a></li>
+			<li id="n-Blog"><a href="http://www.cyanogenmod.org/blog" rel="nofollow" target="_blank">Blog</a></li>
+			<li id="n-Contributors"><a href="/w/Devs">Contributors</a></li>
+			<li id="n-Facebook"><a href="https://www.facebook.com/CyanogenMod" rel="nofollow" target="_blank">Facebook</a></li>
+			<li id="n-Twitter"><a href="https://twitter.com/CyanogenMod" rel="nofollow" target="_blank">Twitter</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-Developer_Resources' aria-labelledby='p-Developer_Resources-label'>
+	<h3 lang="de" dir="ltr" id='p-Developer_Resources-label'>Developer Resources</h3>
+	<div class="body">
+		<ul>
+			<li id="n-Start-Here"><a href="/w/Development">Start Here</a></li>
+			<li id="n-Gerrit-Code-Review"><a href="http://review.cyanogenmod.org" rel="nofollow" target="_blank">Gerrit Code Review</a></li>
+			<li id="n-Source-Code"><a href="https://github.com/cyanogenmod" rel="nofollow" target="_blank">Source Code</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+	<h3 lang="de" dir="ltr" id='p-tb-label'>Werkzeuge</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/w/Special:WhatLinksHere/Devices" title="Liste aller Seiten, die hierher verlinken [j]" accesskey="j">Links auf diese Seite</a></li>
+			<li id="t-recentchangeslinked"><a href="/w/Special:RecentChangesLinked/Devices" title="Letzte Änderungen an Seiten, die von hier verlinkt sind [k]" accesskey="k">Änderungen an verlinkten Seiten</a></li>
+			<li id="t-specialpages"><a href="/w/Special:SpecialPages" title="Liste aller Spezialseiten [q]" accesskey="q">Spezialseiten</a></li>
+			<li id="t-print"><a href="/index.php?title=Devices&amp;printable=yes" rel="alternate" title="Druckansicht dieser Seite [p]" accesskey="p">Druckversion</a></li>
+			<li id="t-permalink"><a href="/index.php?title=Devices&amp;oldid=26984" title="Dauerhafter Link zu dieser Seitenversion">Permanenter Link</a></li>
+			<li id="t-info"><a href="/index.php?title=Devices&amp;action=info">Seiteninformationen</a></li>
+		</ul>
+	</div>
+</div>
+			</div>
+		</div>
+		<div id="footer" role="contentinfo" lang="de" dir="ltr">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> Diese Seite wurde zuletzt am 18. September 2014 um 17:09 Uhr geändert.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/w/CyanogenMod:Privacy_policy" title="CyanogenMod:Privacy policy">Datenschutz</a></li>
+											<li id="footer-places-about"><a href="/w/CyanogenMod:About" title="CyanogenMod:About">Über CyanogenMod</a></li>
+											<li id="footer-places-disclaimer"><a href="/w/CyanogenMod:General_disclaimer" title="CyanogenMod:General disclaimer">Impressum</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.vector.collapsibleTabs","ext.uls.geoclient","skins.vector.collapsibleNav"],null,true);
+}</script>
+<script src="http://wiki.cyanogenmod.org/load.php?debug=false&amp;lang=de&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-39737599-6");
+pageTracker._trackPageview();
+</script><!-- Served in 0.183 secs. -->
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-3.newrelic.com","licenseKey":"39fbc8f600","applicationID":"1651102","transactionName":"M1FRYkZVW0JZWkZdCgobZkRdG1xfXFxKGhUMRA==","queueTime":0,"applicationTime":210,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-476.min.js"}</script></body>
+</html>

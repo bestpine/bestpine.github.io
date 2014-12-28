@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Blank Google Friend Connect Bar?</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/blank-google-friend-connect-bar/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/blank-google-friend-connect-bar</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: Gee-Jay</title>
+		<link>http://www.cyanogenmod.org/blog/blank-google-friend-connect-bar/comment-page-1#comment-183</link>
+		<dc:creator>Gee-Jay</dc:creator>
+		<pubDate>Thu, 03 Sep 2009 18:36:47 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=251#comment-183</guid>
+		<description><![CDATA[...but if I use the i.e. Tab Extention for Firefox, I can see it (&quot;Sign in with Google Friend Connect&quot;) just below this field.]]></description>
+		<content:encoded><![CDATA[<p>&#8230;but if I use the i.e. Tab Extention for Firefox, I can see it (&#8220;Sign in with Google Friend Connect&#8221;) just below this field.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Gee-Jay</title>
+		<link>http://www.cyanogenmod.org/blog/blank-google-friend-connect-bar/comment-page-1#comment-182</link>
+		<dc:creator>Gee-Jay</dc:creator>
+		<pubDate>Thu, 03 Sep 2009 18:33:54 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=251#comment-182</guid>
+		<description><![CDATA[I don&#039;t see it with Firefox 3.5.2]]></description>
+		<content:encoded><![CDATA[<p>I don&#8217;t see it with Firefox 3.5.2</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: charrion</title>
+		<link>http://www.cyanogenmod.org/blog/blank-google-friend-connect-bar/comment-page-1#comment-161</link>
+		<dc:creator>charrion</dc:creator>
+		<pubDate>Tue, 01 Sep 2009 03:21:31 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=251#comment-161</guid>
+		<description><![CDATA[I wondered about that.  Thanks for the heads up.]]></description>
+		<content:encoded><![CDATA[<p>I wondered about that.  Thanks for the heads up.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Paul Olszewski</title>
+		<link>http://www.cyanogenmod.org/blog/blank-google-friend-connect-bar/comment-page-1#comment-160</link>
+		<dc:creator>Paul Olszewski</dc:creator>
+		<pubDate>Tue, 01 Sep 2009 01:51:14 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=251#comment-160</guid>
+		<description><![CDATA[Latest Mac versions of Safari, Chrome, Chromium and Stainless do it correctly. Must be the WebKit.]]></description>
+		<content:encoded><![CDATA[<p>Latest Mac versions of Safari, Chrome, Chromium and Stainless do it correctly. Must be the WebKit.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/11 queries in 0.026 seconds using apc
+Object Caching 243/245 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:16:05 by W3 Total Cache -->

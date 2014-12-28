@@ -1,0 +1,1021 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+
+	<title>Great responses for Web Design! | CyanogenMod</title>
+	
+	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<!-- Included Foundation CSS Files -->
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/foundation.css">
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/app.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/tipTip.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/fonts/style.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/flexslider.css" type="text/css" media="screen" />
+	
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/style.css">
+	
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/ie.css">
+	<![endif]-->
+	
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Favicon and Feed -->
+	<link rel="shortcut icon" type="image/png" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="CyanogenMod Feed" href="http://www.cyanogenmod.org/feed/">
+	
+	<!--  iPhone Web App Home Screen Icon -->
+	<link rel="apple-touch-icon" sizes="72x72" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon-retina.png" />
+	<link rel="apple-touch-icon" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon.png" />
+	
+	<!-- Enable Startup Image for iOS Home Screen Web App -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/mobile-load.png" />
+
+	<!-- Startup Image iPad Landscape (748x1024) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load-ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" />
+	<!-- Startup Image iPad Portrait (768x1004) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load-ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" />
+	<!-- Startup Image iPhone (320x460) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load.png" media="screen and (max-device-width: 320px)" />
+	
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.jparallax.min.js" ></script>
+  <script defer type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.featureList-1.0.0.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.tipTip.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/easySlider1.7.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/modernizr.foundation.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.flexslider-min.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/custom.js"></script>
+  
+  <script type="text/javascript">
+    $(document).load(function(){
+
+	  // The slider being synced must be initialized first
+	  $('.flexslider').flexslider({
+		animation: "slide",
+		controlNav: false,
+	  });
+	  
+    });
+  </script>
+  
+  	<link rel="alternate" type="application/rss+xml" title="CyanogenMod &raquo; Great responses for Web Design! Comments Feed" href="http://www.cyanogenmod.org/blog/great-responses-for-web-design/feed" />
+<script type='text/javascript' src='http://www.cyanogenmod.org/wp-includes/js/comment-reply.min.js?ver=3.5.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.cyanogenmod.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.cyanogenmod.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Meet the new boss?' href='http://www.cyanogenmod.org/blog/meet-the-new-boss' />
+<link rel='next' title='Voting ends on 21st January 2011!' href='http://www.cyanogenmod.org/blog/voting-ends-on-21st-january-2011' />
+<meta name="generator" content="WordPress 3.5.2" />
+<link rel='shortlink' href='http://www.cyanogenmod.org/?p=766' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<!-- All in One SEO Pack 2.0.2 by Michael Torbert of Semper Fi Web Design[493,533] -->
+<meta name="description" content="So, the volunteers and willing designers for this project (previously requested) has had a great response! I’ve managed to contact most of you back and" />
+
+<link rel="canonical" href="http://www.cyanogenmod.org/blog/great-responses-for-web-design" />
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-39737599-3']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+<!-- /all in one seo pack -->
+</head>
+
+<body class="single single-post postid-766 single-format-standard">
+
+	<div class="menusto hide-on-phones"></div>
+	<!-- Start the main container -->
+	<div id="container" class="container" role="document" style="padding:80px 0 0 0;">
+		
+        
+        <div class="row mobile-header show-on-phones">
+            <div class="nine">
+            	<a href="http://www.cyanogenmod.org" title="CyanogenMod" class="logo-mobile"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/logo-mobile.png" alt=""/></a>
+            </div>
+            <a href="#navigation" class="mobile-menu"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/btn-menu-mobile.png" alt=""/></a>
+        </div>
+        
+		<!-- Row for blog navigation -->
+		<div class="row hide-on-phones">
+			<header class="twelve columns" role="banner">
+				<div class="reverie-header">
+                	<a href="http://www.cyanogenmod.org" title="CyanogenMod" class="logo"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/logo.png" alt=""/></a>
+                    <div id="glavno" class="nav hide-on-phones">
+                        <ul id="glavno">                   
+                            <li><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+                            <!--<li><a href="http://cyanogenmod.org/about/features">Features</a></li>-->
+                            <li><a href="http://download.cyanogenmod.org/">Download</a></li>
+                            <li><a href="http://www.cyanogenmod.org/blog/">Blog</a></li>
+                            <li><a href="http://forum.cyanogenmod.org/">Forum</a></li>
+                            <li>
+                            	<a href="http://www.cyanogenmod.org/community">Community</a>
+                                <div style="opacity: 0; display: none; width:100%" class="sub">
+                                    <ul>
+                                    	<div style="width:980px; margin:0 auto; color:#fff;">
+                                        	<div class="contributesub">
+                                            	<h2>Contribute</h2>
+                                                
+                                                <h4><a href="http://review.cyanogenmod.org/">Gerrit Review</a></h4>
+                                                <p>Gerrit is a web based code review system, facilitating online code reviews for projects using the Git version control system.</p>
+                                                    
+                                                <h4><a href="http://wiki.cyanogenmod.org/">Wiki</a></h4>
+                                                <p>Our Wiki is a comprehensive tool for users to find information. This also needs contributions to keep it fresh and relevant.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/community">Join The Team</a></h4>
+                                                <p>We love working with others. You can submit code via Gerrit. If you think there is something else you can help with, get in touch with us on the forums.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub">
+                                            	<h2>Help</h2>
+                                                
+                                                <h4><a href="http://forum.cyanogenmod.org/">Forum</a></h4>
+                                                <p>Our forums have a wealth of knowledge and resources. All of it is free and accessible from both your desktop and mobile phone.</p>
+                                                    
+                                                <h4><a href="irc://irc.freenode.net/cyanogenmod">IRC</a></h4>
+                                                <p>If you are comfortable with IRC and would like instant help and assistance from both developers and others users alike.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/blog">Blog</a></h4>
+                                                <p>Our blogs will contain the latest news and releases as well as other related news concerning the distribution.</p>
+                                                    
+                                                <h4><a href="http://wiki.cyanogenmod.org/">Wiki</a></h4>
+                                                <p>Our Wiki is a comprehensive tool for users to find information. This also needs contributions to keep it fresh and relevant.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub">
+                                            	<h2>Information</h2>
+                                                
+                                                <h4><a href="http://www.cyanogenmod.org/changelog">Change Log</a></h4>
+                                                <p>Our development of the ROM is always changing. We add new features and fix bugs all the time. Check the latest change log here.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/bugs">Bug Tracker</a></h4>
+                                                <p>This is the official Bug Tracker where you can submit and review bugs that users may experience.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/github">Github Repo</a></h4>
+                                                <p>Our source is free and open. you can check the Github page to see what we do and how you can contribute.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/stats">Installation Statistics</a></h4>
+                                                <p>We have an opt-in feature in our ROMS to enable us to gain statistics on users as well as devices used.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub last">
+                                            	<h2>Support</h2>
+                                                
+                                                <h4><a href="/cdn-cgi/l/email-protection#fd99988b8f9891bd9e849c93929a9893909299d3928f9a">Developer Relations</a></h4>
+                                                <p>If you wish to contact us regarding development contributions, please do so here.</p>
+                                                    
+                                                <h4><a href="/cdn-cgi/l/email-protection#e180858c888fa18298808f8e86848f8c8e85cf8e9386">Website Support</a></h4>
+                                                <p>This email is dedicated to website, forum, wiki and hosting support. We will not respond to ROM support.</p>
+                                                    
+                                                <h4><a href="/cdn-cgi/l/email-protection#9efffaf3f7f0defde7fff0f1f9fbf0f3f1fab0f1ecf9">Social Network</a></h4>
+                                                <p>To contact us in relation to our Social media structure.</p>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                    
+                                </div>
+                            </li>
+                            <li><a href="https://account.cyanogenmod.org">Account</a></li>
+                      </ul>
+                    </div>
+				</div>
+
+			</header>
+		</div>
+
+		
+		<!-- Row for main content area -->
+		<div id="main" class="row">
+		<!-- Row for main content area -->
+		<div id="content" class="eight columns" role="main">
+	
+			<div class="post-box">
+					<article class="post-766 post type-post status-publish format-standard hentry category-blog" id="post-766">
+		<header>
+        	<time class="updated" datetime="2011-01-02T19:49:55+00:00" pubdate>January 2nd, 2011 &bull; Written by <a href="http://www.cyanogenmod.org/author/ahmet" rel="author" class="fn">MrADeveci</a></time>        	<h2 class="entry-title">Great responses for Web Design!</h2>
+					</header>
+		<div class="entry-content">
+			<p>So, the volunteers and willing designers for this project (<a href="http://www.cyanogenmod.org/home/calling-web-designers-wordpress-developers">previously requested</a>) has had a great response!</p>
+<p>I’ve managed to contact most of you back and asked for a sample / mock-up of your creative idea. The ones I have received so far are posted below for all to see and judge.</p>
+<p>If you are wanting to be part of the future 2011 design for CyanogenMod then please send your mock-up example to : [ cmcyanogenmod AT gmail.com] and I will add them to this list so that the you can decide what should be the new face for CyanogenMod.org</p>
+<p>Your feedback is appreciated!</p>
+<p><strong>Design 1</strong>: [ <a href=" http://www.mark-lacroix.com/clientfiles/CyanogenMod/MarkLaCroix_mockup_122210.jpg">Click Here</a> ]</p>
+<p><strong>Design 2</strong>: [ <a href="http://neosites.org/cyanogen/1/index.html">Click Here</a> ]</p>
+<p>.</p>
+<p>.</p>
+<p><strong>** 05/01/2010 Full list of designs, discussion and poll can be found here : <a href="http://bit.ly/e6kkuj">http://bit.ly/e6kkuj</a></strong></p>
+		</div>
+
+<div id="disqus_thread">
+                    <div id="dsq-content">
+
+            <div class="navigation">
+                <div class="nav-previous"></div>
+                <div class="nav-next"><a href="http://www.cyanogenmod.org/blog/great-responses-for-web-design#comments" >Newer Comments <span class="meta-nav">&rarr;</span></a></div>
+            </div> <!-- .navigation -->
+
+            <ul id="dsq-comments">
+                    <li class="comment byuser comment-author-jaredu even thread-even depth-1" id="dsq-comment-33674">
+        <div id="dsq-comment-header-33674" class="dsq-comment-header">
+            <cite id="dsq-cite-33674">
+                <span id="dsq-author-user-33674">Jaredu</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33674" class="dsq-comment-body">
+            <div id="dsq-comment-message-33674" class="dsq-comment-message"><p>Currently liking the first one a bit better, I&#8217;m kind of a fan of a foggy page ;D (gradient)</p>
+<p>Both look great though, can&#8217;t wait to see more! <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' /> </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-szainmehdi odd alt thread-odd thread-alt depth-1" id="dsq-comment-33675">
+        <div id="dsq-comment-header-33675" class="dsq-comment-header">
+            <cite id="dsq-cite-33675">
+                <span id="dsq-author-user-33675">szainmehdi</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33675" class="dsq-comment-body">
+            <div id="dsq-comment-message-33675" class="dsq-comment-message"><p>Yes +1 for Design 1.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-cimer even thread-even depth-1" id="dsq-comment-33676">
+        <div id="dsq-comment-header-33676" class="dsq-comment-header">
+            <cite id="dsq-cite-33676">
+                <span id="dsq-author-user-33676">Cimer</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33676" class="dsq-comment-body">
+            <div id="dsq-comment-message-33676" class="dsq-comment-message"><p>I like the graphics of design 1, and this would make it more appealing, but I like where everything is in this current design and design 2, but I could get used to design 1&#8242;s layout.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-nfollin odd alt thread-odd thread-alt depth-1" id="dsq-comment-33677">
+        <div id="dsq-comment-header-33677" class="dsq-comment-header">
+            <cite id="dsq-cite-33677">
+                <span id="dsq-author-user-33677">nfollin</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33677" class="dsq-comment-body">
+            <div id="dsq-comment-message-33677" class="dsq-comment-message"><p>Design one, I like the current design just as much as 2&#8230;</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-ajiaojr even thread-even depth-1" id="dsq-comment-33678">
+        <div id="dsq-comment-header-33678" class="dsq-comment-header">
+            <cite id="dsq-cite-33678">
+                <span id="dsq-author-user-33678">ajiaojr</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33678" class="dsq-comment-body">
+            <div id="dsq-comment-message-33678" class="dsq-comment-message"><p>my 2 cents:<br />
+Design 1 is too heavy on graphics and imo a cleaner, simpler design might be more suitable, i.e., design 2.</p>
+<p>To be perfectly honest, the current design of the site is quite adequate.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-gmwiz123 odd alt thread-odd thread-alt depth-1" id="dsq-comment-33679">
+        <div id="dsq-comment-header-33679" class="dsq-comment-header">
+            <cite id="dsq-cite-33679">
+                <span id="dsq-author-user-33679">gmwiz123</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33679" class="dsq-comment-body">
+            <div id="dsq-comment-message-33679" class="dsq-comment-message"><p>Design 1 is smoother, a mix of the color scheme from 1 and the simplicity from 2 would be great.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-krzysiek1993r even thread-even depth-1" id="dsq-comment-33680">
+        <div id="dsq-comment-header-33680" class="dsq-comment-header">
+            <cite id="dsq-cite-33680">
+                <span id="dsq-author-user-33680">krzysiek1993r</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33680" class="dsq-comment-body">
+            <div id="dsq-comment-message-33680" class="dsq-comment-message"><p>The design 1 is awesome for me&#8230;</p>
+<p>BTW I propose to try some comments system like DISQUIS, because it is a lot easier to log in with login from etc. Facebook or Tweeter than creat new account in Cyanogen&#8217;s site <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' /> </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-borisattva odd alt thread-odd thread-alt depth-1" id="dsq-comment-33681">
+        <div id="dsq-comment-header-33681" class="dsq-comment-header">
+            <cite id="dsq-cite-33681">
+                <span id="dsq-author-user-33681">borisattva</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33681" class="dsq-comment-body">
+            <div id="dsq-comment-message-33681" class="dsq-comment-message"><p>both are very nice.<br />
+visually i prefer 1st style.<br />
+but 2nd is better for readability &#8211; more practical yet still stylish enough.<br />
++1 for 2nd</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-embmicro even thread-even depth-1" id="dsq-comment-33682">
+        <div id="dsq-comment-header-33682" class="dsq-comment-header">
+            <cite id="dsq-cite-33682">
+                <span id="dsq-author-user-33682">embmicro</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33682" class="dsq-comment-body">
+            <div id="dsq-comment-message-33682" class="dsq-comment-message"><p>+1 for #2<br />
+However, I think that the logo is too big when you haven&#8217;t scrolled and I would prefer it be like the scrolled version and have the navi scroll with the page.</p>
+<p>#1 isn&#8217;t bad just too much cyan for me.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-gigem odd alt thread-odd thread-alt depth-1" id="dsq-comment-33683">
+        <div id="dsq-comment-header-33683" class="dsq-comment-header">
+            <cite id="dsq-cite-33683">
+                <span id="dsq-author-user-33683">gigem</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33683" class="dsq-comment-body">
+            <div id="dsq-comment-message-33683" class="dsq-comment-message"><p>I like #1&#8230; would like a little less cyan tho.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-khag7 even thread-even depth-1" id="dsq-comment-33684">
+        <div id="dsq-comment-header-33684" class="dsq-comment-header">
+            <cite id="dsq-cite-33684">
+                <span id="dsq-author-user-33684">@khag7</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33684" class="dsq-comment-body">
+            <div id="dsq-comment-message-33684" class="dsq-comment-message"><p>I like design number 2 a lot.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-joevega odd alt thread-odd thread-alt depth-1" id="dsq-comment-33685">
+        <div id="dsq-comment-header-33685" class="dsq-comment-header">
+            <cite id="dsq-cite-33685">
+                <span id="dsq-author-user-33685">joevega</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33685" class="dsq-comment-body">
+            <div id="dsq-comment-message-33685" class="dsq-comment-message"><p>Both designs are nice. Design #1 stands out. However, it needs less Cyan. The logo would pop more if the gradient background in the header were grey, similar to how the current header is.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-oyokoon even thread-even depth-1" id="dsq-comment-33686">
+        <div id="dsq-comment-header-33686" class="dsq-comment-header">
+            <cite id="dsq-cite-33686">
+http://syrinxoon.net                <span id="dsq-author-user-33686">OyoKooN</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33686" class="dsq-comment-body">
+            <div id="dsq-comment-message-33686" class="dsq-comment-message"><p>The second is pretty cool!<br />
+I vote for it!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-zekers odd alt thread-odd thread-alt depth-1" id="dsq-comment-33687">
+        <div id="dsq-comment-header-33687" class="dsq-comment-header">
+            <cite id="dsq-cite-33687">
+                <span id="dsq-author-user-33687">zekers</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33687" class="dsq-comment-body">
+            <div id="dsq-comment-message-33687" class="dsq-comment-message"><p>Design one is nice, but seems too busy. I like the clean look of Design two.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-cochese even thread-even depth-1" id="dsq-comment-33688">
+        <div id="dsq-comment-header-33688" class="dsq-comment-header">
+            <cite id="dsq-cite-33688">
+                <span id="dsq-author-user-33688">cochese</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33688" class="dsq-comment-body">
+            <div id="dsq-comment-message-33688" class="dsq-comment-message"><p>Vote for design 2.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-sasorp odd alt thread-odd thread-alt depth-1" id="dsq-comment-33689">
+        <div id="dsq-comment-header-33689" class="dsq-comment-header">
+            <cite id="dsq-cite-33689">
+                <span id="dsq-author-user-33689">sasoRP</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33689" class="dsq-comment-body">
+            <div id="dsq-comment-message-33689" class="dsq-comment-message"><p>Vote for design 1! <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-three_pineapples even thread-even depth-1" id="dsq-comment-33690">
+        <div id="dsq-comment-header-33690" class="dsq-comment-header">
+            <cite id="dsq-cite-33690">
+                <span id="dsq-author-user-33690">three_pineapples</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33690" class="dsq-comment-body">
+            <div id="dsq-comment-message-33690" class="dsq-comment-message"><p>Vote for Design 2</p>
+<p>Design one is nice, but I don&#8217;t think it draws attention to the important links. Android is going to become much more mainstream next year, and it&#8217;s likely many more people will turn to cyanogen mod. It needs to be more obvious what cyanogen mod is, and how to get it. I think Design 2 does this best, but has room for improvement!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-adversedeviant odd alt thread-odd thread-alt depth-1" id="dsq-comment-33691">
+        <div id="dsq-comment-header-33691" class="dsq-comment-header">
+            <cite id="dsq-cite-33691">
+                <span id="dsq-author-user-33691">adversedeviant</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33691" class="dsq-comment-body">
+            <div id="dsq-comment-message-33691" class="dsq-comment-message"><p>i like design 2 but the picture definitely needs to be smaller</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-cscho0415 even thread-even depth-1" id="dsq-comment-33692">
+        <div id="dsq-comment-header-33692" class="dsq-comment-header">
+            <cite id="dsq-cite-33692">
+                <span id="dsq-author-user-33692">cscho0415</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33692" class="dsq-comment-body">
+            <div id="dsq-comment-message-33692" class="dsq-comment-message"><p>I believe the most recent post in the template should say &#8220;We now support the Samsung Captivate&#8221;</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-pdts odd alt thread-odd thread-alt depth-1" id="dsq-comment-33693">
+        <div id="dsq-comment-header-33693" class="dsq-comment-header">
+            <cite id="dsq-cite-33693">
+                <span id="dsq-author-user-33693">PdtS</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33693" class="dsq-comment-body">
+            <div id="dsq-comment-message-33693" class="dsq-comment-message"><p>Wow&#8230; I&#8217;ve been working with web designs for a few years now, and&#8230; Any other applicants? Because if not, I&#8217;d seriously consider keeping the current one, or customizing another WP theme.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-oken735 even thread-even depth-1" id="dsq-comment-33694">
+        <div id="dsq-comment-header-33694" class="dsq-comment-header">
+            <cite id="dsq-cite-33694">
+                <span id="dsq-author-user-33694">Senior Clean</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33694" class="dsq-comment-body">
+            <div id="dsq-comment-message-33694" class="dsq-comment-message"><p>looks awesome<br />
+both have a nice look to them<br />
+try to make a mesh of the both of them <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_surprised.gif' alt=':o' class='wp-smiley' /> o</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-jacklc000 odd alt thread-odd thread-alt depth-1" id="dsq-comment-33695">
+        <div id="dsq-comment-header-33695" class="dsq-comment-header">
+            <cite id="dsq-cite-33695">
+                <span id="dsq-author-user-33695">jacklc000</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33695" class="dsq-comment-body">
+            <div id="dsq-comment-message-33695" class="dsq-comment-message"><p>1 looks good but has a &#8220;Newsletter&#8221; look to me.<br />
+2 is the one that jumps at me&#8230;very clean!!!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-moonwalker even thread-even depth-1" id="dsq-comment-33696">
+        <div id="dsq-comment-header-33696" class="dsq-comment-header">
+            <cite id="dsq-cite-33696">
+http://syrius.us                <span id="dsq-author-user-33696">moonwalker</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33696" class="dsq-comment-body">
+            <div id="dsq-comment-message-33696" class="dsq-comment-message"><p>I agree with PdtS, current design is better than either one of candidates. But if it absolutely must be changed then I&#8217;d go with #1.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-ryanolson odd alt thread-odd thread-alt depth-1" id="dsq-comment-33698">
+        <div id="dsq-comment-header-33698" class="dsq-comment-header">
+            <cite id="dsq-cite-33698">
+                <span id="dsq-author-user-33698">ryanolson</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33698" class="dsq-comment-body">
+            <div id="dsq-comment-message-33698" class="dsq-comment-message"><p>I actually like the current site a lot, but if it were to change, i&#8217;d prefer design 2</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-aburtson even thread-even depth-1" id="dsq-comment-33699">
+        <div id="dsq-comment-header-33699" class="dsq-comment-header">
+            <cite id="dsq-cite-33699">
+                <span id="dsq-author-user-33699">aburtson</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33699" class="dsq-comment-body">
+            <div id="dsq-comment-message-33699" class="dsq-comment-message"><p>I like Design 1, but I kinda wish the main links were along the top of the page, as they are in the current version.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-ddwornik odd alt thread-odd thread-alt depth-1" id="dsq-comment-33700">
+        <div id="dsq-comment-header-33700" class="dsq-comment-header">
+            <cite id="dsq-cite-33700">
+                <span id="dsq-author-user-33700">ddwornik</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33700" class="dsq-comment-body">
+            <div id="dsq-comment-message-33700" class="dsq-comment-message"><p>I think current, maybe round the corners of the date box.</p>
+<p>Otherwise design 2. I think the current one is pretty damned sharp though.</p>
+<p>Design one should go a little darker cyan if it&#8217;s used.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-motoxt3 even thread-even depth-1" id="dsq-comment-33701">
+        <div id="dsq-comment-header-33701" class="dsq-comment-header">
+            <cite id="dsq-cite-33701">
+http://www.ubiquitense.com                <span id="dsq-author-user-33701">motoxt3</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33701" class="dsq-comment-body">
+            <div id="dsq-comment-message-33701" class="dsq-comment-message"><p>I&#8217;m always a fan of clean, light and minimal design. So, I&#8217;d go with design 2! The only thing I&#8217;d suggest is that the cyanogen intro/description should be collapsible in other webpages.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-jgarrido odd alt thread-odd thread-alt depth-1" id="dsq-comment-33702">
+        <div id="dsq-comment-header-33702" class="dsq-comment-header">
+            <cite id="dsq-cite-33702">
+                <span id="dsq-author-user-33702">JGarrido</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33702" class="dsq-comment-body">
+            <div id="dsq-comment-message-33702" class="dsq-comment-message"><p>I may be wrong, but Design 2 seems to be completely broken/missing, at the moment.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-hansmrtn even thread-even depth-1" id="dsq-comment-33703">
+        <div id="dsq-comment-header-33703" class="dsq-comment-header">
+            <cite id="dsq-cite-33703">
+                <span id="dsq-author-user-33703">hansmrtn</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33703" class="dsq-comment-body">
+            <div id="dsq-comment-message-33703" class="dsq-comment-message"><p>Design 2. Way cleaner and easier to navigate.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-denkai odd alt thread-odd thread-alt depth-1" id="dsq-comment-33705">
+        <div id="dsq-comment-header-33705" class="dsq-comment-header">
+            <cite id="dsq-cite-33705">
+                <span id="dsq-author-user-33705">Denkai</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33705" class="dsq-comment-body">
+            <div id="dsq-comment-message-33705" class="dsq-comment-message"><p>Design 1 looks more streamed line, how ever I suggest two modifications:</p>
+<p>1. It&#8217;s missing something from the top. Navigation bar, logo, extended graphics from the logo, something.</p>
+<p>2. the news feed is in need of a separating background from each other and the sidebars.</p>
+<p>Other then that looks great, both are nice designs, Design 2 is just to plain for me. reminds me of web designs from 2003&#8230; kinda retro in the web design scheme.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-azatoth even thread-even depth-1" id="dsq-comment-33706">
+        <div id="dsq-comment-header-33706" class="dsq-comment-header">
+            <cite id="dsq-cite-33706">
+                <span id="dsq-author-user-33706">Azatoth</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33706" class="dsq-comment-body">
+            <div id="dsq-comment-message-33706" class="dsq-comment-message"><p>my vote is for Design 1!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-dorrellkc odd alt thread-odd thread-alt depth-1" id="dsq-comment-33708">
+        <div id="dsq-comment-header-33708" class="dsq-comment-header">
+            <cite id="dsq-cite-33708">
+                <span id="dsq-author-user-33708">dorrellkc</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33708" class="dsq-comment-body">
+            <div id="dsq-comment-message-33708" class="dsq-comment-message"><p>I like number 1 the best</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-thev00d00 even thread-even depth-1" id="dsq-comment-33709">
+        <div id="dsq-comment-header-33709" class="dsq-comment-header">
+            <cite id="dsq-cite-33709">
+                <span id="dsq-author-user-33709">Thev00d00</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33709" class="dsq-comment-body">
+            <div id="dsq-comment-message-33709" class="dsq-comment-message"><p>Design #2! Please <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-alexander-kirov odd alt thread-odd thread-alt depth-1" id="dsq-comment-33710">
+        <div id="dsq-comment-header-33710" class="dsq-comment-header">
+            <cite id="dsq-cite-33710">
+                <span id="dsq-author-user-33710">Alexander Kirov</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33710" class="dsq-comment-body">
+            <div id="dsq-comment-message-33710" class="dsq-comment-message"><p>Can I offer my services to develop the site and design?<br />
+I am project manager of a Moscow company dedicated to web development. Of course on free basis.<br />
+If interested &#8211; please email <a href="/cdn-cgi/l/email-protection#4829242d3029262c2d3a0838313a272521262c663a3d"><span class="__cf_email__" data-cfemail="543538312c353a30312614242d263b393d3a307a2621">[email&#160;protected]</span><script cf-hash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-deliverance even thread-even depth-1" id="dsq-comment-33712">
+        <div id="dsq-comment-header-33712" class="dsq-comment-header">
+            <cite id="dsq-cite-33712">
+http://<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="c1b1a9a0a8b2b5aeb2a2aeacacb4afa8a2a0b5a8aeafb281a6aca0a8adefa2aeac">[email&#160;protected]</a><script cf-hash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script>                <span id="dsq-author-user-33712">Deliverance</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33712" class="dsq-comment-body">
+            <div id="dsq-comment-message-33712" class="dsq-comment-message"><p>A complaint, the Reboot option pops up a menu with a Dev or Mod centric. Should be removed.</p>
+<p>Can we get a Slashcode moderated request system in place, dev&#8217;s give out points to mod other&#8217;s suggestions up based on how busy they are?</p>
+<p>Oh, also can we get proper caching in Google Maps?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-samzzz odd alt thread-odd thread-alt depth-1" id="dsq-comment-33714">
+        <div id="dsq-comment-header-33714" class="dsq-comment-header">
+            <cite id="dsq-cite-33714">
+                <span id="dsq-author-user-33714">SamZzz</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33714" class="dsq-comment-body">
+            <div id="dsq-comment-message-33714" class="dsq-comment-message"><p>+1 for Design #2<br />
+Design 1 looks nice but is a bit busy. I like the simpler version, especially for viewing on a phone screen. <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_wink.gif' alt=';-)' class='wp-smiley' /> </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-human even thread-even depth-1" id="dsq-comment-33715">
+        <div id="dsq-comment-header-33715" class="dsq-comment-header">
+            <cite id="dsq-cite-33715">
+                <span id="dsq-author-user-33715">human</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33715" class="dsq-comment-body">
+            <div id="dsq-comment-message-33715" class="dsq-comment-message"><p>+1 for Design 2. Too much blue in first design. Reminds me of old geocities web pages. I like design 1 visually, but readability of design 2. Maybe they could join forces? Agree with SamZzz, design 2 would work a lot better on a phone as well.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-rosenn odd alt thread-odd thread-alt depth-1" id="dsq-comment-33716">
+        <div id="dsq-comment-header-33716" class="dsq-comment-header">
+            <cite id="dsq-cite-33716">
+                <span id="dsq-author-user-33716">Rosenn</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33716" class="dsq-comment-body">
+            <div id="dsq-comment-message-33716" class="dsq-comment-message"><p>Both are kind of meh. But I would go with #1 just swap the side bars.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-copolii even thread-even depth-1" id="dsq-comment-33717">
+        <div id="dsq-comment-header-33717" class="dsq-comment-header">
+            <cite id="dsq-cite-33717">
+                <span id="dsq-author-user-33717">copolii</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33717" class="dsq-comment-body">
+            <div id="dsq-comment-message-33717" class="dsq-comment-message"><p>design 1</p>
+<p>Re: Reboot option; Cyanogenmod is a modder&#8217;s delight. When I saw the multiple reboot options I jumped for joy. It definitely can&#8217;t go <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-digitalpioneer odd alt thread-odd thread-alt depth-1" id="dsq-comment-33718">
+        <div id="dsq-comment-header-33718" class="dsq-comment-header">
+            <cite id="dsq-cite-33718">
+                <span id="dsq-author-user-33718">DigitalPioneer</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33718" class="dsq-comment-body">
+            <div id="dsq-comment-message-33718" class="dsq-comment-message"><p>#1 carries much more visual appeal to me, but I like how #2 handled the navbar better. Also, I like how #2 has the block right there at the top about what CM is, as this will be what a first time visitor is looking for, and if he can&#8217;t find it quickly, he will probably just leave. Perhaps if #2 incorporated more gradients and rounded edges, it would be more aesthetically pleasing while still retaining its clean and functional aspect.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-jaredquinn even thread-even depth-1" id="dsq-comment-33719">
+        <div id="dsq-comment-header-33719" class="dsq-comment-header">
+            <cite id="dsq-cite-33719">
+                <span id="dsq-author-user-33719">jaredquinn</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33719" class="dsq-comment-body">
+            <div id="dsq-comment-message-33719" class="dsq-comment-message"><p>Definitely like Design #1 better.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-maxnicks odd alt thread-odd thread-alt depth-1" id="dsq-comment-33721">
+        <div id="dsq-comment-header-33721" class="dsq-comment-header">
+            <cite id="dsq-cite-33721">
+                <span id="dsq-author-user-33721">maxnicks</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33721" class="dsq-comment-body">
+            <div id="dsq-comment-message-33721" class="dsq-comment-message"><p>Though Design 1 is prettier than Design 2, Design 2 far outweighs Design 1 for usability. For me, usability is what&#8217;s important so I vote for Design 2. If it was up to me, I&#8217;d make the font sizes quite a bit smaller.</p>
+<p>No, never mind. I just took a hard look again. I vote for Design 1.</p>
+<p>Yeah, color me stupid.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-jon8rfc even thread-even depth-1" id="dsq-comment-33722">
+        <div id="dsq-comment-header-33722" class="dsq-comment-header">
+            <cite id="dsq-cite-33722">
+                <span id="dsq-author-user-33722">Jon8RFC</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33722" class="dsq-comment-body">
+            <div id="dsq-comment-message-33722" class="dsq-comment-message"><p>Design 2</p>
+<p>However, I think the width should accommodate lower resolutions.  I&#8217;m using 1680&#215;1050 on my laptop at the moment and it feels a little large (text, buttons, images).  I bet if I got on my desktop with 1920&#215;1200, it would feel just about right, if not borderline too large.  I believe the design should be somewhere between 80-90% of the size it currently is.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-sundar odd alt thread-odd thread-alt depth-1" id="dsq-comment-33723">
+        <div id="dsq-comment-header-33723" class="dsq-comment-header">
+            <cite id="dsq-cite-33723">
+                <span id="dsq-author-user-33723">sundar</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33723" class="dsq-comment-body">
+            <div id="dsq-comment-message-33723" class="dsq-comment-message"><p>Design 2 is much cleaner and more usable.</p>
+<p>+1 for D#2</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-pcorning even thread-even depth-1" id="dsq-comment-33724">
+        <div id="dsq-comment-header-33724" class="dsq-comment-header">
+            <cite id="dsq-cite-33724">
+                <span id="dsq-author-user-33724">pcorning</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33724" class="dsq-comment-body">
+            <div id="dsq-comment-message-33724" class="dsq-comment-message"><p>Respectfully suggest that you keep looking.  </p>
+<p>#1 is soft and harmonious, but it doesn&#8217;t direct the eye well to specific areas of your site.  </p>
+<p>#2 has good contrast and distinguishes different areas well, but it&#8217;s a strain on the eyes.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-moseilla odd alt thread-odd thread-alt depth-1" id="dsq-comment-33725">
+        <div id="dsq-comment-header-33725" class="dsq-comment-header">
+            <cite id="dsq-cite-33725">
+                <span id="dsq-author-user-33725">MoseIlla</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33725" class="dsq-comment-body">
+            <div id="dsq-comment-message-33725" class="dsq-comment-message"><p>The current one.<br />
+But if I had to pick, I&#8217;d say #2 with a smaller logo.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-tunix even thread-even depth-1" id="dsq-comment-33726">
+        <div id="dsq-comment-header-33726" class="dsq-comment-header">
+            <cite id="dsq-cite-33726">
+                <span id="dsq-author-user-33726">tunix</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33726" class="dsq-comment-body">
+            <div id="dsq-comment-message-33726" class="dsq-comment-message"><p>Design 2 &#8211; the menus should be easy to find.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-cpw7922 odd alt thread-odd thread-alt depth-1" id="dsq-comment-33727">
+        <div id="dsq-comment-header-33727" class="dsq-comment-header">
+            <cite id="dsq-cite-33727">
+                <span id="dsq-author-user-33727">cpw7922</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33727" class="dsq-comment-body">
+            <div id="dsq-comment-message-33727" class="dsq-comment-message"><p>Definitely have to go with design 1.  I like how it shows the current ROM version and a like to supported handsets.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-mark-lacroix even thread-even depth-1" id="dsq-comment-33728">
+        <div id="dsq-comment-header-33728" class="dsq-comment-header">
+            <cite id="dsq-cite-33728">
+                <span id="dsq-author-user-33728">Mark</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33728" class="dsq-comment-body">
+            <div id="dsq-comment-message-33728" class="dsq-comment-message"><p>As the designer for #1 I would like to thank everyone for your support/feedback. You should also know that the design is not set in stone, it&#8217;s just a mockup (there&#8217;s even a spelling error!).</p>
+<p>I also whipped up a single-page variation to look at, also just a mockup:<br />
+<a href="http://www.mark-lacroix.com/clientfiles/CyanogenMod/MarkLaCroix_mockup_singlepage_122210.jpg" rel="nofollow">http://www.mark-lacroix.com/clientfiles/CyanogenMod/MarkLaCroix_mockup_singlepage_122210.jpg</a></p>
+<p>If selected to design the site I&#8217;d look forward to incorporating the feedback of the group. That includes layout and design tweaks, as well as feature ideas.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-mark-lacroix odd alt thread-odd thread-alt depth-1" id="dsq-comment-33729">
+        <div id="dsq-comment-header-33729" class="dsq-comment-header">
+            <cite id="dsq-cite-33729">
+                <span id="dsq-author-user-33729">Mark</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33729" class="dsq-comment-body">
+            <div id="dsq-comment-message-33729" class="dsq-comment-message"><p>(Also, to the people asking about viewing the site on a phone, I&#8217;d use a separate layout for mobile)</p>
+</div>
+        </div>
+
+    </li>
+            </ul>
+
+            <div class="navigation">
+                <div class="nav-previous"></div>
+                <div class="nav-next"><a href="http://www.cyanogenmod.org/blog/great-responses-for-web-design#comments" >Newer Comments <span class="meta-nav">&rarr;</span></a></div>
+            </div><!-- .navigation -->
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://www.cyanogenmod.org/blog/great-responses-for-web-design';
+    var disqus_identifier = '766 http://www.cyanogenmod.com/?p=766';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'cyngn';
+    var disqus_title = "Great responses for Web Design!";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+        config.language = '';
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '?cf_action=sync_comments&post_id=766';
+
+            var firstScript = document.getElementsByTagName( "script" )[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+        });
+                    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/www.cyanogenmod.org\/blog\/great-responses-for-web-design\/trackback"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+</article>
+			</div>
+
+		</div><!-- End Content row -->
+		
+		<aside id="sidebar" class="four columns hide-on-phones" role="complementary">
+	<div class="sidebar-box">
+		<article id="recent-comments-4" class="row widget widget_recent_comments"><div class="sidebar-section twelve columns"><h6><strong>Recent Comments</strong></h6><ul id="recentcomments"><li class="recentcomments">Rakesh Lingechetty on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65376">CyanogenMod 11 M12</a></li><li class="recentcomments">zamarax on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65375">CyanogenMod 11 M12</a></li><li class="recentcomments">Avinash Sailesh on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65374">CyanogenMod 11 M12</a></li><li class="recentcomments">ibrahim biten on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65373">CyanogenMod 11 M12</a></li><li class="recentcomments">ibrahim biten on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65372">CyanogenMod 11 M12</a></li></ul></div></article>	</div>
+</aside><!-- /#sidebar -->		
+		</div><!-- End Main row -->
+		
+		<footer id="content-info" role="contentinfo" class="hide-on-phones" style="margin:40px 0 0 0;">
+			<div class="row">
+				<article id="nav_menu-4" class="three columns widget widget_nav_menu"><div class="footer-section"><h6><strong>Navigation</strong></h6><div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-798"><a href="http://www.cyanogenmod.org/about">About</a></li>
+<li id="menu-item-2403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2403"><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+<li id="menu-item-2404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2404"><a href="http://download.cyanogenmod.org">Download</a></li>
+<li id="menu-item-825" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-825"><a href="/blog">Blog</a></li>
+<li id="menu-item-904" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-904"><a href="http://forum.cyanogenmod.org">Forum</a></li>
+<li id="menu-item-829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-829"><a href="http://www.cyanogenmod.org/community">Community</a></li>
+<li id="menu-item-2405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2405"><a href="https://account.cyanogenmod.org/">Account</a></li>
+<li id="menu-item-2709" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2709"><a href="http://shop.cyanogenmod.org">Shop</a></li>
+</ul></div></div></article><article id="nav_menu-3" class="three columns widget widget_nav_menu"><div class="footer-section"><h6><strong>Social Networks</strong></h6><div class="menu-social-networks-container"><ul id="menu-social-networks" class="menu"><li id="menu-item-2173" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2173"><a href="https://www.facebook.com/CyanogenMod">Facebook</a></li>
+<li id="menu-item-2174" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2174"><a href="https://twitter.com/CyanogenMod">Twitter</a></li>
+<li id="menu-item-2175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2175"><a href="https://plus.google.com/+CyanogenMod/posts">Google+</a></li>
+</ul></div></div></article>                                <article class="three columns widget widget widget_nav_menu">
+                                    <div class="footer-section">
+                                        <h6><strong>Sponsored By</strong></h6>
+                                        <a href="http://twilio.com/?utm_source=cyanogenmod&utm_medium=webbadge&utm_campaign=cyanogenverify" style="text: decoration: none; display: inline-block; width: 166px; height: 0; overflow: hidden; padding-top: 31px; background: url(http://www.twilio.com/packages/company/img/logos_icon_poweredbysmall.png) no-repeat;">powered by twilio™</a>
+                                    </div>
+                                </article>
+			</div>
+		</footer>
+        
+      <div id="navigation" class="row mobile-footer show-on-phones">
+			<div class="twelve columns">
+            	<h6>Navigate cyanogenmod.org</h6>
+            	<ul>
+                	<li><a href="/about">About</a></li>
+                    <!--<li><a href="#">Features</a></li>-->
+                    <li><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+                    <li><a href="http://download.cyanogenmod.org/">Download</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="http://forum.cyanogenmod.org">Forum</a></li>
+                    <li><a href="/community">Community</a></li>  
+                    <li><a href="https://account.cyanogenmod.org">Account</a></li>
+                    <li><a href="http://shop.cyanogenmod.org">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+			
+	</div><!-- Container End -->
+    
+
+	<!-- Included JS Files of Foundation -->
+	<script src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/foundation.js"></script>
+	<script src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/app.js"></script>
+	
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	     chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7]>
+		<script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+		<script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+	
+	<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 12/115 queries in 0.122 seconds using apc
+Object Caching 1009/1473 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:18:53 by W3 Total Cache -->

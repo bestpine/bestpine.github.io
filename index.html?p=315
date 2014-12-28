@@ -1,0 +1,542 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+
+	<title>Over 100K Visitors! | CyanogenMod</title>
+	
+	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<!-- Included Foundation CSS Files -->
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/foundation.css">
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/app.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/tipTip.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/fonts/style.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/flexslider.css" type="text/css" media="screen" />
+	
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/style.css">
+	
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/ie.css">
+	<![endif]-->
+	
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Favicon and Feed -->
+	<link rel="shortcut icon" type="image/png" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="CyanogenMod Feed" href="http://www.cyanogenmod.org/feed/">
+	
+	<!--  iPhone Web App Home Screen Icon -->
+	<link rel="apple-touch-icon" sizes="72x72" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon-retina.png" />
+	<link rel="apple-touch-icon" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon.png" />
+	
+	<!-- Enable Startup Image for iOS Home Screen Web App -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/mobile-load.png" />
+
+	<!-- Startup Image iPad Landscape (748x1024) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load-ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" />
+	<!-- Startup Image iPad Portrait (768x1004) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load-ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" />
+	<!-- Startup Image iPhone (320x460) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load.png" media="screen and (max-device-width: 320px)" />
+	
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.jparallax.min.js" ></script>
+  <script defer type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.featureList-1.0.0.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.tipTip.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/easySlider1.7.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/modernizr.foundation.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.flexslider-min.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/custom.js"></script>
+  
+  <script type="text/javascript">
+    $(document).load(function(){
+
+	  // The slider being synced must be initialized first
+	  $('.flexslider').flexslider({
+		animation: "slide",
+		controlNav: false,
+	  });
+	  
+    });
+  </script>
+  
+  	<link rel="alternate" type="application/rss+xml" title="CyanogenMod &raquo; Over 100K Visitors! Comments Feed" href="http://www.cyanogenmod.org/blog/over-100k-visitors/feed" />
+<script type='text/javascript' src='http://www.cyanogenmod.org/wp-includes/js/comment-reply.min.js?ver=3.5.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.cyanogenmod.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.cyanogenmod.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='4.1.11.1' href='http://www.cyanogenmod.org/blog/4-1-11-1' />
+<link rel='next' title='IRC now available through website.' href='http://www.cyanogenmod.org/blog/irc-now-available-through-website' />
+<meta name="generator" content="WordPress 3.5.2" />
+<link rel='shortlink' href='http://www.cyanogenmod.org/?p=315' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<!-- All in One SEO Pack 2.0.2 by Michael Torbert of Semper Fi Web Design[493,521] -->
+<meta name="description" content="Thanks to you guys, this website has now reached a total of 109,433 visitors since it was launched on 24th August 2009, less than four weeks ago! There will" />
+
+<link rel="canonical" href="http://www.cyanogenmod.org/blog/over-100k-visitors" />
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-39737599-3']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+<!-- /all in one seo pack -->
+</head>
+
+<body class="single single-post postid-315 single-format-standard">
+
+	<div class="menusto hide-on-phones"></div>
+	<!-- Start the main container -->
+	<div id="container" class="container" role="document" style="padding:80px 0 0 0;">
+		
+        
+        <div class="row mobile-header show-on-phones">
+            <div class="nine">
+            	<a href="http://www.cyanogenmod.org" title="CyanogenMod" class="logo-mobile"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/logo-mobile.png" alt=""/></a>
+            </div>
+            <a href="#navigation" class="mobile-menu"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/btn-menu-mobile.png" alt=""/></a>
+        </div>
+        
+		<!-- Row for blog navigation -->
+		<div class="row hide-on-phones">
+			<header class="twelve columns" role="banner">
+				<div class="reverie-header">
+                	<a href="http://www.cyanogenmod.org" title="CyanogenMod" class="logo"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/logo.png" alt=""/></a>
+                    <div id="glavno" class="nav hide-on-phones">
+                        <ul id="glavno">                   
+                            <li><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+                            <!--<li><a href="http://cyanogenmod.org/about/features">Features</a></li>-->
+                            <li><a href="http://download.cyanogenmod.org/">Download</a></li>
+                            <li><a href="http://www.cyanogenmod.org/blog/">Blog</a></li>
+                            <li><a href="http://forum.cyanogenmod.org/">Forum</a></li>
+                            <li>
+                            	<a href="http://www.cyanogenmod.org/community">Community</a>
+                                <div style="opacity: 0; display: none; width:100%" class="sub">
+                                    <ul>
+                                    	<div style="width:980px; margin:0 auto; color:#fff;">
+                                        	<div class="contributesub">
+                                            	<h2>Contribute</h2>
+                                                
+                                                <h4><a href="http://review.cyanogenmod.org/">Gerrit Review</a></h4>
+                                                <p>Gerrit is a web based code review system, facilitating online code reviews for projects using the Git version control system.</p>
+                                                    
+                                                <h4><a href="http://wiki.cyanogenmod.org/">Wiki</a></h4>
+                                                <p>Our Wiki is a comprehensive tool for users to find information. This also needs contributions to keep it fresh and relevant.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/community">Join The Team</a></h4>
+                                                <p>We love working with others. You can submit code via Gerrit. If you think there is something else you can help with, get in touch with us on the forums.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub">
+                                            	<h2>Help</h2>
+                                                
+                                                <h4><a href="http://forum.cyanogenmod.org/">Forum</a></h4>
+                                                <p>Our forums have a wealth of knowledge and resources. All of it is free and accessible from both your desktop and mobile phone.</p>
+                                                    
+                                                <h4><a href="irc://irc.freenode.net/cyanogenmod">IRC</a></h4>
+                                                <p>If you are comfortable with IRC and would like instant help and assistance from both developers and others users alike.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/blog">Blog</a></h4>
+                                                <p>Our blogs will contain the latest news and releases as well as other related news concerning the distribution.</p>
+                                                    
+                                                <h4><a href="http://wiki.cyanogenmod.org/">Wiki</a></h4>
+                                                <p>Our Wiki is a comprehensive tool for users to find information. This also needs contributions to keep it fresh and relevant.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub">
+                                            	<h2>Information</h2>
+                                                
+                                                <h4><a href="http://www.cyanogenmod.org/changelog">Change Log</a></h4>
+                                                <p>Our development of the ROM is always changing. We add new features and fix bugs all the time. Check the latest change log here.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/bugs">Bug Tracker</a></h4>
+                                                <p>This is the official Bug Tracker where you can submit and review bugs that users may experience.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/github">Github Repo</a></h4>
+                                                <p>Our source is free and open. you can check the Github page to see what we do and how you can contribute.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/stats">Installation Statistics</a></h4>
+                                                <p>We have an opt-in feature in our ROMS to enable us to gain statistics on users as well as devices used.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub last">
+                                            	<h2>Support</h2>
+                                                
+                                                <h4><a href="/cdn-cgi/l/email-protection#9cf8f9eaeef9f0dcffe5fdf2f3fbf9f2f1f3f8b2f3eefb">Developer Relations</a></h4>
+                                                <p>If you wish to contact us regarding development contributions, please do so here.</p>
+                                                    
+                                                <h4><a href="/cdn-cgi/l/email-protection#adccc9c0c4c3edced4ccc3c2cac8c3c0c2c983c2dfca">Website Support</a></h4>
+                                                <p>This email is dedicated to website, forum, wiki and hosting support. We will not respond to ROM support.</p>
+                                                    
+                                                <h4><a href="/cdn-cgi/l/email-protection#0160656c686f416278606f6e66646f6c6e652f6e7366">Social Network</a></h4>
+                                                <p>To contact us in relation to our Social media structure.</p>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                    
+                                </div>
+                            </li>
+                            <li><a href="https://account.cyanogenmod.org">Account</a></li>
+                      </ul>
+                    </div>
+				</div>
+
+			</header>
+		</div>
+
+		
+		<!-- Row for main content area -->
+		<div id="main" class="row">
+		<!-- Row for main content area -->
+		<div id="content" class="eight columns" role="main">
+	
+			<div class="post-box">
+					<article class="post-315 post type-post status-publish format-standard hentry category-blog" id="post-315">
+		<header>
+        	<time class="updated" datetime="2009-09-19T00:58:52+00:00" pubdate>September 19th, 2009 &bull; Written by <a href="http://www.cyanogenmod.org/author/ahmet" rel="author" class="fn">MrADeveci</a></time>        	<h2 class="entry-title">Over 100K Visitors!</h2>
+					</header>
+		<div class="entry-content">
+			<p>Thanks to you guys, this website has now reached a total of 109,433 visitors since it was launched on 24th August 2009, less than four weeks ago!</p>
+<p>There will be more features, sections and cool stuff on this website in time to come.</p>
+<p>Thanks for visiting, and supporting CyanogenMod. I hope you enjoy this website, as much I did creating it!</p>
+		</div>
+
+<div id="disqus_thread">
+                    <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-688">
+        <div id="dsq-comment-header-688" class="dsq-comment-header">
+            <cite id="dsq-cite-688">
+                <span id="dsq-author-user-688">John</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-688" class="dsq-comment-body">
+            <div id="dsq-comment-message-688" class="dsq-comment-message"><p>Very good work. keep it up!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-692">
+        <div id="dsq-comment-header-692" class="dsq-comment-header">
+            <cite id="dsq-cite-692">
+                <span id="dsq-author-user-692">Sparti</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-692" class="dsq-comment-body">
+            <div id="dsq-comment-message-692" class="dsq-comment-message"><p>Thanks a lot!!<br />
+Great job! I am with You!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-699">
+        <div id="dsq-comment-header-699" class="dsq-comment-header">
+            <cite id="dsq-cite-699">
+                <span id="dsq-author-user-699">darkfire</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-699" class="dsq-comment-body">
+            <div id="dsq-comment-message-699" class="dsq-comment-message"><p>Its OVER 9000!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-703">
+        <div id="dsq-comment-header-703" class="dsq-comment-header">
+            <cite id="dsq-cite-703">
+http://ordinarysuperhero.com                <span id="dsq-author-user-703">Brian Sargent</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-703" class="dsq-comment-body">
+            <div id="dsq-comment-message-703" class="dsq-comment-message"><p>It&#8217;s a great site but with those kinds of numbers you should really consider adding some subtle Google ads to the page and RSS Feed. Even on pageviews there should be some revenue to be made.  Could be a nice little sideline for cyanogen.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-705">
+        <div id="dsq-comment-header-705" class="dsq-comment-header">
+            <cite id="dsq-cite-705">
+                <span id="dsq-author-user-705">Scammah</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-705" class="dsq-comment-body">
+            <div id="dsq-comment-message-705" class="dsq-comment-message"><p>Kudos.  I just want to thank those on here who have actually taken the time to help those who don&#8217;t understand how to do this stuff.  Also I would like to thank Cyanogen for putting a the effort he has in his projects.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-714">
+        <div id="dsq-comment-header-714" class="dsq-comment-header">
+            <cite id="dsq-cite-714">
+                <span id="dsq-author-user-714">yo-yo da</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-714" class="dsq-comment-body">
+            <div id="dsq-comment-message-714" class="dsq-comment-message"><p>Great work! Do bring on the (subtle) ads and funnel the funds to Cyanogen.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-718">
+        <div id="dsq-comment-header-718" class="dsq-comment-header">
+            <cite id="dsq-cite-718">
+                <span id="dsq-author-user-718">PyjamaPete</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-718" class="dsq-comment-body">
+            <div id="dsq-comment-message-718" class="dsq-comment-message"><p>The mobile site is great. I wouldn&#8217;t mind ads at the bottom of the page or owt like that&#8230; if you don&#8217;t I might have to&#8230; gulp&#8230; don&#8230;ate&#8230;. gah!!! I am loving these roms a bunch. Thanks!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-726">
+        <div id="dsq-comment-header-726" class="dsq-comment-header">
+            <cite id="dsq-cite-726">
+http://www.twitter.com/Hicore                <span id="dsq-author-user-726">Hicore</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-726" class="dsq-comment-body">
+            <div id="dsq-comment-message-726" class="dsq-comment-message"><p>WOW.. thats nice!!!!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-730">
+        <div id="dsq-comment-header-730" class="dsq-comment-header">
+            <cite id="dsq-cite-730">
+                <span id="dsq-author-user-730">IY</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-730" class="dsq-comment-body">
+            <div id="dsq-comment-message-730" class="dsq-comment-message"><p>You will be rich soon ! put ads on website + donations !</p>
+<p>I want my cut !</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-733">
+        <div id="dsq-comment-header-733" class="dsq-comment-header">
+            <cite id="dsq-cite-733">
+                <span id="dsq-author-user-733">patrick</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-733" class="dsq-comment-body">
+            <div id="dsq-comment-message-733" class="dsq-comment-message"><p>really like what you do , keep up the good work .<br />
+Thanks.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-808">
+        <div id="dsq-comment-header-808" class="dsq-comment-header">
+            <cite id="dsq-cite-808">
+                <span id="dsq-author-user-808">Graying</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-808" class="dsq-comment-body">
+            <div id="dsq-comment-message-808" class="dsq-comment-message"><p>I will keep update with you</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-1274">
+        <div id="dsq-comment-header-1274" class="dsq-comment-header">
+            <cite id="dsq-cite-1274">
+http://mt3g1.6tmob.                <span id="dsq-author-user-1274">Mike</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-1274" class="dsq-comment-body">
+            <div id="dsq-comment-message-1274" class="dsq-comment-message"><p>I do not nor have I ever had a mod on my phone.<br />
+I think what u guys do is amazing. I find it very frustrating that Google wants u cut off.<br />
+ U offer an amazing service that is one of the many reasons I love this phone and have found Google appealing.<br />
+ I know it probably doesnt  mean much. Just thought ,even though ive never updated to any mod ,that noone should take away ur guys right to do so goodluck guys I hope it works out for ya.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-7939">
+        <div id="dsq-comment-header-7939" class="dsq-comment-header">
+            <cite id="dsq-cite-7939">
+http://www.encuentratujob.com.mx/jobCountry/JobUsa.htm                <span id="dsq-author-user-7939">Alquma</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7939" class="dsq-comment-body">
+            <div id="dsq-comment-message-7939" class="dsq-comment-message"><p>I share with all of you some tips for getting a lot of traffic to your blogs:</p>
+<p>Tip 1: Make a good content<br />
+This point is very important</p>
+<p>Tip 2: Make a brand around your blog<br />
+This point is very important because your visitors return to your blog in the future.</p>
+<p>Tip 3: Get high quality backlinks<br />
+This point is very important because Google is a major search engine.</p>
+<p>Tip 4: Promote your site on social websites like facebook, myspace and news aggregators like Digg.</p>
+<p>Tip 5: Post frequently</p>
+<p>Tip 6: Be patient<br />
+This is the most important tip because only with years of hard work you see a good results.</p>
+</div>
+        </div>
+
+    </li>
+            </ul>
+
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://www.cyanogenmod.org/blog/over-100k-visitors';
+    var disqus_identifier = '315 http://www.cyanogenmod.com/?p=315';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'cyngn';
+    var disqus_title = "Over 100K Visitors!";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+        config.language = '';
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '?cf_action=sync_comments&post_id=315';
+
+            var firstScript = document.getElementsByTagName( "script" )[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+        });
+                    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/www.cyanogenmod.org\/blog\/over-100k-visitors\/trackback"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+</article>
+			</div>
+
+		</div><!-- End Content row -->
+		
+		<aside id="sidebar" class="four columns hide-on-phones" role="complementary">
+	<div class="sidebar-box">
+		<article id="recent-comments-4" class="row widget widget_recent_comments"><div class="sidebar-section twelve columns"><h6><strong>Recent Comments</strong></h6><ul id="recentcomments"><li class="recentcomments">Rakesh Lingechetty on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65376">CyanogenMod 11 M12</a></li><li class="recentcomments">zamarax on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65375">CyanogenMod 11 M12</a></li><li class="recentcomments">Avinash Sailesh on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65374">CyanogenMod 11 M12</a></li><li class="recentcomments">ibrahim biten on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65373">CyanogenMod 11 M12</a></li><li class="recentcomments">ibrahim biten on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65372">CyanogenMod 11 M12</a></li></ul></div></article>	</div>
+</aside><!-- /#sidebar -->		
+		</div><!-- End Main row -->
+		
+		<footer id="content-info" role="contentinfo" class="hide-on-phones" style="margin:40px 0 0 0;">
+			<div class="row">
+				<article id="nav_menu-4" class="three columns widget widget_nav_menu"><div class="footer-section"><h6><strong>Navigation</strong></h6><div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-798"><a href="http://www.cyanogenmod.org/about">About</a></li>
+<li id="menu-item-2403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2403"><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+<li id="menu-item-2404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2404"><a href="http://download.cyanogenmod.org">Download</a></li>
+<li id="menu-item-825" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-825"><a href="/blog">Blog</a></li>
+<li id="menu-item-904" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-904"><a href="http://forum.cyanogenmod.org">Forum</a></li>
+<li id="menu-item-829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-829"><a href="http://www.cyanogenmod.org/community">Community</a></li>
+<li id="menu-item-2405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2405"><a href="https://account.cyanogenmod.org/">Account</a></li>
+<li id="menu-item-2709" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2709"><a href="http://shop.cyanogenmod.org">Shop</a></li>
+</ul></div></div></article><article id="nav_menu-3" class="three columns widget widget_nav_menu"><div class="footer-section"><h6><strong>Social Networks</strong></h6><div class="menu-social-networks-container"><ul id="menu-social-networks" class="menu"><li id="menu-item-2173" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2173"><a href="https://www.facebook.com/CyanogenMod">Facebook</a></li>
+<li id="menu-item-2174" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2174"><a href="https://twitter.com/CyanogenMod">Twitter</a></li>
+<li id="menu-item-2175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2175"><a href="https://plus.google.com/+CyanogenMod/posts">Google+</a></li>
+</ul></div></div></article>                                <article class="three columns widget widget widget_nav_menu">
+                                    <div class="footer-section">
+                                        <h6><strong>Sponsored By</strong></h6>
+                                        <a href="http://twilio.com/?utm_source=cyanogenmod&utm_medium=webbadge&utm_campaign=cyanogenverify" style="text: decoration: none; display: inline-block; width: 166px; height: 0; overflow: hidden; padding-top: 31px; background: url(http://www.twilio.com/packages/company/img/logos_icon_poweredbysmall.png) no-repeat;">powered by twilio™</a>
+                                    </div>
+                                </article>
+			</div>
+		</footer>
+        
+      <div id="navigation" class="row mobile-footer show-on-phones">
+			<div class="twelve columns">
+            	<h6>Navigate cyanogenmod.org</h6>
+            	<ul>
+                	<li><a href="/about">About</a></li>
+                    <!--<li><a href="#">Features</a></li>-->
+                    <li><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+                    <li><a href="http://download.cyanogenmod.org/">Download</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="http://forum.cyanogenmod.org">Forum</a></li>
+                    <li><a href="/community">Community</a></li>  
+                    <li><a href="https://account.cyanogenmod.org">Account</a></li>
+                    <li><a href="http://shop.cyanogenmod.org">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+			
+	</div><!-- Container End -->
+    
+
+	<!-- Included JS Files of Foundation -->
+	<script src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/foundation.js"></script>
+	<script src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/app.js"></script>
+	
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	     chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7]>
+		<script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+		<script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+	
+	<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 11/19 queries in 0.059 seconds using apc
+Object Caching 878/903 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 03:12:38 by W3 Total Cache -->

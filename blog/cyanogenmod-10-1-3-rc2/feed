@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: CyanogenMod 10.1.3 RC2</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/cyanogenmod-10-1-3-rc2/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/cyanogenmod-10-1-3-rc2</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: Fernando Peralta</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-10-1-3-rc2/comment-page-1#comment-64522</link>
+		<dc:creator>Fernando Peralta</dc:creator>
+		<pubDate>Wed, 22 Oct 2014 15:27:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2350#comment-64522</guid>
+		<description><![CDATA[hello... is it possible to install cyanogenmod in the inew v3???]]></description>
+		<content:encoded><![CDATA[<p>hello&#8230; is it possible to install cyanogenmod in the inew v3???</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Rob Wilcox</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-10-1-3-rc2/comment-page-1#comment-57688</link>
+		<dc:creator>Rob Wilcox</dc:creator>
+		<pubDate>Tue, 08 Oct 2013 12:36:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2350#comment-57688</guid>
+		<description><![CDATA[By the way, I upgraded to 10.1.3 final release, and didn&#039;t get a boot-loop on the SGS II.]]></description>
+		<content:encoded><![CDATA[<p>By the way, I upgraded to 10.1.3 final release, and didn&#8217;t get a boot-loop on the SGS II.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Valtair Junior</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-10-1-3-rc2/comment-page-1#comment-57635</link>
+		<dc:creator>Valtair Junior</dc:creator>
+		<pubDate>Wed, 25 Sep 2013 18:04:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2350#comment-57635</guid>
+		<description><![CDATA[Do I have to use the gapps 20130813 or I can use the 20130813 version?]]></description>
+		<content:encoded><![CDATA[<p>Do I have to use the gapps 20130813 or I can use the 20130813 version?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Majkel Zięba</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-10-1-3-rc2/comment-page-1#comment-57631</link>
+		<dc:creator>Majkel Zięba</dc:creator>
+		<pubDate>Wed, 25 Sep 2013 05:13:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2350#comment-57631</guid>
+		<description><![CDATA[Hey, please help me. How to flash another kernel to this rom ? The recovery way is not working..]]></description>
+		<content:encoded><![CDATA[<p>Hey, please help me. How to flash another kernel to this rom ? The recovery way is not working..</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Andrew Coons</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-10-1-3-rc2/comment-page-1#comment-57630</link>
+		<dc:creator>Andrew Coons</dc:creator>
+		<pubDate>Wed, 25 Sep 2013 01:39:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2350#comment-57630</guid>
+		<description><![CDATA[Yes, I believe so. I&#039;m loading them up on my wife&#039;s right now - running stable 10.1.3 on Samsung Vibrant.]]></description>
+		<content:encoded><![CDATA[<p>Yes, I believe so. I&#8217;m loading them up on my wife&#8217;s right now &#8211; running stable 10.1.3 on Samsung Vibrant.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Mike Moss</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-10-1-3-rc2/comment-page-1#comment-57629</link>
+		<dc:creator>Mike Moss</dc:creator>
+		<pubDate>Tue, 24 Sep 2013 21:36:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2350#comment-57629</guid>
+		<description><![CDATA[It says WiFi is connected but it is using mobile data for some reason can somebody help me fix this? Or phone wont let WiFi speeds succeed past mobile data speeds?
+I just know WiFi speed and ]]></description>
+		<content:encoded><![CDATA[<p>It says WiFi is connected but it is using mobile data for some reason can somebody help me fix this? Or phone wont let WiFi speeds succeed past mobile data speeds?<br />
+I just know WiFi speed and </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Marco</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-10-1-3-rc2/comment-page-1#comment-57609</link>
+		<dc:creator>Marco</dc:creator>
+		<pubDate>Mon, 23 Sep 2013 08:17:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2350#comment-57609</guid>
+		<description><![CDATA[At the moment I have the: 10.1-20130813, can I update it trouhg Cyanogen updater to the 10.1.3 rc2? Or do I have to install it trough recovery after a full wipe?]]></description>
+		<content:encoded><![CDATA[<p>At the moment I have the: 10.1-20130813, can I update it trouhg Cyanogen updater to the 10.1.3 rc2? Or do I have to install it trough recovery after a full wipe?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: egret26</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-10-1-3-rc2/comment-page-1#comment-57600</link>
+		<dc:creator>egret26</dc:creator>
+		<pubDate>Sun, 22 Sep 2013 23:49:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2350#comment-57600</guid>
+		<description><![CDATA[Will Nook HD+ get CyanogenMod 10.1.3 RC2 ?]]></description>
+		<content:encoded><![CDATA[<p>Will Nook HD+ get CyanogenMod 10.1.3 RC2 ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Dragan Bojovic</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-10-1-3-rc2/comment-page-1#comment-57592</link>
+		<dc:creator>Dragan Bojovic</dc:creator>
+		<pubDate>Sun, 22 Sep 2013 06:16:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2350#comment-57592</guid>
+		<description><![CDATA[I am new on android and cyanogenmod. I just set up my s4 with rc2. Its soo much better then ios. Question: when the final 10.1.3 is released can i make a over the air update to it or do i have to setup everything again?]]></description>
+		<content:encoded><![CDATA[<p>I am new on android and cyanogenmod. I just set up my s4 with rc2. Its soo much better then ios. Question: when the final 10.1.3 is released can i make a over the air update to it or do i have to setup everything again?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Rob Wilcox</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-10-1-3-rc2/comment-page-1#comment-57569</link>
+		<dc:creator>Rob Wilcox</dc:creator>
+		<pubDate>Fri, 20 Sep 2013 18:48:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2350#comment-57569</guid>
+		<description><![CDATA[Is there any update with the issue relating to boot loop on SGS2?]]></description>
+		<content:encoded><![CDATA[<p>Is there any update with the issue relating to boot loop on SGS2?</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/19 queries in 0.037 seconds using apc
+Object Caching 350/356 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:16:57 by W3 Total Cache -->

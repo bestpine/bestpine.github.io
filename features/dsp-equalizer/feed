@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: DSP Equalizer</title>
+	<atom:link href="http://www.cyanogenmod.org/features/dsp-equalizer/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/features/dsp-equalizer</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: Sarfraz Shaikh</title>
+		<link>http://www.cyanogenmod.org/features/dsp-equalizer/comment-page-1#comment-59685</link>
+		<dc:creator>Sarfraz Shaikh</dc:creator>
+		<pubDate>Wed, 29 Jan 2014 00:45:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=826#comment-59685</guid>
+		<description><![CDATA[Hi MrADeveci,
+
+I had WM8994 option on my DSP Manager with 4.2.2 and later versions of JB ROMS,why am i not getting that same features on my Samsung Galaxy Note N7000 running 4.2.1 ROM.
+
+I upgraded to official CM 11 on my Samsung Galaxy Note N7000 still the same issue ,where in I get all these DSP Manager additional features on my Samsung Galaxy S i9000 without any efforts.
+
+I&#039;ll really appreciate if you help me to know what exactly is that thing which is missing from my SGNOTE N7000 to make DSP Manager work with WM899 features.
+
+Thanks &amp; Regards
+Sarfraz Shaikh
+Mumbai]]></description>
+		<content:encoded><![CDATA[<p>Hi MrADeveci,</p>
+<p>I had WM8994 option on my DSP Manager with 4.2.2 and later versions of JB ROMS,why am i not getting that same features on my Samsung Galaxy Note N7000 running 4.2.1 ROM.</p>
+<p>I upgraded to official CM 11 on my Samsung Galaxy Note N7000 still the same issue ,where in I get all these DSP Manager additional features on my Samsung Galaxy S i9000 without any efforts.</p>
+<p>I&#8217;ll really appreciate if you help me to know what exactly is that thing which is missing from my SGNOTE N7000 to make DSP Manager work with WM899 features.</p>
+<p>Thanks &amp; Regards<br />
+Sarfraz Shaikh<br />
+Mumbai</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/8 queries in 0.021 seconds using apc
+Object Caching 189/191 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:18:48 by W3 Total Cache -->

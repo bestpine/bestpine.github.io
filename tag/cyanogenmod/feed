@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CyanogenMod &#187; cyanogenmod</title>
+	<atom:link href="http://www.cyanogenmod.org/tag/cyanogenmod/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Thu, 13 Nov 2014 07:54:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+		<item>
+		<title>Become a Facebook Fan! +1</title>
+		<link>http://www.cyanogenmod.org/blog/become-a-facebook-fan-1</link>
+		<comments>http://www.cyanogenmod.org/blog/become-a-facebook-fan-1#comments</comments>
+		<pubDate>Wed, 02 Sep 2009 11:01:00 +0000</pubDate>
+		<dc:creator>MrADeveci</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[cyanogenmod]]></category>
+		<category><![CDATA[facebook]]></category>
+		<category><![CDATA[fan]]></category>
+		<category><![CDATA[Rom]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=254</guid>
+		<description><![CDATA[<p>For all of those Facebooker&#8217;s amongst us &#8230;.. show your appreciation for this ROM and make this the largest Android ROM on Facebook!</p> <p>Become a Fan! :<a href="http://bit.ly/1tUMxj"> http://bit.ly/1tUMxj</a></p>]]></description>
+				<content:encoded><![CDATA[<p>For all of those Facebooker&#8217;s amongst us &#8230;.. show your appreciation for this ROM and make this the largest Android ROM on Facebook!</p>
+<p>Become a Fan! :<a href="http://bit.ly/1tUMxj"> http://bit.ly/1tUMxj</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/become-a-facebook-fan-1/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/7 queries in 0.017 seconds using apc
+Object Caching 216/221 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:16:03 by W3 Total Cache -->

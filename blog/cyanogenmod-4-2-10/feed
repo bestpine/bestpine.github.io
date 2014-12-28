@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: CyanogenMod-4.2.10!</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/cyanogenmod-4-2-10/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-10</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: Gamid_nagiev</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-10/comment-page-4#comment-55588</link>
+		<dc:creator>Gamid_nagiev</dc:creator>
+		<pubDate>Wed, 21 Nov 2012 16:49:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-10#comment-55588</guid>
+		<description><![CDATA[there is no soun when i touch the screen or write message
+ ]]></description>
+		<content:encoded><![CDATA[<p>there is no soun when i touch the screen or write message<br />
+ </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: TGB</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-10/comment-page-4#comment-4954</link>
+		<dc:creator>TGB</dc:creator>
+		<pubDate>Tue, 29 Dec 2009 00:53:30 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-10#comment-4954</guid>
+		<description><![CDATA[Confirmed issue with launching Pandora, switching to any other app, then reverting back to Pandora. Pandora stays running, albeit with a blank screen, no sound, unresponsive controls other than Quit, followed by crash attempting to view Song or Artist info from this screen.]]></description>
+		<content:encoded><![CDATA[<p>Confirmed issue with launching Pandora, switching to any other app, then reverting back to Pandora. Pandora stays running, albeit with a blank screen, no sound, unresponsive controls other than Quit, followed by crash attempting to view Song or Artist info from this screen.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: dawnielle</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-10/comment-page-4#comment-4849</link>
+		<dc:creator>dawnielle</dc:creator>
+		<pubDate>Mon, 28 Dec 2009 04:11:10 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-10#comment-4849</guid>
+		<description><![CDATA[stuck on android boot screen after 4.2.11 any ideas on how to fix??]]></description>
+		<content:encoded><![CDATA[<p>stuck on android boot screen after 4.2.11 any ideas on how to fix??</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Sam</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-10/comment-page-4#comment-4844</link>
+		<dc:creator>Sam</dc:creator>
+		<pubDate>Mon, 28 Dec 2009 04:06:45 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-10#comment-4844</guid>
+		<description><![CDATA[@  #37 by Dar Devy on December 28, 2009 - 3:59 am
+
+&quot;Eclair 2.0 or higher is coming to the g1…&quot;
+
+Have no Idea if that was a question, but YES it is.  So Far Cyanogen is only based on 1.6 with some porting over of the 2.0.  Im sure once its officially release and they have all the drivers for the G1, it will be modded by Cyanogen.  But right now Cyanogen &gt; 2.0+ (IMO).]]></description>
+		<content:encoded><![CDATA[<p>@  #37 by Dar Devy on December 28, 2009 &#8211; 3:59 am</p>
+<p>&#8220;Eclair 2.0 or higher is coming to the g1…&#8221;</p>
+<p>Have no Idea if that was a question, but YES it is.  So Far Cyanogen is only based on 1.6 with some porting over of the 2.0.  Im sure once its officially release and they have all the drivers for the G1, it will be modded by Cyanogen.  But right now Cyanogen &gt; 2.0+ (IMO).</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Sam</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-10/comment-page-4#comment-4840</link>
+		<dc:creator>Sam</dc:creator>
+		<pubDate>Mon, 28 Dec 2009 04:03:20 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-10#comment-4840</guid>
+		<description><![CDATA[4.2.11.1 = Fixed my G1 Lag.
+
+
+Thanks again Man, so far it seems very stable. Upgraded thro CM straight from 10.1 to 11.1, Working great!  &lt;3 Multi Touch!]]></description>
+		<content:encoded><![CDATA[<p>4.2.11.1 = Fixed my G1 Lag.</p>
+<p>Thanks again Man, so far it seems very stable. Upgraded thro CM straight from 10.1 to 11.1, Working great!  &lt;3 Multi Touch!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Pd</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-10/comment-page-4#comment-4836</link>
+		<dc:creator>Pd</dc:creator>
+		<pubDate>Mon, 28 Dec 2009 03:33:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-10#comment-4836</guid>
+		<description><![CDATA[Does anyone know why i cant format  to fat32 with my micro sdcard while its plugged in by usb? It just d/c, and says there is no disk in drive. any suggestions?]]></description>
+		<content:encoded><![CDATA[<p>Does anyone know why i cant format  to fat32 with my micro sdcard while its plugged in by usb? It just d/c, and says there is no disk in drive. any suggestions?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Dar Devy</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-10/comment-page-4#comment-4828</link>
+		<dc:creator>Dar Devy</dc:creator>
+		<pubDate>Mon, 28 Dec 2009 02:59:47 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-10#comment-4828</guid>
+		<description><![CDATA[Eclair 2.0 or higher is coming to the g1...]]></description>
+		<content:encoded><![CDATA[<p>Eclair 2.0 or higher is coming to the g1&#8230;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ryan Gray</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-10/comment-page-4#comment-4817</link>
+		<dc:creator>Ryan Gray</dc:creator>
+		<pubDate>Sun, 27 Dec 2009 22:51:43 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-10#comment-4817</guid>
+		<description><![CDATA[@Andy Everything I said is in the recovery mode. recovery RA-dream-v1.2.3 is just the version i use im sure there are new ones out but I like that one it works for me... I never wipe my phone when updating. but to people that do, a wipe does not wipe ext2. you have to do a wipe on that by it self? try doing that, I bet that is your problem.]]></description>
+		<content:encoded><![CDATA[<p>@Andy Everything I said is in the recovery mode. recovery RA-dream-v1.2.3 is just the version i use im sure there are new ones out but I like that one it works for me&#8230; I never wipe my phone when updating. but to people that do, a wipe does not wipe ext2. you have to do a wipe on that by it self? try doing that, I bet that is your problem.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Broke</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-10/comment-page-4#comment-4816</link>
+		<dc:creator>Broke</dc:creator>
+		<pubDate>Sun, 27 Dec 2009 22:09:20 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-10#comment-4816</guid>
+		<description><![CDATA[Had some battery draining issues and noticed Amazon Mp3 kept loading. Went into Amazon App and unchecked some &quot;connection&quot; option. No probs since. Battery usage good as new.]]></description>
+		<content:encoded><![CDATA[<p>Had some battery draining issues and noticed Amazon Mp3 kept loading. Went into Amazon App and unchecked some &#8220;connection&#8221; option. No probs since. Battery usage good as new.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: KHiD.WHITE</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-10/comment-page-4#comment-4808</link>
+		<dc:creator>KHiD.WHITE</dc:creator>
+		<pubDate>Sun, 27 Dec 2009 20:02:06 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-10#comment-4808</guid>
+		<description><![CDATA[After goin from 4.2.9.1 and updating to 4.2.10, i get major FC they start from when my phone boot up. They mostly come from my Widget. i own a MT3G if anyone can help me plz contact me. Also m SD is Ext2
+
+KHiD1987@gmail.com]]></description>
+		<content:encoded><![CDATA[<p>After goin from 4.2.9.1 and updating to 4.2.10, i get major FC they start from when my phone boot up. They mostly come from my Widget. i own a MT3G if anyone can help me plz contact me. Also m SD is Ext2</p>
+<p><a href="mailto:KHiD1987@gmail.com">KHiD1987@gmail.com</a></p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/17 queries in 0.040 seconds using apc
+Object Caching 351/353 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:19:59 by W3 Total Cache -->

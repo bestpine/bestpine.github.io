@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: 4.1.11.1</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/4-1-11-1/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/4-1-11-1</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: Gabriel</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-11-1/comment-page-3#comment-1537</link>
+		<dc:creator>Gabriel</dc:creator>
+		<pubDate>Sat, 17 Oct 2009 19:24:49 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-11-1#comment-1537</guid>
+		<description><![CDATA[I have had 4.1.11.1 for about two weeks now and it is awesome. Very fast! 
+
+I have tethering for root users and it works great john. However, I am not sure if it is the cyanogen rom (it was doing it before i flashed it; maybe cos it wasnt rooted before) but whenever i have my earphones plugged in, as soon as i get a call or a message the sound on the phone completely goes away for messages, media and phone calls. The phone makes no sound whatsoever until i reboot. And it sucks cos when im at work and im listening ot a podcast or something i am constantly getting emails and messages so i reboot about every thirty minutes now, it sucks.
+
+any suggestions before i have to wipe, and reflash to go back down to the stable cyanogen rom?]]></description>
+		<content:encoded><![CDATA[<p>I have had 4.1.11.1 for about two weeks now and it is awesome. Very fast! </p>
+<p>I have tethering for root users and it works great john. However, I am not sure if it is the cyanogen rom (it was doing it before i flashed it; maybe cos it wasnt rooted before) but whenever i have my earphones plugged in, as soon as i get a call or a message the sound on the phone completely goes away for messages, media and phone calls. The phone makes no sound whatsoever until i reboot. And it sucks cos when im at work and im listening ot a podcast or something i am constantly getting emails and messages so i reboot about every thirty minutes now, it sucks.</p>
+<p>any suggestions before i have to wipe, and reflash to go back down to the stable cyanogen rom?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Joe</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-11-1/comment-page-3#comment-1378</link>
+		<dc:creator>Joe</dc:creator>
+		<pubDate>Fri, 09 Oct 2009 03:44:32 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-11-1#comment-1378</guid>
+		<description><![CDATA[On 4.1.11.1, it has been great so far. I did a wipe before installing. The one thing I noticed is that it doesn&#039;t have a option to have both vib &amp; ring. I don&#039;t know if it is left out of 1.6 or if it was some how not brought in.  Other wise I haven&#039;t seen any real operating issues yet, been three days. I have to say I&#039;m glad the google thing is getting worked out. I thought google was cool for a minute for letting people do as they like. It still had google&#039;s name all over it and cyanogen only made it better, thus improving they&#039;re name. But what ever. I say jump over to openmoko and hack out a ubuntu mobile based rom leave android in the dust if they can&#039;t work it out. Thanks for the hard work cyanogen!]]></description>
+		<content:encoded><![CDATA[<p>On 4.1.11.1, it has been great so far. I did a wipe before installing. The one thing I noticed is that it doesn&#8217;t have a option to have both vib &amp; ring. I don&#8217;t know if it is left out of 1.6 or if it was some how not brought in.  Other wise I haven&#8217;t seen any real operating issues yet, been three days. I have to say I&#8217;m glad the google thing is getting worked out. I thought google was cool for a minute for letting people do as they like. It still had google&#8217;s name all over it and cyanogen only made it better, thus improving they&#8217;re name. But what ever. I say jump over to openmoko and hack out a ubuntu mobile based rom leave android in the dust if they can&#8217;t work it out. Thanks for the hard work cyanogen!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Greg</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-11-1/comment-page-3#comment-1226</link>
+		<dc:creator>Greg</dc:creator>
+		<pubDate>Sun, 04 Oct 2009 02:30:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-11-1#comment-1226</guid>
+		<description><![CDATA[Just updated to this rom from 4.0.4 and now the market does not work. sorry for this next question but now i don&#039;t have 3g, any help would be greatly appreciated. Thanx.]]></description>
+		<content:encoded><![CDATA[<p>Just updated to this rom from 4.0.4 and now the market does not work. sorry for this next question but now i don&#8217;t have 3g, any help would be greatly appreciated. Thanx.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: John</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-11-1/comment-page-3#comment-1128</link>
+		<dc:creator>John</dc:creator>
+		<pubDate>Wed, 30 Sep 2009 07:49:51 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-11-1#comment-1128</guid>
+		<description><![CDATA[I went back to 4.0.4 because I can&#039;t use the bluetooth features on 4.1.11.1 Has anyone noticed the Bluex app doesn&#039;t allow send or receive with this version? I also had trouble with tetherwifi because my laptop never recognized filesharing or tethering features until I down-graded. Also, I had a lot of errors with apps not recognizing super-user permissions...perhaps I screwed it up somehow...but I don&#039;t ever remember messing with the lib. Bottom line, mytouch3g runs much smoother and stable with the 4.0.4 release, minus the extra stuff gone. :( Next ROM is gonna be much better I hope! Btw...thanks CyanogenModder! Your Roms are MUCH better than ANYONE ELSE!]]></description>
+		<content:encoded><![CDATA[<p>I went back to 4.0.4 because I can&#8217;t use the bluetooth features on 4.1.11.1 Has anyone noticed the Bluex app doesn&#8217;t allow send or receive with this version? I also had trouble with tetherwifi because my laptop never recognized filesharing or tethering features until I down-graded. Also, I had a lot of errors with apps not recognizing super-user permissions&#8230;perhaps I screwed it up somehow&#8230;but I don&#8217;t ever remember messing with the lib. Bottom line, mytouch3g runs much smoother and stable with the 4.0.4 release, minus the extra stuff gone. <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' />  Next ROM is gonna be much better I hope! Btw&#8230;thanks CyanogenModder! Your Roms are MUCH better than ANYONE ELSE!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: dancingwombat</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-11-1/comment-page-3#comment-1091</link>
+		<dc:creator>dancingwombat</dc:creator>
+		<pubDate>Mon, 28 Sep 2009 21:42:42 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-11-1#comment-1091</guid>
+		<description><![CDATA[@Bob:
+What has happened is that you do NOT have a new recovery image installed (that menu you get when you boot with home+power).  I can tell because you don&#039;t have enough menu choices.
+
+Without something like the cyanogenmod or JesusFreak recovery image, you cannot flash custom ROMs.  You may have installed a new recovery image at one time, but if the STOCK firmware boots, even from a modified recovery image, then the firmware itself will overwrite the recovery image with the STOCK one.
+You have to root again, flash the recovery image again, and then get the custom firmware installed WITHOUT letting the stock firmware boot up.
+You haven&#039;t done any damage or anything, you just have to start over.]]></description>
+		<content:encoded><![CDATA[<p>@Bob:<br />
+What has happened is that you do NOT have a new recovery image installed (that menu you get when you boot with home+power).  I can tell because you don&#8217;t have enough menu choices.</p>
+<p>Without something like the cyanogenmod or JesusFreak recovery image, you cannot flash custom ROMs.  You may have installed a new recovery image at one time, but if the STOCK firmware boots, even from a modified recovery image, then the firmware itself will overwrite the recovery image with the STOCK one.<br />
+You have to root again, flash the recovery image again, and then get the custom firmware installed WITHOUT letting the stock firmware boot up.<br />
+You haven&#8217;t done any damage or anything, you just have to start over.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: emp0wer</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-11-1/comment-page-3#comment-1027</link>
+		<dc:creator>emp0wer</dc:creator>
+		<pubDate>Sun, 27 Sep 2009 18:26:02 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-11-1#comment-1027</guid>
+		<description><![CDATA[Bob, rename it to &quot;update&quot; without .zip and try again.]]></description>
+		<content:encoded><![CDATA[<p>Bob, rename it to &#8220;update&#8221; without .zip and try again.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: emp0wer</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-11-1/comment-page-3#comment-1015</link>
+		<dc:creator>emp0wer</dc:creator>
+		<pubDate>Sun, 27 Sep 2009 17:12:09 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-11-1#comment-1015</guid>
+		<description><![CDATA[Try renaming it to update (no .zip), now try again, let me know how u get on?]]></description>
+		<content:encoded><![CDATA[<p>Try renaming it to update (no .zip), now try again, let me know how u get on?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Bob</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-11-1/comment-page-3#comment-885</link>
+		<dc:creator>Bob</dc:creator>
+		<pubDate>Sun, 27 Sep 2009 03:00:19 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-11-1#comment-885</guid>
+		<description><![CDATA[How exactly do I install the ROM? I am rooted and have the Cyanogen app. I downloaded to my SD card the latest build, but when I &quot;APPLY&quot; it and then reboot into recovery mode it I do that. Once in Recovery Mode it gives me the option to: 
+
+1. reboot system now [Home+Back]
+2. apply sdcard:update.zip [Alt+S]
+3. wipe data/factory reset [Alt+W]
+
+I choose #2 and then it says it is 
+Finding the update package...
+Opening the update package... 
+Verifying the update pacakage, 
+E:No signature (377 files),
+E:Verification failed,
+Installation aborted.
+
+--Install From sdcard...
+Finding the update package...
+Opening the update package... 
+E:Can&#039;t open /sdcard/update.zip
+(No such file or directory)
+Installation aborted.
+
+I tried renaming the modded ROM file to &quot;update.zip&quot; and still nothing. I have no idea how to do this. I tried to look for a way to get this to work, but have come up empty handed. I hope someone here can please help.
+
+Thanks]]></description>
+		<content:encoded><![CDATA[<p>How exactly do I install the ROM? I am rooted and have the Cyanogen app. I downloaded to my SD card the latest build, but when I &#8220;APPLY&#8221; it and then reboot into recovery mode it I do that. Once in Recovery Mode it gives me the option to: </p>
+<p>1. reboot system now [Home+Back]<br />
+2. apply sdcard:update.zip [Alt+S]<br />
+3. wipe data/factory reset [Alt+W]</p>
+<p>I choose #2 and then it says it is<br />
+Finding the update package&#8230;<br />
+Opening the update package&#8230;<br />
+Verifying the update pacakage,<br />
+E:No signature (377 files),<br />
+E:Verification failed,<br />
+Installation aborted.</p>
+<p>&#8211;Install From sdcard&#8230;<br />
+Finding the update package&#8230;<br />
+Opening the update package&#8230;<br />
+E:Can&#8217;t open /sdcard/update.zip<br />
+(No such file or directory)<br />
+Installation aborted.</p>
+<p>I tried renaming the modded ROM file to &#8220;update.zip&#8221; and still nothing. I have no idea how to do this. I tried to look for a way to get this to work, but have come up empty handed. I hope someone here can please help.</p>
+<p>Thanks</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: emp0wer</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-11-1/comment-page-3#comment-884</link>
+		<dc:creator>emp0wer</dc:creator>
+		<pubDate>Sat, 26 Sep 2009 23:51:26 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-11-1#comment-884</guid>
+		<description><![CDATA[Running 4.1.11.1 since release, stable and fast, did wipe, glad I did, w0w]]></description>
+		<content:encoded><![CDATA[<p>Running 4.1.11.1 since release, stable and fast, did wipe, glad I did, w0w</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: George</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-11-1/comment-page-3#comment-883</link>
+		<dc:creator>George</dc:creator>
+		<pubDate>Sat, 26 Sep 2009 20:49:46 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-11-1#comment-883</guid>
+		<description><![CDATA[@ CraigM I have tried that but it does not work.. :(
+Anyway many thanks ...]]></description>
+		<content:encoded><![CDATA[<p>@ CraigM I have tried that but it does not work.. <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' /><br />
+Anyway many thanks &#8230;</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/19 queries in 0.032 seconds using apc
+Object Caching 358/364 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:15:37 by W3 Total Cache -->

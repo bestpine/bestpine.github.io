@@ -1,0 +1,881 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+
+	<title>Logo Image Contest! | CyanogenMod</title>
+	
+	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<!-- Included Foundation CSS Files -->
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/foundation.css">
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/app.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/tipTip.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/fonts/style.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/flexslider.css" type="text/css" media="screen" />
+	
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/style.css">
+	
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/ie.css">
+	<![endif]-->
+	
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Favicon and Feed -->
+	<link rel="shortcut icon" type="image/png" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="CyanogenMod Feed" href="http://www.cyanogenmod.org/feed/">
+	
+	<!--  iPhone Web App Home Screen Icon -->
+	<link rel="apple-touch-icon" sizes="72x72" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon-retina.png" />
+	<link rel="apple-touch-icon" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon.png" />
+	
+	<!-- Enable Startup Image for iOS Home Screen Web App -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/mobile-load.png" />
+
+	<!-- Startup Image iPad Landscape (748x1024) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load-ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" />
+	<!-- Startup Image iPad Portrait (768x1004) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load-ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" />
+	<!-- Startup Image iPhone (320x460) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load.png" media="screen and (max-device-width: 320px)" />
+	
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.jparallax.min.js" ></script>
+  <script defer type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.featureList-1.0.0.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.tipTip.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/easySlider1.7.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/modernizr.foundation.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.flexslider-min.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/custom.js"></script>
+  
+  <script type="text/javascript">
+    $(document).load(function(){
+
+	  // The slider being synced must be initialized first
+	  $('.flexslider').flexslider({
+		animation: "slide",
+		controlNav: false,
+	  });
+	  
+    });
+  </script>
+  
+  	<link rel="alternate" type="application/rss+xml" title="CyanogenMod &raquo; Logo Image Contest! Comments Feed" href="http://www.cyanogenmod.org/blog/logo-image-contest/feed" />
+<script type='text/javascript' src='http://www.cyanogenmod.org/wp-includes/js/comment-reply.min.js?ver=3.5.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.cyanogenmod.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.cyanogenmod.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='6 New themes added!' href='http://www.cyanogenmod.org/blog/6-new-themes-added' />
+<link rel='next' title='CyanogenMod 4.0.3.1 is out!' href='http://www.cyanogenmod.org/blog/cyanogenmod-4-0-3-1-is-out' />
+<meta name="generator" content="WordPress 3.5.2" />
+<link rel='shortlink' href='http://www.cyanogenmod.org/?p=216' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<!-- All in One SEO Pack 2.0.2 by Michael Torbert of Semper Fi Web Design[493,521] -->
+<meta name="description" content="Who would like to design a new header logo for this website? After all, this is a community ROM ....... so let's get designing! SPECS 450 x 65" />
+
+<link rel="canonical" href="http://www.cyanogenmod.org/blog/logo-image-contest" />
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-39737599-3']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+<!-- /all in one seo pack -->
+</head>
+
+<body class="single single-post postid-216 single-format-standard">
+
+	<div class="menusto hide-on-phones"></div>
+	<!-- Start the main container -->
+	<div id="container" class="container" role="document" style="padding:80px 0 0 0;">
+		
+        
+        <div class="row mobile-header show-on-phones">
+            <div class="nine">
+            	<a href="http://www.cyanogenmod.org" title="CyanogenMod" class="logo-mobile"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/logo-mobile.png" alt=""/></a>
+            </div>
+            <a href="#navigation" class="mobile-menu"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/btn-menu-mobile.png" alt=""/></a>
+        </div>
+        
+		<!-- Row for blog navigation -->
+		<div class="row hide-on-phones">
+			<header class="twelve columns" role="banner">
+				<div class="reverie-header">
+                	<a href="http://www.cyanogenmod.org" title="CyanogenMod" class="logo"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/logo.png" alt=""/></a>
+                    <div id="glavno" class="nav hide-on-phones">
+                        <ul id="glavno">                   
+                            <li><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+                            <!--<li><a href="http://cyanogenmod.org/about/features">Features</a></li>-->
+                            <li><a href="http://download.cyanogenmod.org/">Download</a></li>
+                            <li><a href="http://www.cyanogenmod.org/blog/">Blog</a></li>
+                            <li><a href="http://forum.cyanogenmod.org/">Forum</a></li>
+                            <li>
+                            	<a href="http://www.cyanogenmod.org/community">Community</a>
+                                <div style="opacity: 0; display: none; width:100%" class="sub">
+                                    <ul>
+                                    	<div style="width:980px; margin:0 auto; color:#fff;">
+                                        	<div class="contributesub">
+                                            	<h2>Contribute</h2>
+                                                
+                                                <h4><a href="http://review.cyanogenmod.org/">Gerrit Review</a></h4>
+                                                <p>Gerrit is a web based code review system, facilitating online code reviews for projects using the Git version control system.</p>
+                                                    
+                                                <h4><a href="http://wiki.cyanogenmod.org/">Wiki</a></h4>
+                                                <p>Our Wiki is a comprehensive tool for users to find information. This also needs contributions to keep it fresh and relevant.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/community">Join The Team</a></h4>
+                                                <p>We love working with others. You can submit code via Gerrit. If you think there is something else you can help with, get in touch with us on the forums.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub">
+                                            	<h2>Help</h2>
+                                                
+                                                <h4><a href="http://forum.cyanogenmod.org/">Forum</a></h4>
+                                                <p>Our forums have a wealth of knowledge and resources. All of it is free and accessible from both your desktop and mobile phone.</p>
+                                                    
+                                                <h4><a href="irc://irc.freenode.net/cyanogenmod">IRC</a></h4>
+                                                <p>If you are comfortable with IRC and would like instant help and assistance from both developers and others users alike.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/blog">Blog</a></h4>
+                                                <p>Our blogs will contain the latest news and releases as well as other related news concerning the distribution.</p>
+                                                    
+                                                <h4><a href="http://wiki.cyanogenmod.org/">Wiki</a></h4>
+                                                <p>Our Wiki is a comprehensive tool for users to find information. This also needs contributions to keep it fresh and relevant.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub">
+                                            	<h2>Information</h2>
+                                                
+                                                <h4><a href="http://www.cyanogenmod.org/changelog">Change Log</a></h4>
+                                                <p>Our development of the ROM is always changing. We add new features and fix bugs all the time. Check the latest change log here.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/bugs">Bug Tracker</a></h4>
+                                                <p>This is the official Bug Tracker where you can submit and review bugs that users may experience.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/github">Github Repo</a></h4>
+                                                <p>Our source is free and open. you can check the Github page to see what we do and how you can contribute.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/stats">Installation Statistics</a></h4>
+                                                <p>We have an opt-in feature in our ROMS to enable us to gain statistics on users as well as devices used.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub last">
+                                            	<h2>Support</h2>
+                                                
+                                                <h4><a href="/cdn-cgi/l/email-protection#4521203337202905263c242b2a22202b282a216b2a3722">Developer Relations</a></h4>
+                                                <p>If you wish to contact us regarding development contributions, please do so here.</p>
+                                                    
+                                                <h4><a href="/cdn-cgi/l/email-protection#85e4e1e8ecebc5e6fce4ebeae2e0ebe8eae1abeaf7e2">Website Support</a></h4>
+                                                <p>This email is dedicated to website, forum, wiki and hosting support. We will not respond to ROM support.</p>
+                                                    
+                                                <h4><a href="/cdn-cgi/l/email-protection#ea8b8e878384aa89938b84858d8f8487858ec485988d">Social Network</a></h4>
+                                                <p>To contact us in relation to our Social media structure.</p>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                    
+                                </div>
+                            </li>
+                            <li><a href="https://account.cyanogenmod.org">Account</a></li>
+                      </ul>
+                    </div>
+				</div>
+
+			</header>
+		</div>
+
+		
+		<!-- Row for main content area -->
+		<div id="main" class="row">
+		<!-- Row for main content area -->
+		<div id="content" class="eight columns" role="main">
+	
+			<div class="post-box">
+					<article class="post-216 post type-post status-publish format-standard hentry category-blog" id="post-216">
+		<header>
+        	<time class="updated" datetime="2009-08-27T17:45:56+00:00" pubdate>August 27th, 2009 &bull; Written by <a href="http://www.cyanogenmod.org/author/ahmet" rel="author" class="fn">MrADeveci</a></time>        	<h2 class="entry-title">Logo Image Contest!</h2>
+					</header>
+		<div class="entry-content">
+			<p>Who would like to design a new header logo for this website?</p>
+<p>After all, this is a community ROM &#8230;&#8230;. so let&#8217;s get designing!</p>
+<p><strong>SPECS</strong></p>
+<p><strong>450 x 65 pixels</strong></p>
+<p><strong>.PNG image with transparent background.</strong></p>
+<p>Please submit your ideas here, with a link to your header image.<strong><br />
+</strong></p>
+		</div>
+
+<div id="disqus_thread">
+                    <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-31">
+        <div id="dsq-comment-header-31" class="dsq-comment-header">
+            <cite id="dsq-cite-31">
+                <span id="dsq-author-user-31">Manny</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-31" class="dsq-comment-body">
+            <div id="dsq-comment-message-31" class="dsq-comment-message"><p>Uhh&#8230;what&#8217;s wrong with robots on skateboards? The logo is quite funky as it is right now.</p>
+<p>As far as the font is concerned &#8211; maybe you should try droid?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-ahmet bypostauthor odd alt thread-odd thread-alt depth-1" id="dsq-comment-32">
+        <div id="dsq-comment-header-32" class="dsq-comment-header">
+            <cite id="dsq-cite-32">
+http://www.metserve.com                <span id="dsq-author-user-32">Ahmet</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-32" class="dsq-comment-body">
+            <div id="dsq-comment-message-32" class="dsq-comment-message"><p>Nothing wrong with the robots &#8230;.. I was thinking of a logo that uses that logo too &#8230;. just something more funky!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-macfreaker even thread-even depth-1" id="dsq-comment-33">
+        <div id="dsq-comment-header-33" class="dsq-comment-header">
+            <cite id="dsq-cite-33">
+http://www.google.com/s2/profiles/107562369760701488701                <span id="dsq-author-user-33">macfreaker</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33" class="dsq-comment-body">
+            <div id="dsq-comment-message-33" class="dsq-comment-message"><p>it&#8217;s not the logo but the site needs the colors used in the roms of cyanogen.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-cyanogen odd alt thread-odd thread-alt depth-1" id="dsq-comment-34">
+        <div id="dsq-comment-header-34" class="dsq-comment-header">
+            <cite id="dsq-cite-34">
+http://www.cyanogenmod.com                <span id="dsq-author-user-34">Cyanogen</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-34" class="dsq-comment-body">
+            <div id="dsq-comment-message-34" class="dsq-comment-message"><p>The blue skateboarding android definitely has to be part of it.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-35">
+        <div id="dsq-comment-header-35" class="dsq-comment-header">
+            <cite id="dsq-cite-35">
+http://twitter.com/adam62882                <span id="dsq-author-user-35">Adam</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-35" class="dsq-comment-body">
+            <div id="dsq-comment-message-35" class="dsq-comment-message"><p>Here&#8217;s a quick one&#8230;<br />
+<a href="http://www.adamshafer.com/misc/gray.png" rel="nofollow">http://www.adamshafer.com/misc/gray.png</a></p>
+<p>And on a gray background:<br />
+<a href="http://www.adamshafer.com/misc/gray-bg.png" rel="nofollow">http://www.adamshafer.com/misc/gray-bg.png</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-ahmet bypostauthor odd alt thread-odd thread-alt depth-1" id="dsq-comment-37">
+        <div id="dsq-comment-header-37" class="dsq-comment-header">
+            <cite id="dsq-cite-37">
+http://www.metserve.com                <span id="dsq-author-user-37">Ahmet</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-37" class="dsq-comment-body">
+            <div id="dsq-comment-message-37" class="dsq-comment-message"><p>Great effort &#8230;&#8230;&#8230; I&#8217;m liking that! I&#8217;ll wait for some more to roll up before putting them up to the crowd!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-ahmet bypostauthor even thread-even depth-1" id="dsq-comment-38">
+        <div id="dsq-comment-header-38" class="dsq-comment-header">
+            <cite id="dsq-cite-38">
+http://www.metserve.com                <span id="dsq-author-user-38">Ahmet</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-38" class="dsq-comment-body">
+            <div id="dsq-comment-message-38" class="dsq-comment-message"><blockquote cite="#commentbody-33"><p>
+<strong><a href="#comment-33" rel="nofollow">macfreaker</a> :</strong></p>
+<p>it’s not the logo but the site needs the colors used in the roms of cyanogen.</p>
+</blockquote>
+<p>Erm, what colours are you reffering to exactly?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-39">
+        <div id="dsq-comment-header-39" class="dsq-comment-header">
+            <cite id="dsq-cite-39">
+http://twitter.com/adam62882                <span id="dsq-author-user-39">Adam</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-39" class="dsq-comment-body">
+            <div id="dsq-comment-message-39" class="dsq-comment-message"><p>i&#8217;ll see if i can get some free time later on and make a better one&#8230;</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-prash even thread-even depth-1" id="dsq-comment-40">
+        <div id="dsq-comment-header-40" class="dsq-comment-header">
+            <cite id="dsq-cite-40">
+http://www.google.com/s2/profiles/115395854124808916911                <span id="dsq-author-user-40">Prash</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-40" class="dsq-comment-body">
+            <div id="dsq-comment-message-40" class="dsq-comment-message"><p>So..where do we submit/send?</p>
+<p>Here is a quick one, preview of what it looks like on the site:</p>
+<p><a href="http://injun.org/images/cm-sitelogo-preview.jpg" rel="nofollow">http://injun.org/images/cm-sitelogo-preview.jpg</a></p>
+<p>grab it from <a href="http://injun.org/images/cm-sitelogo.png" rel="nofollow">http://injun.org/images/cm-sitelogo.png</a> (note, on a clear background it may not look like its supposed to, so go by the previous link of the preview)</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-41">
+        <div id="dsq-comment-header-41" class="dsq-comment-header">
+            <cite id="dsq-cite-41">
+http://www.mentalist.pro                <span id="dsq-author-user-41">scott xavier</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-41" class="dsq-comment-body">
+            <div id="dsq-comment-message-41" class="dsq-comment-message"><p>Here&#8217;s one take, but Im leaning more on a play on the C and the D as a logo, Ill upload it in a few too&#8230;.</p>
+<p><a href="http://www.scottxavier.com/cyan.png" rel="nofollow">http://www.scottxavier.com/cyan.png</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-42">
+        <div id="dsq-comment-header-42" class="dsq-comment-header">
+            <cite id="dsq-cite-42">
+http://www.mentalist.pro                <span id="dsq-author-user-42">scott xavier</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-42" class="dsq-comment-body">
+            <div id="dsq-comment-message-42" class="dsq-comment-message"><p>Also note the background is transparent, it looks good on grey. grey and light blue are complimentary colors&#8230;</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-richpadg odd alt thread-odd thread-alt depth-1" id="dsq-comment-43">
+        <div id="dsq-comment-header-43" class="dsq-comment-header">
+            <cite id="dsq-cite-43">
+http://www.google.com/s2/profiles/103535496032701469091                <span id="dsq-author-user-43">richpadg</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-43" class="dsq-comment-body">
+            <div id="dsq-comment-message-43" class="dsq-comment-message"><p>Here are a couple I came up with.  Nothing special, but something to look at.</p>
+<p><a href="http://i849.photobucket.com/albums/ab54/richpadg71/CMLogo01.png" rel="nofollow">http://i849.photobucket.com/albums/ab54/richpadg71/CMLogo01.png</a></p>
+<p><a href="http://i849.photobucket.com/albums/ab54/richpadg71/CMLogo02.png" rel="nofollow">http://i849.photobucket.com/albums/ab54/richpadg71/CMLogo02.png</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-45">
+        <div id="dsq-comment-header-45" class="dsq-comment-header">
+            <cite id="dsq-cite-45">
+http://thewichitacomputerguy.com                <span id="dsq-author-user-45">Phil</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-45" class="dsq-comment-body">
+            <div id="dsq-comment-message-45" class="dsq-comment-message"><p>You graphics people piss me off!!  What takes me like 3 hrs to do, takes you guys 15 min!  &gt;:(</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-androidnewb odd alt thread-odd thread-alt depth-1" id="dsq-comment-46">
+        <div id="dsq-comment-header-46" class="dsq-comment-header">
+            <cite id="dsq-cite-46">
+http://www.cyanogenmod.com/canvas.html?site=02230746853661853795&#038;profileId=10190531729853222258                <span id="dsq-author-user-46">androidnewb</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-46" class="dsq-comment-body">
+            <div id="dsq-comment-message-46" class="dsq-comment-message"><p><a href="http://picasaweb.google.com/lh/photo/S7m6bJPc-uZdh1o179BFKw?feat=directlink" rel="nofollow">http://picasaweb.google.com/lh/photo/S7m6bJPc-uZdh1o179BFKw?feat=directlink</a></p>
+<p>cyanogen logo</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-pedromarques even thread-even depth-1" id="dsq-comment-47">
+        <div id="dsq-comment-header-47" class="dsq-comment-header">
+            <cite id="dsq-cite-47">
+http://www.cyanogenmod.com/canvas.html?site=02230746853661853795&#038;profileId=01893451674823172738                <span id="dsq-author-user-47">SmoothMarx</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-47" class="dsq-comment-body">
+            <div id="dsq-comment-message-47" class="dsq-comment-message"><p>Well, the color Cyan definitely has to have a part in it.<br />
+@Adam why don&#8217;t you give the silver look a sapphire-ish glare?<br />
+just my two cents.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-64">
+        <div id="dsq-comment-header-64" class="dsq-comment-header">
+            <cite id="dsq-cite-64">
+                <span id="dsq-author-user-64">Scott</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-64" class="dsq-comment-body">
+            <div id="dsq-comment-message-64" class="dsq-comment-message"><p>Check it out&#8230; here is a version on a background, lemme know if ya want the png, i will be making a few more shortly&#8230;<br />
+<a href="http://i138.photobucket.com/albums/q267/spr22/top-logo-spr.jpg" rel="nofollow">http://i138.photobucket.com/albums/q267/spr22/top-logo-spr.jpg</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-ahmet bypostauthor even thread-even depth-1" id="dsq-comment-65">
+        <div id="dsq-comment-header-65" class="dsq-comment-header">
+            <cite id="dsq-cite-65">
+http://www.metserve.com                <span id="dsq-author-user-65">Ahmet</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-65" class="dsq-comment-body">
+            <div id="dsq-comment-message-65" class="dsq-comment-message"><blockquote cite="#commentbody-64"><p>
+<strong><a href="#comment-64" rel="nofollow">Scott</a> :</strong></p>
+<p>Check it out… here is a version on a background, lemme know if ya want the png, i will be making a few more shortly…<br />
+<a href="http://i138.photobucket.com/albums/q267/spr22/top-logo-spr.jpg" rel="nofollow">http://i138.photobucket.com/albums/q267/spr22/top-logo-spr.jpg</a></p>
+</blockquote>
+<p>.png version too please &#8230;. once I have collected a few, I will put them up for the vote!</p>
+<p>Thanks!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-66">
+        <div id="dsq-comment-header-66" class="dsq-comment-header">
+            <cite id="dsq-cite-66">
+                <span id="dsq-author-user-66">Scott</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-66" class="dsq-comment-body">
+            <div id="dsq-comment-message-66" class="dsq-comment-message"><blockquote cite="#commentbody-65"><p>
+<strong><a href="#comment-65" rel="nofollow">Ahmet</a> :</strong><br />
+<blockquote cite="#commentbody-64">
+<strong><a href="#comment-64" rel="nofollow">Scott</a> :</strong><br />
+Check it out… here is a version on a background, lemme know if ya want the png, i will be making a few more shortly…<a href="http://i138.photobucket.com/albums/q267/spr22/top-logo-spr.jpg" rel="nofollow">http://i138.photobucket.com/albums/q267/spr22/top-logo-spr.jpg</a></p></blockquote>
+<p>.png version too please …. once I have collected a few, I will put them up for the vote!<br />
+Thanks!</p></blockquote>
+<p>Here ya go man, sorry about that <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /><br />
+<a href="http://i138.photobucket.com/albums/q267/spr22/logo-logo-spr.png" rel="nofollow">http://i138.photobucket.com/albums/q267/spr22/logo-logo-spr.png</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-androidnewb even thread-even depth-1" id="dsq-comment-72">
+        <div id="dsq-comment-header-72" class="dsq-comment-header">
+            <cite id="dsq-cite-72">
+http://www.cyanogenmod.com/canvas.html?site=02230746853661853795&#038;profileId=10190531729853222258                <span id="dsq-author-user-72">androidnewb</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-72" class="dsq-comment-body">
+            <div id="dsq-comment-message-72" class="dsq-comment-message"><p>here&#8217;s another:</p>
+<p><a href="http://picasaweb.google.com/lh/photo/yfZ_ZR3p624m9tSJaLrscg?feat=directlink" rel="nofollow">http://picasaweb.google.com/lh/photo/yfZ_ZR3p624m9tSJaLrscg?feat=directlink</a></p>
+<p>thanks!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-74">
+        <div id="dsq-comment-header-74" class="dsq-comment-header">
+            <cite id="dsq-cite-74">
+                <span id="dsq-author-user-74">James</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-74" class="dsq-comment-body">
+            <div id="dsq-comment-message-74" class="dsq-comment-message"><p>can someone provide me with a fairly hi-res version of the cyanogen logo in the upper left currently? I&#8217;ve got some ideas&#8230;</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-ahmet bypostauthor even thread-even depth-1" id="dsq-comment-75">
+        <div id="dsq-comment-header-75" class="dsq-comment-header">
+            <cite id="dsq-cite-75">
+http://www.metserve.com                <span id="dsq-author-user-75">Ahmet</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-75" class="dsq-comment-body">
+            <div id="dsq-comment-message-75" class="dsq-comment-message"><p><a href="http://bit.ly/JgQJ4" rel="nofollow">http://bit.ly/JgQJ4</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-prash odd alt thread-odd thread-alt depth-1" id="dsq-comment-76">
+        <div id="dsq-comment-header-76" class="dsq-comment-header">
+            <cite id="dsq-cite-76">
+http://www.google.com/s2/profiles/115395854124808916911                <span id="dsq-author-user-76">Prash</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-76" class="dsq-comment-body">
+            <div id="dsq-comment-message-76" class="dsq-comment-message"><blockquote cite="#commentbody-74"><p>
+<strong><a href="#comment-74" rel="nofollow">James</a> :</strong><br />
+          can someone provide me with a fairly hi-res version of the cyanogen logo in the upper left currently? I’ve got some ideas…
+         </p></blockquote>
+<p>Try this one <a href="http://i203.photobucket.com/albums/aa263/mrmatthewd17/CyanLogo_huge-1.png" rel="nofollow">http://i203.photobucket.com/albums/aa263/mrmatthewd17/CyanLogo_huge-1.png</a>  (provided by Matt_Stang</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-androidnewb even thread-even depth-1" id="dsq-comment-80">
+        <div id="dsq-comment-header-80" class="dsq-comment-header">
+            <cite id="dsq-cite-80">
+http://www.cyanogenmod.com/canvas.html?site=02230746853661853795&#038;profileId=10190531729853222258                <span id="dsq-author-user-80">androidnewb</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-80" class="dsq-comment-body">
+            <div id="dsq-comment-message-80" class="dsq-comment-message"><p><a href="http://picasaweb.google.com/lh/photo/tJsXZgV1-k6p2RGea_fDQg?feat=directlink" rel="nofollow">http://picasaweb.google.com/lh/photo/tJsXZgV1-k6p2RGea_fDQg?feat=directlink</a></p>
+<p>here is one with a darkbackground, and below is the same with the transparent background</p>
+<p><a href="http://picasaweb.google.com/lh/photo/eG_kS9CxMsFClNcnUgwbVw?feat=directlink" rel="nofollow">http://picasaweb.google.com/lh/photo/eG_kS9CxMsFClNcnUgwbVw?feat=directlink</a></p>
+<p>man&#8230;would have been nice to have that higher res logo file sooner!  shoulda asked!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-81">
+        <div id="dsq-comment-header-81" class="dsq-comment-header">
+            <cite id="dsq-cite-81">
+                <span id="dsq-author-user-81">Scott</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-81" class="dsq-comment-body">
+            <div id="dsq-comment-message-81" class="dsq-comment-message"><p>Heres another one:<br />
+png: <a href="http://i138.photobucket.com/albums/q267/spr22/CMLogo-Top.png" rel="nofollow">http://i138.photobucket.com/albums/q267/spr22/CMLogo-Top.png</a></p>
+<p>jpg w/background:<br />
+<a href="http://i138.photobucket.com/albums/q267/spr22/CMLogo-Top-1.jpg" rel="nofollow">http://i138.photobucket.com/albums/q267/spr22/CMLogo-Top-1.jpg</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-adamshafer even thread-even depth-1" id="dsq-comment-82">
+        <div id="dsq-comment-header-82" class="dsq-comment-header">
+            <cite id="dsq-cite-82">
+http://www.google.com/s2/profiles/117338656927939099106                <span id="dsq-author-user-82">AdamShafer</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-82" class="dsq-comment-body">
+            <div id="dsq-comment-message-82" class="dsq-comment-message"><p>Alright guys, here&#8217;s my final three entries&#8230; all about the same, just moved the little skateboarder guy around:<br />
+<a href="http://www.adamshafer.com/misc/cyanogenmod/" rel="nofollow">http://www.adamshafer.com/misc/cyanogenmod/</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-makhan odd alt thread-odd thread-alt depth-1" id="dsq-comment-85">
+        <div id="dsq-comment-header-85" class="dsq-comment-header">
+            <cite id="dsq-cite-85">
+http://www.google.com/s2/profiles/107914568001396746998                <span id="dsq-author-user-85">Makhan</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-85" class="dsq-comment-body">
+            <div id="dsq-comment-message-85" class="dsq-comment-message"><p>Nice ideas people! Thank you Ahmet for putting this together. Here&#8217;s my take on the header logo:</p>
+<p><a href="http://mlvirdi.com/android/" rel="nofollow">http://mlvirdi.com/android/</a> </p>
+<p>I am trying couple more with some funky fx&#8230;</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-98">
+        <div id="dsq-comment-header-98" class="dsq-comment-header">
+            <cite id="dsq-cite-98">
+                <span id="dsq-author-user-98">St. Danny</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-98" class="dsq-comment-body">
+            <div id="dsq-comment-message-98" class="dsq-comment-message"><p>Might not be what you&#8217;re looking for, but it was still fun giving it a try!</p>
+<p>Detailed Look:<br />
+<a href="http://stdanny.com/headerdetail.png" rel="nofollow">http://stdanny.com/headerdetail.png</a></p>
+<p>450&#215;65 PNG:<br />
+<a href="http://stdanny.com/header.png" rel="nofollow">http://stdanny.com/header.png</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-116">
+        <div id="dsq-comment-header-116" class="dsq-comment-header">
+            <cite id="dsq-cite-116">
+                <span id="dsq-author-user-116">Bountyhunter</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-116" class="dsq-comment-body">
+            <div id="dsq-comment-message-116" class="dsq-comment-message"><p>This is my idea: <a href="http://img137.imageshack.us/i/cyanogenlogo.jpg/" rel="nofollow">http://img137.imageshack.us/i/cyanogenlogo.jpg/</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-mattbrock even thread-even depth-1" id="dsq-comment-119">
+        <div id="dsq-comment-header-119" class="dsq-comment-header">
+            <cite id="dsq-cite-119">
+http://www.cyanogenmod.com/canvas.html?site=02230746853661853795&#038;profileId=10388847201516603475                <span id="dsq-author-user-119">mattbrock</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-119" class="dsq-comment-body">
+            <div id="dsq-comment-message-119" class="dsq-comment-message"><p><a href="http://i203.photobucket.com/albums/aa263/mrmatthewd17/cyanmodsite.png" rel="nofollow">http://i203.photobucket.com/albums/aa263/mrmatthewd17/cyanmodsite.png</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-hectorsaucedo odd alt thread-odd thread-alt depth-1" id="dsq-comment-125">
+        <div id="dsq-comment-header-125" class="dsq-comment-header">
+            <cite id="dsq-cite-125">
+http://www.cyanogenmod.com/canvas.html?site=02230746853661853795&#038;profileId=01624472602887904230                <span id="dsq-author-user-125">HectorSaucedo</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-125" class="dsq-comment-body">
+            <div id="dsq-comment-message-125" class="dsq-comment-message"><p><a href="http://img42.imageshack.us/img42/739/logo1hwl.png" rel="nofollow">http://img42.imageshack.us/img42/739/logo1hwl.png</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-127">
+        <div id="dsq-comment-header-127" class="dsq-comment-header">
+            <cite id="dsq-cite-127">
+                <span id="dsq-author-user-127">jiqqaman</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-127" class="dsq-comment-body">
+            <div id="dsq-comment-message-127" class="dsq-comment-message"><p>Here is my submission:<br />
+<a href="http://i549.photobucket.com/albums/ii394/jiqqaman3/cyanogen.png" rel="nofollow">http://i549.photobucket.com/albums/ii394/jiqqaman3/cyanogen.png</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment byuser comment-author-uel odd alt thread-odd thread-alt depth-1" id="dsq-comment-142">
+        <div id="dsq-comment-header-142" class="dsq-comment-header">
+            <cite id="dsq-cite-142">
+http://www.google.com/s2/profiles/108928755304373085980                <span id="dsq-author-user-142">Uel</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-142" class="dsq-comment-body">
+            <div id="dsq-comment-message-142" class="dsq-comment-message"><p>The first one has a gray background<br />
+<a href="http://i973.photobucket.com/albums/ae213/samcasbon/Cyanogenlogo.png" rel="nofollow">http://i973.photobucket.com/albums/ae213/samcasbon/Cyanogenlogo.png</a></p>
+<p><a href="http://i973.photobucket.com/albums/ae213/samcasbon/Cyanogenlogo2.png" rel="nofollow">http://i973.photobucket.com/albums/ae213/samcasbon/Cyanogenlogo2.png</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-151">
+        <div id="dsq-comment-header-151" class="dsq-comment-header">
+            <cite id="dsq-cite-151">
+                <span id="dsq-author-user-151">Nate Arbizu</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-151" class="dsq-comment-body">
+            <div id="dsq-comment-message-151" class="dsq-comment-message"><p>My two entries. One with a dark background. One with white.</p>
+<p><a href="http://members.cox.net/narbizu/CyanogenMod.png" rel="nofollow">http://members.cox.net/narbizu/CyanogenMod.png</a><br />
+<a href="http://members.cox.net/narbizu/CyanogenModWhite.png" rel="nofollow">http://members.cox.net/narbizu/CyanogenModWhite.png</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-167">
+        <div id="dsq-comment-header-167" class="dsq-comment-header">
+            <cite id="dsq-cite-167">
+                <span id="dsq-author-user-167">closeshave2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-167" class="dsq-comment-body">
+            <div id="dsq-comment-message-167" class="dsq-comment-message"><p>Let me try this again&#8230;  Here&#8217;s my entry:</p>
+<p><a href="http://www.barber-perine.com/images/cm.png" rel="nofollow">http://www.barber-perine.com/images/cm.png</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-170">
+        <div id="dsq-comment-header-170" class="dsq-comment-header">
+            <cite id="dsq-cite-170">
+http://joesangryfist.com                <span id="dsq-author-user-170">Jirafa</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-170" class="dsq-comment-body">
+            <div id="dsq-comment-message-170" class="dsq-comment-message"><p>here&#8217;s mine&#8230; </p>
+<p>dark bg &#8211; <a href="http://joesangryfist.com/android/CyanogenLOGO-FORBLACKBG.png" rel="nofollow">http://joesangryfist.com/android/CyanogenLOGO-FORBLACKBG.png</a><br />
+white bg &#8211; <a href="http://joesangryfist.com/android/CyanogenLOGO-FORWHITEBG.png" rel="nofollow">http://joesangryfist.com/android/CyanogenLOGO-FORWHITEBG.png</a></p>
+<p>nothing exciting.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-180">
+        <div id="dsq-comment-header-180" class="dsq-comment-header">
+            <cite id="dsq-cite-180">
+                <span id="dsq-author-user-180">LoneWolf</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-180" class="dsq-comment-body">
+            <div id="dsq-comment-message-180" class="dsq-comment-message"><p>Let’s see how this turns out…<br />
+<a href="http://www.r4wr.co.uk/cyanogen/cmlogocontest.png" rel="nofollow">http://www.r4wr.co.uk/cyanogen/cmlogocontest.png</a></p>
+<p>Might try another if I can think of something before the deadline.</p>
+<p>Posted this in both threads since I don&#8217;t know if there&#8217;s one being checked more than the other.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-18327">
+        <div id="dsq-comment-header-18327" class="dsq-comment-header">
+            <cite id="dsq-cite-18327">
+http://www.myspace.com/526067581                <span id="dsq-author-user-18327">Patria Rosenwald</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-18327" class="dsq-comment-body">
+            <div id="dsq-comment-message-18327" class="dsq-comment-message"><p>Excellent design can be good for some, but to some others, it&#8217;s garbage. Trust us, we&#8217;ve suffered our share of differing ideas on our own design work&#8230;</p>
+</div>
+        </div>
+
+    </li>
+            </ul>
+
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://www.cyanogenmod.org/blog/logo-image-contest';
+    var disqus_identifier = '216 http://www.cyanogenmod.com/?p=216';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'cyngn';
+    var disqus_title = "Logo Image Contest!";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+        config.language = '';
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '?cf_action=sync_comments&post_id=216';
+
+            var firstScript = document.getElementsByTagName( "script" )[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+        });
+                    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/www.cyanogenmod.org\/blog\/logo-image-contest\/trackback"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+</article>
+			</div>
+
+		</div><!-- End Content row -->
+		
+		<aside id="sidebar" class="four columns hide-on-phones" role="complementary">
+	<div class="sidebar-box">
+		<article id="recent-comments-4" class="row widget widget_recent_comments"><div class="sidebar-section twelve columns"><h6><strong>Recent Comments</strong></h6><ul id="recentcomments"><li class="recentcomments">Rakesh Lingechetty on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65376">CyanogenMod 11 M12</a></li><li class="recentcomments">zamarax on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65375">CyanogenMod 11 M12</a></li><li class="recentcomments">Avinash Sailesh on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65374">CyanogenMod 11 M12</a></li><li class="recentcomments">ibrahim biten on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65373">CyanogenMod 11 M12</a></li><li class="recentcomments">ibrahim biten on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65372">CyanogenMod 11 M12</a></li></ul></div></article>	</div>
+</aside><!-- /#sidebar -->		
+		</div><!-- End Main row -->
+		
+		<footer id="content-info" role="contentinfo" class="hide-on-phones" style="margin:40px 0 0 0;">
+			<div class="row">
+				<article id="nav_menu-4" class="three columns widget widget_nav_menu"><div class="footer-section"><h6><strong>Navigation</strong></h6><div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-798"><a href="http://www.cyanogenmod.org/about">About</a></li>
+<li id="menu-item-2403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2403"><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+<li id="menu-item-2404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2404"><a href="http://download.cyanogenmod.org">Download</a></li>
+<li id="menu-item-825" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-825"><a href="/blog">Blog</a></li>
+<li id="menu-item-904" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-904"><a href="http://forum.cyanogenmod.org">Forum</a></li>
+<li id="menu-item-829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-829"><a href="http://www.cyanogenmod.org/community">Community</a></li>
+<li id="menu-item-2405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2405"><a href="https://account.cyanogenmod.org/">Account</a></li>
+<li id="menu-item-2709" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2709"><a href="http://shop.cyanogenmod.org">Shop</a></li>
+</ul></div></div></article><article id="nav_menu-3" class="three columns widget widget_nav_menu"><div class="footer-section"><h6><strong>Social Networks</strong></h6><div class="menu-social-networks-container"><ul id="menu-social-networks" class="menu"><li id="menu-item-2173" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2173"><a href="https://www.facebook.com/CyanogenMod">Facebook</a></li>
+<li id="menu-item-2174" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2174"><a href="https://twitter.com/CyanogenMod">Twitter</a></li>
+<li id="menu-item-2175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2175"><a href="https://plus.google.com/+CyanogenMod/posts">Google+</a></li>
+</ul></div></div></article>                                <article class="three columns widget widget widget_nav_menu">
+                                    <div class="footer-section">
+                                        <h6><strong>Sponsored By</strong></h6>
+                                        <a href="http://twilio.com/?utm_source=cyanogenmod&utm_medium=webbadge&utm_campaign=cyanogenverify" style="text: decoration: none; display: inline-block; width: 166px; height: 0; overflow: hidden; padding-top: 31px; background: url(http://www.twilio.com/packages/company/img/logos_icon_poweredbysmall.png) no-repeat;">powered by twilio™</a>
+                                    </div>
+                                </article>
+			</div>
+		</footer>
+        
+      <div id="navigation" class="row mobile-footer show-on-phones">
+			<div class="twelve columns">
+            	<h6>Navigate cyanogenmod.org</h6>
+            	<ul>
+                	<li><a href="/about">About</a></li>
+                    <!--<li><a href="#">Features</a></li>-->
+                    <li><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+                    <li><a href="http://download.cyanogenmod.org/">Download</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="http://forum.cyanogenmod.org">Forum</a></li>
+                    <li><a href="/community">Community</a></li>  
+                    <li><a href="https://account.cyanogenmod.org">Account</a></li>
+                    <li><a href="http://shop.cyanogenmod.org">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+			
+	</div><!-- Container End -->
+    
+
+	<!-- Included JS Files of Foundation -->
+	<script src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/foundation.js"></script>
+	<script src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/app.js"></script>
+	
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	     chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7]>
+		<script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+		<script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+	
+	<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 11/37 queries in 0.047 seconds using apc
+Object Caching 944/1065 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 03:12:32 by W3 Total Cache -->

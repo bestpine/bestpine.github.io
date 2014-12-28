@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CyanogenMod &#187; technorati</title>
+	<atom:link href="http://www.cyanogenmod.org/tag/technorati/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Thu, 13 Nov 2014 07:54:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+		<item>
+		<title>It&#8217;s not a password guys!</title>
+		<link>http://www.cyanogenmod.org/blog/its-not-a-password-gus</link>
+		<comments>http://www.cyanogenmod.org/blog/its-not-a-password-gus#comments</comments>
+		<pubDate>Mon, 31 Aug 2009 06:22:54 +0000</pubDate>
+		<dc:creator>MrADeveci</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[technorati]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=248</guid>
+		<description><![CDATA[<p>Ladies &#38; Gents, don&#8217;t panic &#8230;&#8230;&#8230;. the previous post that looked like a password is not!</p> <p>If you were eagle eyed enough, you would have noticed that I tagged the post with &#8216;technorati&#8217;</p> <p>That mumble jumble code is simply a <a href="http://www.technorati.com">technorati</a> validation code that submits this blog to the ranking system.</p> <p>You guys made me laugh though!</p>]]></description>
+				<content:encoded><![CDATA[<p>Ladies &amp; Gents, don&#8217;t panic &#8230;&#8230;&#8230;. the previous post that looked like a password is not!</p>
+<p>If you were eagle eyed enough, you would have noticed that I tagged the post with &#8216;technorati&#8217;</p>
+<p>That mumble jumble code is simply a <a href="http://www.technorati.com">technorati</a> validation code that submits this blog to the ranking system.</p>
+<p>You guys made me laugh though!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/its-not-a-password-gus/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/7 queries in 0.021 seconds using apc
+Object Caching 210/215 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:16:07 by W3 Total Cache -->

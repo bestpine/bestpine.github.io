@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Last day to vote for the final design!</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/last-day-to-vote-for-the-final-design/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/last-day-to-vote-for-the-final-design</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: diverze</title>
+		<link>http://www.cyanogenmod.org/blog/last-day-to-vote-for-the-final-design/comment-page-1#comment-33891</link>
+		<dc:creator>diverze</dc:creator>
+		<pubDate>Tue, 01 Feb 2011 06:34:33 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=779#comment-33891</guid>
+		<description><![CDATA[Build 7 easy]]></description>
+		<content:encoded><![CDATA[<p>Build 7 easy</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: coolmak</title>
+		<link>http://www.cyanogenmod.org/blog/last-day-to-vote-for-the-final-design/comment-page-1#comment-33841</link>
+		<dc:creator>coolmak</dc:creator>
+		<pubDate>Mon, 24 Jan 2011 12:05:50 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=779#comment-33841</guid>
+		<description><![CDATA[but Design #6 is the most intuitive IMHO and looks nice.]]></description>
+		<content:encoded><![CDATA[<p>but Design #6 is the most intuitive IMHO and looks nice.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: vitorgatti</title>
+		<link>http://www.cyanogenmod.org/blog/last-day-to-vote-for-the-final-design/comment-page-1#comment-33831</link>
+		<dc:creator>vitorgatti</dc:creator>
+		<pubDate>Sun, 23 Jan 2011 16:01:35 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=779#comment-33831</guid>
+		<description><![CDATA[Come on, people, check all designs before you vote! Design #6 can&#039;t win!
+It&#039;s so damn ugly... :(]]></description>
+		<content:encoded><![CDATA[<p>Come on, people, check all designs before you vote! Design #6 can&#8217;t win!<br />
+It&#8217;s so damn ugly&#8230; <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/10 queries in 0.025 seconds using apc
+Object Caching 229/231 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:18:50 by W3 Total Cache -->

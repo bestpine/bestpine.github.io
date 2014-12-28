@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CyanogenMod &#187; irc</title>
+	<atom:link href="http://www.cyanogenmod.org/tag/irc/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Thu, 13 Nov 2014 07:54:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+		<item>
+		<title>IRC now available through website.</title>
+		<link>http://www.cyanogenmod.org/blog/irc-now-available-through-website</link>
+		<comments>http://www.cyanogenmod.org/blog/irc-now-available-through-website#comments</comments>
+		<pubDate>Sun, 20 Sep 2009 08:43:26 +0000</pubDate>
+		<dc:creator>MrADeveci</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[email]]></category>
+		<category><![CDATA[gmail]]></category>
+		<category><![CDATA[irc]]></category>
+		<category><![CDATA[youtube]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=330</guid>
+		<description><![CDATA[<p>In the continuing hard work to become THE &#8216;one stop shop&#8217; for the CyanogenMod Rom another feature has now been added to the website.</p> <p>You can now talk directly on the IRC channel by clicking on the <a href="/irc">IRC</a> link above.</p> <p>If you prefer to use your own IRC client, then please use the following details to join.</p> <p>Server: irc.freenode.net Channel: #cyanogenmod</p> <p>Watch this space for more the features &#8230;&#8230;.. including a YouTube channel, central email point of contact and more!</p>]]></description>
+				<content:encoded><![CDATA[<p>In the continuing hard work to become THE &#8216;one stop shop&#8217; for the CyanogenMod Rom another feature has now been added to the website.</p>
+<p>You can now talk directly on the IRC channel by clicking on the <a href="/irc">IRC</a> link above.</p>
+<p>If you prefer to use your own IRC client, then please use the following details to join.</p>
+<p>Server: irc.freenode.net<br />
+Channel: #cyanogenmod</p>
+<p>Watch this space for more the features &#8230;&#8230;.. including a YouTube channel, central email point of contact and more!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/irc-now-available-through-website/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/6 queries in 0.018 seconds using apc
+Object Caching 217/219 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:19:15 by W3 Total Cache -->

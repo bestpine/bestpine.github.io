@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Unified Builds for Select Variants</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/unified-builds/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/unified-builds</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: nasseh khodaie</title>
+		<link>http://www.cyanogenmod.org/blog/unified-builds/comment-page-2#comment-65344</link>
+		<dc:creator>nasseh khodaie</dc:creator>
+		<pubDate>Tue, 23 Dec 2014 03:15:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2570#comment-65344</guid>
+		<description><![CDATA[I have installed cm11 m10 and m11 which are d2lte on my d2att and they don&#039;t work at all.  The data connection won&#039;t work and I when I enter access point info it won&#039;t save the setting. Also I get non stop pop ups that such and such stopped working. I thank you for hard work anyway. ]]></description>
+		<content:encoded><![CDATA[<p>I have installed cm11 m10 and m11 which are d2lte on my d2att and they don&#8217;t work at all.  The data connection won&#8217;t work and I when I enter access point info it won&#8217;t save the setting. Also I get non stop pop ups that such and such stopped working. I thank you for hard work anyway. </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jasson Allen Carey</title>
+		<link>http://www.cyanogenmod.org/blog/unified-builds/comment-page-2#comment-65192</link>
+		<dc:creator>Jasson Allen Carey</dc:creator>
+		<pubDate>Mon, 01 Dec 2014 03:01:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2570#comment-65192</guid>
+		<description><![CDATA[My sgs3 is a sch-s968c but when I take it apart its a i535 Verizon but I&#039;m usen it on straight talk CDMA it can be used as gsm but the straight talk won&#039;t switch it. I keep haven lots of issues]]></description>
+		<content:encoded><![CDATA[<p>My sgs3 is a sch-s968c but when I take it apart its a i535 Verizon but I&#8217;m usen it on straight talk CDMA it can be used as gsm but the straight talk won&#8217;t switch it. I keep haven lots of issues</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jasson Allen Carey</title>
+		<link>http://www.cyanogenmod.org/blog/unified-builds/comment-page-2#comment-65191</link>
+		<dc:creator>Jasson Allen Carey</dc:creator>
+		<pubDate>Mon, 01 Dec 2014 02:59:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2570#comment-65191</guid>
+		<description><![CDATA[How do I fix it]]></description>
+		<content:encoded><![CDATA[<p>How do I fix it</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jasson Allen Carey</title>
+		<link>http://www.cyanogenmod.org/blog/unified-builds/comment-page-2#comment-65190</link>
+		<dc:creator>Jasson Allen Carey</dc:creator>
+		<pubDate>Mon, 01 Dec 2014 02:57:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2570#comment-65190</guid>
+		<description><![CDATA[How do I fix it]]></description>
+		<content:encoded><![CDATA[<p>How do I fix it</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Gordon Fellis</title>
+		<link>http://www.cyanogenmod.org/blog/unified-builds/comment-page-2#comment-65189</link>
+		<dc:creator>Gordon Fellis</dc:creator>
+		<pubDate>Mon, 01 Dec 2014 01:22:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2570#comment-65189</guid>
+		<description><![CDATA[That&#039;s the issue, you can&#039;t the libs are all messed up for gsm data the phones try to focus on the CDMA signal.]]></description>
+		<content:encoded><![CDATA[<p>That&#8217;s the issue, you can&#8217;t the libs are all messed up for gsm data the phones try to focus on the CDMA signal.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jasson Allen Carey</title>
+		<link>http://www.cyanogenmod.org/blog/unified-builds/comment-page-2#comment-65188</link>
+		<dc:creator>Jasson Allen Carey</dc:creator>
+		<pubDate>Mon, 01 Dec 2014 01:02:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2570#comment-65188</guid>
+		<description><![CDATA[How do I get my straight talk activation an internet to work on cm 11m12 I&#039;m haven issues]]></description>
+		<content:encoded><![CDATA[<p>How do I get my straight talk activation an internet to work on cm 11m12 I&#8217;m haven issues</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Gordon Fellis</title>
+		<link>http://www.cyanogenmod.org/blog/unified-builds/comment-page-2#comment-65184</link>
+		<dc:creator>Gordon Fellis</dc:creator>
+		<pubDate>Sun, 30 Nov 2014 17:25:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2570#comment-65184</guid>
+		<description><![CDATA[The unified jflte breaks cellular data on the i545 when using a gsm Sim.]]></description>
+		<content:encoded><![CDATA[<p>The unified jflte breaks cellular data on the i545 when using a gsm Sim.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Richard Quinn</title>
+		<link>http://www.cyanogenmod.org/blog/unified-builds/comment-page-1#comment-65065</link>
+		<dc:creator>Richard Quinn</dc:creator>
+		<pubDate>Mon, 17 Nov 2014 18:24:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2570#comment-65065</guid>
+		<description><![CDATA[I am running CM11 M11 d2lte on Sprint and everything works great but the play store thinks I am on verizon is there a way to fix this?]]></description>
+		<content:encoded><![CDATA[<p>I am running CM11 M11 d2lte on Sprint and everything works great but the play store thinks I am on verizon is there a way to fix this?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Eric Scherzinger</title>
+		<link>http://www.cyanogenmod.org/blog/unified-builds/comment-page-1#comment-64622</link>
+		<dc:creator>Eric Scherzinger</dc:creator>
+		<pubDate>Sat, 08 Nov 2014 02:44:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2570#comment-64622</guid>
+		<description><![CDATA[Seems that the d2lte releases have an issue with Wind Mobile Canada Samsung Galaxy S3 (SGH-T999). No wifi or network connectivity here. I reverted to an older d2tmo labelled release and all was well. Any update on this would be appreciated!
+
+Cheers]]></description>
+		<content:encoded><![CDATA[<p>Seems that the d2lte releases have an issue with Wind Mobile Canada Samsung Galaxy S3 (SGH-T999). No wifi or network connectivity here. I reverted to an older d2tmo labelled release and all was well. Any update on this would be appreciated!</p>
+<p>Cheers</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jasson Allen Carey</title>
+		<link>http://www.cyanogenmod.org/blog/unified-builds/comment-page-1#comment-64528</link>
+		<dc:creator>Jasson Allen Carey</dc:creator>
+		<pubDate>Thu, 23 Oct 2014 10:28:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2570#comment-64528</guid>
+		<description><![CDATA[i have a samsung galaxy s3 sch-s968c through straight talk im  not sure what carrier it is i just know its on verizon towers. its all complicated cuz u can flash any phone to any carrier. but what im trying to fix is my straight talk activation *22890 an *22891 to get mms internet to work with cm11. no matter what i do i cant seem to get it to work&gt; anyone that can help please message me on my gmail or cell 989 310 6060 please an thank you]]></description>
+		<content:encoded><![CDATA[<p>i have a samsung galaxy s3 sch-s968c through straight talk im  not sure what carrier it is i just know its on verizon towers. its all complicated cuz u can flash any phone to any carrier. but what im trying to fix is my straight talk activation *22890 an *22891 to get mms internet to work with cm11. no matter what i do i cant seem to get it to work&gt; anyone that can help please message me on my gmail or cell 989 310 6060 please an thank you</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/17 queries in 0.038 seconds using apc
+Object Caching 351/353 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 03:12:01 by W3 Total Cache -->

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CyanogenMod &#187; cyanogenmod 4.2 stable</title>
+	<atom:link href="http://www.cyanogenmod.org/tag/cyanogenmod-4-2-stable/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Thu, 13 Nov 2014 07:54:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+		<item>
+		<title>CyanogenMod 4.2 STABLE!</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-stable</link>
+		<comments>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-stable#comments</comments>
+		<pubDate>Sat, 24 Oct 2009 21:43:02 +0000</pubDate>
+		<dc:creator>Steve Kondik</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[cyanogenmod 4.2 stable]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-stable</guid>
+		<description><![CDATA[<p>We&#8217;re finally stable! Upgrading from 4.1.9* shouldn&#8217;t require any special steps, but if you are coming from another ROM or an older version be sure to follow the directions correctly!</p> <p><a href="http://forum.xda-developers.com/showthread.php?t=567610">http://forum.xda-developers.com/showthread.php?t=567610</a></p>]]></description>
+				<content:encoded><![CDATA[<p>We&#8217;re finally stable!  Upgrading from 4.1.9* shouldn&#8217;t require any special steps, but if you are coming from another ROM or an older version be sure to follow the directions correctly!</p>
+<p><a href="http://forum.xda-developers.com/showthread.php?t=567610">http://forum.xda-developers.com/showthread.php?t=567610</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-stable/feed</wfw:commentRss>
+		<slash:comments>34</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/8 queries in 0.022 seconds using apc
+Object Caching 209/217 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:20:25 by W3 Total Cache -->

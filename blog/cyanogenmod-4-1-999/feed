@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: CyanogenMod 4.1.999</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: ingo</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999/comment-page-4#comment-8432</link>
+		<dc:creator>ingo</dc:creator>
+		<pubDate>Mon, 05 Apr 2010 00:59:56 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=438#comment-8432</guid>
+		<description><![CDATA[CyanogenMod 4.1.999]]></description>
+		<content:encoded><![CDATA[<p>CyanogenMod 4.1.999</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Joshua DelPinal</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999/comment-page-4#comment-2613</link>
+		<dc:creator>Joshua DelPinal</dc:creator>
+		<pubDate>Sun, 08 Nov 2009 07:33:47 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=438#comment-2613</guid>
+		<description><![CDATA[I am so not technically inclined. I tried using 4.2.3.1 for the first time, but I keep getting the message &quot;Unable to reboot into recovery&quot;. No idea what I&#039;m doing wrong, just trying to install. Please email me at mrblack22@gmail.com to help me out with this.]]></description>
+		<content:encoded><![CDATA[<p>I am so not technically inclined. I tried using 4.2.3.1 for the first time, but I keep getting the message &#8220;Unable to reboot into recovery&#8221;. No idea what I&#8217;m doing wrong, just trying to install. Please email me at <a href="mailto:mrblack22@gmail.com">mrblack22@gmail.com</a> to help me out with this.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Bosco Woo</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999/comment-page-4#comment-2506</link>
+		<dc:creator>Bosco Woo</dc:creator>
+		<pubDate>Thu, 05 Nov 2009 08:56:49 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=438#comment-2506</guid>
+		<description><![CDATA[I would also like to know what happened to the PDF viewer. It ran perfectly for what I was doing which was doing math homework off of. Now I have to lug my book around. Please bring it back. The market ones are no good.]]></description>
+		<content:encoded><![CDATA[<p>I would also like to know what happened to the PDF viewer. It ran perfectly for what I was doing which was doing math homework off of. Now I have to lug my book around. Please bring it back. The market ones are no good.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: John</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999/comment-page-4#comment-2177</link>
+		<dc:creator>John</dc:creator>
+		<pubDate>Fri, 30 Oct 2009 23:04:21 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=438#comment-2177</guid>
+		<description><![CDATA[Does this work with Samsung Galaxy? Because I justed rooted my phone and is running Galaxy Hero which was based on CyanogenMod...Also, I&#039;m desperate for Android 1.6]]></description>
+		<content:encoded><![CDATA[<p>Does this work with Samsung Galaxy? Because I justed rooted my phone and is running Galaxy Hero which was based on CyanogenMod&#8230;Also, I&#8217;m desperate for Android 1.6</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: IrishVortex</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999/comment-page-4#comment-1606</link>
+		<dc:creator>IrishVortex</dc:creator>
+		<pubDate>Wed, 21 Oct 2009 13:47:41 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=438#comment-1606</guid>
+		<description><![CDATA[What happened to PDF viewer?! Upgraded from 4.1.5 to 4.1.999 with all my apps intact except for that one. There is no good replacement on Market or Slide and I got used to reading pdfs on my phone.]]></description>
+		<content:encoded><![CDATA[<p>What happened to PDF viewer?! Upgraded from 4.1.5 to 4.1.999 with all my apps intact except for that one. There is no good replacement on Market or Slide and I got used to reading pdfs on my phone.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: kevinebrown</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999/comment-page-4#comment-1586</link>
+		<dc:creator>kevinebrown</dc:creator>
+		<pubDate>Tue, 20 Oct 2009 22:48:23 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=438#comment-1586</guid>
+		<description><![CDATA[Anyone know why when my phone is plugged in to my Computers USB when booting up I loose cm-recovery-1.4 with the error about the file not found in system....I can re-install and all is good but if I forget and reboot my phone while plugged into computer it really sucks!]]></description>
+		<content:encoded><![CDATA[<p>Anyone know why when my phone is plugged in to my Computers USB when booting up I loose cm-recovery-1.4 with the error about the file not found in system&#8230;.I can re-install and all is good but if I forget and reboot my phone while plugged into computer it really sucks!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: kevinebrown</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999/comment-page-4#comment-1585</link>
+		<dc:creator>kevinebrown</dc:creator>
+		<pubDate>Tue, 20 Oct 2009 22:41:09 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=438#comment-1585</guid>
+		<description><![CDATA[I can BT file trans with my Laptop]]></description>
+		<content:encoded><![CDATA[<p>I can BT file trans with my Laptop</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: kevinebrown</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999/comment-page-3#comment-1584</link>
+		<dc:creator>kevinebrown</dc:creator>
+		<pubDate>Tue, 20 Oct 2009 22:40:23 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=438#comment-1584</guid>
+		<description><![CDATA[There is a Free and very nice markey camera zoom out there which works better, IMO, than the stock function...just search camera zoom.]]></description>
+		<content:encoded><![CDATA[<p>There is a Free and very nice markey camera zoom out there which works better, IMO, than the stock function&#8230;just search camera zoom.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: EJay</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999/comment-page-3#comment-1581</link>
+		<dc:creator>EJay</dc:creator>
+		<pubDate>Tue, 20 Oct 2009 21:18:22 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=438#comment-1581</guid>
+		<description><![CDATA[was anyone able to get bluetooth filesharing and device pairing to work or am i just installing it wrong]]></description>
+		<content:encoded><![CDATA[<p>was anyone able to get bluetooth filesharing and device pairing to work or am i just installing it wrong</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: kcw12</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999/comment-page-3#comment-1578</link>
+		<dc:creator>kcw12</dc:creator>
+		<pubDate>Tue, 20 Oct 2009 17:47:32 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=438#comment-1578</guid>
+		<description><![CDATA[Very good ROM. Any idea on how to get the camera function of it to zoom?]]></description>
+		<content:encoded><![CDATA[<p>Very good ROM. Any idea on how to get the camera function of it to zoom?</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 4/17 queries in 0.041 seconds using apc
+Object Caching 351/353 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 03:14:55 by W3 Total Cache -->

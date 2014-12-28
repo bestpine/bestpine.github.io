@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Thanks for the Screens!</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/thanks-for-the-screens/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/thanks-for-the-screens</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: giacomo892</title>
+		<link>http://www.cyanogenmod.org/blog/thanks-for-the-screens/comment-page-1#comment-181</link>
+		<dc:creator>giacomo892</dc:creator>
+		<pubDate>Thu, 03 Sep 2009 16:21:26 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=106#comment-181</guid>
+		<description><![CDATA[Can someone tell me what is for the notification &quot;3g&quot; with a green bar. in the last CM rom image? (screens)
+
+Thanks!]]></description>
+		<content:encoded><![CDATA[<p>Can someone tell me what is for the notification &#8220;3g&#8221; with a green bar. in the last CM rom image? (screens)</p>
+<p>Thanks!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: mad.zorg</title>
+		<link>http://www.cyanogenmod.org/blog/thanks-for-the-screens/comment-page-1#comment-17</link>
+		<dc:creator>mad.zorg</dc:creator>
+		<pubDate>Wed, 26 Aug 2009 08:15:26 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=106#comment-17</guid>
+		<description><![CDATA[i dont really know where else to post this, once you get a wiki up here is a decent write up for media2SD. feel free to copy paste, edit, trim what ever just link back to it.
+
+http://madzorg.blogspot.com/2009/08/media2sd-for-n00bs.html]]></description>
+		<content:encoded><![CDATA[<p>i dont really know where else to post this, once you get a wiki up here is a decent write up for media2SD. feel free to copy paste, edit, trim what ever just link back to it.</p>
+<p><a href="http://madzorg.blogspot.com/2009/08/media2sd-for-n00bs.html" rel="nofollow">http://madzorg.blogspot.com/2009/08/media2sd-for-n00bs.html</a></p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 4/9 queries in 0.021 seconds using apc
+Object Caching 207/209 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 03:14:54 by W3 Total Cache -->

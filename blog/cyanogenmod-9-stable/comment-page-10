@@ -1,0 +1,1000 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+
+	<title>CyanogenMod 9 &#8211; Stable | CyanogenMod</title>
+	
+	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<!-- Included Foundation CSS Files -->
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/foundation.css">
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/app.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/tipTip.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/fonts/style.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/flexslider.css" type="text/css" media="screen" />
+	
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/style.css">
+	
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/ie.css">
+	<![endif]-->
+	
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Favicon and Feed -->
+	<link rel="shortcut icon" type="image/png" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="CyanogenMod Feed" href="http://www.cyanogenmod.org/feed/">
+	
+	<!--  iPhone Web App Home Screen Icon -->
+	<link rel="apple-touch-icon" sizes="72x72" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon-retina.png" />
+	<link rel="apple-touch-icon" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon.png" />
+	
+	<!-- Enable Startup Image for iOS Home Screen Web App -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/mobile-load.png" />
+
+	<!-- Startup Image iPad Landscape (748x1024) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load-ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" />
+	<!-- Startup Image iPad Portrait (768x1004) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load-ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" />
+	<!-- Startup Image iPhone (320x460) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load.png" media="screen and (max-device-width: 320px)" />
+	
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.jparallax.min.js" ></script>
+  <script defer type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.featureList-1.0.0.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.tipTip.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/easySlider1.7.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/modernizr.foundation.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.flexslider-min.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/custom.js"></script>
+  
+  <script type="text/javascript">
+    $(document).load(function(){
+
+	  // The slider being synced must be initialized first
+	  $('.flexslider').flexslider({
+		animation: "slide",
+		controlNav: false,
+	  });
+	  
+    });
+  </script>
+  
+  	<link rel="alternate" type="application/rss+xml" title="CyanogenMod &raquo; CyanogenMod 9 &#8211; Stable Comments Feed" href="http://www.cyanogenmod.org/blog/cyanogenmod-9-stable/feed" />
+<script type='text/javascript' src='http://www.cyanogenmod.org/wp-includes/js/comment-reply.min.js?ver=3.5.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.cyanogenmod.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.cyanogenmod.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='CyanogenMod 9 RC2' href='http://www.cyanogenmod.org/blog/cyanogenmod-9-rc2' />
+<link rel='next' title='Let&#8217;s try something new: CM9.1 and SimplyTapp' href='http://www.cyanogenmod.org/blog/cyanogenmod9-1-and-simplytapp' />
+<meta name="generator" content="WordPress 3.5.2" />
+<link rel='shortlink' href='http://www.cyanogenmod.org/?p=1830' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<!-- All in One SEO Pack 2.0.2 by Michael Torbert of Semper Fi Web Design[493,530] -->
+<link rel="author" href="http://google.com/+AbhisekDevkota" />
+<meta name="description" content="ICS, we hardly knew ye. Builds for CyanogenMod 9 stable will be rolling out to our servers tonight. As noted before, this will be the end of the line for the" />
+
+<link rel="canonical" href="http://www.cyanogenmod.org/blog/cyanogenmod-9-stable" />
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-39737599-3']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+<!-- /all in one seo pack -->
+</head>
+
+<body class="single single-post postid-1830 single-format-standard">
+
+	<div class="menusto hide-on-phones"></div>
+	<!-- Start the main container -->
+	<div id="container" class="container" role="document" style="padding:80px 0 0 0;">
+		
+        
+        <div class="row mobile-header show-on-phones">
+            <div class="nine">
+            	<a href="http://www.cyanogenmod.org" title="CyanogenMod" class="logo-mobile"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/logo-mobile.png" alt=""/></a>
+            </div>
+            <a href="#navigation" class="mobile-menu"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/btn-menu-mobile.png" alt=""/></a>
+        </div>
+        
+		<!-- Row for blog navigation -->
+		<div class="row hide-on-phones">
+			<header class="twelve columns" role="banner">
+				<div class="reverie-header">
+                	<a href="http://www.cyanogenmod.org" title="CyanogenMod" class="logo"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/logo.png" alt=""/></a>
+                    <div id="glavno" class="nav hide-on-phones">
+                        <ul id="glavno">                   
+                            <li><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+                            <!--<li><a href="http://cyanogenmod.org/about/features">Features</a></li>-->
+                            <li><a href="http://download.cyanogenmod.org/">Download</a></li>
+                            <li><a href="http://www.cyanogenmod.org/blog/">Blog</a></li>
+                            <li><a href="http://forum.cyanogenmod.org/">Forum</a></li>
+                            <li>
+                            	<a href="http://www.cyanogenmod.org/community">Community</a>
+                                <div style="opacity: 0; display: none; width:100%" class="sub">
+                                    <ul>
+                                    	<div style="width:980px; margin:0 auto; color:#fff;">
+                                        	<div class="contributesub">
+                                            	<h2>Contribute</h2>
+                                                
+                                                <h4><a href="http://review.cyanogenmod.org/">Gerrit Review</a></h4>
+                                                <p>Gerrit is a web based code review system, facilitating online code reviews for projects using the Git version control system.</p>
+                                                    
+                                                <h4><a href="http://wiki.cyanogenmod.org/">Wiki</a></h4>
+                                                <p>Our Wiki is a comprehensive tool for users to find information. This also needs contributions to keep it fresh and relevant.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/community">Join The Team</a></h4>
+                                                <p>We love working with others. You can submit code via Gerrit. If you think there is something else you can help with, get in touch with us on the forums.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub">
+                                            	<h2>Help</h2>
+                                                
+                                                <h4><a href="http://forum.cyanogenmod.org/">Forum</a></h4>
+                                                <p>Our forums have a wealth of knowledge and resources. All of it is free and accessible from both your desktop and mobile phone.</p>
+                                                    
+                                                <h4><a href="irc://irc.freenode.net/cyanogenmod">IRC</a></h4>
+                                                <p>If you are comfortable with IRC and would like instant help and assistance from both developers and others users alike.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/blog">Blog</a></h4>
+                                                <p>Our blogs will contain the latest news and releases as well as other related news concerning the distribution.</p>
+                                                    
+                                                <h4><a href="http://wiki.cyanogenmod.org/">Wiki</a></h4>
+                                                <p>Our Wiki is a comprehensive tool for users to find information. This also needs contributions to keep it fresh and relevant.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub">
+                                            	<h2>Information</h2>
+                                                
+                                                <h4><a href="http://www.cyanogenmod.org/changelog">Change Log</a></h4>
+                                                <p>Our development of the ROM is always changing. We add new features and fix bugs all the time. Check the latest change log here.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/bugs">Bug Tracker</a></h4>
+                                                <p>This is the official Bug Tracker where you can submit and review bugs that users may experience.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/github">Github Repo</a></h4>
+                                                <p>Our source is free and open. you can check the Github page to see what we do and how you can contribute.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/stats">Installation Statistics</a></h4>
+                                                <p>We have an opt-in feature in our ROMS to enable us to gain statistics on users as well as devices used.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub last">
+                                            	<h2>Support</h2>
+                                                
+                                                <h4><a href="/cdn-cgi/l/email-protection#5d39382b2f38311d3e243c33323a383330323973322f3a">Developer Relations</a></h4>
+                                                <p>If you wish to contact us regarding development contributions, please do so here.</p>
+                                                    
+                                                <h4><a href="/cdn-cgi/l/email-protection#dbbabfb6b2b59bb8a2bab5b4bcbeb5b6b4bff5b4a9bc">Website Support</a></h4>
+                                                <p>This email is dedicated to website, forum, wiki and hosting support. We will not respond to ROM support.</p>
+                                                    
+                                                <h4><a href="/cdn-cgi/l/email-protection#8beaefe6e2e5cbe8f2eae5e4eceee5e6e4efa5e4f9ec">Social Network</a></h4>
+                                                <p>To contact us in relation to our Social media structure.</p>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                    
+                                </div>
+                            </li>
+                            <li><a href="https://account.cyanogenmod.org">Account</a></li>
+                      </ul>
+                    </div>
+				</div>
+
+			</header>
+		</div>
+
+		
+		<!-- Row for main content area -->
+		<div id="main" class="row">
+		<!-- Row for main content area -->
+		<div id="content" class="eight columns" role="main">
+	
+			<div class="post-box">
+					<article class="post-1830 post type-post status-publish format-standard hentry category-blog" id="post-1830">
+		<header>
+        	<time class="updated" datetime="2012-08-09T17:57:40+00:00" pubdate>August 9th, 2012 &bull; Written by <a href="http://www.cyanogenmod.org/author/ciwrl" rel="author" class="fn">ciwrl</a></time>        	<h2 class="entry-title">CyanogenMod 9 &#8211; Stable</h2>
+					</header>
+		<div class="entry-content">
+			<p>ICS, we hardly knew ye.</p>
+<p>Builds for CyanogenMod 9 stable will be rolling out to our servers tonight. As noted before, this will be the end of the line for the ICS branch of our code; only critical bug fixes will be merged moving forward.</p>
+<p><em>As a note, the maguro build from this morning was not meant to be linked publicly. Maguro’s build this evening will be marked 9.0.0.1 to be on par with the other 9.0.0 releases.</em></p>
+<p>Tonight’s release is for the majority of our ICS supported devices, the stragglers will catch up, and  we will leave the door open for merging in additional devices from maintainers, external and internal. The team itself, will focus solely on Jelly Bean and maintenance of the CM 7 codebase.</p>
+<p>Many have wondered why we bothered to finish CM 9 when we are already active in CM 10 development. To that, our answer is: we don’t like to leave things incomplete. There is no profit gained from what we do, so the satisfaction of completing a goal is our only reward. This release also serves as a release suitable for the masses, especially those who won’t have 100% functioning releases of CM 10 immediately or are averse to anything branded as ‘preview’, ‘alpha’, ‘beta’ or ‘nightly’.</p>
+<p>On the topic of nightlies, this release also serves as an end to our CM 9 nightlies, to make way for nightlies chock full of Jelly Bean goodness. A follow-up post will be made when we enable those builds.</p>
+		</div>
+
+<div id="disqus_thread">
+                    <div id="dsq-content">
+
+            <div class="navigation">
+                <div class="nav-previous"><a href="http://www.cyanogenmod.org/blog/cyanogenmod-9-stable/comment-page-9#comments" ><span class="meta-nav">&larr;</span> Older Comments</a></div>
+                <div class="nav-next"><a href="http://www.cyanogenmod.org/blog/cyanogenmod-9-stable#comments" >Newer Comments <span class="meta-nav">&rarr;</span></a></div>
+            </div> <!-- .navigation -->
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-53968">
+        <div id="dsq-comment-header-53968" class="dsq-comment-header">
+            <cite id="dsq-cite-53968">
+                <span id="dsq-author-user-53968">Guest</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53968" class="dsq-comment-body">
+            <div id="dsq-comment-message-53968" class="dsq-comment-message"><p>Maaaaa Desire Z <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' />  </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-53969">
+        <div id="dsq-comment-header-53969" class="dsq-comment-header">
+            <cite id="dsq-cite-53969">
+                <span id="dsq-author-user-53969">Bax</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53969" class="dsq-comment-body">
+            <div id="dsq-comment-message-53969" class="dsq-comment-message"><p>does it work on the first Orange San Francisco (ZTE Blade)??</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-53970">
+        <div id="dsq-comment-header-53970" class="dsq-comment-header">
+            <cite id="dsq-cite-53970">
+                <span id="dsq-author-user-53970">Uruguayo</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53970" class="dsq-comment-body">
+            <div id="dsq-comment-message-53970" class="dsq-comment-message"><p>Dude in Xda Developers are a ROM on ICS whit full working touchpads for Xperia Play, please fix that shit! Go Uruguay bitches D: !!!!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-53972">
+        <div id="dsq-comment-header-53972" class="dsq-comment-header">
+            <cite id="dsq-cite-53972">
+                <span id="dsq-author-user-53972">Serginho_bb</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53972" class="dsq-comment-body">
+            <div id="dsq-comment-message-53972" class="dsq-comment-message"><p>It drains all my battery, and it&#8217;s calibrated</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-53974">
+        <div id="dsq-comment-header-53974" class="dsq-comment-header">
+            <cite id="dsq-cite-53974">
+                <span id="dsq-author-user-53974">thiago</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53974" class="dsq-comment-body">
+            <div id="dsq-comment-message-53974" class="dsq-comment-message"><p>when you will do something for lg p698f??</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-53975">
+        <div id="dsq-comment-header-53975" class="dsq-comment-header">
+            <cite id="dsq-cite-53975">
+                <span id="dsq-author-user-53975">Vortex2010</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53975" class="dsq-comment-body">
+            <div id="dsq-comment-message-53975" class="dsq-comment-message"><p>its allready supported search on cm downloads</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-53976">
+        <div id="dsq-comment-header-53976" class="dsq-comment-header">
+            <cite id="dsq-cite-53976">
+                <span id="dsq-author-user-53976">Guest</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53976" class="dsq-comment-body">
+            <div id="dsq-comment-message-53976" class="dsq-comment-message"><p>Runs great on my Xperia Mini!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-53977">
+        <div id="dsq-comment-header-53977" class="dsq-comment-header">
+            <cite id="dsq-cite-53977">
+                <span id="dsq-author-user-53977">Michaelaungkhine</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53977" class="dsq-comment-body">
+            <div id="dsq-comment-message-53977" class="dsq-comment-message"><p>I hope cm10 stable quickly</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-53979">
+        <div id="dsq-comment-header-53979" class="dsq-comment-header">
+            <cite id="dsq-cite-53979">
+                <span id="dsq-author-user-53979">GOsborn</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53979" class="dsq-comment-body">
+            <div id="dsq-comment-message-53979" class="dsq-comment-message"><p>Not sure if you can help or if you can give me guidance as to where to go.  </p>
+<p>I have bought a touchpad that someone upgraded to<br />
+Android 4.0.3, Kernel 2.6.35, CyanogenMod Ver 9.0.0-RC-Touchpad-Alpha 0.6,<br />
+Build Date Jan 29 2:6:4 CS 2012, Build number IML74K. I would like to know<br />
+where and how to do updates. The wireless only works if I am close to the<br />
+router. Is there updates available or a replacement??? I have not done<br />
+anything like this before but I am pretty good at following instuctions. Thank you for your help</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-53984">
+        <div id="dsq-comment-header-53984" class="dsq-comment-header">
+            <cite id="dsq-cite-53984">
+                <span id="dsq-author-user-53984">th3o</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53984" class="dsq-comment-body">
+            <div id="dsq-comment-message-53984" class="dsq-comment-message"><p>i have tried this one, but this following are not available for this rom.</p>
+<p>radio &#8211; n/a</p>
+<p>offline charging &#8211; n/a</p>
+<p>file manager &#8211; n/a </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-53985">
+        <div id="dsq-comment-header-53985" class="dsq-comment-header">
+            <cite id="dsq-cite-53985">
+                <span id="dsq-author-user-53985">walterbyrd</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53985" class="dsq-comment-body">
+            <div id="dsq-comment-message-53985" class="dsq-comment-message"><p>I&#8217;m lost. Where is cm9 for nook color? I found cm-7.2.0-encore.zip, but I guess that&#8217;s cm7. </p>
+<p>Also, how do I install cm9 using a Linux desktop?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-53986">
+        <div id="dsq-comment-header-53986" class="dsq-comment-header">
+            <cite id="dsq-cite-53986">
+                <span id="dsq-author-user-53986">th3o</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53986" class="dsq-comment-body">
+            <div id="dsq-comment-message-53986" class="dsq-comment-message"><p>i have tried this one, but this following are not available for this rom.<br />
+radio &#8211; n/a<br />
+offline charging &#8211; n/a<br />
+file manager &#8211; n/a</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-53987">
+        <div id="dsq-comment-header-53987" class="dsq-comment-header">
+            <cite id="dsq-cite-53987">
+                <span id="dsq-author-user-53987">Xinghe Zhou</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53987" class="dsq-comment-body">
+            <div id="dsq-comment-message-53987" class="dsq-comment-message"><p>I hope we can see the updatas of builds,like some pictures,and text</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-53988">
+        <div id="dsq-comment-header-53988" class="dsq-comment-header">
+            <cite id="dsq-cite-53988">
+                <span id="dsq-author-user-53988">Steve123421</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53988" class="dsq-comment-body">
+            <div id="dsq-comment-message-53988" class="dsq-comment-message"><p>Just installed the CM 9 on my LG C800 but having a bit of trouble with it. If anyone can point me in the right direction I&#8217;d be very greatful! I just figured this would be the place. Everything seems to be working fine except when I reboot I lose all of my settings and info. Also would like to know what&#8217;s up with the different letters over my mobile networks signal? I understand the 3G, but I keep seeing an &#8220;H&#8221; too. Then there is some tiny symbol that is hard to make out that shows up in the middle of both my wifi and wireless signal reception icons. Probably nothing major, just curious. Definitely need help with the rebooting part though! Thanks.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-53989">
+        <div id="dsq-comment-header-53989" class="dsq-comment-header">
+            <cite id="dsq-cite-53989">
+                <span id="dsq-author-user-53989">Danteinnovo</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53989" class="dsq-comment-body">
+            <div id="dsq-comment-message-53989" class="dsq-comment-message"><p>CM9 is a great option &#8230; in my galaxy T989 has run very well &#8230; with CM9 I have very good options &#8230; but I&#8217;ve also had some problems such as the camera, image display is very slow, and other small details, would be a good idea to improve the current stable version and correct these details &#8230; thank you very much to CyanogenMod development team!&#8230;.from Colombia!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-53990">
+        <div id="dsq-comment-header-53990" class="dsq-comment-header">
+            <cite id="dsq-cite-53990">
+                <span id="dsq-author-user-53990">Syam Sundar P S</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53990" class="dsq-comment-body">
+            <div id="dsq-comment-message-53990" class="dsq-comment-message"><p>Hi Guys.. Great work done by u guys. One quick question will there be a CM9 or CM10 update  for the Samsung Galaxy Ace with all functions(like Camera, sound etc) working. I am Currently using the CM7. I would really like to try out the ICS</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-53992">
+        <div id="dsq-comment-header-53992" class="dsq-comment-header">
+            <cite id="dsq-cite-53992">
+                <span id="dsq-author-user-53992">Tiago Marques</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53992" class="dsq-comment-body">
+            <div id="dsq-comment-message-53992" class="dsq-comment-message"><p>does this works on samsung galaxy gio?? </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-53993">
+        <div id="dsq-comment-header-53993" class="dsq-comment-header">
+            <cite id="dsq-cite-53993">
+                <span id="dsq-author-user-53993">Sadra</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53993" class="dsq-comment-body">
+            <div id="dsq-comment-message-53993" class="dsq-comment-message"><p> i try it on gt p1000 &#8230;.. that was perfect</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-53995">
+        <div id="dsq-comment-header-53995" class="dsq-comment-header">
+            <cite id="dsq-cite-53995">
+                <span id="dsq-author-user-53995">PEDRO99</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53995" class="dsq-comment-body">
+            <div id="dsq-comment-message-53995" class="dsq-comment-message"><p>Goodnight recently install CM9 on my xperia neo, adw laucher I wonder if this rom supports.</p>
+<p> THANKS</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-53996">
+        <div id="dsq-comment-header-53996" class="dsq-comment-header">
+            <cite id="dsq-cite-53996">
+                <span id="dsq-author-user-53996">Zloopon</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53996" class="dsq-comment-body">
+            <div id="dsq-comment-message-53996" class="dsq-comment-message"><p>You stupid jerk!  </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-53997">
+        <div id="dsq-comment-header-53997" class="dsq-comment-header">
+            <cite id="dsq-cite-53997">
+                <span id="dsq-author-user-53997">Zloopon</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53997" class="dsq-comment-body">
+            <div id="dsq-comment-message-53997" class="dsq-comment-message"><p>You stupid jerk! </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-53998">
+        <div id="dsq-comment-header-53998" class="dsq-comment-header">
+            <cite id="dsq-cite-53998">
+                <span id="dsq-author-user-53998">Guest</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53998" class="dsq-comment-body">
+            <div id="dsq-comment-message-53998" class="dsq-comment-message"><p>Any word for the Optimus Black/2X?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-53999">
+        <div id="dsq-comment-header-53999" class="dsq-comment-header">
+            <cite id="dsq-cite-53999">
+                <span id="dsq-author-user-53999">Danyguana</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-53999" class="dsq-comment-body">
+            <div id="dsq-comment-message-53999" class="dsq-comment-message"><p>i need a full help tutorial to install cyanigenmod 9 on galaxy s2!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-54001">
+        <div id="dsq-comment-header-54001" class="dsq-comment-header">
+            <cite id="dsq-cite-54001">
+                <span id="dsq-author-user-54001">Alvin Ooi</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54001" class="dsq-comment-body">
+            <div id="dsq-comment-message-54001" class="dsq-comment-message"><p>Hi, I was not able to attach or try snap photo on FourSquare app, it shows &#8220;Camera Helper&#8221;. Is there any fix to it? Thanks !  </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-54002">
+        <div id="dsq-comment-header-54002" class="dsq-comment-header">
+            <cite id="dsq-cite-54002">
+                <span id="dsq-author-user-54002">Eltonveras</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54002" class="dsq-comment-body">
+            <div id="dsq-comment-message-54002" class="dsq-comment-message"><p>e a versao stable para o defy ?????????????</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-54011">
+        <div id="dsq-comment-header-54011" class="dsq-comment-header">
+            <cite id="dsq-cite-54011">
+                <span id="dsq-author-user-54011">Apoorv_DBZ</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54011" class="dsq-comment-body">
+            <div id="dsq-comment-message-54011" class="dsq-comment-message"><p>What about galaxy ace<br />
+Will there be CM9 stable for it ..?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-54015">
+        <div id="dsq-comment-header-54015" class="dsq-comment-header">
+            <cite id="dsq-cite-54015">
+                <span id="dsq-author-user-54015">Dv1988</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54015" class="dsq-comment-body">
+            <div id="dsq-comment-message-54015" class="dsq-comment-message"><p>Will there be a CM9 ROM for Nook Color?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-54024">
+        <div id="dsq-comment-header-54024" class="dsq-comment-header">
+            <cite id="dsq-cite-54024">
+                <span id="dsq-author-user-54024">Carthus</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54024" class="dsq-comment-body">
+            <div id="dsq-comment-message-54024" class="dsq-comment-message"><p>CyanogenMod makes my slow and ugly phone fast&amp; nice again thank you. waiting until cm9 is working well,I use actually cm7</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-54038">
+        <div id="dsq-comment-header-54038" class="dsq-comment-header">
+            <cite id="dsq-cite-54038">
+                <span id="dsq-author-user-54038">Fantasyfootball74</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54038" class="dsq-comment-body">
+            <div id="dsq-comment-message-54038" class="dsq-comment-message"><p>I want CM9 on my EVO 4G please! </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-54042">
+        <div id="dsq-comment-header-54042" class="dsq-comment-header">
+            <cite id="dsq-cite-54042">
+                <span id="dsq-author-user-54042">aguu352</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54042" class="dsq-comment-body">
+            <div id="dsq-comment-message-54042" class="dsq-comment-message"><p>can run the milestone 3?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-54044">
+        <div id="dsq-comment-header-54044" class="dsq-comment-header">
+            <cite id="dsq-cite-54044">
+                <span id="dsq-author-user-54044">Rogerio</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54044" class="dsq-comment-body">
+            <div id="dsq-comment-message-54044" class="dsq-comment-message"><p>Thank you very much for your work and time.</p>
+<p>Best regards from Brasil.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-54066">
+        <div id="dsq-comment-header-54066" class="dsq-comment-header">
+            <cite id="dsq-cite-54066">
+                <span id="dsq-author-user-54066">Dude</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54066" class="dsq-comment-body">
+            <div id="dsq-comment-message-54066" class="dsq-comment-message"><p>If i was downloading nightlies,  do i have the stable,  or should i grab a RC.?   Presume the former, but thought I&#8217;d ask. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-54071">
+        <div id="dsq-comment-header-54071" class="dsq-comment-header">
+            <cite id="dsq-cite-54071">
+                <span id="dsq-author-user-54071">Ronytiger</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54071" class="dsq-comment-body">
+            <div id="dsq-comment-message-54071" class="dsq-comment-message"><p>P990 please <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-54072">
+        <div id="dsq-comment-header-54072" class="dsq-comment-header">
+            <cite id="dsq-cite-54072">
+                <span id="dsq-author-user-54072">U2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54072" class="dsq-comment-body">
+            <div id="dsq-comment-message-54072" class="dsq-comment-message"><p> u 2</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-54074">
+        <div id="dsq-comment-header-54074" class="dsq-comment-header">
+            <cite id="dsq-cite-54074">
+                <span id="dsq-author-user-54074">Guest</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54074" class="dsq-comment-body">
+            <div id="dsq-comment-message-54074" class="dsq-comment-message"><p>Desire S stable cyanogen mod 9 is there any progress? </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-54077">
+        <div id="dsq-comment-header-54077" class="dsq-comment-header">
+            <cite id="dsq-cite-54077">
+http://www.facebook.com/igorcerqsouza                <span id="dsq-author-user-54077">Igor Souza</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54077" class="dsq-comment-body">
+            <div id="dsq-comment-message-54077" class="dsq-comment-message"><p>LG OPTIMUS 2X, tem alguma previsão?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-54083">
+        <div id="dsq-comment-header-54083" class="dsq-comment-header">
+            <cite id="dsq-cite-54083">
+                <span id="dsq-author-user-54083">Hoennramos</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54083" class="dsq-comment-body">
+            <div id="dsq-comment-message-54083" class="dsq-comment-message"><p>WHOA. WHOAAAA.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-54084">
+        <div id="dsq-comment-header-54084" class="dsq-comment-header">
+            <cite id="dsq-cite-54084">
+                <span id="dsq-author-user-54084">Galaxy S2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54084" class="dsq-comment-body">
+            <div id="dsq-comment-message-54084" class="dsq-comment-message"><p>Thank you So much!!  ^^</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-54086">
+        <div id="dsq-comment-header-54086" class="dsq-comment-header">
+            <cite id="dsq-cite-54086">
+                <span id="dsq-author-user-54086">Guest</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54086" class="dsq-comment-body">
+            <div id="dsq-comment-message-54086" class="dsq-comment-message"><p>Guys I am hoping to install this on my I9100 G. Can you please point me to a link with instructions ?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-54087">
+        <div id="dsq-comment-header-54087" class="dsq-comment-header">
+            <cite id="dsq-cite-54087">
+                <span id="dsq-author-user-54087">Euler Euler has a phone</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54087" class="dsq-comment-body">
+            <div id="dsq-comment-message-54087" class="dsq-comment-message"><p> hey, could some1 please help me with a link to cm9 for my zte blade (orange san fran)i tried installing the modaco ics but it was rubbish&#8230;the home button didnt work at all n i couldnt see the purpouse of having the best rom by sacrificing  multitasking<br />
+thanx</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-54094">
+        <div id="dsq-comment-header-54094" class="dsq-comment-header">
+            <cite id="dsq-cite-54094">
+                <span id="dsq-author-user-54094">Jeffblond</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54094" class="dsq-comment-body">
+            <div id="dsq-comment-message-54094" class="dsq-comment-message"><p>so should i install the rom or not</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-54095">
+        <div id="dsq-comment-header-54095" class="dsq-comment-header">
+            <cite id="dsq-cite-54095">
+                <span id="dsq-author-user-54095">thiago</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54095" class="dsq-comment-body">
+            <div id="dsq-comment-message-54095" class="dsq-comment-message"><p>is there any provision for staff to work in p698f include LG phones compatible with the new CM 10?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-54136">
+        <div id="dsq-comment-header-54136" class="dsq-comment-header">
+            <cite id="dsq-cite-54136">
+                <span id="dsq-author-user-54136">Jcobos</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54136" class="dsq-comment-body">
+            <div id="dsq-comment-message-54136" class="dsq-comment-message"><p>Comment removed</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-54139">
+        <div id="dsq-comment-header-54139" class="dsq-comment-header">
+            <cite id="dsq-cite-54139">
+                <span id="dsq-author-user-54139">Wil_alex</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54139" class="dsq-comment-body">
+            <div id="dsq-comment-message-54139" class="dsq-comment-message"><p>when it comes to the Lg optimus hub???????????.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-54141">
+        <div id="dsq-comment-header-54141" class="dsq-comment-header">
+            <cite id="dsq-cite-54141">
+                <span id="dsq-author-user-54141">Xhrextha</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54141" class="dsq-comment-body">
+            <div id="dsq-comment-message-54141" class="dsq-comment-message"><p>When will be CyanogenMod 9 stable for samsung galaxy mini Gt-s5570</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-54142">
+        <div id="dsq-comment-header-54142" class="dsq-comment-header">
+            <cite id="dsq-cite-54142">
+                <span id="dsq-author-user-54142">Joshcoleman193</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54142" class="dsq-comment-body">
+            <div id="dsq-comment-message-54142" class="dsq-comment-message"><p>Will it ever be released for galaxy vibrant? (sgh-t959)?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-54163">
+        <div id="dsq-comment-header-54163" class="dsq-comment-header">
+            <cite id="dsq-cite-54163">
+                <span id="dsq-author-user-54163">marcy970</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54163" class="dsq-comment-body">
+            <div id="dsq-comment-message-54163" class="dsq-comment-message"><p>and for LG P990? i could use CM9 for p930? </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-54424">
+        <div id="dsq-comment-header-54424" class="dsq-comment-header">
+            <cite id="dsq-cite-54424">
+                <span id="dsq-author-user-54424">Brammemannetje</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54424" class="dsq-comment-body">
+            <div id="dsq-comment-message-54424" class="dsq-comment-message"><p>Comment removed, </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-54480">
+        <div id="dsq-comment-header-54480" class="dsq-comment-header">
+            <cite id="dsq-cite-54480">
+                <span id="dsq-author-user-54480">Milestonegio</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54480" class="dsq-comment-body">
+            <div id="dsq-comment-message-54480" class="dsq-comment-message"><p>Cyanogen team, help we please: <br />
+<a href="http://forum.xda-developers.com/showthread.php?t=1825260" rel="nofollow">http://forum.xda-developers.com/showthread.php?t=1825260</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-54509">
+        <div id="dsq-comment-header-54509" class="dsq-comment-header">
+            <cite id="dsq-cite-54509">
+http://www.facebook.com/profile.php?id=100001426692273                <span id="dsq-author-user-54509">Secrieru Gabriel</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-54509" class="dsq-comment-body">
+            <div id="dsq-comment-message-54509" class="dsq-comment-message"><p>Could you make Cyanogenmod 9 for Galaxy Fit?</p>
+</div>
+        </div>
+
+    </li>
+            </ul>
+
+            <div class="navigation">
+                <div class="nav-previous"><a href="http://www.cyanogenmod.org/blog/cyanogenmod-9-stable/comment-page-9#comments" ><span class="meta-nav">&larr;</span> Older Comments</a></div>
+                <div class="nav-next"><a href="http://www.cyanogenmod.org/blog/cyanogenmod-9-stable#comments" >Newer Comments <span class="meta-nav">&rarr;</span></a></div>
+            </div><!-- .navigation -->
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://www.cyanogenmod.org/blog/cyanogenmod-9-stable';
+    var disqus_identifier = '1830 http://www.cyanogenmod.com/?p=1830';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'cyngn';
+    var disqus_title = "CyanogenMod 9 &#8211; Stable";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+        config.language = '';
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '?cf_action=sync_comments&post_id=1830';
+
+            var firstScript = document.getElementsByTagName( "script" )[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+        });
+                    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/www.cyanogenmod.org\/blog\/cyanogenmod-9-stable\/trackback"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+</article>
+			</div>
+
+		</div><!-- End Content row -->
+		
+		<aside id="sidebar" class="four columns hide-on-phones" role="complementary">
+	<div class="sidebar-box">
+		<article id="recent-comments-4" class="row widget widget_recent_comments"><div class="sidebar-section twelve columns"><h6><strong>Recent Comments</strong></h6><ul id="recentcomments"><li class="recentcomments">Rakesh Lingechetty on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65376">CyanogenMod 11 M12</a></li><li class="recentcomments">zamarax on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65375">CyanogenMod 11 M12</a></li><li class="recentcomments">Avinash Sailesh on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65374">CyanogenMod 11 M12</a></li><li class="recentcomments">ibrahim biten on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65373">CyanogenMod 11 M12</a></li><li class="recentcomments">ibrahim biten on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65372">CyanogenMod 11 M12</a></li></ul></div></article>	</div>
+</aside><!-- /#sidebar -->		
+		</div><!-- End Main row -->
+		
+		<footer id="content-info" role="contentinfo" class="hide-on-phones" style="margin:40px 0 0 0;">
+			<div class="row">
+				<article id="nav_menu-4" class="three columns widget widget_nav_menu"><div class="footer-section"><h6><strong>Navigation</strong></h6><div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-798"><a href="http://www.cyanogenmod.org/about">About</a></li>
+<li id="menu-item-2403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2403"><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+<li id="menu-item-2404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2404"><a href="http://download.cyanogenmod.org">Download</a></li>
+<li id="menu-item-825" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-825"><a href="/blog">Blog</a></li>
+<li id="menu-item-904" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-904"><a href="http://forum.cyanogenmod.org">Forum</a></li>
+<li id="menu-item-829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-829"><a href="http://www.cyanogenmod.org/community">Community</a></li>
+<li id="menu-item-2405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2405"><a href="https://account.cyanogenmod.org/">Account</a></li>
+<li id="menu-item-2709" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2709"><a href="http://shop.cyanogenmod.org">Shop</a></li>
+</ul></div></div></article><article id="nav_menu-3" class="three columns widget widget_nav_menu"><div class="footer-section"><h6><strong>Social Networks</strong></h6><div class="menu-social-networks-container"><ul id="menu-social-networks" class="menu"><li id="menu-item-2173" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2173"><a href="https://www.facebook.com/CyanogenMod">Facebook</a></li>
+<li id="menu-item-2174" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2174"><a href="https://twitter.com/CyanogenMod">Twitter</a></li>
+<li id="menu-item-2175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2175"><a href="https://plus.google.com/+CyanogenMod/posts">Google+</a></li>
+</ul></div></div></article>                                <article class="three columns widget widget widget_nav_menu">
+                                    <div class="footer-section">
+                                        <h6><strong>Sponsored By</strong></h6>
+                                        <a href="http://twilio.com/?utm_source=cyanogenmod&utm_medium=webbadge&utm_campaign=cyanogenverify" style="text: decoration: none; display: inline-block; width: 166px; height: 0; overflow: hidden; padding-top: 31px; background: url(http://www.twilio.com/packages/company/img/logos_icon_poweredbysmall.png) no-repeat;">powered by twilio™</a>
+                                    </div>
+                                </article>
+			</div>
+		</footer>
+        
+      <div id="navigation" class="row mobile-footer show-on-phones">
+			<div class="twelve columns">
+            	<h6>Navigate cyanogenmod.org</h6>
+            	<ul>
+                	<li><a href="/about">About</a></li>
+                    <!--<li><a href="#">Features</a></li>-->
+                    <li><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+                    <li><a href="http://download.cyanogenmod.org/">Download</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="http://forum.cyanogenmod.org">Forum</a></li>
+                    <li><a href="/community">Community</a></li>  
+                    <li><a href="https://account.cyanogenmod.org">Account</a></li>
+                    <li><a href="http://shop.cyanogenmod.org">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+			
+	</div><!-- Container End -->
+    
+
+	<!-- Included JS Files of Foundation -->
+	<script src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/foundation.js"></script>
+	<script src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/app.js"></script>
+	
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	     chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7]>
+		<script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+		<script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+	
+	<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 12/21 queries in 0.047 seconds using apc
+Object Caching 999/1564 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 03:13:01 by W3 Total Cache -->

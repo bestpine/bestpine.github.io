@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CyanogenMod &#187; developers</title>
+	<atom:link href="http://www.cyanogenmod.org/tag/developers/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Thu, 13 Nov 2014 07:54:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+		<item>
+		<title>6 New themes added!</title>
+		<link>http://www.cyanogenmod.org/blog/6-new-themes-added</link>
+		<comments>http://www.cyanogenmod.org/blog/6-new-themes-added#comments</comments>
+		<pubDate>Thu, 27 Aug 2009 14:50:38 +0000</pubDate>
+		<dc:creator>MrADeveci</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[developers]]></category>
+		<category><![CDATA[download]]></category>
+		<category><![CDATA[theme]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=214</guid>
+		<description><![CDATA[<p>New themes have been added to the download section.</p> <p>If your theme is not listed, then please follow the XDA thread and ensure that it is added to the list.</p> <p>XDA Thread: <a href="http://forum.xda-developers.com/showthread.php?t=552706">http://forum.xda-developers.com/showthread.php?t=552706</a></p> <p>Theme Downloads: <a href="http://www.cyanogenmod.org/downloads/themes">http://www.cyanogenmod.org/downloads/themes</a></p>]]></description>
+				<content:encoded><![CDATA[<p>New themes have been added to the download section.</p>
+<p>If your theme is not listed, then please follow the XDA thread and ensure that it is added to the list.</p>
+<p>XDA Thread: <a href="http://forum.xda-developers.com/showthread.php?t=552706">http://forum.xda-developers.com/showthread.php?t=552706</a></p>
+<p>Theme Downloads: <a href="http://www.cyanogenmod.org/downloads/themes">http://www.cyanogenmod.org/downloads/themes</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/6-new-themes-added/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Theme Developers, please read!</title>
+		<link>http://www.cyanogenmod.org/blog/theme-developers-please-read</link>
+		<comments>http://www.cyanogenmod.org/blog/theme-developers-please-read#comments</comments>
+		<pubDate>Wed, 26 Aug 2009 16:37:00 +0000</pubDate>
+		<dc:creator>MrADeveci</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[developers]]></category>
+		<category><![CDATA[download]]></category>
+		<category><![CDATA[themes]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=194</guid>
+		<description><![CDATA[<p>If you would like your Theme featured on this website, please visit the thread below and complete the request!</p> <p>Thanks.</p> <p><a href=" http://forum.xda-developers.com/showthread.php?t=552706">http://forum.xda-developers.com/showthread.php?t=552706</a></p>]]></description>
+				<content:encoded><![CDATA[<p>If you would like your Theme featured on this website, please visit the thread below and complete the request!</p>
+<p>Thanks.</p>
+<p><a href="   http://forum.xda-developers.com/showthread.php?t=552706">http://forum.xda-developers.com/showthread.php?t=552706</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/theme-developers-please-read/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/7 queries in 0.019 seconds using apc
+Object Caching 271/276 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:15:29 by W3 Total Cache -->

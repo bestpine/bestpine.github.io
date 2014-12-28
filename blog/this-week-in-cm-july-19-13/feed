@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: This Week In CyanogenMod</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/this-week-in-cm-july-19-13/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/this-week-in-cm-july-19-13</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: Patrice Mathurin NGASSA</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-july-19-13/comment-page-1#comment-64254</link>
+		<dc:creator>Patrice Mathurin NGASSA</dc:creator>
+		<pubDate>Fri, 10 Oct 2014 12:40:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2299#comment-64254</guid>
+		<description><![CDATA[How can I gain system privileges on CyanogenMod 11 (nightly build)?]]></description>
+		<content:encoded><![CDATA[<p>How can I gain system privileges on CyanogenMod 11 (nightly build)?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jonnie Grund</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-july-19-13/comment-page-1#comment-58081</link>
+		<dc:creator>Jonnie Grund</dc:creator>
+		<pubDate>Thu, 14 Nov 2013 19:16:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2299#comment-58081</guid>
+		<description><![CDATA[It&#039;s called ignorance,  o &quot;dumb on purpose&quot;  in the vernacular.   To say something that has such overwhelming evidence that it does exist and you must have missed the Congressional hearings where the NSA admitted to Congress that it does exist. ]]></description>
+		<content:encoded><![CDATA[<p>It&#8217;s called ignorance,  o &#8220;dumb on purpose&#8221;  in the vernacular.   To say something that has such overwhelming evidence that it does exist and you must have missed the Congressional hearings where the NSA admitted to Congress that it does exist. </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jonnie Grund</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-july-19-13/comment-page-1#comment-58080</link>
+		<dc:creator>Jonnie Grund</dc:creator>
+		<pubDate>Thu, 14 Nov 2013 19:13:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2299#comment-58080</guid>
+		<description><![CDATA[Prism nonsense?,  the NSA forming a group with software vendors,  service providers isn&#039;t nonsense.   Or,  you are one of those oh,  its just rumors or we&#039;re conspiracy theorists.   Almost every major world event road on the back of a conspiracy theory  and labeling people conspiracy theorists is a tact to get the general public who don&#039;t know anything besides what football games are on this weekend to look the other way.   I on the other hand care when my ax dollars are being used to fund an organization that constitutionally doesn&#039;t have the right to exist and formally under U. S.  law they officially don&#039;t exist. PRISM and a dozen other programs of it&#039;s sort do exist.   I guess you just drink some pretty crappy coffee. ]]></description>
+		<content:encoded><![CDATA[<p>Prism nonsense?,  the NSA forming a group with software vendors,  service providers isn&#8217;t nonsense.   Or,  you are one of those oh,  its just rumors or we&#8217;re conspiracy theorists.   Almost every major world event road on the back of a conspiracy theory  and labeling people conspiracy theorists is a tact to get the general public who don&#8217;t know anything besides what football games are on this weekend to look the other way.   I on the other hand care when my ax dollars are being used to fund an organization that constitutionally doesn&#8217;t have the right to exist and formally under U. S.  law they officially don&#8217;t exist. PRISM and a dozen other programs of it&#8217;s sort do exist.   I guess you just drink some pretty crappy coffee. </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: strauzo</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-july-19-13/comment-page-1#comment-57936</link>
+		<dc:creator>strauzo</dc:creator>
+		<pubDate>Sun, 10 Nov 2013 16:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2299#comment-57936</guid>
+		<description><![CDATA[Users want root. An OS without root will die , specially an OS like Android that is used for Entertainment. The real implementation of stuff like Selinux, is not for security reason, but is adopted by google to try to take back the control of Android and sell their services. Users with root not like to buy everything. This is the real reason.]]></description>
+		<content:encoded><![CDATA[<p>Users want root. An OS without root will die , specially an OS like Android that is used for Entertainment. The real implementation of stuff like Selinux, is not for security reason, but is adopted by google to try to take back the control of Android and sell their services. Users with root not like to buy everything. This is the real reason.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: insink71</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-july-19-13/comment-page-1#comment-57017</link>
+		<dc:creator>insink71</dc:creator>
+		<pubDate>Sat, 03 Aug 2013 04:18:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2299#comment-57017</guid>
+		<description><![CDATA[I believe ASOP uses DAC or discretionary access control [in lieu of MAC addressed in this blog].. to a point.. they run it through zygote, and if a process is untrusted the zygote takes over.  Interesting CM will be using MAC.  This is a more secure practice though; so, I applaud.]]></description>
+		<content:encoded><![CDATA[<p>I believe ASOP uses DAC or discretionary access control [in lieu of MAC addressed in this blog].. to a point.. they run it through zygote, and if a process is untrusted the zygote takes over.  Interesting CM will be using MAC.  This is a more secure practice though; so, I applaud.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jules Kondo</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-july-19-13/comment-page-1#comment-56996</link>
+		<dc:creator>Jules Kondo</dc:creator>
+		<pubDate>Fri, 02 Aug 2013 05:42:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2299#comment-56996</guid>
+		<description><![CDATA[Word up guys! This is the true power of community driven progress. Great work!]]></description>
+		<content:encoded><![CDATA[<p>Word up guys! This is the true power of community driven progress. Great work!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Mikael Arhelger</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-july-19-13/comment-page-1#comment-56965</link>
+		<dc:creator>Mikael Arhelger</dc:creator>
+		<pubDate>Fri, 26 Jul 2013 12:58:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2299#comment-56965</guid>
+		<description><![CDATA[Oh, how kind your words are :) I&#039;ll be back!]]></description>
+		<content:encoded><![CDATA[<p>Oh, how kind your words are <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  I&#8217;ll be back!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Gordon Freeman</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-july-19-13/comment-page-1#comment-56964</link>
+		<dc:creator>Gordon Freeman</dc:creator>
+		<pubDate>Fri, 26 Jul 2013 10:47:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2299#comment-56964</guid>
+		<description><![CDATA[I want to tell you on behalf of the whole CM community how sad we all are that you went back to stock firmware. It will never be the same without you Mikael.]]></description>
+		<content:encoded><![CDATA[<p>I want to tell you on behalf of the whole CM community how sad we all are that you went back to stock firmware. It will never be the same without you Mikael.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Matthew Smith</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-july-19-13/comment-page-1#comment-56963</link>
+		<dc:creator>Matthew Smith</dc:creator>
+		<pubDate>Thu, 25 Jul 2013 08:43:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2299#comment-56963</guid>
+		<description><![CDATA[I didn&#039;t change anything about the SELinux settings when I installed Fedora. The problems began from the word go, both with my root filesystem (which was newly formatted) and my home partition (which was carried over from a previous Linux install).]]></description>
+		<content:encoded><![CDATA[<p>I didn&#8217;t change anything about the SELinux settings when I installed Fedora. The problems began from the word go, both with my root filesystem (which was newly formatted) and my home partition (which was carried over from a previous Linux install).</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Simon Lindgren</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-july-19-13/comment-page-1#comment-56962</link>
+		<dc:creator>Simon Lindgren</dc:creator>
+		<pubDate>Thu, 25 Jul 2013 07:52:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2299#comment-56962</guid>
+		<description><![CDATA[It should not give you these problems in a default install. If so, that is a bug. File it so it can be fixed (sadly, fixing bugs is not Fedoras forte...)
+
+
+
+If you get this because you are mucking about and changing things, it&#039;s your own fault and you need to learn how to administer and adapt an SELinux system. Pretty much the same as you&#039;d have to make sure the discretionary access controls (the classic user, group, others permissions) are set up correctly. SELinux is a little less forgiving since the default is to reject access.
+
+
+That said - SELinux has quite a few advanced concepts and is not that easy to learn. It could be that for you the appropriate thing actually is to disable it (or at least put it in permissive mode). But for something like Cyanogenmod, where the base system should pretty much be what the devs decide, these issues should be minimal.]]></description>
+		<content:encoded><![CDATA[<p>It should not give you these problems in a default install. If so, that is a bug. File it so it can be fixed (sadly, fixing bugs is not Fedoras forte&#8230;)</p>
+<p>If you get this because you are mucking about and changing things, it&#8217;s your own fault and you need to learn how to administer and adapt an SELinux system. Pretty much the same as you&#8217;d have to make sure the discretionary access controls (the classic user, group, others permissions) are set up correctly. SELinux is a little less forgiving since the default is to reject access.</p>
+<p>That said &#8211; SELinux has quite a few advanced concepts and is not that easy to learn. It could be that for you the appropriate thing actually is to disable it (or at least put it in permissive mode). But for something like Cyanogenmod, where the base system should pretty much be what the devs decide, these issues should be minimal.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/19 queries in 0.038 seconds using apc
+Object Caching 354/360 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:17:11 by W3 Total Cache -->

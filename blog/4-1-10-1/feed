@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: 4.1.10.1</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/4-1-10-1/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/4-1-10-1</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: Zoc</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-10-1/comment-page-4#comment-1512</link>
+		<dc:creator>Zoc</dc:creator>
+		<pubDate>Thu, 15 Oct 2009 17:47:48 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-10-1#comment-1512</guid>
+		<description><![CDATA[@45/Anthony
+
+You just made my day. My HTC Magic was pretty much useless with Hero (nice but slow on Dream) and without 3G (&#039;t was but the missing APN entry and the magnificent Interweb provided me with access parameters.)
+
+Cyanogenmod now looks very promising.
+
+Many thanks!]]></description>
+		<content:encoded><![CDATA[<p>@45/Anthony</p>
+<p>You just made my day. My HTC Magic was pretty much useless with Hero (nice but slow on Dream) and without 3G (&#8216;t was but the missing APN entry and the magnificent Interweb provided me with access parameters.)</p>
+<p>Cyanogenmod now looks very promising.</p>
+<p>Many thanks!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Lorenzo Aliani</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-10-1/comment-page-4#comment-829</link>
+		<dc:creator>Lorenzo Aliani</dc:creator>
+		<pubDate>Wed, 23 Sep 2009 13:04:58 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-10-1#comment-829</guid>
+		<description><![CDATA[I want to know why &#039;on all cyanognemod rom htc sync not working and Exchange,,]]></description>
+		<content:encoded><![CDATA[<p>I want to know why &#8216;on all cyanognemod rom htc sync not working and Exchange,,</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Scammah</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-10-1/comment-page-4#comment-664</link>
+		<dc:creator>Scammah</dc:creator>
+		<pubDate>Fri, 18 Sep 2009 22:17:54 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-10-1#comment-664</guid>
+		<description><![CDATA[@Joe Levi:  Thanks I will check it out looks promising.]]></description>
+		<content:encoded><![CDATA[<p>@Joe Levi:  Thanks I will check it out looks promising.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Joe Levi</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-10-1/comment-page-4#comment-662</link>
+		<dc:creator>Joe Levi</dc:creator>
+		<pubDate>Fri, 18 Sep 2009 22:13:47 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-10-1#comment-662</guid>
+		<description><![CDATA[@Scammah,
+
+There have been positive reports of people using sdparted with 16GB cards: http://bit.ly/11lYMq
+
+ - Joe Levi]]></description>
+		<content:encoded><![CDATA[<p>@Scammah,</p>
+<p>There have been positive reports of people using sdparted with 16GB cards: <a href="http://bit.ly/11lYMq" rel="nofollow">http://bit.ly/11lYMq</a></p>
+<p> &#8211; Joe Levi</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Scammah</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-10-1/comment-page-4#comment-661</link>
+		<dc:creator>Scammah</dc:creator>
+		<pubDate>Fri, 18 Sep 2009 22:02:29 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-10-1#comment-661</guid>
+		<description><![CDATA[@Joe Levi: Thanks.  Now I just have to find a good tutorial to partition a 16gb sd card.  When I go to &quot;Parted&quot; it doesn&#039;t show me what I have in MB.  It shows in GB it gets confusing that way.]]></description>
+		<content:encoded><![CDATA[<p>@Joe Levi: Thanks.  Now I just have to find a good tutorial to partition a 16gb sd card.  When I go to &#8220;Parted&#8221; it doesn&#8217;t show me what I have in MB.  It shows in GB it gets confusing that way.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Joe Levi</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-10-1/comment-page-4#comment-660</link>
+		<dc:creator>Joe Levi</dc:creator>
+		<pubDate>Fri, 18 Sep 2009 21:40:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-10-1#comment-660</guid>
+		<description><![CDATA[@Scammah,
+
+If you&#039;ve got an sdcard with a swap partition on it Cyanogen&#039;s ROMs uses that swap partition by default.
+
+(Please correct me if I&#039;m wrong.)
+
+As AndroidFan pointed out, a swap partition is not ~required~ to use Cyanogen&#039;s ROMs, but I ~recommend~ running with one. :)
+
+ - www.JoeLevi.com]]></description>
+		<content:encoded><![CDATA[<p>@Scammah,</p>
+<p>If you&#8217;ve got an sdcard with a swap partition on it Cyanogen&#8217;s ROMs uses that swap partition by default.</p>
+<p>(Please correct me if I&#8217;m wrong.)</p>
+<p>As AndroidFan pointed out, a swap partition is not ~required~ to use Cyanogen&#8217;s ROMs, but I ~recommend~ running with one. <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p> &#8211; <a href="http://www.JoeLevi.com" rel="nofollow">http://www.JoeLevi.com</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Scammah</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-10-1/comment-page-4#comment-659</link>
+		<dc:creator>Scammah</dc:creator>
+		<pubDate>Fri, 18 Sep 2009 21:27:59 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-10-1#comment-659</guid>
+		<description><![CDATA[Hello unable to find this information.  Is Linux-swap something I should have or not with Cyanogen?  I noticed some information in the changelog and was curious before I preceded.  Thanks]]></description>
+		<content:encoded><![CDATA[<p>Hello unable to find this information.  Is Linux-swap something I should have or not with Cyanogen?  I noticed some information in the changelog and was curious before I preceded.  Thanks</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: MojUK</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-10-1/comment-page-4#comment-658</link>
+		<dc:creator>MojUK</dc:creator>
+		<pubDate>Fri, 18 Sep 2009 21:13:53 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-10-1#comment-658</guid>
+		<description><![CDATA[Hey guys, i’m currently running MCR 2.2 on my Orange branded HTC Hero handset. I’ve heard lots of good things about cyanogen’s release’s, and have been looking through this site today and they sound cool – donut oh yes!! Question is does this rom work on the Hero and if so which version is the best to put on? I saw stable as 4.0.04 or something i think? and latest is this one…what ya all reckon?]]></description>
+		<content:encoded><![CDATA[<p>Hey guys, i’m currently running MCR 2.2 on my Orange branded HTC Hero handset. I’ve heard lots of good things about cyanogen’s release’s, and have been looking through this site today and they sound cool – donut oh yes!! Question is does this rom work on the Hero and if so which version is the best to put on? I saw stable as 4.0.04 or something i think? and latest is this one…what ya all reckon?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Joe Levi</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-10-1/comment-page-4#comment-657</link>
+		<dc:creator>Joe Levi</dc:creator>
+		<pubDate>Fri, 18 Sep 2009 21:09:45 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-10-1#comment-657</guid>
+		<description><![CDATA[@Craig,
+
+&quot;mount&quot; is a command-line utility that you use in to &quot;attach&quot; some external storage so that&#039;s it&#039;s accessible to the system.  Of course that&#039;s a gross over-simplification. 
+
+It&#039;s not something that most Android users would ever have to do (us tweekers on the other-hand... ;).
+
+ - JoeLevi.com]]></description>
+		<content:encoded><![CDATA[<p>@Craig,</p>
+<p>&#8220;mount&#8221; is a command-line utility that you use in to &#8220;attach&#8221; some external storage so that&#8217;s it&#8217;s accessible to the system.  Of course that&#8217;s a gross over-simplification. </p>
+<p>It&#8217;s not something that most Android users would ever have to do (us tweekers on the other-hand&#8230; <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> .</p>
+<p> &#8211; JoeLevi.com</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Craig</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-10-1/comment-page-4#comment-656</link>
+		<dc:creator>Craig</dc:creator>
+		<pubDate>Fri, 18 Sep 2009 20:50:13 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-10-1#comment-656</guid>
+		<description><![CDATA[@DancingWombat
+
+Thanks for pointing out the additional storage section under Settings &gt; SD 
+
+Looks like it might have been successful, not sure what the &quot;mount&quot; command is but i&#039;ll do some research but i&#039;m 99.99% sure its there if the ext4 shows up]]></description>
+		<content:encoded><![CDATA[<p>@DancingWombat</p>
+<p>Thanks for pointing out the additional storage section under Settings &gt; SD </p>
+<p>Looks like it might have been successful, not sure what the &#8220;mount&#8221; command is but i&#8217;ll do some research but i&#8217;m 99.99% sure its there if the ext4 shows up</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/17 queries in 0.031 seconds using apc
+Object Caching 359/361 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:15:38 by W3 Total Cache -->

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CyanogenMod &#187; experimental</title>
+	<atom:link href="http://www.cyanogenmod.org/tag/experimental/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Thu, 13 Nov 2014 07:54:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+		<item>
+		<title>CyanogenMod 4.1.999</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999</link>
+		<comments>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999#comments</comments>
+		<pubDate>Wed, 07 Oct 2009 19:57:38 +0000</pubDate>
+		<dc:creator>MrADeveci</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[cyanogen]]></category>
+		<category><![CDATA[experimental]]></category>
+		<category><![CDATA[Rom]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=438</guid>
+		<description><![CDATA[<p>I&#8217;m calling this 4.1.999 because I&#8217;m waiting for the MT3G OTA, and my new installer is a little different. The ROM itself should be incredibly stable, though. This is a modified version of AOSP 1.6 without the proprietary bits. In order to get up and running the first time, you&#8217;ll need to follow some simple instructions.</p> <p>Please visit the <a href="http://wiki.cyanogenmod.org">Wiki </a>for information on how to install the Rom.</p>]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m calling this 4.1.999 because I&#8217;m waiting for the MT3G OTA, and my new installer is a little different. The ROM itself should be incredibly stable, though. This is a modified version of AOSP 1.6 without the proprietary bits. In order to get up and running the first time, you&#8217;ll need to follow some simple instructions.</p>
+<p>Please visit the <a href="http://wiki.cyanogenmod.org">Wiki </a>for information on how to install the Rom.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-999/feed</wfw:commentRss>
+		<slash:comments>157</slash:comments>
+		</item>
+		<item>
+		<title>New, more organised download section.</title>
+		<link>http://www.cyanogenmod.org/blog/new-more-organised-download-section</link>
+		<comments>http://www.cyanogenmod.org/blog/new-more-organised-download-section#comments</comments>
+		<pubDate>Wed, 26 Aug 2009 13:43:05 +0000</pubDate>
+		<dc:creator>MrADeveci</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[downloads]]></category>
+		<category><![CDATA[experimental]]></category>
+		<category><![CDATA[Recovery]]></category>
+		<category><![CDATA[Rom]]></category>
+		<category><![CDATA[theme]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=166</guid>
+		<description><![CDATA[<p>I have tidied things up a little and placed all the &#8216;downloadable&#8217; things into one section for ease of use and simplicity.</p> <p>You can now find all the downloads such as, experimental, stable, recovery, themes and mods all in the new Download section.</p> <p>You can find it in the menu above, or by clicking here : <a title="Downloads" href="/downloads">http://www.cyanogenmod.org/downloads</a></p>]]></description>
+				<content:encoded><![CDATA[<p>I have tidied things up a little and placed all the &#8216;downloadable&#8217; things into one section for ease of use and simplicity.</p>
+<p>You can now find all the downloads such as, experimental, stable, recovery, themes and mods all in the new Download section.</p>
+<p>You can find it in the menu above, or by clicking here : <a title="Downloads" href="/downloads">http://www.cyanogenmod.org/downloads</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/new-more-organised-download-section/feed</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/5 queries in 0.004 seconds using apc
+Object Caching 277/277 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 03:14:58 by W3 Total Cache -->

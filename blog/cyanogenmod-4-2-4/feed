@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: CyanogenMod 4.2.4</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/cyanogenmod-4-2-4/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-4</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: Kelexel</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-4/comment-page-3#comment-3397</link>
+		<dc:creator>Kelexel</dc:creator>
+		<pubDate>Sun, 29 Nov 2009 11:53:40 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-4#comment-3397</guid>
+		<description><![CDATA[Hi,
+
+I&#039;ve been trying to get the rom running for a while not but always end up with the same result.  After running the procedure successfully I reboot the device and it invariably end upon the bootloader screen.  I have tried many variations and versions but I answays end up at the same point...   that dreaded bootloader...
+
+At which point I can only come back to the original and use the stock, unrooted image.
+
+running a bit desperate here :-)
+
+help]]></description>
+		<content:encoded><![CDATA[<p>Hi,</p>
+<p>I&#8217;ve been trying to get the rom running for a while not but always end up with the same result.  After running the procedure successfully I reboot the device and it invariably end upon the bootloader screen.  I have tried many variations and versions but I answays end up at the same point&#8230;   that dreaded bootloader&#8230;</p>
+<p>At which point I can only come back to the original and use the stock, unrooted image.</p>
+<p>running a bit desperate here <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_smile.gif' alt=':-)' class='wp-smiley' /> </p>
+<p>help</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Werd</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-4/comment-page-3#comment-3166</link>
+		<dc:creator>Werd</dc:creator>
+		<pubDate>Sat, 21 Nov 2009 16:21:22 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-4#comment-3166</guid>
+		<description><![CDATA[Wondering if I can underclock the phone while asleep when running 4.2.5]]></description>
+		<content:encoded><![CDATA[<p>Wondering if I can underclock the phone while asleep when running 4.2.5</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: several</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-4/comment-page-3#comment-2973</link>
+		<dc:creator>several</dc:creator>
+		<pubDate>Mon, 16 Nov 2009 22:04:15 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-4#comment-2973</guid>
+		<description><![CDATA[but it&#039;s not.  I sent him logs last night.  I can certainly do without wallpaper changing for awhile. it&#039;s a great update.]]></description>
+		<content:encoded><![CDATA[<p>but it&#8217;s not.  I sent him logs last night.  I can certainly do without wallpaper changing for awhile. it&#8217;s a great update.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: several</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-4/comment-page-3#comment-2893</link>
+		<dc:creator>several</dc:creator>
+		<pubDate>Mon, 16 Nov 2009 03:49:27 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-4#comment-2893</guid>
+		<description><![CDATA[And he tweeted back. Should be fixed in 4.2.5.]]></description>
+		<content:encoded><![CDATA[<p>And he tweeted back. Should be fixed in 4.2.5.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: several</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-4/comment-page-3#comment-2891</link>
+		<dc:creator>several</dc:creator>
+		<pubDate>Mon, 16 Nov 2009 03:46:48 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-4#comment-2891</guid>
+		<description><![CDATA[I&#039;ve just confirmed that &quot;Wall Switcher&quot; causes the reboots too.
+
+I sent a tweet to @cyanogen about it.
+
+Moral of the story: if 4.2.4 is spontaneously rebooting on you and  you&#039;re using a wallpaper auto-changing app, uninstall that app and be reboot free.]]></description>
+		<content:encoded><![CDATA[<p>I&#8217;ve just confirmed that &#8220;Wall Switcher&#8221; causes the reboots too.</p>
+<p>I sent a tweet to @cyanogen about it.</p>
+<p>Moral of the story: if 4.2.4 is spontaneously rebooting on you and  you&#8217;re using a wallpaper auto-changing app, uninstall that app and be reboot free.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: several</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-4/comment-page-3#comment-2877</link>
+		<dc:creator>several</dc:creator>
+		<pubDate>Mon, 16 Nov 2009 01:52:35 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-4#comment-2877</guid>
+		<description><![CDATA[Fellow sufferers of the spontaneous reboots...
+
+Mine was rebooting when sitting idle with the screen off.
+
+I don&#039;t want to unfairly malign an app, but since I uninstalled the app named &quot;Wallr&quot; I&#039;ve not had any reboots on 4.2.4
+
+If you&#039;re suffering spontaneous reboots, are you running &quot;Wallr&quot;?  If you are, does uninstalling Wallr make the reboots stop for you too?]]></description>
+		<content:encoded><![CDATA[<p>Fellow sufferers of the spontaneous reboots&#8230;</p>
+<p>Mine was rebooting when sitting idle with the screen off.</p>
+<p>I don&#8217;t want to unfairly malign an app, but since I uninstalled the app named &#8220;Wallr&#8221; I&#8217;ve not had any reboots on 4.2.4</p>
+<p>If you&#8217;re suffering spontaneous reboots, are you running &#8220;Wallr&#8221;?  If you are, does uninstalling Wallr make the reboots stop for you too?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Me</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-4/comment-page-3#comment-2876</link>
+		<dc:creator>Me</dc:creator>
+		<pubDate>Mon, 16 Nov 2009 01:29:15 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-4#comment-2876</guid>
+		<description><![CDATA[-Screen Timeout issue after update-
+
+I am kind of losing my mind over this. It seems after I installed the new update anytime my screen times out or I manually lock it, the application I am using will close. I have verified that it will actually kill the process I am running. This is particularly irritating when listening to music as the song will simply stop playing if i don&#039;t keep the screen from timing out.
+
+Has anyone else experienced this? Any help or thoughts would be welcome @ this point.]]></description>
+		<content:encoded><![CDATA[<p>-Screen Timeout issue after update-</p>
+<p>I am kind of losing my mind over this. It seems after I installed the new update anytime my screen times out or I manually lock it, the application I am using will close. I have verified that it will actually kill the process I am running. This is particularly irritating when listening to music as the song will simply stop playing if i don&#8217;t keep the screen from timing out.</p>
+<p>Has anyone else experienced this? Any help or thoughts would be welcome @ this point.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: stklauberg</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-4/comment-page-3#comment-2874</link>
+		<dc:creator>stklauberg</dc:creator>
+		<pubDate>Sun, 15 Nov 2009 21:43:59 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-4#comment-2874</guid>
+		<description><![CDATA[hm ...
+
+aTrackDog shows a android system update 1.6 to 2.1 is that safe???]]></description>
+		<content:encoded><![CDATA[<p>hm &#8230;</p>
+<p>aTrackDog shows a android system update 1.6 to 2.1 is that safe???</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: several</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-4/comment-page-3#comment-2872</link>
+		<dc:creator>several</dc:creator>
+		<pubDate>Sun, 15 Nov 2009 19:53:18 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-4#comment-2872</guid>
+		<description><![CDATA[@turturis 
+
+Damnit.  Of course.  Yes, back on 4.2.3.1.   Makes perfect sense.   I&#039;ve just restored what I wiped.  *sigh*
+
+Doubt that wipe made any difference but will try again.  I uninstalled a lot of apps that weren&#039;t working or weren&#039;t being used.  Maybe the root of my problem got thrown out.  Will post later if I get it working.]]></description>
+		<content:encoded><![CDATA[<p>@turturis </p>
+<p>Damnit.  Of course.  Yes, back on 4.2.3.1.   Makes perfect sense.   I&#8217;ve just restored what I wiped.  *sigh*</p>
+<p>Doubt that wipe made any difference but will try again.  I uninstalled a lot of apps that weren&#8217;t working or weren&#8217;t being used.  Maybe the root of my problem got thrown out.  Will post later if I get it working.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ambarish</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-4/comment-page-3#comment-2871</link>
+		<dc:creator>Ambarish</dc:creator>
+		<pubDate>Sun, 15 Nov 2009 19:48:03 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-4#comment-2871</guid>
+		<description><![CDATA[Hi Guys,
+     Have run into this problem 3 times now - twice on 4.2.3 and once on 4.2.4:
+
+I got an incoming call (in the latest case while I was trying to make an outgoing call). When I tried to accept the call, the phone seemed to ignore all input and just kept ringing and ringing. The only way to get out of the state was to pull out my battery :-(
+
+Otherwise the new OS (with the new maps) is just wonderful!]]></description>
+		<content:encoded><![CDATA[<p>Hi Guys,<br />
+     Have run into this problem 3 times now &#8211; twice on 4.2.3 and once on 4.2.4:</p>
+<p>I got an incoming call (in the latest case while I was trying to make an outgoing call). When I tried to accept the call, the phone seemed to ignore all input and just kept ringing and ringing. The only way to get out of the state was to pull out my battery <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_sad.gif' alt=':-(' class='wp-smiley' /> </p>
+<p>Otherwise the new OS (with the new maps) is just wonderful!</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/17 queries in 0.037 seconds using apc
+Object Caching 359/361 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:20:16 by W3 Total Cache -->

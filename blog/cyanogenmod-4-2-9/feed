@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: CyanogenMod-4.2.9</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/cyanogenmod-4-2-9/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-9</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: theonetruetom</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-9/comment-page-5#comment-4702</link>
+		<dc:creator>theonetruetom</dc:creator>
+		<pubDate>Fri, 25 Dec 2009 17:41:36 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-9#comment-4702</guid>
+		<description><![CDATA[Thank you, Cyanogen.  That random music bug was the one thing between me and dumping my iPod Touch for Last.FM and the headphone adapter I jacked from an HTC Fuze when I worked for AT&amp;T.  It used to sometimes recognize as a headset, and because the adapter doesn&#039;t have music control buttons, it&#039;d get random button presses and start listening to random music.  Stutteringly.  
+
+I&#039;m experiencing SLLOOOOOOOOWWWW (like 3-7 mins) boots after flashing with CM-Updater.  It seems to get worse after every upgrade, but after the first boot post-flash the problem goes away and I can beat OS5.0 Blackberries with no problems.  Anyone else seeing this?]]></description>
+		<content:encoded><![CDATA[<p>Thank you, Cyanogen.  That random music bug was the one thing between me and dumping my iPod Touch for Last.FM and the headphone adapter I jacked from an HTC Fuze when I worked for AT&amp;T.  It used to sometimes recognize as a headset, and because the adapter doesn&#8217;t have music control buttons, it&#8217;d get random button presses and start listening to random music.  Stutteringly.  </p>
+<p>I&#8217;m experiencing SLLOOOOOOOOWWWW (like 3-7 mins) boots after flashing with CM-Updater.  It seems to get worse after every upgrade, but after the first boot post-flash the problem goes away and I can beat OS5.0 Blackberries with no problems.  Anyone else seeing this?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: zmesler</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-9/comment-page-4#comment-4557</link>
+		<dc:creator>zmesler</dc:creator>
+		<pubDate>Wed, 23 Dec 2009 21:53:54 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-9#comment-4557</guid>
+		<description><![CDATA[@ Paul
+First clean up your swap and ext3 partitions. Put DRC83_base_defanged ROM and CM Update on your SD (fat 32 paRTITION) Then wipe once or twice. Install DRC83_base_defanged then CM update and then reboot (do not reboot between installing DRC83_base_defanged and CM Update). After that you are ready to go. Enjoy]]></description>
+		<content:encoded><![CDATA[<p>@ Paul<br />
+First clean up your swap and ext3 partitions. Put DRC83_base_defanged ROM and CM Update on your SD (fat 32 paRTITION) Then wipe once or twice. Install DRC83_base_defanged then CM update and then reboot (do not reboot between installing DRC83_base_defanged and CM Update). After that you are ready to go. Enjoy</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: zendick</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-9/comment-page-4#comment-4553</link>
+		<dc:creator>zendick</dc:creator>
+		<pubDate>Wed, 23 Dec 2009 16:07:47 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-9#comment-4553</guid>
+		<description><![CDATA[anyone know whow to fix an eaten ext partition, 4.2.9.1 ate my sd card, fat part is readable directly in a windows box but nothing else is.]]></description>
+		<content:encoded><![CDATA[<p>anyone know whow to fix an eaten ext partition, 4.2.9.1 ate my sd card, fat part is readable directly in a windows box but nothing else is.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Wes</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-9/comment-page-4#comment-4552</link>
+		<dc:creator>Wes</dc:creator>
+		<pubDate>Wed, 23 Dec 2009 15:57:24 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-9#comment-4552</guid>
+		<description><![CDATA[Great work here Cyan. Fastest yet. I really do love this rom. I laugh at a few acquaintances who still are stock.
+
+I had an issue with google-maps. But I have had multiple issues with the  nav-abled maps. Just reinstalled it.
+
+Also get the missing icons from the desktop sometimes. So I just use the drawer. A minor inconvenience at best!
+
+Great work man! Merry Xmas]]></description>
+		<content:encoded><![CDATA[<p>Great work here Cyan. Fastest yet. I really do love this rom. I laugh at a few acquaintances who still are stock.</p>
+<p>I had an issue with google-maps. But I have had multiple issues with the  nav-abled maps. Just reinstalled it.</p>
+<p>Also get the missing icons from the desktop sometimes. So I just use the drawer. A minor inconvenience at best!</p>
+<p>Great work man! Merry Xmas</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: reqest</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-9/comment-page-4#comment-4549</link>
+		<dc:creator>reqest</dc:creator>
+		<pubDate>Wed, 23 Dec 2009 13:42:48 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-9#comment-4549</guid>
+		<description><![CDATA[For who was asking about... I&#039;m having problems with missing sms too.
+I&#039;m using SMS Popup and the standard sms android application. I can read the message once through SMS Popup, after that I cannot find it anymore inside conversation thread.
+This just appens sometimes and I still have no idea why.
+I&#039;m also using SMS Backup... maybe it could be related.
+
+Apart from this issue, Cyanogen 4.2.9.1 is fantastic!
+Really. Thanks ;)]]></description>
+		<content:encoded><![CDATA[<p>For who was asking about&#8230; I&#8217;m having problems with missing sms too.<br />
+I&#8217;m using SMS Popup and the standard sms android application. I can read the message once through SMS Popup, after that I cannot find it anymore inside conversation thread.<br />
+This just appens sometimes and I still have no idea why.<br />
+I&#8217;m also using SMS Backup&#8230; maybe it could be related.</p>
+<p>Apart from this issue, Cyanogen 4.2.9.1 is fantastic!<br />
+Really. Thanks <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Tsaeb</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-9/comment-page-4#comment-4546</link>
+		<dc:creator>Tsaeb</dc:creator>
+		<pubDate>Wed, 23 Dec 2009 07:56:58 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-9#comment-4546</guid>
+		<description><![CDATA[Freeze at first reboot on my G1 T-Mobile... d&#039;oh!]]></description>
+		<content:encoded><![CDATA[<p>Freeze at first reboot on my G1 T-Mobile&#8230; d&#8217;oh!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Paul</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-9/comment-page-4#comment-4545</link>
+		<dc:creator>Paul</dc:creator>
+		<pubDate>Wed, 23 Dec 2009 07:49:33 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-9#comment-4545</guid>
+		<description><![CDATA[@zmesler
+Thank you for the info (updating over updates) = bad idea. I&#039;m not sure why this is, but It does make sense, as every update after update after update = buggier. Here is what I did (this time). #1 Make a Nandroid backup, #2 wipe, #3 apply update (4.2.9).zip... restarted phone, did get one forceclose (for the startup app) while it was registering for Mobile Defense...  First thing I&#039;ve done was go to the market, am updating all my apps. That seems to work.
+
+I ask if I missed a step and if its a *big* deal. step = putting the stock rom on the phone first. I believe the last time I did this it unrooted my phone, had to start the process over from scratch. I do remember whatever ROM being very fast stable. I&#039;m curious as to what steps you take PRIOR to wipe, wipe, apply update (4.2.9).zip in case I continue to have issues.
+
+ThanX]]></description>
+		<content:encoded><![CDATA[<p>@zmesler<br />
+Thank you for the info (updating over updates) = bad idea. I&#8217;m not sure why this is, but It does make sense, as every update after update after update = buggier. Here is what I did (this time). #1 Make a Nandroid backup, #2 wipe, #3 apply update (4.2.9).zip&#8230; restarted phone, did get one forceclose (for the startup app) while it was registering for Mobile Defense&#8230;  First thing I&#8217;ve done was go to the market, am updating all my apps. That seems to work.</p>
+<p>I ask if I missed a step and if its a *big* deal. step = putting the stock rom on the phone first. I believe the last time I did this it unrooted my phone, had to start the process over from scratch. I do remember whatever ROM being very fast stable. I&#8217;m curious as to what steps you take PRIOR to wipe, wipe, apply update (4.2.9).zip in case I continue to have issues.</p>
+<p>ThanX</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Spfx_2000</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-9/comment-page-4#comment-4544</link>
+		<dc:creator>Spfx_2000</dc:creator>
+		<pubDate>Wed, 23 Dec 2009 07:13:56 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-9#comment-4544</guid>
+		<description><![CDATA[Great ROM love it. it has turned my phone into something completely new the only thing is that when ever i connect my headphones to it, it restarts. Not really sure what thats all about. I have tried to reflash as well as wiping it but it still occurs any suggestions?]]></description>
+		<content:encoded><![CDATA[<p>Great ROM love it. it has turned my phone into something completely new the only thing is that when ever i connect my headphones to it, it restarts. Not really sure what thats all about. I have tried to reflash as well as wiping it but it still occurs any suggestions?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jayjay</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-9/comment-page-4#comment-4543</link>
+		<dc:creator>Jayjay</dc:creator>
+		<pubDate>Wed, 23 Dec 2009 07:00:04 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-9#comment-4543</guid>
+		<description><![CDATA[love this new rom but i have a few issues... just hope I can help. app store just downloads and downloads but never installs even after it says download is complete.. also lags and that one i dont understand cause sometimes the phone is super fast and then other times its like im waiting idk 5 mins just waiting for the thing to load. but i still wouldnt go back to stock. ty much and great work]]></description>
+		<content:encoded><![CDATA[<p>love this new rom but i have a few issues&#8230; just hope I can help. app store just downloads and downloads but never installs even after it says download is complete.. also lags and that one i dont understand cause sometimes the phone is super fast and then other times its like im waiting idk 5 mins just waiting for the thing to load. but i still wouldnt go back to stock. ty much and great work</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Delsmore</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-9/comment-page-4#comment-4538</link>
+		<dc:creator>Delsmore</dc:creator>
+		<pubDate>Wed, 23 Dec 2009 03:30:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-9#comment-4538</guid>
+		<description><![CDATA[I&#039;ve gotten a bug where all my icons/widgets on home screen disappear and do not come back until you restart.  Its happen a couple times so far. 
+
+ Other than that great rom keep it up.]]></description>
+		<content:encoded><![CDATA[<p>I&#8217;ve gotten a bug where all my icons/widgets on home screen disappear and do not come back until you restart.  Its happen a couple times so far. </p>
+<p> Other than that great rom keep it up.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/17 queries in 0.040 seconds using apc
+Object Caching 355/357 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:20:01 by W3 Total Cache -->

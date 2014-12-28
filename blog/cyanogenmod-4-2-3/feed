@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: CyanogenMod 4.2.3</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/cyanogenmod-4-2-3/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-3</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: Car Subwoofers</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-3/comment-page-4#comment-12559</link>
+		<dc:creator>Car Subwoofers</dc:creator>
+		<pubDate>Fri, 10 Sep 2010 14:02:38 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-3#comment-12559</guid>
+		<description><![CDATA[I read some thing related to your post at techcrunch... in any case, I believe car audio is normally misunderstood but has a handful of great quality manufacturers as well. -Regards, Jacklyn Mcarthy]]></description>
+		<content:encoded><![CDATA[<p>I read some thing related to your post at techcrunch&#8230; in any case, I believe car audio is normally misunderstood but has a handful of great quality manufacturers as well. -Regards, Jacklyn Mcarthy</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: dsi r4</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-3/comment-page-4#comment-2845</link>
+		<dc:creator>dsi r4</dc:creator>
+		<pubDate>Sat, 14 Nov 2009 13:40:03 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-3#comment-2845</guid>
+		<description><![CDATA[i installed the latest stable release of cyanogenmod called 4.2.3, and when i connect my phone to my computer using a usb cable, it not showing up in my computer. and on my fone, i get a notification that&quot;usb debugging connected&quot; i disabled the usb debugging but still cannot access my fone from my computer like before. any ideas?]]></description>
+		<content:encoded><![CDATA[<p>i installed the latest stable release of cyanogenmod called 4.2.3, and when i connect my phone to my computer using a usb cable, it not showing up in my computer. and on my fone, i get a notification that&#8221;usb debugging connected&#8221; i disabled the usb debugging but still cannot access my fone from my computer like before. any ideas?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Tony</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-3/comment-page-4#comment-2824</link>
+		<dc:creator>Tony</dc:creator>
+		<pubDate>Fri, 13 Nov 2009 21:47:37 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-3#comment-2824</guid>
+		<description><![CDATA[Spoke too soon 4.2.4 rom just crashed and rebooted on it&#039;s own for the first time today...fortunately, i was able to find and d/l 4.2.3.1 so i&#039;ll be wiping and downgrading the install for now until 4.2.4.1 (aka a stable 4.2.4 release).]]></description>
+		<content:encoded><![CDATA[<p>Spoke too soon 4.2.4 rom just crashed and rebooted on it&#8217;s own for the first time today&#8230;fortunately, i was able to find and d/l 4.2.3.1 so i&#8217;ll be wiping and downgrading the install for now until 4.2.4.1 (aka a stable 4.2.4 release).</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: CCShermCraig</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-3/comment-page-4#comment-2772</link>
+		<dc:creator>CCShermCraig</dc:creator>
+		<pubDate>Thu, 12 Nov 2009 19:25:25 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-3#comment-2772</guid>
+		<description><![CDATA[@motornon Thanks for the response!]]></description>
+		<content:encoded><![CDATA[<p>@motornon Thanks for the response!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Norman</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-3/comment-page-4#comment-2765</link>
+		<dc:creator>Norman</dc:creator>
+		<pubDate>Thu, 12 Nov 2009 18:13:50 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-3#comment-2765</guid>
+		<description><![CDATA[Hey cyanogen, its a great work from you the rom 4.2.4 but in germany we have one problem with the most roms from you thiss mms app dont sending mms. The apn is correct in the settings. I dont know what it can be the problem. My provider  is vodafone germany. I hope you found the reason for the mms problem]]></description>
+		<content:encoded><![CDATA[<p>Hey cyanogen, its a great work from you the rom 4.2.4 but in germany we have one problem with the most roms from you thiss mms app dont sending mms. The apn is correct in the settings. I dont know what it can be the problem. My provider  is vodafone germany. I hope you found the reason for the mms problem</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: motornon</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-3/comment-page-4#comment-2725</link>
+		<dc:creator>motornon</dc:creator>
+		<pubDate>Wed, 11 Nov 2009 19:38:53 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-3#comment-2725</guid>
+		<description><![CDATA[@CCShermCraig follow @Cyanogen on Twitter.  He posted that he has been busy and appologized for lack of updates.]]></description>
+		<content:encoded><![CDATA[<p>@CCShermCraig follow @Cyanogen on Twitter.  He posted that he has been busy and appologized for lack of updates.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: CCShermCraig</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-3/comment-page-4#comment-2724</link>
+		<dc:creator>CCShermCraig</dc:creator>
+		<pubDate>Wed, 11 Nov 2009 15:21:20 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-3#comment-2724</guid>
+		<description><![CDATA[Does anyone have contact with Cyanogen?  Is he still working on mods?  There hasn&#039;t been any activity for a few weeks, and while we all appreciate his efforts, there are a lot of people using his ROM&#039;s and would like to know if there will be more forthcoming?  This is not a complaint - just an observation....]]></description>
+		<content:encoded><![CDATA[<p>Does anyone have contact with Cyanogen?  Is he still working on mods?  There hasn&#8217;t been any activity for a few weeks, and while we all appreciate his efforts, there are a lot of people using his ROM&#8217;s and would like to know if there will be more forthcoming?  This is not a complaint &#8211; just an observation&#8230;.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Scott Reid</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-3/comment-page-4#comment-2721</link>
+		<dc:creator>Scott Reid</dc:creator>
+		<pubDate>Wed, 11 Nov 2009 11:01:59 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-3#comment-2721</guid>
+		<description><![CDATA[Same problem as #45
+
+On my G1 32B after upgrade from (less than)4.1.99 the way suggested by wiki (to 4.2.2 and then to 4.2.3.1):
+1. Touch Input is terminated unexpectedly again and again and again. Solution: turn off Touch Input in Locale &amp; Text.
+2. Calendar not working*
+3. Market is not working*
+* “window” of application disappears immediately after application is started
+4. First run of Teeter – “Can be ran only on HTC devices”. Second try: “Application is not installed”.
+Google maps seems ok (not tested very well).]]></description>
+		<content:encoded><![CDATA[<p>Same problem as #45</p>
+<p>On my G1 32B after upgrade from (less than)4.1.99 the way suggested by wiki (to 4.2.2 and then to 4.2.3.1):<br />
+1. Touch Input is terminated unexpectedly again and again and again. Solution: turn off Touch Input in Locale &amp; Text.<br />
+2. Calendar not working*<br />
+3. Market is not working*<br />
+* “window” of application disappears immediately after application is started<br />
+4. First run of Teeter – “Can be ran only on HTC devices”. Second try: “Application is not installed”.<br />
+Google maps seems ok (not tested very well).</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: CCShermCraig</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-3/comment-page-4#comment-2714</link>
+		<dc:creator>CCShermCraig</dc:creator>
+		<pubDate>Wed, 11 Nov 2009 02:14:26 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-3#comment-2714</guid>
+		<description><![CDATA[Jerimi, there are many sites that explain how to &quot;un-root&quot; your phone.  I know there are instructions in the T-Mobile forums among others.  Just google &quot;unroot g1&quot; and you should find plenty of sources.  Good luck.]]></description>
+		<content:encoded><![CDATA[<p>Jerimi, there are many sites that explain how to &#8220;un-root&#8221; your phone.  I know there are instructions in the T-Mobile forums among others.  Just google &#8220;unroot g1&#8243; and you should find plenty of sources.  Good luck.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: lavawallz</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-3/comment-page-4#comment-2713</link>
+		<dc:creator>lavawallz</dc:creator>
+		<pubDate>Tue, 10 Nov 2009 23:43:10 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-3#comment-2713</guid>
+		<description><![CDATA[Ok so I&#039;m waiting on the Eclair goodies what&#039;s up steve!!! Keep it coming man... you scared lol...jk but um yeah no problems so far.. I&#039;m just getting bored.. and don&#039;t wanna work with the sdk and all that.. just waitng on the 2.0 I know you can do itttt!!!!! Thanks again cyanogen. May the Source be with you! Ha.. lol.]]></description>
+		<content:encoded><![CDATA[<p>Ok so I&#8217;m waiting on the Eclair goodies what&#8217;s up steve!!! Keep it coming man&#8230; you scared lol&#8230;jk but um yeah no problems so far.. I&#8217;m just getting bored.. and don&#8217;t wanna work with the sdk and all that.. just waitng on the 2.0 I know you can do itttt!!!!! Thanks again cyanogen. May the Source be with you! Ha.. lol.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/17 queries in 0.037 seconds using apc
+Object Caching 351/353 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:20:18 by W3 Total Cache -->

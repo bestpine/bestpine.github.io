@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Theme Developers, please read!</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/theme-developers-please-read/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/theme-developers-please-read</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: BookCase828</title>
+		<link>http://www.cyanogenmod.org/blog/theme-developers-please-read/comment-page-1#comment-95</link>
+		<dc:creator>BookCase828</dc:creator>
+		<pubDate>Sat, 29 Aug 2009 05:57:05 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=194#comment-95</guid>
+		<description><![CDATA[I&#039;m not a theme developer but, I was using the Hero theme that cyanogen made for the version 3.0.1 and after updating to 4.0.4, it doesn&#039;t work. I applied it after the update and it rendered my SD card unusable/unmountable (not found). Are there plans to update the Hero theme as well? Just wondering. I really like that theme.]]></description>
+		<content:encoded><![CDATA[<p>I&#8217;m not a theme developer but, I was using the Hero theme that cyanogen made for the version 3.0.1 and after updating to 4.0.4, it doesn&#8217;t work. I applied it after the update and it rendered my SD card unusable/unmountable (not found). Are there plans to update the Hero theme as well? Just wondering. I really like that theme.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Enlightened</title>
+		<link>http://www.cyanogenmod.org/blog/theme-developers-please-read/comment-page-1#comment-26</link>
+		<dc:creator>Enlightened</dc:creator>
+		<pubDate>Wed, 26 Aug 2009 19:46:07 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=194#comment-26</guid>
+		<description><![CDATA[Good idea. I can&#039;t wait for the section to grow.]]></description>
+		<content:encoded><![CDATA[<p>Good idea. I can&#8217;t wait for the section to grow.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/9 queries in 0.014 seconds using apc
+Object Caching 207/209 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:15:31 by W3 Total Cache -->

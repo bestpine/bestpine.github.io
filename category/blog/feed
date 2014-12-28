@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CyanogenMod &#187; Blog</title>
+	<atom:link href="http://www.cyanogenmod.org/category/blog/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Thu, 13 Nov 2014 07:54:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+		<item>
+		<title>CyanogenMod 11 M12</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-11-m12</link>
+		<comments>http://www.cyanogenmod.org/blog/cyanogenmod-11-m12#comments</comments>
+		<pubDate>Thu, 13 Nov 2014 07:54:15 +0000</pubDate>
+		<dc:creator>ciwrl</dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2816</guid>
+		<description><![CDATA[<p>Taking a breather from all the work on L, we snuck in another M release yesterday against the CM 11.0 (KitKat) branch. This release is less heavy on features, instead focussing on stability for various device trees and security fixes.</p> <p>Notably on the security topic, this release incorporates the upstream Google patches against last months POODLE vulnerability in SSLv3. You can read more about the POODLE vulnerability on <a href="http://googleonlinesecurity.blogspot.com/2014/10/this-poodle-bites-exploiting-ssl-30.html">Google&#8217;s Security Blog</a>. Users are strongly encouraged to update to the latest available build to keep in line with the latest security patches.</p> <p>Multi-sim users should also see added improvements throughout the OS experience, and there has been similar polishes of improvements and features throughout the system as we look towards sunsetting CM11; CM12 looms over the horizon.</p> <p>For those of you hopping between M and nightlies, the branch point was November 3rd.</p> <p><strong>Lollipop</strong></p> <p>No doubt the big news at the beginning of November was the ...<p><a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12">Read the Rest...</a></p>]]></description>
+				<content:encoded><![CDATA[<p>Taking a breather from all the work on L, we snuck in another M release yesterday against the CM 11.0 (KitKat) branch. This release is less heavy on features, instead focussing on stability for various device trees and security fixes.</p>
+<p>Notably on the security topic, this release incorporates the upstream Google patches against last months POODLE vulnerability in SSLv3. You can read more about the POODLE vulnerability on <a href="http://googleonlinesecurity.blogspot.com/2014/10/this-poodle-bites-exploiting-ssl-30.html">Google&#8217;s Security Blog</a>. Users are strongly encouraged to update to the latest available build to keep in line with the latest security patches.</p>
+<p>Multi-sim users should also see added improvements throughout the OS experience, and there has been similar polishes of improvements and features throughout the system as we look towards sunsetting CM11; CM12 looms over the horizon.</p>
+<p>For those of you hopping between M and nightlies, the branch point was November 3rd.</p>
+<p><span style="text-decoration: underline;"><strong>Lollipop</strong></span></p>
+<p>No doubt the big news at the beginning of November was the release of the Android 5.0 Lollipop source code. AOSP began seeing the code on the 3rd, and completed the majority of the push on the 4th, with some remaining stragglers seeing code uploaded midday on the 12th. Work on CM12 began in earnest at the end of last week, and you can now successfully sync and build the work in progress against a handful of devices.</p>
+<p>We are unlikely to enable nightlies against CM12 until towards the end of this month, or early next month, as we work to incorporate the CM features you&#8217;ve all come to appreciate into the new code base, and reimagine those that no longer translate to the Material look of L. It is also currently too soon to tell how many devices will transition from 11 to 12, though early traction has this number higher than we had initially hypothesized.</p>
+<p>Home builders and community members are welcome to take a peek at the builds at their leisure, just repo init the new branch using the following command:</p>
+<p style="padding-left: 30px;"><i>repo init -u </i><i><a href="https://github.com/CyanogenMod/android" target="_blank" rel="nofollow">https://github.com/CyanogenMod/android</a></i><i> -b cm-12.0</i></p>
+<p>Again, please be aware that not every device is in a &#8216;daily driver&#8217; state under CM12, and the codebase is nowhere near feature complete. Our contributors are working hard, and our gerrit is aflutter with activity. If all goes well, we&#8217;ll have something special to welcome the upcoming holidays and New Year.</p>
+<p>Happy Flashing</p>
+<p>-The CyanogenMod Team</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/feed</wfw:commentRss>
+		<slash:comments>623</slash:comments>
+		</item>
+		<item>
+		<title>In Response to The Register &#8220;MITM&#8221; Article</title>
+		<link>http://www.cyanogenmod.org/blog/in-response-to-the-register-mitm-article</link>
+		<comments>http://www.cyanogenmod.org/blog/in-response-to-the-register-mitm-article#comments</comments>
+		<pubDate>Wed, 15 Oct 2014 02:06:07 +0000</pubDate>
+		<dc:creator>ciwrl</dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2803</guid>
+		<description><![CDATA[<p>On Monday, The Register put out <a href="http://www.theregister.co.uk/2014/10/13/androids_cyanogenmod_open_to_mitm_attacks/">an article</a> reporting that CyanogenMod was open to a Man-in-the-middle (MITM) attack via a &#8220;0-day&#8221; vulnerability relating to a <a href="http://www.infoq.com/news/2012/10/ssl-vulnerabilities">SSL vulnerability in Android&#8217;s JSSE</a> from 2 years ago. </p> <p>There are a number of issues we could point out regarding the nature of this report &#8211; the least of which was the lack of contact regarding this topic prior to publishing. Our followup request to the author for direct references to his claims (or a retraction) has gone unanswered, so we are left to refute this article on our own. This is odd as The Register has historically had good messaging with respect to CM, but mistakes happen.</p> <p>First, JSSE is not used in Android 4.4, which would mean any vulnerability would be applicable to Android 4.3 or below only. </p> <p>Second, CyanogenMod does not customize this particular level of code &#8211; meaning if such a vulnerability ...<p><a href="http://www.cyanogenmod.org/blog/in-response-to-the-register-mitm-article">Read the Rest...</a></p>]]></description>
+				<content:encoded><![CDATA[<p>On Monday, The Register put out <a href="http://www.theregister.co.uk/2014/10/13/androids_cyanogenmod_open_to_mitm_attacks/">an article</a> reporting that CyanogenMod was open to a Man-in-the-middle (MITM) attack via a &#8220;0-day&#8221; vulnerability relating to a <a href="http://www.infoq.com/news/2012/10/ssl-vulnerabilities">SSL vulnerability in Android&#8217;s JSSE</a> from 2 years ago. </p>
+<p>There are a number of issues we could point out regarding the nature of this report &#8211; the least of which was the lack of contact regarding this topic prior to publishing. Our followup request to the author for direct references to his claims (or a retraction) has gone unanswered, so we are left to refute this article on our own. This is odd as The Register has historically had good messaging with respect to CM, but mistakes happen.</p>
+<p>First, JSSE is not used in Android 4.4, which would mean any vulnerability would be applicable to Android 4.3 or below only. </p>
+<p>Second, CyanogenMod does not customize this particular level of code &#8211; meaning if such a vulnerability was left untreated, it would affect upstream Android as well (the article pinpoints CM as the point of failure). </p>
+<p>Third, the age of the vulnerability&#8217;s public disclosure is 2 years old. This itself is odd in that CM prides itself on addressing disclosed vulnerabilities as soon as possible, with many being addressed faster than OEMs (Towelroot is a good example of this). Other examples include the &#8216;Master Key&#8217; vulnerabilities, one of which AOSP itself merged a patch for submitted from a CM member. Point is, we are usually exceptionally good at addressing security issues, and this is one of the many reasons people are attracted to this project. </p>
+<p>Which brings us back to the article. We can say that after investigating the claims, albeit without the help of the author, there is no known reference to the item they are discussing within CM11. </p>
+<p><u><strong>Responsible Disclosure</strong></u><br />
+If in the event we are wrong &#038; in the case of any past or future vulnerability found unaddressed, we welcome security researchers to contact us directly. </p>
+<p>CM Developer Relations Email:<br />
+devrel (at) cyanogenmod (dot) org</p>
+<p>Cyanogen Inc. Android Security Email:<br />
+Android-security (at) cyngn (dot) com</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/in-response-to-the-register-mitm-article/feed</wfw:commentRss>
+		<slash:comments>86</slash:comments>
+		</item>
+		<item>
+		<title>CyanogenMod 11.0 M11</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m11</link>
+		<comments>http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m11#comments</comments>
+		<pubDate>Wed, 08 Oct 2014 06:52:31 +0000</pubDate>
+		<dc:creator>ciwrl</dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2796</guid>
+		<description><![CDATA[<p>Hot off the presses, the 11th M build of CM 11 is making its way to the <a href="http://download.cyanogenmod.org/?type=snapshot">download portal</a>. With it comes the latest round of bug fixes, improvements and features to our Android 4.4.4 codebase. A high-level changelog is provided below &#8211; take a look!</p> <p>For our nightly users, to avoid conflicts on taking this update please do not apply an M11 build on top of any nightly beyond September 30th, as that was when this code was branched for testing and verification prior to release.</p> <p><strong>M11 Changelog:</strong></p> * New Devices: Galaxy S4 Active (jactivelte), Galaxy S4 SK I-9506 (ks01lte), Galaxy S5 GSM (klte), Galaxy Tab 10.1 (picassowifi), Galaxy Player 4.0 (ypg1) * Re-introduce Samsung Galaxy Relay 4G (apexqtmo) support  * Fix signal strength showing &#8217;2147483647&#8242; on certain devices * Frameworks &#38; Core Apps: CAF and other upstream updates * Lockscreen: Do not play sounds while a phone call is active &#38; MSIM ...<p><a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m11">Read the Rest...</a></p>]]></description>
+				<content:encoded><![CDATA[<p>Hot off the presses, the 11th M build of CM 11 is making its way to the <a href="http://download.cyanogenmod.org/?type=snapshot">download portal</a>. With it comes the latest round of bug fixes, improvements and features to our Android 4.4.4 codebase. A high-level changelog is provided below &#8211; take a look!</p>
+<p>For our nightly users, to avoid conflicts on taking this update please <span style="text-decoration: underline;">do not apply an M11 build on top of any nightly beyond September 30th</span>, as that was when this code was branched for testing and verification prior to release.</p>
+<p><strong>M11 Changelog:</strong></p>
+<address style="padding-left: 30px;">* New Devices: Galaxy S4 Active (jactivelte), Galaxy S4 SK I-9506 (ks01lte), Galaxy S5 GSM (klte), Galaxy Tab 10.1 (picassowifi), Galaxy Player 4.0 (ypg1)</address>
+<address style="padding-left: 30px;">* Re-introduce Samsung Galaxy Relay 4G (apexqtmo) support </address>
+<address style="padding-left: 30px;">* Fix signal strength showing &#8217;2147483647&#8242; on certain devices</address>
+<address style="padding-left: 30px;">* Frameworks &amp; Core Apps: CAF and other upstream updates</address>
+<address style="padding-left: 30px;">* Lockscreen: Do not play sounds while a phone call is active &amp; MSIM updates</address>
+<address style="padding-left: 30px;">* Frameworks: Add base &amp; MSIM APIs for SEEK (Secure Element Evaluation Kit) support </address>
+<address style="padding-left: 30px;">* Frameworks: Fix volume button changing two &#8216;steps&#8217; per click</address>
+<address style="padding-left: 30px;">* Frameworks: Add &#8216;Screen Off&#8217; action for double-tap/long-press configuration options</address>
+<address style="padding-left: 30px;">* Show devices connected to your WiFi (tethering) Hotspot</address>
+<address style="padding-left: 30px;">* Fix bug related to &#8216;switch to last app&#8217; action while in Recents view</address>
+<address style="padding-left: 30px;">* Fix Navigation Bar arrow keys in RTL locales</address>
+<address style="padding-left: 30px;">* Translations updates from CyanogenMod CrowdIn team</address>
+<address style="padding-left: 30px;">* Adjustments to &#8216;Glove Mode&#8217; (High Touch Sensitivity)</address>
+<address style="padding-left: 30px;">* APN Updates for various regions</address>
+<address style="padding-left: 30px;">* Camera: Add support for all available Slow Shutter speeds (hardware dependent); Improve shutter button</address>
+<address style="padding-left: 30px;">* Dialer/InCallUI: Fix smartcover always showing answer fragment</address>
+<address style="padding-left: 30px;">* LG G2: Address GPS and NFC issues</address>
+<address style="padding-left: 30px;">* Base support for HTC Desire 816 &amp; HTC One Mini 2 (pending nightlies) </address>
+<address style="padding-left: 30px;">* Various security updates</address>
+<address style="padding-left: 30px;">
+<address>* General bug fixes</address>
+<p>&nbsp;</p>
+</address>
+<p>The Device Status page on the wiki be updated <span style="text-decoration: underline;">tomorrow</span> to reflect all the devices that received a build, and any reasons why some devices may have been skipped.</p>
+<p>Happy Flashing!</p>
+<p>-The CyanogenMod Team</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m11/feed</wfw:commentRss>
+		<slash:comments>486</slash:comments>
+		</item>
+		<item>
+		<title>CyanogenMod 11.0 M10 arrives</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m10-arrives</link>
+		<comments>http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m10-arrives#comments</comments>
+		<pubDate>Tue, 16 Sep 2014 08:06:38 +0000</pubDate>
+		<dc:creator>ciwrl</dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2787</guid>
+		<description><![CDATA[<p>A little late due to the US holiday at the start of the month and some higher than average patches for review and acceptance, but none worse for the wear the M10 release of CM11 is upon us. The M10 code was branched on September 9th, with additional patches merged over the course of the last 6 days to fix identified gaps. A changelog is provided towards the end of this post.</p> <p>As always, we are not infallible, and there may be items that we have not yet resolved (or know about). To help combat this issue and make things easier for you and us, we&#8217;ve introduced a new tool into the CM arsenal, the CM Bug Tracker application. Whenever you crash a system application, you will be prompted with an option to upload a snippet of a log to us &#8211; namely the actual crash reported by the system and the stacktrace that accompanies it ...<p><a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m10-arrives">Read the Rest...</a></p>]]></description>
+				<content:encoded><![CDATA[<p>A little late due to the US holiday at the start of the month and some higher than average patches for review and acceptance, but none worse for the wear the M10 release of CM11 is upon us. The M10 code was branched on September 9th, with additional patches merged over the course of the last 6 days to fix identified gaps. A changelog is provided towards the end of this post.</p>
+<p>As always, we are not infallible, and there may be items that we have not yet resolved (or know about). To help combat this issue and make things easier for you and us, we&#8217;ve introduced a new tool into the CM arsenal, the CM Bug Tracker application. Whenever you crash a system application, you will be prompted with an option to upload a snippet of a log to us &#8211; namely the actual crash reported by the system and the stacktrace that accompanies it &#8211; similar to what you are already used to by the various app stores you may use.</p>
+<p>In addition to the above, we&#8217;ve added a field to the &#8216;take a bug report&#8217; option found in Developer Settings. Upon generation of a bug report through that mechanism, you may optionally send us a scrubbed copy of that bug report via the send action you are presented with. Please note that while we have taken precautions to scrub all the standard identifier data provided in these logs, some third party apps may erroneously dump that info into the logs and may not be caught by our filters. The data you provide via this bug report option will only be used by CM developers to fix the crashes reported, will comply with the Privacy Policy CM operates under, and going one step further, can only be seen by CM team members (ie not publicly visible outside of the examples here) and deleted monthly.</p>
+<p>I&#8217;m going to harp on this a bit further because this sort of item can always be misconstrued. Here is an example ticket generated by a CM user while I was drafting this blog post:</p>
+<figure><a href="http://www.cyanogenmod.org/wp-content/uploads/2014/09/Bug-Reporter-Example.png"><img class="aligncenter" alt="Bug Reporter Example" src="http://www.cyanogenmod.org/wp-content/uploads/2014/09/Bug-Reporter-Example-300x133.png" /></a></figure>
+<p>And here is a snippet of the content we receive: <a href="http://pastie.org/private/urfviyajaltbvczhqfquiw">http://pastie.org/private/urfviyajaltbvczhqfquiw</a></p>
+<p>From this information, we can tell what device, build, kernel, and Android runtime the user was using at the time of submission, and the message the user wished to convey (in this case &#8220;Dunno&#8221; &amp; &#8220;nothing&#8221;). If this were a true report (versus what appears to be testing), we would use the corresponding log to assist in triaging the bug, and hopefully fixing it. This process, as trialed in the nightlies, has already allowed us to provide patches specifically to address these semi-automated reports.</p>
+<p>For the sake of clarity, this scrubbed report is only generated on user action and upload via the &#8216;take a bug report option&#8217;, the crash log stacktrace mentioned above does not have any info beyond the crash itself, and therefore is already a scrubbed copy. For the curious, this is what one of those automated tickets looks like:</p>
+<figure><a href="http://www.cyanogenmod.org/wp-content/uploads/2014/09/Bug-Reporter-Example2.png"><img class="aligncenter" alt="Bug Reporter Example2" src="http://www.cyanogenmod.org/wp-content/uploads/2014/09/Bug-Reporter-Example2-300x156.png" /></a></figure>
+<p><strong>M10 Changelog:</strong></p>
+<address style="padding-left: 30px;">* New Devices: Galaxy S5 Sprint (kltespr)</address>
+<address style="padding-left: 30px;">* Split out Note 3 into GSM (hlte), Sprint (hltespr) and Verizon (hltevzw)</address>
+<address style="padding-left: 30px;">* Refactor moto_msm8960dt as &#8216;ghost&#8217; for Moto X 2013</address>
+<address style="padding-left: 30px;">* Drop support for obake, toro, toroplus</address>
+<address style="padding-left: 30px;">* Theme Engine: Themes support for additional UI elements</address>
+<address style="padding-left: 30px;">* Frameworks &amp; Core Apps: CAF and other upstream updates</address>
+<address style="padding-left: 30px;">* Settings: Add scramble pin feature</address>
+<address style="padding-left: 30px;">* Frameworks: Long press recent apps to switch to last used app</address>
+<address style="padding-left: 30px;">* Settings: Add soft reboot option</address>
+<address style="padding-left: 30px;">* Add smart cover support</address>
+<address style="padding-left: 30px;">* Add glove mode support</address>
+<address style="padding-left: 30px;">* Add bug reporter and crash log uploader</address>
+<address style="padding-left: 30px;">* Multisim updates</address>
+<address style="padding-left: 30px;">* General bug fixes (many many)</address>
+<address style="padding-left: 30px;">* ANT+ Support for various hardware</address>
+<address style="padding-left: 30px;">* Privacy Guard: Control NFC permissions</address>
+<p> -The CyanogenMod Team</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m10-arrives/feed</wfw:commentRss>
+		<slash:comments>485</slash:comments>
+		</item>
+		<item>
+		<title>Housekeeping: Sony Fusion3 and Moto msm8960dt</title>
+		<link>http://www.cyanogenmod.org/blog/housekeeping-sony-and-moto-x</link>
+		<comments>http://www.cyanogenmod.org/blog/housekeeping-sony-and-moto-x#comments</comments>
+		<pubDate>Thu, 11 Sep 2014 06:16:41 +0000</pubDate>
+		<dc:creator>ciwrl</dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2779</guid>
+		<description><![CDATA[<p>Another quick device update as our maintainers continue to improve the CM11 code branch. First the Sony fusion3 family of devices - Z, ZL ZR, Tablet Z &#8211; have all been updated to 4.4 Sony guts (10.5.A.0.230) and the latest from Sony&#8217;s GPL kernel source. This brings along with it a boost in performance over previous builds as things become optimized for Android 4.4.4.</p> <p>The Motorola &#8216;moto_msm8960dt&#8217; device variant is getting a rebranding to be simply known as &#8216;ghost&#8217; &#8211; encompassing all previously supported variants of the Moto X (1st gen) device. Notably, however, we are officially dropping support for the &#8216;obake&#8217; device (Moto Droid Maxx Dev Edition) moving forward. This change is in effect starting tonight. Existing Moto X users on the former &#8216;moto_msm8960dt&#8217; device can update to &#8216;ghost&#8217; builds without wiping. The obake support is officially being retired due to lack of a maintainer (and poor sales of the platform in general).</p> <p>The CM11 ...<p><a href="http://www.cyanogenmod.org/blog/housekeeping-sony-and-moto-x">Read the Rest...</a></p>]]></description>
+				<content:encoded><![CDATA[<p>Another quick device update as our maintainers continue to improve the CM11 code branch. First the Sony fusion3 family of devices - Z, ZL ZR, Tablet Z &#8211; have all been updated to 4.4 Sony guts (10.5.A.0.230) and the latest from Sony&#8217;s GPL kernel source. This brings along with it a boost in performance over previous builds as things become optimized for Android 4.4.4.</p>
+<p>The Motorola &#8216;moto_msm8960dt&#8217; device variant is getting a rebranding to be simply known as &#8216;ghost&#8217; &#8211; encompassing all previously supported variants of the Moto X (1st gen) device. Notably, however, we are officially dropping support for the &#8216;obake&#8217; device (Moto Droid Maxx Dev Edition) moving forward. This change is in effect starting tonight. Existing Moto X users on the former &#8216;moto_msm8960dt&#8217; device can update to &#8216;ghost&#8217; builds without wiping. The obake support is officially being retired due to lack of a maintainer (and poor sales of the platform in general).</p>
+<p>The CM11 M10 release is approaching this weekend and another device status refresh will be posted to our <a href="http://wiki.cyanogenmod.org/w/Device_Status">Device Status wiki page</a> to make note of all recent developments and announcements after its release.</p>
+<p>-The CyanogenMod Team</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/housekeeping-sony-and-moto-x/feed</wfw:commentRss>
+		<slash:comments>90</slash:comments>
+		</item>
+		<item>
+		<title>PSA: Note 3 Devices and variants update</title>
+		<link>http://www.cyanogenmod.org/blog/psa-note-3-devices-and-variants-update</link>
+		<comments>http://www.cyanogenmod.org/blog/psa-note-3-devices-and-variants-update#comments</comments>
+		<pubDate>Wed, 03 Sep 2014 22:03:06 +0000</pubDate>
+		<dc:creator>ciwrl</dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2774</guid>
+		<description><![CDATA[<p>Starting with tonight&#8217;s nightlies, the Note 3 Qualcomm variants (collectively known as the HTLE device) are being split into 3 devices: &#8216;hlte&#8217; for all GSM users, &#8216;hltespr&#8217; for users of the Sprint version, and &#8216;hltevzw&#8217; for users of the Verizon version. This divergence of the device is being driven by QMI and other incompatibilities between the platform, thus preventing a &#8216;unified&#8217; device from working as well as we&#8217;d like.</p> <p><strong>Important:</strong> You must manually make sure you update to an appropriate build after today&#8217;s date. You cannot continue to flash the hlte build on top of your Verizon or Sprint Note 3 (GSM users are fine).</p> <p>Due to how the devices report themselves to recovery, while we can place some guards in to lessen the issue, you will most likely not be blocked from installing incompatible builds &#8211; so you must be take a first step action to make sure you update appropriately. Once you are ...<p><a href="http://www.cyanogenmod.org/blog/psa-note-3-devices-and-variants-update">Read the Rest...</a></p>]]></description>
+				<content:encoded><![CDATA[<p>Starting with tonight&#8217;s nightlies, the Note 3 Qualcomm variants (collectively known as the HTLE device) are being split into 3 devices: &#8216;hlte&#8217; for all GSM users, &#8216;hltespr&#8217; for users of the Sprint version, and &#8216;hltevzw&#8217; for users of the Verizon version. This divergence of the device is being driven by QMI and other incompatibilities between the platform, thus preventing a &#8216;unified&#8217; device from working as well as we&#8217;d like.</p>
+<p><strong>Important:</strong> You must manually make sure you update to an appropriate build after today&#8217;s date. You cannot continue to flash the hlte build on top of your Verizon or Sprint Note 3 (GSM users are fine).</p>
+<p>Due to how the devices report themselves to recovery, while we can place some guards in to lessen the issue, you will most likely not be blocked from installing incompatible builds &#8211; so you must be take a first step action to make sure you update appropriately. Once you are on the correct build, all future updates should behave normally. A data wipe is not require when applying the correct build.</p>
+<p>This manual step will be required of all nightly users and users on the previously released hlte CM11 M8.</p>
+<p>If you end up in with the wrong build on your device, you should still be able to boot, but will lose call/radio functionality. Flashing the correct build will resolve that issue, should this PSA not reach you in time.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/psa-note-3-devices-and-variants-update/feed</wfw:commentRss>
+		<slash:comments>73</slash:comments>
+		</item>
+		<item>
+		<title>PSA: Device Updates &#8211; M9, Jewel and Moto</title>
+		<link>http://www.cyanogenmod.org/blog/psa-device-updates-m9-jewel-and-moto</link>
+		<comments>http://www.cyanogenmod.org/blog/psa-device-updates-m9-jewel-and-moto#comments</comments>
+		<pubDate>Wed, 06 Aug 2014 01:36:27 +0000</pubDate>
+		<dc:creator>ciwrl</dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2764</guid>
+		<description><![CDATA[<p>With the release of CM11 M9 over the weekend, this is a perfect opportunity to touch base on a couple of device support related items, and information that may be relevant to many of you.</p> <p><strong>Device status roster</strong></p> <p>One of the more common questions asked after every M-release is with regards to the status of any one particular device in general &#8211; usually one that missed the M release mark. To help give you a central place to  check up on this information, we&#8217;ve created the <a href="http://wiki.cyanogenmod.org/w/Device_Status">Device Status</a> page on our wiki. This page will be updated alongside each monthly release to include an assessment of currently supported devices and what (if any) reasons prevented its release for that particular month. This can be simply because of time constraints for your maintainers or something more severe such as known blockers and bugs.</p> <p><strong>Jewel</strong></p> <p>Some of you may have noticed that jewel was pulled from ...<p><a href="http://www.cyanogenmod.org/blog/psa-device-updates-m9-jewel-and-moto">Read the Rest...</a></p>]]></description>
+				<content:encoded><![CDATA[<p>With the release of CM11 M9 over the weekend, this is a perfect opportunity to touch base on a couple of device support related items, and information that may be relevant to many of you.</p>
+<p><strong><span style="text-decoration: underline;">Device status</span><span style="text-decoration: underline;"> roster</span></strong></p>
+<p>One of the more common questions asked after every M-release is with regards to the status of any one particular device in general &#8211; usually one that missed the M release mark. To help give you a central place to  check up on this information, we&#8217;ve created the <a href="http://wiki.cyanogenmod.org/w/Device_Status">Device Status</a> page on our wiki. This page will be updated alongside each monthly release to include an assessment of currently supported devices and what (if any) reasons prevented its release for that particular month. This can be simply because of time constraints for your maintainers or something more severe such as known blockers and bugs.</p>
+<p><span style="text-decoration: underline;"><strong>Jewel</strong></span></p>
+<p>Some of you may have noticed that jewel was pulled from nightlies after build 20140729. Unfortunately, some modem issues were too unwieldy to throw in a quick fix. These issues are resolved after upgrading the firmware on jewel to version 4.13.651.4, however, updating to this new firmware also includes a big caveat &#8211; the data/media transition.</p>
+<p><span style="font-size: 13px;">This firmware upgrade was not an easy decision &#8211; one of CM&#8217;s features has been your ability to update on top of your previous build without data loss. However, </span><strong style="font-size: 13px;">there is no data migration path from an existing CyanogenMod installation when updating to the new 4.13.651.4 firmware.</strong><span style="font-size: 13px;"> Updating your firmware will wipe all of your data, applications, and anything stored on /sdcard. Ultimately, this is the best (and only) path forward for continued support of CyanogenMod on jewel.</span></p>
+<p><span style="font-size: 13px;">More information on this topic and a firmware update guide has been posted to the wiki: <a href="http://wiki.cyanogenmod.org/w/Jewel_data/media_transition">Jewel data/media transition</a>. Discussion and help on this topic should be directed to this <a href="http://forum.cyanogenmod.org/topic/98091-jewel-nightlies-resume-firmware-update-required/">forum thread</a>. </span></p>
+<p>Jewel nightlies resume beginning with build 20140806 and require a minimum bootloader (HBOOT) version of 2.10.0000 to install.</p>
+<p><span style="text-decoration: underline;"><strong>Moto_msm8960</strong></span></p>
+<p>Over the past month or so, Motorola has released 4.4 firmware updates that introduce substantial updates to a couple of the devices under the moto_msm8960 umbrella. To-date, this includes the xt926 and xt907 devices, with updates bringing in new bootloaders and modem firmware.  On July 1st, CM moved nightly code for the msm8960 to require the 4.4 dependency, under the expectation that Motorola would continue to roll out the 4.4 updates to their other devices &#8211; this proved wrong, with Moto going as far to confirm cancellation of the expected xt897 4.4 update.</p>
+<p>As a result, many devices supported under the moto_msm8960 are still using Jellybean bootloaders, and could not update to the latest CM 11 builds. To rectify this issue, we have decided to split the moto_msm8960 family into Kitkat (4.4) bootloader and and Jellybean bootloader releases. A new moto_msm8960_jbbl (Jellybean bootloader) variant has been created in CM sources to account for those devices that have not (and may not) see a proper 4.4 release from Moto. Builds for this variant are already available on our downloads portal, and will install as proper updates (no need to wipe) for those that could not use the normal &#8216;moto_msm8960&#8242; builds since the July 1st switch to 4.4 based code.</p>
+<p>No further changes are required on your part, simply grab the right build as it applies to you (based on your bootloader).</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/psa-device-updates-m9-jewel-and-moto/feed</wfw:commentRss>
+		<slash:comments>65</slash:comments>
+		</item>
+		<item>
+		<title>CyanogenMod 11.0 M9 Released</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m9-released</link>
+		<comments>http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m9-released#comments</comments>
+		<pubDate>Mon, 04 Aug 2014 02:29:34 +0000</pubDate>
+		<dc:creator>ciwrl</dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2759</guid>
+		<description><![CDATA[<p>Another month, another release to mark the occasion &#8211; today we fire off the builds for CM11 M9. The M9 build incorporates changes from June 31st through its branch date on Sunday July 27th.</p> <p>This release marks the first ever (non-nightly) release for the Xperia Z2 &#8216;sirius&#8217;, Xperia Z2 Tablets &#8216;castor&#8217; and the HTC One &#8216;m8&#8242; &#8211; kudos to their maintainers and all the other maintainers that bring you these releases every month! As a reminder, the best way to help them continue to provide solid releases is to report bugs to our <a href="https://jira.cyanogenmod.org">JIRA instance</a>.</p> <p style="padding-left: 30px;"><strong>Changelog:</strong> * Themes support for additional UI elements * Heads Up Notifications &#8211; Bug Fixes * Lockscreen &#8211; Allow doubletap to sleep when using secure keyguard * Torch &#8211; Improve performance * Safe Headset Volume &#8211; prompt when interfering with 3rd party device (Jawbone, Square, etc) * Center clock support * Quick Settings &#8211; respect locale changes ...<p><a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m9-released">Read the Rest...</a></p>]]></description>
+				<content:encoded><![CDATA[<p><span style="font-size: 13px;">Another month, another release to mark the occasion &#8211; today we fire off the builds for CM11 M9. The M9 build incorporates changes from June 31st through its branch date on Sunday July 27th.</span></p>
+<p>This release marks the first ever (non-nightly) release for the Xperia Z2 &#8216;sirius&#8217;, Xperia Z2 Tablets &#8216;castor&#8217; and the HTC One &#8216;m8&#8242; &#8211; kudos to their maintainers and all the other maintainers that bring you these releases every month! As a reminder, the best way to help them continue to provide solid releases is to report bugs to our <a href="https://jira.cyanogenmod.org">JIRA instance</a>.</p>
+<p style="padding-left: 30px;"><strong><span style="text-decoration: underline;">Changelog:</span></strong><br />
+* Themes support for additional UI elements<br />
+* Heads Up Notifications &#8211; Bug Fixes<br />
+* Lockscreen &#8211; Allow doubletap to sleep when using secure keyguard<br />
+* Torch &#8211; Improve performance<br />
+* Safe Headset Volume &#8211; prompt when interfering with 3rd party device (Jawbone, Square, etc)<br />
+* Center clock support<br />
+* Quick Settings &#8211; respect locale changes on additional tiles<br />
+* Proximity Wake-Up support &#8211; prevent accidental wake-up of device by checking to see if proximity sensor is blocked (eg. Device is in a bag or pocket).<br />
+* Spam notification filtering &#8211; Set notifications to auto-ignore based on content (perfect for those pesky games that want you to &#8216;Save 20% on our new game&#8217;). Long-press offending notification to set as ignored; manage in Privacy settings.<br />
+* Settings Search &#8211; Additional improvements and highlighting<br />
+* Data Usage Info &#8211; Add support for CDMA devices without sim cards<br />
+* Bluetooth &#8211; Add additional A2DP profiles<br />
+* Bluetooth &#8211; Disable AVRCP 1.5 by default (fixes various car unit compatibility)<br />
+* Email &#8211; Fix saving attachments to storage for POP3 accounts<br />
+* Translations (Thanks CM Crowdin Team!)<br />
+* Account for Play Services induced wake-locks<br />
+* Fix encryption on some LG Devices<br />
+* Dialer &#8211; add support for Korean and Chinese to smart-dialer</p>
+<p>Happy Flashing<br />
+The CM Team</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m9-released/feed</wfw:commentRss>
+		<slash:comments>405</slash:comments>
+		</item>
+		<item>
+		<title>CyanogenMod 11.0 M8 Released</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m8-released</link>
+		<comments>http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m8-released#comments</comments>
+		<pubDate>Tue, 08 Jul 2014 16:49:21 +0000</pubDate>
+		<dc:creator>ciwrl</dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2753</guid>
+		<description><![CDATA[<p>Not to be confused with the device from the makers of humongous tinfoil catamarans, the M8 release of CyanogenMod 11.0 is well under way. Builds began last night, and will continue into today. In lieu of posting a changelog, you can learn more about the majority of changes via our last recap <a href="http://www.cyanogenmod.org/blog/last-week-in-cm-jun-19-2014">post</a>.</p> <p>A quick FAQ for those common questions asked:</p> <strong>When was M8 branched?</strong>  The M8 code was branched to stable on June 30th and is based on Android 4.4.4. <strong>What is the last &#8216;safe&#8217; nightly I can upgrade from?</strong> The last nightly you can upgrade from without chance of issues is June 29th. <strong>I didn&#8217;t see/know there were such considerations as #1 and #2, and now Settings is crashing &#8211; what can I do? </strong>Clear the data for the Settings app &#8211; this can be accessed via the recents menu (long press the Settings multitask item). <strong>Why is #3 happening? </strong>By being on ...<p><a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m8-released">Read the Rest...</a></p>]]></description>
+				<content:encoded><![CDATA[<p>Not to be confused with the device from the makers of humongous tinfoil catamarans, the M8 release of CyanogenMod 11.0 is well under way. Builds began last night, and will continue into today. In lieu of posting a changelog, you can learn more about the majority of changes via our last recap <a href="http://www.cyanogenmod.org/blog/last-week-in-cm-jun-19-2014">post</a>.</p>
+<p>A quick FAQ for those common questions asked:</p>
+<ol>
+<ol>
+<li><strong>When was M8 branched?</strong>  The M8 code was branched to stable on June 30th and is based on Android 4.4.4.</li>
+<li><strong>What is the last &#8216;safe&#8217; nightly I can upgrade from?</strong> The last nightly you can upgrade from without chance of issues is June 29th.</li>
+<li><strong>I didn&#8217;t see/know there were such considerations as #1 and #2, and now Settings is crashing &#8211; what can I do? </strong>Clear the data for the Settings app &#8211; this can be accessed via the recents menu (long press the Settings multitask item).</li>
+<li><strong>Why is #3 happening? </strong>By being on a newer nightly than June 30th, your Settings database version is higher than that of the M release &#8211; and downgrades of database versions are not allowed in Android.</li>
+<li><strong>Where is my device?</strong> Currently, the builds have not yet completed, your device may yet still be under way. In the event your device did not get an M8 release, then consider it not deemed ready by your maintainer.</li>
+<li><strong>What about [xyz device] that CM doesn&#8217;t yet support? </strong>Aliens</li>
+<li><strong>CM SUCKS AND BROKE ALL THE THINGS! </strong>Thank you for your valuable feedback &#8211; please direct your bug report to our <a href="https://jira.cyanogenmod.org/">JIRA instance</a> with a log so we can suck less.</li>
+<li><strong>Why did CM abandon [xyz device]?</strong> We didn&#8217;t. If we discontinued support for a device, we would announce the reasons why. No M8 release for your device does not equate to abandonment &#8211; it means we know something is broken, and would rather not subject the masses to that item.</li>
+</ol>
+</ol>
+<p>Happy Flashing</p>
+<p>The CyanogenMod Team</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m8-released/feed</wfw:commentRss>
+		<slash:comments>324</slash:comments>
+		</item>
+		<item>
+		<title>The &#8220;L&#8221; is for Later</title>
+		<link>http://www.cyanogenmod.org/blog/the-l-is-for-later</link>
+		<comments>http://www.cyanogenmod.org/blog/the-l-is-for-later#comments</comments>
+		<pubDate>Wed, 02 Jul 2014 00:51:34 +0000</pubDate>
+		<dc:creator>ciwrl</dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2745</guid>
+		<description><![CDATA[<p>By now, Android fans and fanatics alike have seen the next version of Android previewed at Google IO, released as a developer preview for select Nexus devices, and now, the <a href="http://www.androidpolice.com/2014/07/01/android-l-preview-source-code-going-live-aosp-includes-support-nexus-4-5-7-2013-10/"><em><strong>developer preview</strong></em> code is making its way to AOSP trees</a>.</p> <p>&#8220;So let&#8217;s get the flood-gates started on CM 12!&#8221; &#8211; right? No</p> <p>A new wrinkle, but same old same old</p> <p>Google&#8217;s early release and access is something they have never done before, and it is going to wildly help developer adoption of the new L platform; this is exciting to see happen. However, this doesn&#8217;t take away the fact that the code, being a preview, is non-final and likely going to change. No one outside of Google knows how much change this means &#8211; it could be minor, or it could be substantial. We could spend the next 3 weeks working on integrating CM features against this new platform, and then have it suddenly change ...<p><a href="http://www.cyanogenmod.org/blog/the-l-is-for-later">Read the Rest...</a></p>]]></description>
+				<content:encoded><![CDATA[<p>By now, Android fans and fanatics alike have seen the next version of Android previewed at Google IO, released as a developer preview for select Nexus devices, and now, the <a href="http://www.androidpolice.com/2014/07/01/android-l-preview-source-code-going-live-aosp-includes-support-nexus-4-5-7-2013-10/"><em><strong>developer preview</strong></em> code is making its way to AOSP trees</a>.</p>
+<p>&#8220;So let&#8217;s get the flood-gates started on CM 12!&#8221; &#8211; right? No</p>
+<p><span style="text-decoration: underline;">A new wrinkle, but same old same old</span></p>
+<p>Google&#8217;s early release and access is something they have never done before, and it is going to wildly help developer adoption of the new L platform; this is exciting to see happen. However, this doesn&#8217;t take away the fact that the code, being a preview, is non-final and likely going to change. No one outside of Google knows how much change this means &#8211; it could be minor, or it could be substantial. We could spend the next 3 weeks working on integrating CM features against this new platform, and then have it suddenly change dramatically and break in the final release of &#8220;L&#8221;. This would boil down to a waste of time.</p>
+<p>It is much more prudent to wait for the final source drop and Google&#8217;s own development to stabilize. Those of you who ran the preview releases on the Nexus 5 and 7 can likely attest that there are not only bugs, but missing features as well, even something as simple as a &#8216;clear all&#8217; button on notifications.</p>
+<p><span style="text-decoration: underline;">Being prudent doesn&#8217;t mean staying idle</span></p>
+<p>Now, just because we aren&#8217;t switching gears to CM12 right away doesn&#8217;t mean we won&#8217;t be checking out the code release from today. This opportunity gives us the ability to cost out the level of effort for each CM feature, identify gaps in &#8220;L&#8221; and possible solutions for them, figure out what CM features can go, and run preliminary assessments on how badly device support will break.</p>
+<p>This process will drastically increase our ability to release something full-featured once official, and final,  &#8221;L&#8221; source is made available.</p>
+<p><span style="text-decoration: underline;">Our roadmap</span></p>
+<p>CM11 M8 (Android 4.4.4) release is already tagged and branched and in preparation for release just after the July 4th weekend. Until we get a signal or indication of when &#8220;L&#8221; will be final, we will continue to treat it as a secondary to closing out bugs and improving features/support for CM 11 and continuing the &#8216;M-release&#8217; cycle.</p>
+<p><span style="text-decoration: underline;">But I want it now!</span><strong></strong></p>
+<p>Understandably, there will be a rapid influx of &#8220;L&#8221; &#8216;ports&#8217; in the developer community, which will be the gateway for those of you who absolutely cannot wait. From the CM team, we kindly ask that you respect that this is a preview source drop, and not to be rude to (app) developers whose apps fail on the new code-base. And as always, make a back-up before you go off playing.</p>
+<p>-The CM Team</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/the-l-is-for-later/feed</wfw:commentRss>
+		<slash:comments>304</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 15/23 queries in 0.024 seconds using apc
+Object Caching 655/695 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:12:42 by W3 Total Cache -->

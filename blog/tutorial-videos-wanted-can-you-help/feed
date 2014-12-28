@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Tutorial videos wanted, can you help?</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/tutorial-videos-wanted-can-you-help/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/tutorial-videos-wanted-can-you-help</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: jman</title>
+		<link>http://www.cyanogenmod.org/blog/tutorial-videos-wanted-can-you-help/comment-page-1#comment-2698</link>
+		<dc:creator>jman</dc:creator>
+		<pubDate>Tue, 10 Nov 2009 08:54:39 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=336#comment-2698</guid>
+		<description><![CDATA[Ive recently had to go back to RC7...(long story dont ask)...I now dont know how to install the cyanogen mod...I have partitions in my SD card...i dont know to make the 500mb partition the one where the apps are installed.
+
+when i installed RC7 ...i tried root. I did the whole telnetd thing...it wouldnt let me do anything!!!
+
+In short...please make a video...for someone who has just bought their first G1.]]></description>
+		<content:encoded><![CDATA[<p>Ive recently had to go back to RC7&#8230;(long story dont ask)&#8230;I now dont know how to install the cyanogen mod&#8230;I have partitions in my SD card&#8230;i dont know to make the 500mb partition the one where the apps are installed.</p>
+<p>when i installed RC7 &#8230;i tried root. I did the whole telnetd thing&#8230;it wouldnt let me do anything!!!</p>
+<p>In short&#8230;please make a video&#8230;for someone who has just bought their first G1.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: AnthonyMoreno24</title>
+		<link>http://www.cyanogenmod.org/blog/tutorial-videos-wanted-can-you-help/comment-page-1#comment-1100</link>
+		<dc:creator>AnthonyMoreno24</dc:creator>
+		<pubDate>Tue, 29 Sep 2009 00:25:07 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=336#comment-1100</guid>
+		<description><![CDATA[I&#039;ve made 3 successful youtube tutorials for rooting, and adding custom roms, including Jfv1.42 , Haykuro&#039;s Cupcake effort, and Jfv1.51.
+I&#039;ve made an incomplete JacHERO tutorial, but ultimatly decided against posting it after requirments changed too frequently. I&#039;d be happy to help in any way, using ddms (screen shot), Camtasia Studios, with clear voice overs.
+here is the link to my videos http://www.youtube.com/watch?v=vC-T1Yf4m4s&amp;feature=channel_page]]></description>
+		<content:encoded><![CDATA[<p>I&#8217;ve made 3 successful youtube tutorials for rooting, and adding custom roms, including Jfv1.42 , Haykuro&#8217;s Cupcake effort, and Jfv1.51.<br />
+I&#8217;ve made an incomplete JacHERO tutorial, but ultimatly decided against posting it after requirments changed too frequently. I&#8217;d be happy to help in any way, using ddms (screen shot), Camtasia Studios, with clear voice overs.<br />
+here is the link to my videos <a href="http://www.youtube.com/watch?v=vC-T1Yf4m4s&#038;feature=channel_page" rel="nofollow">http://www.youtube.com/watch?v=vC-T1Yf4m4s&#038;feature=channel_page</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Andy Ward</title>
+		<link>http://www.cyanogenmod.org/blog/tutorial-videos-wanted-can-you-help/comment-page-1#comment-877</link>
+		<dc:creator>Andy Ward</dc:creator>
+		<pubDate>Sat, 26 Sep 2009 09:46:32 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=336#comment-877</guid>
+		<description><![CDATA[Sorry, I seem to have posted this in response to the wrong thread. I&#039;m talking in regards to google ordering cyanogen to stop distributing the google apps.]]></description>
+		<content:encoded><![CDATA[<p>Sorry, I seem to have posted this in response to the wrong thread. I&#8217;m talking in regards to google ordering cyanogen to stop distributing the google apps.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Andy Ward</title>
+		<link>http://www.cyanogenmod.org/blog/tutorial-videos-wanted-can-you-help/comment-page-1#comment-876</link>
+		<dc:creator>Andy Ward</dc:creator>
+		<pubDate>Sat, 26 Sep 2009 09:41:49 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=336#comment-876</guid>
+		<description><![CDATA[You only need the market installed to get access to install the other google apps.
+
+Why not just develop the rom without the google apps. Then let us find a pirate way to install the google market. If we own a google phone (Which I do) then we arent breaching any licence agreement.
+
+Or maybe you could verify that a user has a google phone and only provide the market if they do. That would probably be enough to keep google happy.
+
+Actually, don&#039;t google provide the apk for the market app via their developer site anyway?]]></description>
+		<content:encoded><![CDATA[<p>You only need the market installed to get access to install the other google apps.</p>
+<p>Why not just develop the rom without the google apps. Then let us find a pirate way to install the google market. If we own a google phone (Which I do) then we arent breaching any licence agreement.</p>
+<p>Or maybe you could verify that a user has a google phone and only provide the market if they do. That would probably be enough to keep google happy.</p>
+<p>Actually, don&#8217;t google provide the apk for the market app via their developer site anyway?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Bobby</title>
+		<link>http://www.cyanogenmod.org/blog/tutorial-videos-wanted-can-you-help/comment-page-1#comment-832</link>
+		<dc:creator>Bobby</dc:creator>
+		<pubDate>Wed, 23 Sep 2009 14:14:52 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=336#comment-832</guid>
+		<description><![CDATA[i can help with this. ive done plenty of roots and updates. mainly yours though. i do have experience doing screencasts as well. i have all the write software. below in my channel that i, shamefully, dont do anything on anymore. theres some old mod videos from my WM phone. let me know if you need some help. 
+
+http://www.youtube.com/bobbythaninja]]></description>
+		<content:encoded><![CDATA[<p>i can help with this. ive done plenty of roots and updates. mainly yours though. i do have experience doing screencasts as well. i have all the write software. below in my channel that i, shamefully, dont do anything on anymore. theres some old mod videos from my WM phone. let me know if you need some help. </p>
+<p><a href="http://www.youtube.com/bobbythaninja" rel="nofollow">http://www.youtube.com/bobbythaninja</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: CraigM</title>
+		<link>http://www.cyanogenmod.org/blog/tutorial-videos-wanted-can-you-help/comment-page-1#comment-830</link>
+		<dc:creator>CraigM</dc:creator>
+		<pubDate>Wed, 23 Sep 2009 13:37:33 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=336#comment-830</guid>
+		<description><![CDATA[I&#039;d like to help,
+
+Is there a screen recorder or should i just use a video camera?
+
+I&#039;m just about to help a friend do his G1 so I could record that.]]></description>
+		<content:encoded><![CDATA[<p>I&#8217;d like to help,</p>
+<p>Is there a screen recorder or should i just use a video camera?</p>
+<p>I&#8217;m just about to help a friend do his G1 so I could record that.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Joost</title>
+		<link>http://www.cyanogenmod.org/blog/tutorial-videos-wanted-can-you-help/comment-page-1#comment-804</link>
+		<dc:creator>Joost</dc:creator>
+		<pubDate>Tue, 22 Sep 2009 12:39:16 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=336#comment-804</guid>
+		<description><![CDATA[Why not also add tutorials about how to use apps2SD and other functionality that your ROM provides?]]></description>
+		<content:encoded><![CDATA[<p>Why not also add tutorials about how to use apps2SD and other functionality that your ROM provides?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: eric</title>
+		<link>http://www.cyanogenmod.org/blog/tutorial-videos-wanted-can-you-help/comment-page-1#comment-798</link>
+		<dc:creator>eric</dc:creator>
+		<pubDate>Tue, 22 Sep 2009 06:43:13 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=336#comment-798</guid>
+		<description><![CDATA[all vids are right here..
+
+www.theunlockr.com
+
+from rooting/unrooting/sd partition..all in one!!!!!!
+
+great vids as well!]]></description>
+		<content:encoded><![CDATA[<p>all vids are right here..</p>
+<p><a href="http://www.theunlockr.com" rel="nofollow">http://www.theunlockr.com</a></p>
+<p>from rooting/unrooting/sd partition..all in one!!!!!!</p>
+<p>great vids as well!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: tony</title>
+		<link>http://www.cyanogenmod.org/blog/tutorial-videos-wanted-can-you-help/comment-page-1#comment-789</link>
+		<dc:creator>tony</dc:creator>
+		<pubDate>Mon, 21 Sep 2009 18:48:41 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=336#comment-789</guid>
+		<description><![CDATA[I learned how to root my g1 and partition the sd card from androidandme articles. These articles are very in depth so a video tutorial based on them would be great!
+
+http://androidandme.com/2009/08/news/how-to-root-a-t-mobile-g1-and-mytouch-3g-android-phone/
+
+http://androidandme.com/2009/08/news/how-to-manually-partition-your-sd-card-for-android-apps2sd/]]></description>
+		<content:encoded><![CDATA[<p>I learned how to root my g1 and partition the sd card from androidandme articles. These articles are very in depth so a video tutorial based on them would be great!</p>
+<p><a href="http://androidandme.com/2009/08/news/how-to-root-a-t-mobile-g1-and-mytouch-3g-android-phone/" rel="nofollow">http://androidandme.com/2009/08/news/how-to-root-a-t-mobile-g1-and-mytouch-3g-android-phone/</a></p>
+<p><a href="http://androidandme.com/2009/08/news/how-to-manually-partition-your-sd-card-for-android-apps2sd/" rel="nofollow">http://androidandme.com/2009/08/news/how-to-manually-partition-your-sd-card-for-android-apps2sd/</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: AndroidFan</title>
+		<link>http://www.cyanogenmod.org/blog/tutorial-videos-wanted-can-you-help/comment-page-1#comment-785</link>
+		<dc:creator>AndroidFan</dc:creator>
+		<pubDate>Mon, 21 Sep 2009 17:52:06 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=336#comment-785</guid>
+		<description><![CDATA[Hope you ONLY allow videos to be used with no slangs, and spell out every step exactly, assuming that everyone viewing the video will be doing the procedure for the FIRST time.  
+
+Don&#039;t allow novice+ terms like FC or Radio.  It will only serve to confuse a newb. There is no such words found on the Android screens and should not be used.
+
+The person who creates the video tutorial should keep the original so it can be easily edited.  In this day and age you shouldn&#039;t have to re-shoot the complete 5 minute video of your tutor video to make one little correction/update on a step or text overlay.]]></description>
+		<content:encoded><![CDATA[<p>Hope you ONLY allow videos to be used with no slangs, and spell out every step exactly, assuming that everyone viewing the video will be doing the procedure for the FIRST time.  </p>
+<p>Don&#8217;t allow novice+ terms like FC or Radio.  It will only serve to confuse a newb. There is no such words found on the Android screens and should not be used.</p>
+<p>The person who creates the video tutorial should keep the original so it can be easily edited.  In this day and age you shouldn&#8217;t have to re-shoot the complete 5 minute video of your tutor video to make one little correction/update on a step or text overlay.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/19 queries in 0.043 seconds using apc
+Object Caching 350/356 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:19:10 by W3 Total Cache -->

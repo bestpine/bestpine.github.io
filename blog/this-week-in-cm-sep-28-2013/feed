@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: This Week in CyanogenMod</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/this-week-in-cm-sep-28-2013/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/this-week-in-cm-sep-28-2013</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: UmarBajwa101</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-sep-28-2013/comment-page-1#comment-57670</link>
+		<dc:creator>UmarBajwa101</dc:creator>
+		<pubDate>Sat, 05 Oct 2013 15:28:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2400#comment-57670</guid>
+		<description><![CDATA[Do you get notifications to install updates to the latest Stable builds like you would with a normal Android update?]]></description>
+		<content:encoded><![CDATA[<p>Do you get notifications to install updates to the latest Stable builds like you would with a normal Android update?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: UmarBajwa101</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-sep-28-2013/comment-page-1#comment-57669</link>
+		<dc:creator>UmarBajwa101</dc:creator>
+		<pubDate>Sat, 05 Oct 2013 15:27:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2400#comment-57669</guid>
+		<description><![CDATA[Yes :)]]></description>
+		<content:encoded><![CDATA[<p>Yes <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Vitaly Gurevich</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-sep-28-2013/comment-page-1#comment-57659</link>
+		<dc:creator>Vitaly Gurevich</dc:creator>
+		<pubDate>Thu, 03 Oct 2013 18:36:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2400#comment-57659</guid>
+		<description><![CDATA[Does it install Google apps (Google play, gmail...)]]></description>
+		<content:encoded><![CDATA[<p>Does it install Google apps (Google play, gmail&#8230;)</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Mads Bahrt</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-sep-28-2013/comment-page-1#comment-57657</link>
+		<dc:creator>Mads Bahrt</dc:creator>
+		<pubDate>Tue, 01 Oct 2013 21:21:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2400#comment-57657</guid>
+		<description><![CDATA[What is the timeframe on public access to the installer? Are we talking days, weeks months or years?]]></description>
+		<content:encoded><![CDATA[<p>What is the timeframe on public access to the installer? Are we talking days, weeks months or years?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: dkgs</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-sep-28-2013/comment-page-1#comment-57653</link>
+		<dc:creator>dkgs</dc:creator>
+		<pubDate>Mon, 30 Sep 2013 18:50:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2400#comment-57653</guid>
+		<description><![CDATA[I would like to see in the next round up these features:
+- An option to make the status bar and navigation bar transparent (so the background will continue to there instead of a black bar).
+- An option for automatic status bar background color change to the color that at the top of the current app.
+- An option to make Trebuchet app drawer background transparent.
+- A button at App Info to go the the app ops for the specific app.
+- An option to enable the touch navigation bar on devices with hardware keys.
+- An option to disable hardware touch navigation button.
+- An option to enable taking picture at camera app with the power button.
+- Task Killer app made by you.
+- Custom LED changing color animation for app notification.
+- A quick launch application popup the opens by swiping from back button up.
+- An option that will show a notification when a unused app is using a lot of the battery and an option to never show again this notification to the specific app and a button to clear this setting from App Info.
+- An option to make an app really run as normal at background in App Info (for example - if enabled for YouTube app, when exiting from YouTube app while video is playing, the video will continue to play at background)
+
+This rom is already the best rom I ever knew, but I want it to be better.
+Thanks,
+Dkgs.]]></description>
+		<content:encoded><![CDATA[<p>I would like to see in the next round up these features:<br />
+- An option to make the status bar and navigation bar transparent (so the background will continue to there instead of a black bar).<br />
+- An option for automatic status bar background color change to the color that at the top of the current app.<br />
+- An option to make Trebuchet app drawer background transparent.<br />
+- A button at App Info to go the the app ops for the specific app.<br />
+- An option to enable the touch navigation bar on devices with hardware keys.<br />
+- An option to disable hardware touch navigation button.<br />
+- An option to enable taking picture at camera app with the power button.<br />
+- Task Killer app made by you.<br />
+- Custom LED changing color animation for app notification.<br />
+- A quick launch application popup the opens by swiping from back button up.<br />
+- An option that will show a notification when a unused app is using a lot of the battery and an option to never show again this notification to the specific app and a button to clear this setting from App Info.<br />
+- An option to make an app really run as normal at background in App Info (for example &#8211; if enabled for YouTube app, when exiting from YouTube app while video is playing, the video will continue to play at background)</p>
+<p>This rom is already the best rom I ever knew, but I want it to be better.<br />
+Thanks,<br />
+Dkgs.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: venorme</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-sep-28-2013/comment-page-1#comment-57652</link>
+		<dc:creator>venorme</dc:creator>
+		<pubDate>Mon, 30 Sep 2013 14:28:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2400#comment-57652</guid>
+		<description><![CDATA[Will it be the part of your corporate strategy to remove developers from popular devices (like I9500) and get em onto devices that not even avaliable yet (Oppo thingy). Is this counted as a job for developers now?]]></description>
+		<content:encoded><![CDATA[<p>Will it be the part of your corporate strategy to remove developers from popular devices (like I9500) and get em onto devices that not even avaliable yet (Oppo thingy). Is this counted as a job for developers now?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Aaron Culver</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-sep-28-2013/comment-page-1#comment-57651</link>
+		<dc:creator>Aaron Culver</dc:creator>
+		<pubDate>Mon, 30 Sep 2013 14:18:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2400#comment-57651</guid>
+		<description><![CDATA[I&#039;m really enjoying the work and features you guys have been putting in. I&#039;ve been using CM-based variants since CM5 on the LG Optimus S. I&#039;m very glad to see this go so far... Congrats!
+
+PS: The 10.2 nightlies are incredibly stable on my SGS4... That privacy protector is incredible, and I still get 2-3x benchmark scores vs. Stock. **cheers**]]></description>
+		<content:encoded><![CDATA[<p>I&#8217;m really enjoying the work and features you guys have been putting in. I&#8217;ve been using CM-based variants since CM5 on the LG Optimus S. I&#8217;m very glad to see this go so far&#8230; Congrats!</p>
+<p>PS: The 10.2 nightlies are incredibly stable on my SGS4&#8230; That privacy protector is incredible, and I still get 2-3x benchmark scores vs. Stock. **cheers**</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: XxPixX</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-sep-28-2013/comment-page-1#comment-57650</link>
+		<dc:creator>XxPixX</dc:creator>
+		<pubDate>Mon, 30 Sep 2013 04:41:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2400#comment-57650</guid>
+		<description><![CDATA[Don&#039;t expect it to be any more stable than the nightlys.]]></description>
+		<content:encoded><![CDATA[<p>Don&#8217;t expect it to be any more stable than the nightlys.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: kosiara</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-sep-28-2013/comment-page-1#comment-57648</link>
+		<dc:creator>kosiara</dc:creator>
+		<pubDate>Sun, 29 Sep 2013 13:26:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2400#comment-57648</guid>
+		<description><![CDATA[Yeah, that was something! Thanks.]]></description>
+		<content:encoded><![CDATA[<p>Yeah, that was something! Thanks.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ignacio Zippy</title>
+		<link>http://www.cyanogenmod.org/blog/this-week-in-cm-sep-28-2013/comment-page-1#comment-57647</link>
+		<dc:creator>Ignacio Zippy</dc:creator>
+		<pubDate>Sun, 29 Sep 2013 11:35:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2400#comment-57647</guid>
+		<description><![CDATA[Thanks for stable 10.1.3 for I9100 and I9300, just that.]]></description>
+		<content:encoded><![CDATA[<p>Thanks for stable 10.1.3 for I9100 and I9300, just that.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 4/19 queries in 0.033 seconds using apc
+Object Caching 354/360 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 03:14:13 by W3 Total Cache -->

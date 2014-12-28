@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CyanogenMod &#187; video</title>
+	<atom:link href="http://www.cyanogenmod.org/tag/video/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Thu, 13 Nov 2014 07:54:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+		<item>
+		<title>Tutorial videos wanted, can you help?</title>
+		<link>http://www.cyanogenmod.org/blog/tutorial-videos-wanted-can-you-help</link>
+		<comments>http://www.cyanogenmod.org/blog/tutorial-videos-wanted-can-you-help#comments</comments>
+		<pubDate>Mon, 21 Sep 2009 09:32:31 +0000</pubDate>
+		<dc:creator>MrADeveci</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[tutorial]]></category>
+		<category><![CDATA[video]]></category>
+		<category><![CDATA[youtube]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=336</guid>
+		<description><![CDATA[<p>Guys and Girls.</p> <p>With the recent registration of our own <a href="http://youtube.com/cyanogenmod">YouTube channel</a>, I&#8217;m looking for people who are able to create tutorial videos and other videos that can help users with the CyanogenMod.</p> <p>Videos that are required :</p> <p>1) Rooting. 2) Installing CynogenMod Recovery Image. 3) Flashing a new image manually. 4) Flashing a new image via the updater. 5) Flashing a theme.</p> <p>More videos will follow but these are the main ones for now.</p> <p>Wannabe producers would talk the procedure through (this can be computer voiced) and explain to viewers how to complete the above.</p> <p>The videos will be set in a blank template (somewhere clean and clear of rubbish) and shall be presented in a professional manner.</p> <p>If you are able to do this, please send a message to <a href="http://twitter.com/cyanogenmod">@Cyanogenmod</a> on Twitter.</p>]]></description>
+				<content:encoded><![CDATA[<p>Guys and Girls.</p>
+<p>With the recent registration of our own <a href="http://youtube.com/cyanogenmod">YouTube channel</a>, I&#8217;m looking for people who are able to create tutorial videos and other videos that can help users with the CyanogenMod.</p>
+<p>Videos that are required  :</p>
+<p>1) Rooting.<br />
+2) Installing CynogenMod Recovery Image.<br />
+3) Flashing a new image manually.<br />
+4) Flashing a new image via the updater.<br />
+5) Flashing a theme.</p>
+<p>More videos will follow but these are the main ones for now.</p>
+<p>Wannabe producers would talk the procedure through (this can be computer voiced) and explain to viewers how to complete the above.</p>
+<p>The videos will be set in a blank template (somewhere clean and clear of rubbish) and shall be presented in a professional manner.</p>
+<p>If you are able to do this, please send a message to <a href="http://twitter.com/cyanogenmod">@Cyanogenmod</a> on Twitter.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/tutorial-videos-wanted-can-you-help/feed</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/6 queries in 0.018 seconds using apc
+Object Caching 215/217 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:19:12 by W3 Total Cache -->

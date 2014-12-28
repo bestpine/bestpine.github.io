@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: 4.1.7 has landed</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/4-1-7-has-landed/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/4-1-7-has-landed</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: Backlink Software</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-7-has-landed/comment-page-2#comment-16108</link>
+		<dc:creator>Backlink Software</dc:creator>
+		<pubDate>Fri, 01 Oct 2010 00:25:40 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-7-has-landed#comment-16108</guid>
+		<description><![CDATA[Awesome share! Thank you very much :)]]></description>
+		<content:encoded><![CDATA[<p>Awesome share! Thank you very much <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: jeux foot</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-7-has-landed/comment-page-2#comment-847</link>
+		<dc:creator>jeux foot</dc:creator>
+		<pubDate>Thu, 24 Sep 2009 04:06:16 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-7-has-landed#comment-847</guid>
+		<description><![CDATA[I had the same problem. In the end I had to format the ext partition, wipe, and reinstall 4.0.4. Phone is now running well, as usual. I tried a few fixes and the only one that worked for me was formating the ext partition.]]></description>
+		<content:encoded><![CDATA[<p>I had the same problem. In the end I had to format the ext partition, wipe, and reinstall 4.0.4. Phone is now running well, as usual. I tried a few fixes and the only one that worked for me was formating the ext partition.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: jeu en ligne gratuit</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-7-has-landed/comment-page-2#comment-803</link>
+		<dc:creator>jeu en ligne gratuit</dc:creator>
+		<pubDate>Tue, 22 Sep 2009 11:44:38 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-7-has-landed#comment-803</guid>
+		<description><![CDATA[I think The Home and the Call buttons do not work. When I push Home when inside an app, I don’t get the home screen, and when I long press it, I don’t get the launcher. When I press Call on the home screen, I don’t get the dialer.]]></description>
+		<content:encoded><![CDATA[<p>I think The Home and the Call buttons do not work. When I push Home when inside an app, I don’t get the home screen, and when I long press it, I don’t get the launcher. When I press Call on the home screen, I don’t get the dialer.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Stef</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-7-has-landed/comment-page-2#comment-406</link>
+		<dc:creator>Stef</dc:creator>
+		<pubDate>Sun, 13 Sep 2009 17:22:12 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-7-has-landed#comment-406</guid>
+		<description><![CDATA[After downgrading back to the stable release the home key no longer works and one press of menu unlocks the screen instead of two - most odd.]]></description>
+		<content:encoded><![CDATA[<p>After downgrading back to the stable release the home key no longer works and one press of menu unlocks the screen instead of two &#8211; most odd.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: complx</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-7-has-landed/comment-page-2#comment-389</link>
+		<dc:creator>complx</dc:creator>
+		<pubDate>Sun, 13 Sep 2009 07:27:35 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-7-has-landed#comment-389</guid>
+		<description><![CDATA[same here, wanted to use Advanced Launcher to reduce to three homescreens but not working]]></description>
+		<content:encoded><![CDATA[<p>same here, wanted to use Advanced Launcher to reduce to three homescreens but not working</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: JustSuds</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-7-has-landed/comment-page-2#comment-387</link>
+		<dc:creator>JustSuds</dc:creator>
+		<pubDate>Sun, 13 Sep 2009 06:51:36 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-7-has-landed#comment-387</guid>
+		<description><![CDATA[So, I&#039;ve read the comments and it seems that a lot of people have had trouble with this rom.
+
+So far (been running 4.1.7 since the hour of release) I haven&#039;t had a single error or non-working app. Camera, Handcent, Widgets, EVERYTHING works as desired. No crashes, no lag, no problems.
+
+On another note, I posted on the XDA thread, and got a response, but I couldn&#039;t work it out myself. The extended menu and hidden apps drawer is gone in this version, a bloke on XDA said to manually install the launcher, all my attempts at that have failed.
+Anyone got THAT working?]]></description>
+		<content:encoded><![CDATA[<p>So, I&#8217;ve read the comments and it seems that a lot of people have had trouble with this rom.</p>
+<p>So far (been running 4.1.7 since the hour of release) I haven&#8217;t had a single error or non-working app. Camera, Handcent, Widgets, EVERYTHING works as desired. No crashes, no lag, no problems.</p>
+<p>On another note, I posted on the XDA thread, and got a response, but I couldn&#8217;t work it out myself. The extended menu and hidden apps drawer is gone in this version, a bloke on XDA said to manually install the launcher, all my attempts at that have failed.<br />
+Anyone got THAT working?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ben</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-7-has-landed/comment-page-2#comment-386</link>
+		<dc:creator>Ben</dc:creator>
+		<pubDate>Sun, 13 Sep 2009 05:18:40 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-7-has-landed#comment-386</guid>
+		<description><![CDATA[Hi! I got my mytouch yesterday, and i had looked up modding for it a few days in advance, because i like to do it. and your roms, especially this build, are AMAZINGLY fast, thanks so much and keep up the great work :D]]></description>
+		<content:encoded><![CDATA[<p>Hi! I got my mytouch yesterday, and i had looked up modding for it a few days in advance, because i like to do it. and your roms, especially this build, are AMAZINGLY fast, thanks so much and keep up the great work <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Sanjeev</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-7-has-landed/comment-page-2#comment-384</link>
+		<dc:creator>Sanjeev</dc:creator>
+		<pubDate>Sun, 13 Sep 2009 02:09:28 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-7-has-landed#comment-384</guid>
+		<description><![CDATA[I loved the speed of 4.1.7, but there are two many reboots so downgraded to 4.0.4. Havn&#039;t had any issues, I did a wipe and nandroid restore. Great work.....cool recovery image is the key...:)]]></description>
+		<content:encoded><![CDATA[<p>I loved the speed of 4.1.7, but there are two many reboots so downgraded to 4.0.4. Havn&#8217;t had any issues, I did a wipe and nandroid restore. Great work&#8230;..cool recovery image is the key&#8230;:)</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Michael Adick</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-7-has-landed/comment-page-2#comment-383</link>
+		<dc:creator>Michael Adick</dc:creator>
+		<pubDate>Sun, 13 Sep 2009 00:42:15 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-7-has-landed#comment-383</guid>
+		<description><![CDATA[@Kot:
+same with me, can&#039;t mount SD. i can read the SD card within G1 (e.g. with linda file explorer), and I can read the SD card with an external card reader, but can&#039;t when it&#039;s inside the G1. Mounting SD card triggers the PC to detect (open the window that searches the contents), but cannot open the folder. When double-click on the driver letter, Windows returns error: &quot;Disk drive not formatted&quot;...
+
+dear CM devs: no criticism, because I admire what you do, and this is an experimental build, so we can expect this to happen, but last night you told me in your last Email in regards to the SD card that it&#039;s a &quot;non-issue&quot;...
+
+seems however many people have this issue not only me...]]></description>
+		<content:encoded><![CDATA[<p>@Kot:<br />
+same with me, can&#8217;t mount SD. i can read the SD card within G1 (e.g. with linda file explorer), and I can read the SD card with an external card reader, but can&#8217;t when it&#8217;s inside the G1. Mounting SD card triggers the PC to detect (open the window that searches the contents), but cannot open the folder. When double-click on the driver letter, Windows returns error: &#8220;Disk drive not formatted&#8221;&#8230;</p>
+<p>dear CM devs: no criticism, because I admire what you do, and this is an experimental build, so we can expect this to happen, but last night you told me in your last Email in regards to the SD card that it&#8217;s a &#8220;non-issue&#8221;&#8230;</p>
+<p>seems however many people have this issue not only me&#8230;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Kot</title>
+		<link>http://www.cyanogenmod.org/blog/4-1-7-has-landed/comment-page-2#comment-382</link>
+		<dc:creator>Kot</dc:creator>
+		<pubDate>Sun, 13 Sep 2009 00:28:45 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-1-7-has-landed#comment-382</guid>
+		<description><![CDATA[What is more. After connecting to PC I can&#039;t mount SD card - there is info about debugging mode. Charging LED is not working but phone is charging. 
+
+I&#039;ve had a horror when battery was dead, I was charging it but nothing happend... I couldn&#039;t power G1 on. I removed the battery and after putting battery in again it started to load. Ufff.]]></description>
+		<content:encoded><![CDATA[<p>What is more. After connecting to PC I can&#8217;t mount SD card &#8211; there is info about debugging mode. Charging LED is not working but phone is charging. </p>
+<p>I&#8217;ve had a horror when battery was dead, I was charging it but nothing happend&#8230; I couldn&#8217;t power G1 on. I removed the battery and after putting battery in again it started to load. Ufff.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/17 queries in 0.028 seconds using apc
+Object Caching 359/361 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:15:43 by W3 Total Cache -->

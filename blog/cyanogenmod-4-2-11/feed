@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: CyanogenMod-4.2.11</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/cyanogenmod-4-2-11/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-11</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: Dr Koch</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-11/comment-page-4#comment-5612</link>
+		<dc:creator>Dr Koch</dc:creator>
+		<pubDate>Mon, 11 Jan 2010 22:49:30 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-11#comment-5612</guid>
+		<description><![CDATA[Got the same problems with the multitouch doing an &quot;all-the-way-in-zooming&quot; when fingers get too close, or I accidentially release one of the fingers from the screen for a short period of time...
+
+Other than that... this is amazing work you are doing... BRGS]]></description>
+		<content:encoded><![CDATA[<p>Got the same problems with the multitouch doing an &#8220;all-the-way-in-zooming&#8221; when fingers get too close, or I accidentially release one of the fingers from the screen for a short period of time&#8230;</p>
+<p>Other than that&#8230; this is amazing work you are doing&#8230; BRGS</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: kicklacacan</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-11/comment-page-4#comment-5409</link>
+		<dc:creator>kicklacacan</dc:creator>
+		<pubDate>Wed, 06 Jan 2010 20:40:07 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-11#comment-5409</guid>
+		<description><![CDATA[First of all, I&#039;d like to says that you are doing a great job with these roms. 
+
+Now the pot. 
+
+Since a couple of version, I cannot send email using Gmail, I can receive all right but when it is time to send something, it gets stuck in the outbox. 
+Anything to do with the rom ?
+Could this]]></description>
+		<content:encoded><![CDATA[<p>First of all, I&#8217;d like to says that you are doing a great job with these roms. </p>
+<p>Now the pot. </p>
+<p>Since a couple of version, I cannot send email using Gmail, I can receive all right but when it is time to send something, it gets stuck in the outbox.<br />
+Anything to do with the rom ?<br />
+Could this</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Bob</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-11/comment-page-4#comment-5310</link>
+		<dc:creator>Bob</dc:creator>
+		<pubDate>Tue, 05 Jan 2010 11:54:10 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-11#comment-5310</guid>
+		<description><![CDATA[Google Talk was broken by this update... it crashes nearly instantly on startup!]]></description>
+		<content:encoded><![CDATA[<p>Google Talk was broken by this update&#8230; it crashes nearly instantly on startup!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Juergen Schmid</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-11/comment-page-4#comment-5244</link>
+		<dc:creator>Juergen Schmid</dc:creator>
+		<pubDate>Mon, 04 Jan 2010 17:50:15 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-11#comment-5244</guid>
+		<description><![CDATA[Problems with Android Market 
+
+Hi,
+I wiped my phone and installed the CM4.2.11.1 from the recovery mode. After that I rebooted the system and used the terminal to fix_permissions. 
+
+Unfortunatelly I still have the problem that I couldn’t download any program from the android market, I allways get the error message “the progress com.google.process.gapps has stopped unexpetedly. Please try again later”
+
+I try to find and solution for that in the forum but I couldn’t find it. What could I do to fix that ? Please help me, Thanks
+
+Juergen]]></description>
+		<content:encoded><![CDATA[<p>Problems with Android Market </p>
+<p>Hi,<br />
+I wiped my phone and installed the CM4.2.11.1 from the recovery mode. After that I rebooted the system and used the terminal to fix_permissions. </p>
+<p>Unfortunatelly I still have the problem that I couldn’t download any program from the android market, I allways get the error message “the progress com.google.process.gapps has stopped unexpetedly. Please try again later”</p>
+<p>I try to find and solution for that in the forum but I couldn’t find it. What could I do to fix that ? Please help me, Thanks</p>
+<p>Juergen</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Naveen</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-11/comment-page-4#comment-5160</link>
+		<dc:creator>Naveen</dc:creator>
+		<pubDate>Mon, 04 Jan 2010 02:15:10 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-11#comment-5160</guid>
+		<description><![CDATA[For those facing random slowdowns with versions 4.2.10.x and above, open CM Updater (if you have it) and change its settings to never check for updates automatically. Open the Facebook app and disable &#039;Notifications&#039;. After I did this, there was a marked performance improvement.]]></description>
+		<content:encoded><![CDATA[<p>For those facing random slowdowns with versions 4.2.10.x and above, open CM Updater (if you have it) and change its settings to never check for updates automatically. Open the Facebook app and disable &#8216;Notifications&#8217;. After I did this, there was a marked performance improvement.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: renn9420</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-11/comment-page-4#comment-5157</link>
+		<dc:creator>renn9420</dc:creator>
+		<pubDate>Mon, 04 Jan 2010 00:15:23 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-11#comment-5157</guid>
+		<description><![CDATA[Hoping there will be a rom based on Android 2.1 coming out soon]]></description>
+		<content:encoded><![CDATA[<p>Hoping there will be a rom based on Android 2.1 coming out soon</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: usman</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-11/comment-page-4#comment-5152</link>
+		<dc:creator>usman</dc:creator>
+		<pubDate>Sun, 03 Jan 2010 21:16:14 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-11#comment-5152</guid>
+		<description><![CDATA[Can anyone direct me to the themes link for the CM 4.2.11.
+i can only find 4-5 themes with the CM updater and most of them don&#039;t work.
+
+Thanks]]></description>
+		<content:encoded><![CDATA[<p>Can anyone direct me to the themes link for the CM 4.2.11.<br />
+i can only find 4-5 themes with the CM updater and most of them don&#8217;t work.</p>
+<p>Thanks</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: zmesler</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-11/comment-page-4#comment-5151</link>
+		<dc:creator>zmesler</dc:creator>
+		<pubDate>Sun, 03 Jan 2010 21:13:33 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-11#comment-5151</guid>
+		<description><![CDATA[funny.  /data/app   (com.google.android.maps.apk) &lt;-- doen not exist on my phone lol. What now evengard?]]></description>
+		<content:encoded><![CDATA[<p>funny.  /data/app   (com.google.android.maps.apk) &lt;&#8211; doen not exist on my phone lol. What now evengard?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: brian</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-11/comment-page-4#comment-5149</link>
+		<dc:creator>brian</dc:creator>
+		<pubDate>Sun, 03 Jan 2010 20:34:56 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-11#comment-5149</guid>
+		<description><![CDATA[Do we need to do apps2sd for this rom?? I read i need a second partition..is this true??how do i do that??]]></description>
+		<content:encoded><![CDATA[<p>Do we need to do apps2sd for this rom?? I read i need a second partition..is this true??how do i do that??</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: CM USER</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-2-11/comment-page-4#comment-5148</link>
+		<dc:creator>CM USER</dc:creator>
+		<pubDate>Sun, 03 Jan 2010 20:21:27 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-2-11#comment-5148</guid>
+		<description><![CDATA[zmesler you are misguided and misinformed. The update is in fact NOT visible. While I don&#039;t know if doing a clean install would solve all the problems, I don&#039;t see how anyone would ever want to have to rebuild and reinstall all of their phone content.]]></description>
+		<content:encoded><![CDATA[<p>zmesler you are misguided and misinformed. The update is in fact NOT visible. While I don&#8217;t know if doing a clean install would solve all the problems, I don&#8217;t see how anyone would ever want to have to rebuild and reinstall all of their phone content.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/17 queries in 0.043 seconds using apc
+Object Caching 351/353 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:19:57 by W3 Total Cache -->

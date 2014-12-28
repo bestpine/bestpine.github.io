@@ -1,0 +1,1009 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+
+	<title>Introducing Cid | CyanogenMod</title>
+	
+	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<!-- Included Foundation CSS Files -->
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/foundation.css">
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/app.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/tipTip.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/fonts/style.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/flexslider.css" type="text/css" media="screen" />
+	
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/style.css">
+	
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/ie.css">
+	<![endif]-->
+	
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Favicon and Feed -->
+	<link rel="shortcut icon" type="image/png" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="CyanogenMod Feed" href="http://www.cyanogenmod.org/feed/">
+	
+	<!--  iPhone Web App Home Screen Icon -->
+	<link rel="apple-touch-icon" sizes="72x72" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon-retina.png" />
+	<link rel="apple-touch-icon" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon.png" />
+	
+	<!-- Enable Startup Image for iOS Home Screen Web App -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/mobile-load.png" />
+
+	<!-- Startup Image iPad Landscape (748x1024) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load-ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" />
+	<!-- Startup Image iPad Portrait (768x1004) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load-ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" />
+	<!-- Startup Image iPhone (320x460) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load.png" media="screen and (max-device-width: 320px)" />
+	
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.jparallax.min.js" ></script>
+  <script defer type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.featureList-1.0.0.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.tipTip.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/easySlider1.7.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/modernizr.foundation.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.flexslider-min.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/custom.js"></script>
+  
+  <script type="text/javascript">
+    $(document).load(function(){
+
+	  // The slider being synced must be initialized first
+	  $('.flexslider').flexslider({
+		animation: "slide",
+		controlNav: false,
+	  });
+	  
+    });
+  </script>
+  
+  	<link rel="alternate" type="application/rss+xml" title="CyanogenMod &raquo; Introducing Cid Comments Feed" href="http://www.cyanogenmod.org/blog/introducing-cid/feed" />
+<script type='text/javascript' src='http://www.cyanogenmod.org/wp-includes/js/comment-reply.min.js?ver=3.5.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.cyanogenmod.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.cyanogenmod.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='CyanogenMod-7.2.0-RC1 is upon us' href='http://www.cyanogenmod.org/blog/cyanogenmod-7-2-0-rc1-is-upon-us' />
+<link rel='next' title='New Build Servers Online!' href='http://www.cyanogenmod.org/blog/new-build-servers-online' />
+<meta name="generator" content="WordPress 3.5.2" />
+<link rel='shortlink' href='http://www.cyanogenmod.org/?p=1663' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<!-- All in One SEO Pack 2.0.2 by Michael Torbert of Semper Fi Web Design[493,517] -->
+<link rel="author" href="http://google.com/+AbhisekDevkota" />
+<meta name="description" content="Preface: “Why the change in Mascot? We loved Andy Bugdroid!” A lot of people love Andy, our former skateboarding mascot. This was clearly evident with" />
+
+<link rel="canonical" href="http://www.cyanogenmod.org/blog/introducing-cid" />
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-39737599-3']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+<!-- /all in one seo pack -->
+</head>
+
+<body class="single single-post postid-1663 single-format-standard">
+
+	<div class="menusto hide-on-phones"></div>
+	<!-- Start the main container -->
+	<div id="container" class="container" role="document" style="padding:80px 0 0 0;">
+		
+        
+        <div class="row mobile-header show-on-phones">
+            <div class="nine">
+            	<a href="http://www.cyanogenmod.org" title="CyanogenMod" class="logo-mobile"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/logo-mobile.png" alt=""/></a>
+            </div>
+            <a href="#navigation" class="mobile-menu"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/btn-menu-mobile.png" alt=""/></a>
+        </div>
+        
+		<!-- Row for blog navigation -->
+		<div class="row hide-on-phones">
+			<header class="twelve columns" role="banner">
+				<div class="reverie-header">
+                	<a href="http://www.cyanogenmod.org" title="CyanogenMod" class="logo"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/logo.png" alt=""/></a>
+                    <div id="glavno" class="nav hide-on-phones">
+                        <ul id="glavno">                   
+                            <li><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+                            <!--<li><a href="http://cyanogenmod.org/about/features">Features</a></li>-->
+                            <li><a href="http://download.cyanogenmod.org/">Download</a></li>
+                            <li><a href="http://www.cyanogenmod.org/blog/">Blog</a></li>
+                            <li><a href="http://forum.cyanogenmod.org/">Forum</a></li>
+                            <li>
+                            	<a href="http://www.cyanogenmod.org/community">Community</a>
+                                <div style="opacity: 0; display: none; width:100%" class="sub">
+                                    <ul>
+                                    	<div style="width:980px; margin:0 auto; color:#fff;">
+                                        	<div class="contributesub">
+                                            	<h2>Contribute</h2>
+                                                
+                                                <h4><a href="http://review.cyanogenmod.org/">Gerrit Review</a></h4>
+                                                <p>Gerrit is a web based code review system, facilitating online code reviews for projects using the Git version control system.</p>
+                                                    
+                                                <h4><a href="http://wiki.cyanogenmod.org/">Wiki</a></h4>
+                                                <p>Our Wiki is a comprehensive tool for users to find information. This also needs contributions to keep it fresh and relevant.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/community">Join The Team</a></h4>
+                                                <p>We love working with others. You can submit code via Gerrit. If you think there is something else you can help with, get in touch with us on the forums.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub">
+                                            	<h2>Help</h2>
+                                                
+                                                <h4><a href="http://forum.cyanogenmod.org/">Forum</a></h4>
+                                                <p>Our forums have a wealth of knowledge and resources. All of it is free and accessible from both your desktop and mobile phone.</p>
+                                                    
+                                                <h4><a href="irc://irc.freenode.net/cyanogenmod">IRC</a></h4>
+                                                <p>If you are comfortable with IRC and would like instant help and assistance from both developers and others users alike.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/blog">Blog</a></h4>
+                                                <p>Our blogs will contain the latest news and releases as well as other related news concerning the distribution.</p>
+                                                    
+                                                <h4><a href="http://wiki.cyanogenmod.org/">Wiki</a></h4>
+                                                <p>Our Wiki is a comprehensive tool for users to find information. This also needs contributions to keep it fresh and relevant.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub">
+                                            	<h2>Information</h2>
+                                                
+                                                <h4><a href="http://www.cyanogenmod.org/changelog">Change Log</a></h4>
+                                                <p>Our development of the ROM is always changing. We add new features and fix bugs all the time. Check the latest change log here.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/bugs">Bug Tracker</a></h4>
+                                                <p>This is the official Bug Tracker where you can submit and review bugs that users may experience.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/github">Github Repo</a></h4>
+                                                <p>Our source is free and open. you can check the Github page to see what we do and how you can contribute.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/stats">Installation Statistics</a></h4>
+                                                <p>We have an opt-in feature in our ROMS to enable us to gain statistics on users as well as devices used.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub last">
+                                            	<h2>Support</h2>
+                                                
+                                                <h4><a href="/cdn-cgi/l/email-protection#7612130004131a36150f1718191113181b191258190411">Developer Relations</a></h4>
+                                                <p>If you wish to contact us regarding development contributions, please do so here.</p>
+                                                    
+                                                <h4><a href="/cdn-cgi/l/email-protection#9ffefbf2f6f1dffce6fef1f0f8faf1f2f0fbb1f0edf8">Website Support</a></h4>
+                                                <p>This email is dedicated to website, forum, wiki and hosting support. We will not respond to ROM support.</p>
+                                                    
+                                                <h4><a href="/cdn-cgi/l/email-protection#3e5f5a5357507e5d475f5051595b5053515a10514c59">Social Network</a></h4>
+                                                <p>To contact us in relation to our Social media structure.</p>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                    
+                                </div>
+                            </li>
+                            <li><a href="https://account.cyanogenmod.org">Account</a></li>
+                      </ul>
+                    </div>
+				</div>
+
+			</header>
+		</div>
+
+		
+		<!-- Row for main content area -->
+		<div id="main" class="row">
+		<!-- Row for main content area -->
+		<div id="content" class="eight columns" role="main">
+	
+			<div class="post-box">
+					<article class="post-1663 post type-post status-publish format-standard hentry category-blog" id="post-1663">
+		<header>
+        	<time class="updated" datetime="2012-04-05T00:35:09+00:00" pubdate>April 5th, 2012 &bull; Written by <a href="http://www.cyanogenmod.org/author/ciwrl" rel="author" class="fn">ciwrl</a></time>        	<h2 class="entry-title">Introducing Cid</h2>
+					</header>
+		<div class="entry-content">
+			<p><strong>Preface:</strong><br />
+“Why the change in Mascot? We loved <del>Andy</del> Bugdroid!”</p>
+<p>A lot of people love Andy, our former skateboarding mascot. This was clearly evident with the polarized reviews to our announcement of selecting Caio’s prototype. We love Andy too, he has served us faithfully for close to 3 years now. However, he increasingly became a symbol of what CyanogenMod was when Steve (Cyanogen) started it, a ‘playful spin’ on AOSP, and reflective of our immaturity as a project.</p>
+<p>We believe we’re more than just “stock Android for a zillion devices”, and we felt the need for a distinct identity; a change was needed.</p>
+<p>This change would allow us to have a unique representative, one not reliant on Google’s mascot creation. Contrary to popular belief, both Andy and his penchant for skateboarding were Google’s design &#8211; we added the color and arrow under Creative Commons licensing, but it’s still a very slight variation of Google’s own <em>bugdroid</em>, as seen <a title="here" href="http://www.android.com/developers/branding.html" target="_blank">here</a>. As much as we’d like to say it was ‘original’ it really wasn’t; its iconic status was achieved through the merits of CyanogenMod and our community of contributors, not as an epicly designed mascot.</p>
+<p>This new mascot will be unique for CyanogenMod and provide an identity and attitude by which the project can continue to develop &#8211; a mature Android OS.</p>
+<p><strong>Inspiration for design:</strong><br />
+We’ll let Caio speak for himself on this one:</p>
+<p><em>“When I first started working on the new mascot I had this vision of making something that could also work as a polished and modern logo. I came up with two humanoid figures whose bodies took inspiration from heroes action figures and resembles the original Android robot. For the heads I started with two ideas: a power socket and a simplistic round head. I wanted CM’s own robot to feel like an evolution of what we had before, giving it its unique look &#8211; and it&#8217;s a huge challenge to try to evolve something people know and love.</em></p>
+<p><em>The idea here was to create something cute (people love cute), modern and extremely flexible. Something simple yet iconic; so we could do thousands of different things with it. I wanted the mascot to look great everywhere in every size and color.</em></p>
+<p><em>For colors I decided to keep the most obvious choice, which was keeping the cyan and grey from our Andy.”</em></p>
+<p><strong>Modifications:</strong><br />
+As you can see, compared to the prototypes selected, some modifications have been made. Cid has ‘grown up’ from the child like form of the original design. Additionally, his head has taken traits from both prototypes, not quite a square block and not quite perfectly round.</p>
+<p>While the wrench-like hands were unique, we felt trying to pitch them as ‘tweaking Android’ was a stretch, and went with the more subtle rounded hands. This allows for a cleaner look in many different forms, colors and applications.</p>
+<p>Cid’s eyes were made wider, to allow for expressions to be conveyed, and a mouth was added to enhance this capability. The ears were added as an homage to the much loved Andy.</p>
+<p>Caio’s opinion of the changes:</p>
+<p><em>“When reviewing the design I felt the need for some distinctive features and we decided to give him some attitude and the ability to convey different emotions. Cid has big eyes and his default form rocks a challenging look — something the CM community is all about.”</em></p>
+<p>And we think it looks great!</p>
+<p><strong>Cid</strong> (Pronounced: /si:d/)<strong>:</strong><br />
+When we started brainstorming names we wanted to pick something short, simple and fitting for the new mascot. Obviously trying to stray away from the *droid or *Andy type names we decided to pay homage to D.A.R.Y.L., B.O.B Maximillion or V.I.N.Cent and create a name that could also be an acronym.</p>
+<p>We chose C.I.D. which is short for Cyanogenmod ID, the common thread that all CyanogenMod users share; each user’s unique place in our community.</p>
+<p>Some of you may also be familiar with the concept of the “id”, the instinctual driving force behind our personalities. It seemed fitting, that this chaotic force and need for immediate gratification, was incorporated into the image of a OS which strives to be on the bleeding edge of Android development.</p>
+<p>Thus C.I.D became Cid.</p>
+<p style="text-align: center;"><img class="aligncenter" title="Cid" src="http://android.chemlab.org/debut11.png" alt="" width="754" height="564" /></p>
+<p style="text-align: center;"><img title="Cid - Trio" src="http://android.chemlab.org/debut22.png" alt="" width="768" height="480" /></p>
+		</div>
+
+<div id="disqus_thread">
+                    <div id="dsq-content">
+
+            <div class="navigation">
+                <div class="nav-previous"></div>
+                <div class="nav-next"><a href="http://www.cyanogenmod.org/blog/introducing-cid/comment-page-2#comments" >Newer Comments <span class="meta-nav">&rarr;</span></a></div>
+            </div> <!-- .navigation -->
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-51660">
+        <div id="dsq-comment-header-51660" class="dsq-comment-header">
+            <cite id="dsq-cite-51660">
+                <span id="dsq-author-user-51660">Kitch</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51660" class="dsq-comment-body">
+            <div id="dsq-comment-message-51660" class="dsq-comment-message"><p>I like it. It gives it a clean, fresh look. Keel up the good work :&#8217;)</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51662">
+        <div id="dsq-comment-header-51662" class="dsq-comment-header">
+            <cite id="dsq-cite-51662">
+                <span id="dsq-author-user-51662">ApplesNAndroids</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51662" class="dsq-comment-body">
+            <div id="dsq-comment-message-51662" class="dsq-comment-message"><p>Looks a lot better than.the earlier one I saw which could scare children. Still don&#8217;t care for it very much though. But.Kudos. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51661">
+        <div id="dsq-comment-header-51661" class="dsq-comment-header">
+            <cite id="dsq-cite-51661">
+                <span id="dsq-author-user-51661">brunolemos</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51661" class="dsq-comment-body">
+            <div id="dsq-comment-message-51661" class="dsq-comment-message"><p>See u on my boot animation, Cid!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51663">
+        <div id="dsq-comment-header-51663" class="dsq-comment-header">
+            <cite id="dsq-cite-51663">
+                <span id="dsq-author-user-51663">Cardilino</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51663" class="dsq-comment-body">
+            <div id="dsq-comment-message-51663" class="dsq-comment-message"><p>Just begging for a &#8220;See no, say no, hear no montage&#8230;</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51664">
+        <div id="dsq-comment-header-51664" class="dsq-comment-header">
+            <cite id="dsq-cite-51664">
+                <span id="dsq-author-user-51664">blur lost</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51664" class="dsq-comment-body">
+            <div id="dsq-comment-message-51664" class="dsq-comment-message"><p>i agree on the reasonign behind the change, but disagree that the new logo makes it look anything close to destinguished or matured. something in the knee bend with the skateboard makes it look like it was drawn while goofing around with vectors. the mock fierce eyes yet &#8216;hand tips&#8217; pointing out like its a little ballerina dance gives it a tacky appearence. the right-most is friendly, and curious and probably i can say i like &#8211; if i didnt have the insight that it was supposed to convey maturity and arrival. i realize such critisism is unpleasant especially for the artist behind it. i&#8217;m just expressing what the logo envoked in me, emotionally especially paired with the insight behind the change. no personal insult intended by this post. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51665">
+        <div id="dsq-comment-header-51665" class="dsq-comment-header">
+            <cite id="dsq-cite-51665">
+                <span id="dsq-author-user-51665">Prestonjjenkins</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51665" class="dsq-comment-body">
+            <div id="dsq-comment-message-51665" class="dsq-comment-message"><p>Pretty tight. Feel like its strays a little from the &#8220;cyan&#8221; in Cyanogenmod though with the color scheme</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51666">
+        <div id="dsq-comment-header-51666" class="dsq-comment-header">
+            <cite id="dsq-cite-51666">
+http://www.pilgrimchris.com                <span id="dsq-author-user-51666">PilgrimChris</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51666" class="dsq-comment-body">
+            <div id="dsq-comment-message-51666" class="dsq-comment-message"><p>Great design folks. I am about to mod my droid for the first time! </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51667">
+        <div id="dsq-comment-header-51667" class="dsq-comment-header">
+            <cite id="dsq-cite-51667">
+http://cyanogenmod.org/                <span id="dsq-author-user-51667">ciwrl</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51667" class="dsq-comment-body">
+            <div id="dsq-comment-message-51667" class="dsq-comment-message"><p>No worries, we actually like this type of criticism. There is no reason this design can&#8217;t evolve further, and constructive feedback like this is a good thing! </p>
+<p>What was not appreciated was the flat out hate for the winner announcement from comments.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51668">
+        <div id="dsq-comment-header-51668" class="dsq-comment-header">
+            <cite id="dsq-cite-51668">
+                <span id="dsq-author-user-51668">YodaDaCoda</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51668" class="dsq-comment-body">
+            <div id="dsq-comment-message-51668" class="dsq-comment-message"><p>Personally I think it looks too humanoid. I think it should be further adjusted to look a little less drastically different from Andy by shortening the limbs and widening the body. </p>
+<p>Then again, everyone&#8217;s a critic. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51669">
+        <div id="dsq-comment-header-51669" class="dsq-comment-header">
+            <cite id="dsq-cite-51669">
+                <span id="dsq-author-user-51669">Anon</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51669" class="dsq-comment-body">
+            <div id="dsq-comment-message-51669" class="dsq-comment-message"><p>DO NOT WANT!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51670">
+        <div id="dsq-comment-header-51670" class="dsq-comment-header">
+            <cite id="dsq-cite-51670">
+                <span id="dsq-author-user-51670">sgtguthrie</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51670" class="dsq-comment-body">
+            <div id="dsq-comment-message-51670" class="dsq-comment-message"><p>I actually think it looks more like an alien than an android. If you could make it look more like an android you would probably receive less criticism <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_smile.gif' alt=':-)' class='wp-smiley' />  </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51671">
+        <div id="dsq-comment-header-51671" class="dsq-comment-header">
+            <cite id="dsq-cite-51671">
+                <span id="dsq-author-user-51671">Cbbell</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51671" class="dsq-comment-body">
+            <div id="dsq-comment-message-51671" class="dsq-comment-message"><p>Congratulations. Love it.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51672">
+        <div id="dsq-comment-header-51672" class="dsq-comment-header">
+            <cite id="dsq-cite-51672">
+                <span id="dsq-author-user-51672">Wideopn11</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51672" class="dsq-comment-body">
+            <div id="dsq-comment-message-51672" class="dsq-comment-message"><p>Not liking it. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51673">
+        <div id="dsq-comment-header-51673" class="dsq-comment-header">
+            <cite id="dsq-cite-51673">
+                <span id="dsq-author-user-51673">Kevlars22</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51673" class="dsq-comment-body">
+            <div id="dsq-comment-message-51673" class="dsq-comment-message"><p>I think it could be better.  Regardless congrats and we&#8217;ll done !</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51674">
+        <div id="dsq-comment-header-51674" class="dsq-comment-header">
+            <cite id="dsq-cite-51674">
+                <span id="dsq-author-user-51674">soulster11</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51674" class="dsq-comment-body">
+            <div id="dsq-comment-message-51674" class="dsq-comment-message"><p>Welcome Cid!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51675">
+        <div id="dsq-comment-header-51675" class="dsq-comment-header">
+            <cite id="dsq-cite-51675">
+                <span id="dsq-author-user-51675">EraserXIV</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51675" class="dsq-comment-body">
+            <div id="dsq-comment-message-51675" class="dsq-comment-message"><p>I can get on board with the last one, furthest to the right, but please lose the mock angry eyes&#8230; It doesn&#8217;t look very clean or professional at all. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51676">
+        <div id="dsq-comment-header-51676" class="dsq-comment-header">
+            <cite id="dsq-cite-51676">
+http://twitter.com/KnightNZ                <span id="dsq-author-user-51676">Steve Wells</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51676" class="dsq-comment-body">
+            <div id="dsq-comment-message-51676" class="dsq-comment-message"><p>I agree with &#8220;blur lost&#8221; &#8211; I dislike the &#8220;angry&#8221; look. Why have an angry looking mascot unless it&#8217;s for a sports team or somesuch competitive thing?</p>
+<p>I always thought the skateboarding android was a bit tacky, whilst Cid is an improvement, I&#8217;m not sure I&#8217;m much of a fan. It certainly looks a lot more like an alien than any sort of identifiable &#8220;android&#8221;. I&#8217;d lean more towards the Bicentennial Man look, although that may get a bit more-complicated.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51677">
+        <div id="dsq-comment-header-51677" class="dsq-comment-header">
+            <cite id="dsq-cite-51677">
+                <span id="dsq-author-user-51677">Adrie H</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51677" class="dsq-comment-body">
+            <div id="dsq-comment-message-51677" class="dsq-comment-message"><p>Im liking the new look! Definitely more modern, crisp and original. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51678">
+        <div id="dsq-comment-header-51678" class="dsq-comment-header">
+            <cite id="dsq-cite-51678">
+                <span id="dsq-author-user-51678">chright</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51678" class="dsq-comment-body">
+            <div id="dsq-comment-message-51678" class="dsq-comment-message"><p>It&#8217;s worse than the unicorn:o</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51679">
+        <div id="dsq-comment-header-51679" class="dsq-comment-header">
+            <cite id="dsq-cite-51679">
+                <span id="dsq-author-user-51679">Carlos</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51679" class="dsq-comment-body">
+            <div id="dsq-comment-message-51679" class="dsq-comment-message"><p>This definitely looks better than the last one. While I personally am not really feeling the new design, I hope there is still room for improvement as I think it is on the right path to a more polished product most could get used to. /IMO</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51680">
+        <div id="dsq-comment-header-51680" class="dsq-comment-header">
+            <cite id="dsq-cite-51680">
+                <span id="dsq-author-user-51680">Drawde40599</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51680" class="dsq-comment-body">
+            <div id="dsq-comment-message-51680" class="dsq-comment-message"><p>I like it!!  Andy all grown up,  just hope this don&#8217;t mean we won&#8217;t have all the unnecessary features that we all love so much .: )</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51681">
+        <div id="dsq-comment-header-51681" class="dsq-comment-header">
+            <cite id="dsq-cite-51681">
+http://twitter.com/onedarkjuggalo                <span id="dsq-author-user-51681">robert l johnson</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51681" class="dsq-comment-body">
+            <div id="dsq-comment-message-51681" class="dsq-comment-message"><p>looks like an old chothespin..how about shortining him up a bit?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51682">
+        <div id="dsq-comment-header-51682" class="dsq-comment-header">
+            <cite id="dsq-cite-51682">
+                <span id="dsq-author-user-51682">51922</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51682" class="dsq-comment-body">
+            <div id="dsq-comment-message-51682" class="dsq-comment-message"><p>Not sure if I like. Feeling very neutral on the new design. Why create a character that no matter how hard you try will always be second best to the original android. Why don&#8217;t you adopt the same approach as XBMC and develop a slick logo. This would better reflect the maturity the CM team have Rosen to.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51683">
+        <div id="dsq-comment-header-51683" class="dsq-comment-header">
+            <cite id="dsq-cite-51683">
+                <span id="dsq-author-user-51683">Bellamaitrix</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51683" class="dsq-comment-body">
+            <div id="dsq-comment-message-51683" class="dsq-comment-message"><p>Juvenile. Doesn&#8217;t reflect the dedication and path toward maturity that has gone into the brand. Not slick and inviting at all and much too sinister. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51684">
+        <div id="dsq-comment-header-51684" class="dsq-comment-header">
+            <cite id="dsq-cite-51684">
+                <span id="dsq-author-user-51684">Bjorn</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51684" class="dsq-comment-body">
+            <div id="dsq-comment-message-51684" class="dsq-comment-message"><p>I agree. Why make it look scary? No, keep more of the original design. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51685">
+        <div id="dsq-comment-header-51685" class="dsq-comment-header">
+            <cite id="dsq-cite-51685">
+                <span id="dsq-author-user-51685">Guest</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51685" class="dsq-comment-body">
+            <div id="dsq-comment-message-51685" class="dsq-comment-message"><p>It looks more like an ant than android &#8230; </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51686">
+        <div id="dsq-comment-header-51686" class="dsq-comment-header">
+            <cite id="dsq-cite-51686">
+                <span id="dsq-author-user-51686">juza</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51686" class="dsq-comment-body">
+            <div id="dsq-comment-message-51686" class="dsq-comment-message"><p>Cool, this last version rox! </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51687">
+        <div id="dsq-comment-header-51687" class="dsq-comment-header">
+            <cite id="dsq-cite-51687">
+                <span id="dsq-author-user-51687">Tor2rule</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51687" class="dsq-comment-body">
+            <div id="dsq-comment-message-51687" class="dsq-comment-message"><p>I was 109% sure this was a aprils fool joke I missed! This logo just looks unorofessional guys&#8230;</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51688">
+        <div id="dsq-comment-header-51688" class="dsq-comment-header">
+            <cite id="dsq-cite-51688">
+                <span id="dsq-author-user-51688">Zatta</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51688" class="dsq-comment-body">
+            <div id="dsq-comment-message-51688" class="dsq-comment-message"><p>I like him. He is a mascotte and we&#8217;ll all love over time. Change invokes resistance as we can see in the comments but that will pass by.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51689">
+        <div id="dsq-comment-header-51689" class="dsq-comment-header">
+            <cite id="dsq-cite-51689">
+                <span id="dsq-author-user-51689">Schranzkind</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51689" class="dsq-comment-body">
+            <div id="dsq-comment-message-51689" class="dsq-comment-message"><p>I&#8217;d prefer the uberduck</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51690">
+        <div id="dsq-comment-header-51690" class="dsq-comment-header">
+            <cite id="dsq-cite-51690">
+                <span id="dsq-author-user-51690">Andy</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51690" class="dsq-comment-body">
+            <div id="dsq-comment-message-51690" class="dsq-comment-message"><p>Late aprils fool? It&#8217;s ugly like hell!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51691">
+        <div id="dsq-comment-header-51691" class="dsq-comment-header">
+            <cite id="dsq-cite-51691">
+                <span id="dsq-author-user-51691">Mic</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51691" class="dsq-comment-body">
+            <div id="dsq-comment-message-51691" class="dsq-comment-message"><p>+1: i can see the point about changing the logo, but i don&#8217;t particularly like the cid design. to me, it looks both too menacing and too childish at the same time. do we need a humanoid mascot at all? perhaps a more abstract, typographic logo based on the letters CM or CY would be a better idea? </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51692">
+        <div id="dsq-comment-header-51692" class="dsq-comment-header">
+            <cite id="dsq-cite-51692">
+                <span id="dsq-author-user-51692">Lemmy_winks</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51692" class="dsq-comment-body">
+            <div id="dsq-comment-message-51692" class="dsq-comment-message"><p>I didn&#8217;t like it, then something about the very last, happier image bought me on board. If this was made into a slick boot animation, chances are it would be awesome. As always though, change will always meet resistance, and it&#8217;s those critics who are loudest (but valid none the less). I&#8217;m sure there are plenty who love this.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51693">
+        <div id="dsq-comment-header-51693" class="dsq-comment-header">
+            <cite id="dsq-cite-51693">
+                <span id="dsq-author-user-51693">Guest</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51693" class="dsq-comment-body">
+            <div id="dsq-comment-message-51693" class="dsq-comment-message"><p>It looks terrible! Why change it to something that&#8217;s almost completely unrecognizable? This reminds me of Google changing the name of the &#8220;market&#8221; to &#8220;play store&#8221;. There is no point and might hurt your image/recognition after being so well established.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51694">
+        <div id="dsq-comment-header-51694" class="dsq-comment-header">
+            <cite id="dsq-cite-51694">
+                <span id="dsq-author-user-51694">Dsparil</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51694" class="dsq-comment-body">
+            <div id="dsq-comment-message-51694" class="dsq-comment-message"><p>Keep Cid on the skateboard from the left, but use the round eyes from the one on the right. No need for the new mascot to look pissed off.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51695">
+        <div id="dsq-comment-header-51695" class="dsq-comment-header">
+            <cite id="dsq-cite-51695">
+                <span id="dsq-author-user-51695">OsQar</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51695" class="dsq-comment-body">
+            <div id="dsq-comment-message-51695" class="dsq-comment-message"><p> Just in case you don&#8217;t know, Cid was the nickname of a famous medieval war hero in Spain. Don&#8217;t wanna (and cannot <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  give a History speech (try &#8220;Cid Campeador&#8221; in Wikipedia), but let&#8217;s just state that this name already as a great iconic value for the Spanish people. I don&#8217;t know if this is good or bad for the name selection of the mascot, just wanted to raise the issue.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51696">
+        <div id="dsq-comment-header-51696" class="dsq-comment-header">
+            <cite id="dsq-cite-51696">
+                <span id="dsq-author-user-51696">mauro0x52</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51696" class="dsq-comment-body">
+            <div id="dsq-comment-message-51696" class="dsq-comment-message"><p> I really liked the idea of creating a new maskot to CM, but sincerelly, i didn&#8217;t liked the result&#8230; In my opinion, ir&#8217;s not harmonious, it looks like a teenager and when i look to it i cant associate to CM&#8230;</p>
+<p>Why you didn&#8217;t called a contest? CM has a large number of enthusiasts and I believe many of them are designers (like I am) would like to participate. For free. The crowdsource contest mode for design could bring some really nice results&#8230;.</p>
+<p>I think CM should take the opportunity of having such number of enthusiast to make some nice work.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51697">
+        <div id="dsq-comment-header-51697" class="dsq-comment-header">
+            <cite id="dsq-cite-51697">
+                <span id="dsq-author-user-51697">Asdf</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51697" class="dsq-comment-body">
+            <div id="dsq-comment-message-51697" class="dsq-comment-message"><p>It looks angry and disappointed in me.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51698">
+        <div id="dsq-comment-header-51698" class="dsq-comment-header">
+            <cite id="dsq-cite-51698">
+                <span id="dsq-author-user-51698">Andrew</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51698" class="dsq-comment-body">
+            <div id="dsq-comment-message-51698" class="dsq-comment-message"><p>Wow. That&#8217;s painfully ugly, and certainly doesn&#8217;t reflect maturity. It looks like a13 year old&#8217;s idea of cool. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51699">
+        <div id="dsq-comment-header-51699" class="dsq-comment-header">
+            <cite id="dsq-cite-51699">
+                <span id="dsq-author-user-51699">Camokatu</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51699" class="dsq-comment-body">
+            <div id="dsq-comment-message-51699" class="dsq-comment-message"><p>Why not do a competition and ask community for new mascot design?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51700">
+        <div id="dsq-comment-header-51700" class="dsq-comment-header">
+            <cite id="dsq-cite-51700">
+http://nemchik.com/                <span id="dsq-author-user-51700">Eric Nemchik</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51700" class="dsq-comment-body">
+            <div id="dsq-comment-message-51700" class="dsq-comment-message"><p>I have to agree with the many saying I like the motive, but not the product. I&#8217;m no artist so I&#8217;m not going to nitpic, but I do hope that changes are made.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51701">
+        <div id="dsq-comment-header-51701" class="dsq-comment-header">
+            <cite id="dsq-cite-51701">
+                <span id="dsq-author-user-51701">Where is CM9?</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51701" class="dsq-comment-body">
+            <div id="dsq-comment-message-51701" class="dsq-comment-message"><p>You better work on CM9 guys!! I&#8217;m still waiting -.- I mean you guys are spending your time on designing a new mascott. that&#8217;s stupid.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51702">
+        <div id="dsq-comment-header-51702" class="dsq-comment-header">
+            <cite id="dsq-cite-51702">
+                <span id="dsq-author-user-51702">STEEL</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51702" class="dsq-comment-body">
+            <div id="dsq-comment-message-51702" class="dsq-comment-message"><p>The body seems too big.. Too tall, mostly. I like the circle on the belly, though. Maybe try presenting it in a way that would fit into a square. Would also help with its use in , for instance, avatars. And yeah&#8230; The angry eyes do make him look like a rebellious teenager. Not necessarily a bad thing, of course, but that is the vibe it gives off. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51703">
+        <div id="dsq-comment-header-51703" class="dsq-comment-header">
+            <cite id="dsq-cite-51703">
+                <span id="dsq-author-user-51703">Cyano K</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51703" class="dsq-comment-body">
+            <div id="dsq-comment-message-51703" class="dsq-comment-message"><p>the head is ok, but the body is a sloppy compromise between simpel/abstract and details/naturalism.<br />
+i also liked the bold look of the old arrow. this one is too generic.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51704">
+        <div id="dsq-comment-header-51704" class="dsq-comment-header">
+            <cite id="dsq-cite-51704">
+                <span id="dsq-author-user-51704">solomonsright</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51704" class="dsq-comment-body">
+            <div id="dsq-comment-message-51704" class="dsq-comment-message"><p>I don&#8217;t know about coming c.i.d.? Like (NOW) so many (people have commented, CM has so very many creative people&#8230;.. (I&#8217;m not one of them), but I&#8217;m pretty sure that something more in keeping with CM &#8216;S reputation could have been made. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51705">
+        <div id="dsq-comment-header-51705" class="dsq-comment-header">
+            <cite id="dsq-cite-51705">
+                <span id="dsq-author-user-51705">Tom Burall</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51705" class="dsq-comment-body">
+            <div id="dsq-comment-message-51705" class="dsq-comment-message"><p>Cid? Have you checked the name or near similar names to see if they have &#8216;alternative&#8217; undesirable meanings? Just a quick search gives you Criminal Investigation Dept, Certified Interior Designors, Central Institute for the Deaf, Center for International Development, El Cid, and Cid has become somewhat of a Final Fantasy trademark? Looks like you need another name!<br />
+And if your goal is to be &#8216;more mature&#8217; then IMHO this fails. It looks like some character from some current touchy feely kids show. All you need is to remove the skateboard from the current Andy logo </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51706">
+        <div id="dsq-comment-header-51706" class="dsq-comment-header">
+            <cite id="dsq-cite-51706">
+                <span id="dsq-author-user-51706">acey_zero</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51706" class="dsq-comment-body">
+            <div id="dsq-comment-message-51706" class="dsq-comment-message"><p>I liked Andy, but I&#8217;m cool with the new Cid.</p>
+<p>Only thing is it really feels to me like the circle on his chest should be the iconic Cyanogenmod circle-arrow rather than just a plain arrow.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51707">
+        <div id="dsq-comment-header-51707" class="dsq-comment-header">
+            <cite id="dsq-cite-51707">
+                <span id="dsq-author-user-51707">Ksmistersk</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51707" class="dsq-comment-body">
+            <div id="dsq-comment-message-51707" class="dsq-comment-message"><p>I suppose y&#8217;all are gonna do what you&#8217;re gonna do.  You guy make maxing roms. Period. And honestly, your mascot could be a pink unicorn with Cid riding it and I&#8217;d still use the rom.  More power to ya, cm team.  </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-51708">
+        <div id="dsq-comment-header-51708" class="dsq-comment-header">
+            <cite id="dsq-cite-51708">
+                <span id="dsq-author-user-51708">pslim80</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51708" class="dsq-comment-body">
+            <div id="dsq-comment-message-51708" class="dsq-comment-message"><p>I&#8217;m not liking cid personally. I really didn&#8217;t see a need for change as I like my phone stock and to reflect Google. Andy the google robot represents android as a whole.  Not liking the cid approach or mascot very much.  Almost as bad as the pink unicorn from aokp</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-51709">
+        <div id="dsq-comment-header-51709" class="dsq-comment-header">
+            <cite id="dsq-cite-51709">
+                <span id="dsq-author-user-51709">Glenntkw</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-51709" class="dsq-comment-body">
+            <div id="dsq-comment-message-51709" class="dsq-comment-message"><p>So&#8230; When is the boot screen coming? (: </p>
+</div>
+        </div>
+
+    </li>
+            </ul>
+
+            <div class="navigation">
+                <div class="nav-previous"></div>
+                <div class="nav-next"><a href="http://www.cyanogenmod.org/blog/introducing-cid/comment-page-2#comments" >Newer Comments <span class="meta-nav">&rarr;</span></a></div>
+            </div><!-- .navigation -->
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://www.cyanogenmod.org/blog/introducing-cid';
+    var disqus_identifier = '1663 http://www.cyanogenmod.com/?p=1663';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'cyngn';
+    var disqus_title = "Introducing Cid";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+        config.language = '';
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '?cf_action=sync_comments&post_id=1663';
+
+            var firstScript = document.getElementsByTagName( "script" )[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+        });
+                    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/www.cyanogenmod.org\/blog\/introducing-cid\/trackback"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+</article>
+			</div>
+
+		</div><!-- End Content row -->
+		
+		<aside id="sidebar" class="four columns hide-on-phones" role="complementary">
+	<div class="sidebar-box">
+		<article id="recent-comments-4" class="row widget widget_recent_comments"><div class="sidebar-section twelve columns"><h6><strong>Recent Comments</strong></h6><ul id="recentcomments"><li class="recentcomments">Rakesh Lingechetty on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65376">CyanogenMod 11 M12</a></li><li class="recentcomments">zamarax on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65375">CyanogenMod 11 M12</a></li><li class="recentcomments">Avinash Sailesh on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65374">CyanogenMod 11 M12</a></li><li class="recentcomments">ibrahim biten on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65373">CyanogenMod 11 M12</a></li><li class="recentcomments">ibrahim biten on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65372">CyanogenMod 11 M12</a></li></ul></div></article>	</div>
+</aside><!-- /#sidebar -->		
+		</div><!-- End Main row -->
+		
+		<footer id="content-info" role="contentinfo" class="hide-on-phones" style="margin:40px 0 0 0;">
+			<div class="row">
+				<article id="nav_menu-4" class="three columns widget widget_nav_menu"><div class="footer-section"><h6><strong>Navigation</strong></h6><div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-798"><a href="http://www.cyanogenmod.org/about">About</a></li>
+<li id="menu-item-2403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2403"><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+<li id="menu-item-2404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2404"><a href="http://download.cyanogenmod.org">Download</a></li>
+<li id="menu-item-825" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-825"><a href="/blog">Blog</a></li>
+<li id="menu-item-904" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-904"><a href="http://forum.cyanogenmod.org">Forum</a></li>
+<li id="menu-item-829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-829"><a href="http://www.cyanogenmod.org/community">Community</a></li>
+<li id="menu-item-2405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2405"><a href="https://account.cyanogenmod.org/">Account</a></li>
+<li id="menu-item-2709" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2709"><a href="http://shop.cyanogenmod.org">Shop</a></li>
+</ul></div></div></article><article id="nav_menu-3" class="three columns widget widget_nav_menu"><div class="footer-section"><h6><strong>Social Networks</strong></h6><div class="menu-social-networks-container"><ul id="menu-social-networks" class="menu"><li id="menu-item-2173" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2173"><a href="https://www.facebook.com/CyanogenMod">Facebook</a></li>
+<li id="menu-item-2174" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2174"><a href="https://twitter.com/CyanogenMod">Twitter</a></li>
+<li id="menu-item-2175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2175"><a href="https://plus.google.com/+CyanogenMod/posts">Google+</a></li>
+</ul></div></div></article>                                <article class="three columns widget widget widget_nav_menu">
+                                    <div class="footer-section">
+                                        <h6><strong>Sponsored By</strong></h6>
+                                        <a href="http://twilio.com/?utm_source=cyanogenmod&utm_medium=webbadge&utm_campaign=cyanogenverify" style="text: decoration: none; display: inline-block; width: 166px; height: 0; overflow: hidden; padding-top: 31px; background: url(http://www.twilio.com/packages/company/img/logos_icon_poweredbysmall.png) no-repeat;">powered by twilio™</a>
+                                    </div>
+                                </article>
+			</div>
+		</footer>
+        
+      <div id="navigation" class="row mobile-footer show-on-phones">
+			<div class="twelve columns">
+            	<h6>Navigate cyanogenmod.org</h6>
+            	<ul>
+                	<li><a href="/about">About</a></li>
+                    <!--<li><a href="#">Features</a></li>-->
+                    <li><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+                    <li><a href="http://download.cyanogenmod.org/">Download</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="http://forum.cyanogenmod.org">Forum</a></li>
+                    <li><a href="/community">Community</a></li>  
+                    <li><a href="https://account.cyanogenmod.org">Account</a></li>
+                    <li><a href="http://shop.cyanogenmod.org">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+			
+	</div><!-- Container End -->
+    
+
+	<!-- Included JS Files of Foundation -->
+	<script src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/foundation.js"></script>
+	<script src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/app.js"></script>
+	
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	     chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7]>
+		<script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+		<script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+	
+	<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 11/20 queries in 0.025 seconds using apc
+Object Caching 982/1125 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:16:45 by W3 Total Cache -->

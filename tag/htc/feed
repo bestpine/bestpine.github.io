@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CyanogenMod &#187; htc</title>
+	<atom:link href="http://www.cyanogenmod.org/tag/htc/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Thu, 13 Nov 2014 07:54:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+		<item>
+		<title>CyanogenMod 4.1.99</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-99</link>
+		<comments>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-99#comments</comments>
+		<pubDate>Mon, 05 Oct 2009 01:13:33 +0000</pubDate>
+		<dc:creator>Steve Kondik</dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[4.1.99]]></category>
+		<category><![CDATA[htc]]></category>
+		<category><![CDATA[Rom]]></category>
+
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-1-99</guid>
+		<description><![CDATA[<p>Finally now that the dust has settled.. The installation process is slightly more complicated the first time around, and you&#8217;ll need to agree and understand HTC&#8217;s licensing terms.</p> <p>No CM Updater support just yet, but that&#8217;s next.</p> <p>Check out my thread on XDA for the scoop: <a href="http://forum.xda-developers.com/showthread.php?t=567610">http://forum.xda-developers.com/showthread.php?t=567610</a></p>]]></description>
+				<content:encoded><![CDATA[<p>Finally now that the dust has settled..  The installation process is slightly more complicated the first time around, and you&#8217;ll need to agree and understand HTC&#8217;s licensing terms.</p>
+<p>No CM Updater support just yet, but that&#8217;s next.</p>
+<p>Check out my thread on XDA for the scoop:<br />
+<a href="http://forum.xda-developers.com/showthread.php?t=567610">http://forum.xda-developers.com/showthread.php?t=567610</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.cyanogenmod.org/blog/cyanogenmod-4-1-99/feed</wfw:commentRss>
+		<slash:comments>64</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/6 queries in 0.022 seconds using apc
+Object Caching 215/217 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:19:20 by W3 Total Cache -->

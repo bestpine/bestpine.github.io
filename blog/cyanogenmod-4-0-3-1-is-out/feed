@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: CyanogenMod 4.0.3.1 is out!</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/cyanogenmod-4-0-3-1-is-out/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-0-3-1-is-out</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: Yonatan</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-0-3-1-is-out/comment-page-1#comment-325</link>
+		<dc:creator>Yonatan</dc:creator>
+		<pubDate>Fri, 11 Sep 2009 13:12:15 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-0-3-1-is-out#comment-325</guid>
+		<description><![CDATA[Any news on flash support for Android???]]></description>
+		<content:encoded><![CDATA[<p>Any news on flash support for Android???</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Robert</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-0-3-1-is-out/comment-page-1#comment-194</link>
+		<dc:creator>Robert</dc:creator>
+		<pubDate>Sat, 05 Sep 2009 17:44:51 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-0-3-1-is-out#comment-194</guid>
+		<description><![CDATA[I rebooted my system after it showed &quot;Writing Boot&quot;...(because I had a backup! ;) ) and everything worked just fine...]]></description>
+		<content:encoded><![CDATA[<p>I rebooted my system after it showed &#8220;Writing Boot&#8221;&#8230;(because I had a backup! <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' />  ) and everything worked just fine&#8230;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Aaron</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-0-3-1-is-out/comment-page-1#comment-191</link>
+		<dc:creator>Aaron</dc:creator>
+		<pubDate>Sat, 05 Sep 2009 14:44:03 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-0-3-1-is-out#comment-191</guid>
+		<description><![CDATA[I downloaded the update on the CM Updater but now it keeps saying no MD5 file found.. does anyone know where I can find this.?]]></description>
+		<content:encoded><![CDATA[<p>I downloaded the update on the CM Updater but now it keeps saying no MD5 file found.. does anyone know where I can find this.?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: wa41085</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-0-3-1-is-out/comment-page-1#comment-145</link>
+		<dc:creator>wa41085</dc:creator>
+		<pubDate>Mon, 31 Aug 2009 15:41:15 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-0-3-1-is-out#comment-145</guid>
+		<description><![CDATA[I have the same issue where my phone is sitting at &quot;Writing BOOT:…&quot;
+
+It&#039;s been around 10 minutes.]]></description>
+		<content:encoded><![CDATA[<p>I have the same issue where my phone is sitting at &#8220;Writing BOOT:…&#8221;</p>
+<p>It&#8217;s been around 10 minutes.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Andrew</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-0-3-1-is-out/comment-page-1#comment-96</link>
+		<dc:creator>Andrew</dc:creator>
+		<pubDate>Sat, 29 Aug 2009 06:05:30 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-0-3-1-is-out#comment-96</guid>
+		<description><![CDATA[Truly love your work, keep it up!]]></description>
+		<content:encoded><![CDATA[<p>Truly love your work, keep it up!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: roidrage</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-0-3-1-is-out/comment-page-1#comment-89</link>
+		<dc:creator>roidrage</dc:creator>
+		<pubDate>Sat, 29 Aug 2009 02:13:08 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-0-3-1-is-out#comment-89</guid>
+		<description><![CDATA[so i do everything reboot than i get big triangle with ! press ALT L than i get can&#039;t mount SDCARD:cm-updates/update......zip installation aborted. 
+help please
+thank you]]></description>
+		<content:encoded><![CDATA[<p>so i do everything reboot than i get big triangle with ! press ALT L than i get can&#8217;t mount SDCARD:cm-updates/update&#8230;&#8230;zip installation aborted.<br />
+help please<br />
+thank you</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Matt</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-0-3-1-is-out/comment-page-1#comment-88</link>
+		<dc:creator>Matt</dc:creator>
+		<pubDate>Sat, 29 Aug 2009 00:01:11 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-0-3-1-is-out#comment-88</guid>
+		<description><![CDATA[Hi,
+
+My wife is trying to install the Japanese IME using the directions on this page:
+
+http://my.opera.com/wiz/blog/2009/06/16/how-to-install-japanese-ime-on-android
+
+but no luck so far - has anyone else successfully done this with the Cyanogen ROM?
+
+BTW: Thanks Cyanogen for a great product - lets buy this man a beer!
+
+-Matt]]></description>
+		<content:encoded><![CDATA[<p>Hi,</p>
+<p>My wife is trying to install the Japanese IME using the directions on this page:</p>
+<p><a href="http://my.opera.com/wiz/blog/2009/06/16/how-to-install-japanese-ime-on-android" rel="nofollow">http://my.opera.com/wiz/blog/2009/06/16/how-to-install-japanese-ime-on-android</a></p>
+<p>but no luck so far &#8211; has anyone else successfully done this with the Cyanogen ROM?</p>
+<p>BTW: Thanks Cyanogen for a great product &#8211; lets buy this man a beer!</p>
+<p>-Matt</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: digi594</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-0-3-1-is-out/comment-page-1#comment-86</link>
+		<dc:creator>digi594</dc:creator>
+		<pubDate>Fri, 28 Aug 2009 21:33:17 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-0-3-1-is-out#comment-86</guid>
+		<description><![CDATA[Just wanted to drop aline and say thanks for the hard work!]]></description>
+		<content:encoded><![CDATA[<p>Just wanted to drop aline and say thanks for the hard work!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Syed Hashmi</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-0-3-1-is-out/comment-page-1#comment-84</link>
+		<dc:creator>Syed Hashmi</dc:creator>
+		<pubDate>Fri, 28 Aug 2009 21:11:48 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-0-3-1-is-out#comment-84</guid>
+		<description><![CDATA[Is there a way to keep the theme n update too?]]></description>
+		<content:encoded><![CDATA[<p>Is there a way to keep the theme n update too?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Mezzy</title>
+		<link>http://www.cyanogenmod.org/blog/cyanogenmod-4-0-3-1-is-out/comment-page-1#comment-79</link>
+		<dc:creator>Mezzy</dc:creator>
+		<pubDate>Fri, 28 Aug 2009 19:33:26 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/cyanogenmod-4-0-3-1-is-out#comment-79</guid>
+		<description><![CDATA[nvm im noticed its downloading more files probably need the next 3 to update lol.]]></description>
+		<content:encoded><![CDATA[<p>nvm im noticed its downloading more files probably need the next 3 to update lol.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/17 queries in 0.032 seconds using apc
+Object Caching 355/357 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:16:11 by W3 Total Cache -->

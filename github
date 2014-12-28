@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    
+    
+    <title>CyanogenMod · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      
+<meta content="GitHub" property="og:site_name" /><meta content="profile" property="og:type" /><meta content="https://avatars1.githubusercontent.com/u/317721?v=3&amp;s=280" property="og:image" /><meta content="CyanogenMod" property="og:title" /><meta content="https://github.com/CyanogenMod" property="og:url" /><meta content="CyanogenMod" property="profile:username" />
+
+      <meta name="browser-stats-url" content="/_stats">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="/CyanogenMod" data-pjax-transient>
+      <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="DA90665B:3912:E9E9378:549FBA9E" name="octolytics-dimension-request_id" />
+    
+    <meta content="Rails, view, users#show" name="analytics-event" />
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="TNGR10rCq8XWHUA7OmUbI2EoknPEESy+VoIb56N1Pf7PMXfP0Q5ZQp55GzgyJRj40HQNZSpfW7K2jM/4kiAwSQ==" name="csrf-token" />
+
+    <link href="https://assets-cdn.github.com/assets/github-9bcf5def7eb44e2a101b20aaecf3707f4b0a10ab8f4d6eebec29371f821c4b29.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://assets-cdn.github.com/assets/github2-988ddda9ae733ab44f308db199cb53eb70c7d0197679297459104380a8d923b3.css" media="all" rel="stylesheet" type="text/css" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="8adfdb5fdc7bd044b4c0142729d0410c">
+
+      <meta name="description" content="Build software better, together.">
+  </head>
+
+
+  <body class="logged_out  env-production   org">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      
+      <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" ga-data-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="button primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="button" href="/login?return_to=%2FCyanogenMod" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search  js-site-search" role="search">
+      <form accept-charset="UTF-8" action="/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <input type="text"
+    class=""
+    data-hotkey="s"
+    name="q"
+    placeholder="Search GitHub"
+    data-global-scope-placeholder="Search GitHub"
+    data-repo-scope-placeholder="Search"
+    tabindex="1"
+    autocapitalize="off">
+  <div class="scope-badge">This repository</div>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/blog" data-ga-click="(Logged out) Header, go to blog, text:blog">Blog</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+        <div class="site clearfix" role="main">
+          <div id="site-container" class="context-loader-container" data-pjax-container>
+            
+            
+
+  
+
+  <div itemscope itemtype="http://schema.org/Organization">
+
+    
+<header class="org-header">
+  <div class="container">
+
+    <div class="org-header-wrapper">
+      <img alt="CyanogenMod" class="avatar" data-user="317721" height="100" itemprop="image" src="https://avatars1.githubusercontent.com/u/317721?v=3&amp;s=200" width="100" />
+      <div class="org-header-info">
+        <h1 class="org-name">
+          <span class="js-username" data-name="CyanogenMod">CyanogenMod</span>
+        </h1>
+          <ul class="org-header-meta has-blog">
+              <li class="meta-item">
+                <span class="octicon octicon-link"></span>
+                <a href="http://www.cyanogenmod.com/" class="meta-link" itemprop="url" title="http://www.cyanogenmod.com/">http://www.cyanogenmod.com/</a>
+              </li>
+          </ul>
+    </div>
+  </div>
+</header><!-- /.org-header -->
+
+
+    <div class="container">
+      <div class="org-main">
+
+          <div class="subnav subnav-bordered subnav-flush org-toolbar">
+            <div class="subnav-search-context select-menu left js-menu-container js-select-menu">
+              <button class="button select-menu-button js-menu-target" type="button" aria-haspopup="true">
+                Filters
+              </button>
+                <div class="select-menu-modal-holder js-menu-content js-navigation-container" id="repository-search-filters">
+                  <div class="select-menu-modal">
+                    <div class="select-menu-list">
+                      <div class="select-menu-item js-navigation-item js-repo-search-filter" data-filter="only:sources" data-negate="only:forks">
+                        <span class="select-menu-item-icon octicon octicon-code"></span>
+                        <div class="select-menu-item-text">
+                          Sources
+                        </div>
+                      </div>
+                      <div class="select-menu-item js-navigation-item js-repo-search-filter" data-filter="only:forks" data-negate="only:sources">
+                        <span class="select-menu-item-icon octicon octicon-repo-forked"></span>
+                        <div class="select-menu-item-text">
+                          Forks
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <form class="subnav-search left" action="/CyanogenMod" data-results-container="org-repositories">
+              <div class="auto-search-group">
+                <input  class="subnav-search-input input-contrast auto-search-input js-repo-filter-field js-autosearch-field" type="text" name="query" value=""
+                  placeholder="Find a repository…"
+                  autocomplete="off"
+                  data-filter-dropdown="repository-search-filters"
+                  data-host="github.com"
+                  data-org="CyanogenMod">
+                <span class="octicon octicon-search"></span>
+                <img class="spinner" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" alt="">
+              </div>
+            </form>
+          </div>
+        <div class="org-repos repo-list context-loader-container" id="org-repositories" data-pjax-container>
+            
+<div class="context-loader large-format-loader">
+  <p><img alt="" height="64" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" width="64" /></p>
+  <p>Loading…</p>
+</div>
+
+
+  
+
+  <div class="repo-list-item public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          C++
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_samsung_jf-common/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        8
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_samsung_jf-common/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        104
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_device_samsung_jf-common" itemprop="name codeRepository">
+        android_device_samsung_jf-common</a>
+    </h3>
+
+
+
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-28T07:36:56Z" is="relative-time">Dec 28, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_device_samsung_jf-common/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          C++
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_samsung_hlte-common/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        1
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_samsung_hlte-common/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        33
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_device_samsung_hlte-common" itemprop="name codeRepository">
+        android_device_samsung_hlte-common</a>
+    </h3>
+
+
+
+      <p class="repo-list-description" itemprop="description">
+        Samsung Galaxy Note 3 common repository
+      </p>
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-28T07:33:12Z" is="relative-time">Dec 28, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_device_samsung_hlte-common/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          Java
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_packages_apps_Settings/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        40
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_packages_apps_Settings/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        602
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_packages_apps_Settings" itemprop="name codeRepository">
+        android_packages_apps_Settings</a>
+    </h3>
+
+
+
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-28T07:32:53Z" is="relative-time">Dec 28, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_packages_apps_Settings/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          C++
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_samsung_msm8960-common/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        7
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_samsung_msm8960-common/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        115
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_device_samsung_msm8960-common" itemprop="name codeRepository">
+        android_device_samsung_msm8960-common</a>
+    </h3>
+
+
+
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-28T06:55:11Z" is="relative-time">Dec 28, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_device_samsung_msm8960-common/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          C++
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_samsung_d2-common/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        26
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_samsung_d2-common/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        142
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_device_samsung_d2-common" itemprop="name codeRepository">
+        android_device_samsung_d2-common</a>
+    </h3>
+
+
+
+      <p class="repo-list-description" itemprop="description">
+        Common configuration for Samsung D2 hardware (USA Galaxy S3)
+      </p>
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-28T06:43:33Z" is="relative-time">Dec 28, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_device_samsung_d2-common/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public fork" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          C
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_hardware_atheros_wlan/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        3
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_hardware_atheros_wlan/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        44
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_hardware_atheros_wlan" itemprop="name codeRepository">
+        android_hardware_atheros_wlan</a>
+    </h3>
+
+      <p class="repo-list-info">
+        <span class="octicon octicon-repo-forked"></span>
+        forked from <a href="/TouchpadCM/android_hardware_atheros_wlan">TouchpadCM/android_hardware_atheros_wlan</a>
+      </p>
+
+
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-28T04:56:41Z" is="relative-time">Dec 28, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_hardware_atheros_wlan/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public fork" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          C++
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_htc_dlx/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        1
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_htc_dlx/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        41
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_device_htc_dlx" itemprop="name codeRepository">
+        android_device_htc_dlx</a>
+    </h3>
+
+      <p class="repo-list-info">
+        <span class="octicon octicon-repo-forked"></span>
+        forked from <a href="/utkanos/android_device_htc_dlx">utkanos/android_device_htc_dlx</a>
+      </p>
+
+
+      <p class="repo-list-description" itemprop="description">
+        Barebones WIP cwmr port for HTC Droid DNA (dlx)
+      </p>
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-28T04:45:14Z" is="relative-time">Dec 28, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_device_htc_dlx/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          C
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_htc_m8/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        20
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_htc_m8/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        70
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_device_htc_m8" itemprop="name codeRepository">
+        android_device_htc_m8</a>
+    </h3>
+
+
+
+      <p class="repo-list-description" itemprop="description">
+        HTC One 2014 (m8)
+      </p>
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-28T04:45:10Z" is="relative-time">Dec 28, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_device_htc_m8/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          Makefile
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_lge_ls990/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        4
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_lge_ls990/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        10
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_device_lge_ls990" itemprop="name codeRepository">
+        android_device_lge_ls990</a>
+    </h3>
+
+
+
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-28T04:44:49Z" is="relative-time">Dec 28, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_device_lge_ls990/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          Makefile
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_lge_d851/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        0
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_lge_d851/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        14
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_device_lge_d851" itemprop="name codeRepository">
+        android_device_lge_d851</a>
+    </h3>
+
+
+
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-28T04:44:44Z" is="relative-time">Dec 28, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_device_lge_d851/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          Makefile
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_lge_d850/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        0
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_lge_d850/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        11
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_device_lge_d850" itemprop="name codeRepository">
+        android_device_lge_d850</a>
+    </h3>
+
+
+
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-28T04:44:43Z" is="relative-time">Dec 28, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_device_lge_d850/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          C++
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_lge_g3-common/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        3
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_lge_g3-common/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        32
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_device_lge_g3-common" itemprop="name codeRepository">
+        android_device_lge_g3-common</a>
+    </h3>
+
+
+
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-28T04:44:43Z" is="relative-time">Dec 28, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_device_lge_g3-common/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          Makefile
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_lge_vs985/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        2
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_lge_vs985/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        15
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_device_lge_vs985" itemprop="name codeRepository">
+        android_device_lge_vs985</a>
+    </h3>
+
+
+
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-28T04:44:41Z" is="relative-time">Dec 28, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_device_lge_vs985/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public fork" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          C
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_kernel_asus_tf701t/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        0
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_kernel_asus_tf701t/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        8
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_kernel_asus_tf701t" itemprop="name codeRepository">
+        android_kernel_asus_tf701t</a>
+    </h3>
+
+      <p class="repo-list-info">
+        <span class="octicon octicon-repo-forked"></span>
+        forked from <a href="/pershoot/android_kernel_asus_tf701t">pershoot/android_kernel_asus_tf701t</a>
+      </p>
+
+
+      <p class="repo-list-description" itemprop="description">
+        Kernel - TF701T
+      </p>
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-28T03:07:40Z" is="relative-time">Dec 28, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_kernel_asus_tf701t/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public fork" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          Java
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_asus_tf701t/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        2
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_asus_tf701t/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        11
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_device_asus_tf701t" itemprop="name codeRepository">
+        android_device_asus_tf701t</a>
+    </h3>
+
+      <p class="repo-list-info">
+        <span class="octicon octicon-repo-forked"></span>
+        forked from <a href="/pershoot/android_device_asus_tf701t">pershoot/android_device_asus_tf701t</a>
+      </p>
+
+
+      <p class="repo-list-description" itemprop="description">
+        Device - TF701T
+      </p>
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-28T03:07:35Z" is="relative-time">Dec 28, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_device_asus_tf701t/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public fork" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          C
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_kernel_samsung_d2/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        51
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_kernel_samsung_d2/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        236
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_kernel_samsung_d2" itemprop="name codeRepository">
+        android_kernel_samsung_d2</a>
+    </h3>
+
+      <p class="repo-list-info">
+        <span class="octicon octicon-repo-forked"></span>
+        forked from <a href="/mkasick/android_kernel_samsung_d2spr">mkasick/android_kernel_samsung_d2spr</a>
+      </p>
+
+
+      <p class="repo-list-description" itemprop="description">
+        Galaxy S III kernel with kexec functionality.
+      </p>
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-28T02:55:48Z" is="relative-time">Dec 28, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_kernel_samsung_d2/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          Java
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_frameworks_base/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        215
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_frameworks_base/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        781
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_frameworks_base" itemprop="name codeRepository">
+        android_frameworks_base</a>
+    </h3>
+
+
+
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-28T01:46:03Z" is="relative-time">Dec 28, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_frameworks_base/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          C++
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_samsung_qcom-common/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        10
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_device_samsung_qcom-common/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        178
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_device_samsung_qcom-common" itemprop="name codeRepository">
+        android_device_samsung_qcom-common</a>
+    </h3>
+
+
+
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-27T23:56:44Z" is="relative-time">Dec 27, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_device_samsung_qcom-common/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          C
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_kernel_htc_msm8960/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        28
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_kernel_htc_msm8960/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        160
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_kernel_htc_msm8960" itemprop="name codeRepository">
+        android_kernel_htc_msm8960</a>
+    </h3>
+
+
+
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-27T23:50:33Z" is="relative-time">Dec 27, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_kernel_htc_msm8960/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+  
+
+  <div class="repo-list-item public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="repo-list-stats">
+        <span itemprop="programmingLanguage">
+          C
+        </span>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_hardware_samsung/stargazers" aria-label="Stargazers">
+        <span class="octicon octicon-star"></span>
+        47
+      </a>
+      <a class="repo-list-stat-item tooltipped tooltipped-s" href="/CyanogenMod/android_hardware_samsung/network"  aria-label="Forks">
+        <span class="octicon octicon-git-branch"></span>
+        254
+      </a>
+    </div>
+
+    <h3 class="repo-list-name">
+      <a href="/CyanogenMod/android_hardware_samsung" itemprop="name codeRepository">
+        android_hardware_samsung</a>
+    </h3>
+
+
+
+
+    <p class="repo-list-meta">
+        Updated <time datetime="2014-12-27T23:32:01Z" is="relative-time">Dec 27, 2014</time>
+    </p>
+
+    <div class="participation-graph">
+      <canvas class="js-participation-graph bars" data-color-all="#f8f8f8" data-color-owner="#dedede" data-source="/CyanogenMod/android_hardware_samsung/graphs/owner_participation" width="640" height="100"></canvas>
+    </div>
+  </div>
+
+
+
+<div class="paginate-container" data-pjax>
+  <div class="pagination"><span class="previous_page disabled">Previous</span> <em class="current">1</em> <a rel="next" href="/CyanogenMod?page=2">2</a> <a href="/CyanogenMod?page=3">3</a> <a href="/CyanogenMod?page=4">4</a> <a href="/CyanogenMod?page=5">5</a> <span class="gap">&hellip;</span> <a href="/CyanogenMod?page=59">59</a> <a href="/CyanogenMod?page=60">60</a> <a class="next_page" rel="next" href="/CyanogenMod?page=2">Next</a></div>
+</div>
+
+
+        </div>
+      </div>
+
+      <div class="org-sidebar">
+          <div class="org-module simple-box">
+            <h3 class="org-module-title org-members-title">
+              <a class="org-module-link" href="/orgs/CyanogenMod/people">
+                <span class="org-stats">
+                  100
+                  <span class="octicon octicon-chevron-right"></span>
+                </span>
+                People
+              </a>
+            </h3>
+            <div class="member-avatar-group">
+                  <a href="/AdFad666" class="member-avatar tooltipped tooltipped-s" aria-label="AdFad666">
+                    <img alt="Adam Farden" class="avatar" data-user="1012095" height="60" src="https://avatars3.githubusercontent.com/u/1012095?v=3&amp;s=120" width="60" />
+                  </a>
+                  <a href="/adneal" class="member-avatar tooltipped tooltipped-s" aria-label="adneal">
+                    <img alt="Andrew" class="avatar" data-user="489364" height="60" src="https://avatars3.githubusercontent.com/u/489364?v=3&amp;s=120" width="60" />
+                  </a>
+                  <a href="/alankila" class="member-avatar tooltipped tooltipped-s" aria-label="alankila">
+                    <img alt="Antti S. Lankila" class="avatar" data-user="350715" height="60" src="https://avatars3.githubusercontent.com/u/350715?v=3&amp;s=120" width="60" />
+                  </a>
+                  <a href="/aleho" class="member-avatar tooltipped tooltipped-s" aria-label="aleho">
+                    <img alt="Alexander Hofbauer" class="avatar" data-user="138721" height="60" src="https://avatars2.githubusercontent.com/u/138721?v=3&amp;s=120" width="60" />
+                  </a>
+                  <a href="/atinm" class="member-avatar tooltipped tooltipped-s" aria-label="atinm">
+                    <img alt="Atin M" class="avatar" data-user="342736" height="60" src="https://avatars0.githubusercontent.com/u/342736?v=3&amp;s=120" width="60" />
+                  </a>
+                  <a href="/attn1" class="member-avatar tooltipped tooltipped-s" aria-label="attn1">
+                    <img alt="attn1" class="avatar" data-user="331990" height="60" src="https://avatars3.githubusercontent.com/u/331990?v=3&amp;s=120" width="60" />
+                  </a>
+                  <a href="/Bazar6" class="member-avatar tooltipped tooltipped-s" aria-label="Bazar6">
+                    <img alt="Bazar6" class="avatar" data-user="976960" height="60" src="https://avatars1.githubusercontent.com/u/976960?v=3&amp;s=120" width="60" />
+                  </a>
+                  <a href="/bbelos" class="member-avatar tooltipped tooltipped-s" aria-label="bbelos">
+                    <img alt="Brian Beloshapka" class="avatar" data-user="1158285" height="60" src="https://avatars2.githubusercontent.com/u/1158285?v=3&amp;s=120" width="60" />
+                  </a>
+                  <a href="/bekriebel" class="member-avatar tooltipped tooltipped-s" aria-label="bekriebel">
+                    <img alt="Brint E. Kriebel" class="avatar" data-user="183779" height="60" src="https://avatars0.githubusercontent.com/u/183779?v=3&amp;s=120" width="60" />
+                  </a>
+                  <a href="/Bin4ry" class="member-avatar tooltipped tooltipped-s" aria-label="Bin4ry">
+                    <img alt="Bin4ry" class="avatar" data-user="680492" height="60" src="https://avatars2.githubusercontent.com/u/680492?v=3&amp;s=120" width="60" />
+                  </a>
+                  <a href="/bingee" class="member-avatar tooltipped tooltipped-s" aria-label="bingee">
+                    <img alt="Benji Hertel" class="avatar" data-user="81545" height="60" src="https://avatars3.githubusercontent.com/u/81545?v=3&amp;s=120" width="60" />
+                  </a>
+                  <a href="/blunden" class="member-avatar tooltipped tooltipped-s" aria-label="blunden">
+                    <img alt="blunden" class="avatar" data-user="249915" height="60" src="https://avatars2.githubusercontent.com/u/249915?v=3&amp;s=120" width="60" />
+                  </a>
+                  <a href="/bukington" class="member-avatar tooltipped tooltipped-s" aria-label="bukington">
+                    <img alt="Michaël Burtin" class="avatar" data-user="318923" height="60" src="https://avatars1.githubusercontent.com/u/318923?v=3&amp;s=120" width="60" />
+                  </a>
+                  <a href="/burnsra" class="member-avatar tooltipped tooltipped-s" aria-label="burnsra">
+                    <img alt="Robert Burns" class="avatar" data-user="171054" height="60" src="https://avatars0.githubusercontent.com/u/171054?v=3&amp;s=120" width="60" />
+                  </a>
+                  <a href="/BuzzBumbleBee" class="member-avatar tooltipped tooltipped-s" aria-label="BuzzBumbleBee">
+                    <img alt="BuzzBumbleBee" class="avatar" data-user="484334" height="60" src="https://avatars0.githubusercontent.com/u/484334?v=3&amp;s=120" width="60" />
+                  </a>
+                  <a href="/caseykelso" class="member-avatar tooltipped tooltipped-s" aria-label="caseykelso">
+                    <img alt="Casey Kelso" class="avatar" data-user="7013660" height="60" src="https://avatars3.githubusercontent.com/u/7013660?v=3&amp;s=120" width="60" />
+                  </a>
+            </div>
+          </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+          </div>
+          <div class="modal-backdrop"></div>
+        </div>
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="https://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2014 <span title="0.06825s from github-fe138-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder=""></textarea>
+      <div class="suggester-container">
+        <div class="suggester fullscreen-suggester js-suggester js-navigation-container"></div>
+      </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-fc447938e306b7b2c26a33cfee9dfda9052aeb1aa6ad84b72f1b35fd008efe9e.js" type="text/javascript"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-56c56f7fe2ed90ca50b9eefebccd56f3b9729a85d7ba17f0f9c9ebd02f20a7e3.js" type="text/javascript"></script>
+      
+      
+  </body>
+</html>

@@ -1,0 +1,1020 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+
+	<title>CyanogenMod-4.2.8 | CyanogenMod</title>
+	
+	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<!-- Included Foundation CSS Files -->
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/foundation.css">
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/app.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/tipTip.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/fonts/style.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/flexslider.css" type="text/css" media="screen" />
+	
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/style.css">
+	
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/ie.css">
+	<![endif]-->
+	
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Favicon and Feed -->
+	<link rel="shortcut icon" type="image/png" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="CyanogenMod Feed" href="http://www.cyanogenmod.org/feed/">
+	
+	<!--  iPhone Web App Home Screen Icon -->
+	<link rel="apple-touch-icon" sizes="72x72" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon-retina.png" />
+	<link rel="apple-touch-icon" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon.png" />
+	
+	<!-- Enable Startup Image for iOS Home Screen Web App -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/mobile-load.png" />
+
+	<!-- Startup Image iPad Landscape (748x1024) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load-ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" />
+	<!-- Startup Image iPad Portrait (768x1004) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load-ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" />
+	<!-- Startup Image iPhone (320x460) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load.png" media="screen and (max-device-width: 320px)" />
+	
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.jparallax.min.js" ></script>
+  <script defer type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.featureList-1.0.0.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.tipTip.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/easySlider1.7.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/modernizr.foundation.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.flexslider-min.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/custom.js"></script>
+  
+  <script type="text/javascript">
+    $(document).load(function(){
+
+	  // The slider being synced must be initialized first
+	  $('.flexslider').flexslider({
+		animation: "slide",
+		controlNav: false,
+	  });
+	  
+    });
+  </script>
+  
+  	<link rel="alternate" type="application/rss+xml" title="CyanogenMod &raquo; CyanogenMod-4.2.8 Comments Feed" href="http://www.cyanogenmod.org/blog/cyanogenmod-4-2-8/feed" />
+<script type='text/javascript' src='http://www.cyanogenmod.org/wp-includes/js/comment-reply.min.js?ver=3.5.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.cyanogenmod.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.cyanogenmod.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='CyanogenMod-4.2.7' href='http://www.cyanogenmod.org/blog/cyanogenmod-4-2-7' />
+<link rel='next' title='CyanogenMod-4.2.9' href='http://www.cyanogenmod.org/blog/cyanogenmod-4-2-9' />
+<meta name="generator" content="WordPress 3.5.2" />
+<link rel='shortlink' href='http://www.cyanogenmod.org/?p=515' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<!-- All in One SEO Pack 2.0.2 by Michael Torbert of Semper Fi Web Design[493,519] -->
+<meta name="description" content="New release is up and available with CM Updater. This build contains lots of bugfixes and some new visual elements as well as better performance! XDA" />
+
+<link rel="canonical" href="http://www.cyanogenmod.org/blog/cyanogenmod-4-2-8" />
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-39737599-3']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+<!-- /all in one seo pack -->
+</head>
+
+<body class="single single-post postid-515 single-format-standard">
+
+	<div class="menusto hide-on-phones"></div>
+	<!-- Start the main container -->
+	<div id="container" class="container" role="document" style="padding:80px 0 0 0;">
+		
+        
+        <div class="row mobile-header show-on-phones">
+            <div class="nine">
+            	<a href="http://www.cyanogenmod.org" title="CyanogenMod" class="logo-mobile"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/logo-mobile.png" alt=""/></a>
+            </div>
+            <a href="#navigation" class="mobile-menu"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/btn-menu-mobile.png" alt=""/></a>
+        </div>
+        
+		<!-- Row for blog navigation -->
+		<div class="row hide-on-phones">
+			<header class="twelve columns" role="banner">
+				<div class="reverie-header">
+                	<a href="http://www.cyanogenmod.org" title="CyanogenMod" class="logo"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/logo.png" alt=""/></a>
+                    <div id="glavno" class="nav hide-on-phones">
+                        <ul id="glavno">                   
+                            <li><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+                            <!--<li><a href="http://cyanogenmod.org/about/features">Features</a></li>-->
+                            <li><a href="http://download.cyanogenmod.org/">Download</a></li>
+                            <li><a href="http://www.cyanogenmod.org/blog/">Blog</a></li>
+                            <li><a href="http://forum.cyanogenmod.org/">Forum</a></li>
+                            <li>
+                            	<a href="http://www.cyanogenmod.org/community">Community</a>
+                                <div style="opacity: 0; display: none; width:100%" class="sub">
+                                    <ul>
+                                    	<div style="width:980px; margin:0 auto; color:#fff;">
+                                        	<div class="contributesub">
+                                            	<h2>Contribute</h2>
+                                                
+                                                <h4><a href="http://review.cyanogenmod.org/">Gerrit Review</a></h4>
+                                                <p>Gerrit is a web based code review system, facilitating online code reviews for projects using the Git version control system.</p>
+                                                    
+                                                <h4><a href="http://wiki.cyanogenmod.org/">Wiki</a></h4>
+                                                <p>Our Wiki is a comprehensive tool for users to find information. This also needs contributions to keep it fresh and relevant.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/community">Join The Team</a></h4>
+                                                <p>We love working with others. You can submit code via Gerrit. If you think there is something else you can help with, get in touch with us on the forums.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub">
+                                            	<h2>Help</h2>
+                                                
+                                                <h4><a href="http://forum.cyanogenmod.org/">Forum</a></h4>
+                                                <p>Our forums have a wealth of knowledge and resources. All of it is free and accessible from both your desktop and mobile phone.</p>
+                                                    
+                                                <h4><a href="irc://irc.freenode.net/cyanogenmod">IRC</a></h4>
+                                                <p>If you are comfortable with IRC and would like instant help and assistance from both developers and others users alike.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/blog">Blog</a></h4>
+                                                <p>Our blogs will contain the latest news and releases as well as other related news concerning the distribution.</p>
+                                                    
+                                                <h4><a href="http://wiki.cyanogenmod.org/">Wiki</a></h4>
+                                                <p>Our Wiki is a comprehensive tool for users to find information. This also needs contributions to keep it fresh and relevant.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub">
+                                            	<h2>Information</h2>
+                                                
+                                                <h4><a href="http://www.cyanogenmod.org/changelog">Change Log</a></h4>
+                                                <p>Our development of the ROM is always changing. We add new features and fix bugs all the time. Check the latest change log here.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/bugs">Bug Tracker</a></h4>
+                                                <p>This is the official Bug Tracker where you can submit and review bugs that users may experience.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/github">Github Repo</a></h4>
+                                                <p>Our source is free and open. you can check the Github page to see what we do and how you can contribute.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/stats">Installation Statistics</a></h4>
+                                                <p>We have an opt-in feature in our ROMS to enable us to gain statistics on users as well as devices used.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub last">
+                                            	<h2>Support</h2>
+                                                
+                                                <h4><a href="/cdn-cgi/l/email-protection#2145445753444d614258404f4e46444f4c4e450f4e5346">Developer Relations</a></h4>
+                                                <p>If you wish to contact us regarding development contributions, please do so here.</p>
+                                                    
+                                                <h4><a href="/cdn-cgi/l/email-protection#87e6e3eaeee9c7e4fee6e9e8e0e2e9eae8e3a9e8f5e0">Website Support</a></h4>
+                                                <p>This email is dedicated to website, forum, wiki and hosting support. We will not respond to ROM support.</p>
+                                                    
+                                                <h4><a href="/cdn-cgi/l/email-protection#9ffefbf2f6f1dffce6fef1f0f8faf1f2f0fbb1f0edf8">Social Network</a></h4>
+                                                <p>To contact us in relation to our Social media structure.</p>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                    
+                                </div>
+                            </li>
+                            <li><a href="https://account.cyanogenmod.org">Account</a></li>
+                      </ul>
+                    </div>
+				</div>
+
+			</header>
+		</div>
+
+		
+		<!-- Row for main content area -->
+		<div id="main" class="row">
+		<!-- Row for main content area -->
+		<div id="content" class="eight columns" role="main">
+	
+			<div class="post-box">
+					<article class="post-515 post type-post status-publish format-standard hentry category-blog" id="post-515">
+		<header>
+        	<time class="updated" datetime="2009-12-13T05:17:18+00:00" pubdate>December 13th, 2009 &bull; Written by <a href="http://www.cyanogenmod.org/author/cyanogen" rel="author" class="fn">Steve Kondik</a></time>        	<h2 class="entry-title">CyanogenMod-4.2.8</h2>
+					</header>
+		<div class="entry-content">
+			<p>New release is up and available with CM Updater.  This build contains lots of bugfixes and some new visual elements as well as better performance!</p>
+<p><a href="http://forum.xda-developers.com/showthread.php?t=567610">XDA Developers Thread</a></p>
+		</div>
+
+<div id="disqus_thread">
+                    <div id="dsq-content">
+
+            <div class="navigation">
+                <div class="nav-previous"><a href="http://www.cyanogenmod.org/blog/cyanogenmod-4-2-8/comment-page-2#comments" ><span class="meta-nav">&larr;</span> Older Comments</a></div>
+                <div class="nav-next"><a href="http://www.cyanogenmod.org/blog/cyanogenmod-4-2-8#comments" >Newer Comments <span class="meta-nav">&rarr;</span></a></div>
+            </div> <!-- .navigation -->
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-4157">
+        <div id="dsq-comment-header-4157" class="dsq-comment-header">
+            <cite id="dsq-cite-4157">
+                <span id="dsq-author-user-4157">Tony</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4157" class="dsq-comment-body">
+            <div id="dsq-comment-message-4157" class="dsq-comment-message"><p>Actually, this release 4.2.8 has been the most stable release for me since 4.1.9999!  And whatever you did in 4.2.8 finally has OBEX Push Protocol working (altho the changelog doesn&#8217;t say anything was touched?)! YEA!!!  Home screen doesn&#8217;t freeze anymore (altho it drops in diaganolly now but it drops in super quick!) LOL.  Very nice release!  I updated kinda differently this time tho&#8230;I used the cmupdater and I actually used the Alt+F function after updating to 4.2.8.  Whether the Alt+F did anything, I don&#8217;t know, but I haven&#8217;t had any real issues&#8230;If I do get random reboots, then I&#8217;ll just have to wipe and reinstall clean.  *knocks on wood*  Good job and more beer on the way!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4158">
+        <div id="dsq-comment-header-4158" class="dsq-comment-header">
+            <cite id="dsq-cite-4158">
+http://EnergyFist.com                <span id="dsq-author-user-4158">D~C</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4158" class="dsq-comment-body">
+            <div id="dsq-comment-message-4158" class="dsq-comment-message"><p>v4.2.8 has been the best yet for my G1! Though I&#8217;m not sure which release it was introduced, the ability to lock &#8220;Home&#8221; into memory has been invaluable. All in all, great work! And yes, I donated. <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4160">
+        <div id="dsq-comment-header-4160" class="dsq-comment-header">
+            <cite id="dsq-cite-4160">
+                <span id="dsq-author-user-4160">Jonathan</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4160" class="dsq-comment-body">
+            <div id="dsq-comment-message-4160" class="dsq-comment-message"><p>Re: James Wells (#24 p2)</p>
+<p>As far as I can tell, I have the notification sounds set correctly.  Is there an easy way to verify that they&#8217;re all set; because the random music thing is getting a bit annoying.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4161">
+        <div id="dsq-comment-header-4161" class="dsq-comment-header">
+            <cite id="dsq-cite-4161">
+                <span id="dsq-author-user-4161">Kevin</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4161" class="dsq-comment-body">
+            <div id="dsq-comment-message-4161" class="dsq-comment-message"><p>Two thing I&#8217;ve noticed is<br />
+1. That when returning to the home screens launcher has a problem loading widgets and the icon where the widgets where say &#8220;Problem loading widgets&#8221; So I have to delete them off the home screens then put them back on. The wierd thing is that that google search bar widget isn&#8217;t affected by this yet the power control one is yet them both being widgets made by google and not a 3rd party software downloaded off of the market.<br />
+2. After installing the Eclair lock theme for 4.2.8 that when you have the option of &#8220;Home, then sleep&#8221; enabled from Spare Parts-&gt;End button behavior that when you hit the end button (red button) nothing happens yet if you have &#8220;Go to sleep&#8221; selected from Spar Parts-&gt;End button behavior the phone will go to sleep then.</p>
+<p>Also thanks for all your hard work. I greatly appreciate it.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4162">
+        <div id="dsq-comment-header-4162" class="dsq-comment-header">
+            <cite id="dsq-cite-4162">
+                <span id="dsq-author-user-4162">Mickey G</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4162" class="dsq-comment-body">
+            <div id="dsq-comment-message-4162" class="dsq-comment-message"><p>For the mysterious music fix &#8211; it looks like the system audio files get removed during the flash process.  With no audio, the system plays music files for notifications.</p>
+<p>Download the audio resources from Cyanogen&#8217;s website and install to the SD card to remedy.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4163">
+        <div id="dsq-comment-header-4163" class="dsq-comment-header">
+            <cite id="dsq-cite-4163">
+                <span id="dsq-author-user-4163">Mickey G</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4163" class="dsq-comment-body">
+            <div id="dsq-comment-message-4163" class="dsq-comment-message"><p>Mysterious music issue solved.</p>
+<p>For some reason, the system audio files were removed during the flash/update.  Notifications are then using music files.</p>
+<p>Download the audio resources from the Download tab on Cyanogen&#8217;s web page.  Re-install the files to the SD card.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4164">
+        <div id="dsq-comment-header-4164" class="dsq-comment-header">
+            <cite id="dsq-cite-4164">
+                <span id="dsq-author-user-4164">Mike</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4164" class="dsq-comment-body">
+            <div id="dsq-comment-message-4164" class="dsq-comment-message"><p>I had a terrible problem, the text messages (Chinese) i sent were all messy code.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4166">
+        <div id="dsq-comment-header-4166" class="dsq-comment-header">
+            <cite id="dsq-cite-4166">
+                <span id="dsq-author-user-4166">g1love</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4166" class="dsq-comment-body">
+            <div id="dsq-comment-message-4166" class="dsq-comment-message"><p>How do you download eclair lock screen???????</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4167">
+        <div id="dsq-comment-header-4167" class="dsq-comment-header">
+            <cite id="dsq-cite-4167">
+                <span id="dsq-author-user-4167">Michael Adick</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4167" class="dsq-comment-body">
+            <div id="dsq-comment-message-4167" class="dsq-comment-message"><p>@Mike,<br />
+a fix is being prepared by CM for the unicode problem</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4168">
+        <div id="dsq-comment-header-4168" class="dsq-comment-header">
+            <cite id="dsq-cite-4168">
+                <span id="dsq-author-user-4168">BG</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4168" class="dsq-comment-body">
+            <div id="dsq-comment-message-4168" class="dsq-comment-message"><p>Hi&#8230; good job on the update&#8230; like the gui&#8230; n it runs smoothly&#8230; only problem i have is updating google maps&#8230; any idea on what i need 2 do to fix dat&#8230;. it keeps sayin installation unsuccessfull</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4170">
+        <div id="dsq-comment-header-4170" class="dsq-comment-header">
+            <cite id="dsq-cite-4170">
+http://war-lords.net                <span id="dsq-author-user-4170">Authority (Sam Crowe)</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4170" class="dsq-comment-body">
+            <div id="dsq-comment-message-4170" class="dsq-comment-message"><p>Wow dude.  I was on Andrid Market, and did a quick search to root my G1. And this was the First Topic, Looked at the Read Me(Wiki) was EXTREMELY EASY to follow.  I dont know how I have been able to run my phone without root. Its like Night and Day.  Thanks a bunch this is a great Mod.  Your doing a fantastic job, Keep it up!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4173">
+        <div id="dsq-comment-header-4173" class="dsq-comment-header">
+            <cite id="dsq-cite-4173">
+                <span id="dsq-author-user-4173">Guru</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4173" class="dsq-comment-body">
+            <div id="dsq-comment-message-4173" class="dsq-comment-message"><p>The new rom is good <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_smile.gif' alt=':-)' class='wp-smiley' />  tnx for that.</p>
+<p>But, the music player crashes, can that be fixed?</p>
+<p>Guru</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4175">
+        <div id="dsq-comment-header-4175" class="dsq-comment-header">
+            <cite id="dsq-cite-4175">
+                <span id="dsq-author-user-4175">Cam</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4175" class="dsq-comment-body">
+            <div id="dsq-comment-message-4175" class="dsq-comment-message"><p>Awesome build.  Soooooo fast!  I was a little nervous about the music player starting itself &#8220;randomly&#8221; but it was because I didn&#8217;t set my notifications up.  Simple fix, haven&#8217;t noticed any issues with that since.  Other problem I initially experienced was the taskbar not dragging down, but it seems to be working great now!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4178">
+        <div id="dsq-comment-header-4178" class="dsq-comment-header">
+            <cite id="dsq-cite-4178">
+                <span id="dsq-author-user-4178">Tim</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4178" class="dsq-comment-body">
+            <div id="dsq-comment-message-4178" class="dsq-comment-message"><p>Nice looks</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4180">
+        <div id="dsq-comment-header-4180" class="dsq-comment-header">
+            <cite id="dsq-cite-4180">
+                <span id="dsq-author-user-4180">mobilepgk</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4180" class="dsq-comment-body">
+            <div id="dsq-comment-message-4180" class="dsq-comment-message"><p>CM,<br />
+not so fast <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /><br />
+let&#8217;s us cherish moments with new build for a while, before we hit with one more build! <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /><br />
+thanks a lot.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4181">
+        <div id="dsq-comment-header-4181" class="dsq-comment-header">
+            <cite id="dsq-cite-4181">
+                <span id="dsq-author-user-4181">SDriversInn</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4181" class="dsq-comment-body">
+            <div id="dsq-comment-message-4181" class="dsq-comment-message"><p>Thank you so much. I&#8217;m pretty new to all this and started with 4.2.7.1. I followed the Wiki and had no problems whatsoever. Things worked exactly as described. After that I applied the 10mb RAM hack with appreciable results. Using CM updater I upgraded to 4.2.8. Things work well, but the new ROM is noticeably slower for me. Possibly this is because the 10mb RAM hack is no longer in effect. Is there a corresponding hack for this new version? Also, I&#8217;ve never repartitioned my SD card. Is that necessary or important? I&#8217;m overwhelmed by the amount of information on the XDA forum. Can anyone point me in a specific direction regarding either topic? </p>
+<p>Thank you in advance for your assistance. And thank you, Steve, for all of your great work. (Donation to follow&#8230;)</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4182">
+        <div id="dsq-comment-header-4182" class="dsq-comment-header">
+            <cite id="dsq-cite-4182">
+                <span id="dsq-author-user-4182">SDriversInn</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4182" class="dsq-comment-body">
+            <div id="dsq-comment-message-4182" class="dsq-comment-message"><p>Oh, I am such a newb that I forgot to mention that I&#8217;m using a MT3G.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4183">
+        <div id="dsq-comment-header-4183" class="dsq-comment-header">
+            <cite id="dsq-cite-4183">
+                <span id="dsq-author-user-4183">guru</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4183" class="dsq-comment-body">
+            <div id="dsq-comment-message-4183" class="dsq-comment-message"><p>RaNdom reboot.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4184">
+        <div id="dsq-comment-header-4184" class="dsq-comment-header">
+            <cite id="dsq-cite-4184">
+                <span id="dsq-author-user-4184">zambarici</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4184" class="dsq-comment-body">
+            <div id="dsq-comment-message-4184" class="dsq-comment-message"><p>i&#8217;ve noticed exactly what kevin said. For exemple: i use estrongs task manager, i kill all the applications and when i return to the home screen it loads very slow and than i must wait for the clock, dialer and the other widgets to load too. Any ideea how to repair this?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4185">
+        <div id="dsq-comment-header-4185" class="dsq-comment-header">
+            <cite id="dsq-cite-4185">
+                <span id="dsq-author-user-4185">Manish Shrestha</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4185" class="dsq-comment-body">
+            <div id="dsq-comment-message-4185" class="dsq-comment-message"><p>I don&#8217;t know whether it is just my phone or everyone has the same problem. Whenever i try to return home after executing any apps in any version of cyanogen mod, the force close option pops up. Yah and it is very slow when trying to return home after executing any apps.<br />
+Is this issue fixable?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4186">
+        <div id="dsq-comment-header-4186" class="dsq-comment-header">
+            <cite id="dsq-cite-4186">
+                <span id="dsq-author-user-4186">Mat Davis</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4186" class="dsq-comment-body">
+            <div id="dsq-comment-message-4186" class="dsq-comment-message"><p>In case anyone else upgrading sees the same thing, I just installed 4.2.8 (not 4.2.8.1) and when I booted for the first time none of my apps from the market seemed to be there (and neither did the market) but I rebooted and everything reappeared and seems to be fine.</p>
+<p>Haven&#8217;t had time to do much else but wanted to post this in case it helps someone else.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4187">
+        <div id="dsq-comment-header-4187" class="dsq-comment-header">
+            <cite id="dsq-cite-4187">
+                <span id="dsq-author-user-4187">ACTPOHABT</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4187" class="dsq-comment-body">
+            <div id="dsq-comment-message-4187" class="dsq-comment-message"><p>Music player starts and stops playing music by itself randomly.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4188">
+        <div id="dsq-comment-header-4188" class="dsq-comment-header">
+            <cite id="dsq-cite-4188">
+                <span id="dsq-author-user-4188">SpiderMonkey34</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4188" class="dsq-comment-body">
+            <div id="dsq-comment-message-4188" class="dsq-comment-message"><p>@zambarici, Manish and anyone else having this problem&#8230;</p>
+<p>I had the same issue of slow returns to the home screen, icons taking anywhere from 5 seconds to minutes to load. To fix the problem I simply switched to the default Home app. Previously I was running DXtop and over time, quality just deteriorated. It would take DXtop longer to return to the home screen, it would lag horribly at times and there was the constant reloading of icons.</p>
+<p>I then tried GDE and it was fine for a couple of days. Then an update released that made that worse than DXtop ever was. So I went to the default Home app and I haven&#8217;t had any serious problems. Last night my phone did randomly reboot though, which sucked totally.</p>
+<p>Anyways, if any of you guys are running an alternative home app, try switching to the default app and see if it makes a difference. If you have a lot of widgets running. cut down the number used and see if that makes a difference too.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4189">
+        <div id="dsq-comment-header-4189" class="dsq-comment-header">
+            <cite id="dsq-cite-4189">
+http://www.jacobspaulsen.com                <span id="dsq-author-user-4189">Jacob S Paulsen</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4189" class="dsq-comment-body">
+            <div id="dsq-comment-message-4189" class="dsq-comment-message"><p>My experience with the new ROM has been poor. It takes FOREVER to load any of my home screens and SUPER long to load widgets.</p>
+<p>Very Frustrating</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4190">
+        <div id="dsq-comment-header-4190" class="dsq-comment-header">
+            <cite id="dsq-cite-4190">
+                <span id="dsq-author-user-4190">turk</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4190" class="dsq-comment-body">
+            <div id="dsq-comment-message-4190" class="dsq-comment-message"><p>SDriversInn, doing the partition to you SD card will improve performance, I would recommend it. Good luck!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4193">
+        <div id="dsq-comment-header-4193" class="dsq-comment-header">
+            <cite id="dsq-cite-4193">
+                <span id="dsq-author-user-4193">SDriversInn</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4193" class="dsq-comment-body">
+            <div id="dsq-comment-message-4193" class="dsq-comment-message"><p>turk, thank you for that advice. Can you point me in a specific direction for the process. I&#8217;ve seen several variations, and I&#8217;m not sure what to look for. For whatever it&#8217;s worth, I&#8217;ve got the 4GB SD card that came with the MT3G and am running Vista SP2 (32bit) primarily, but I dual boot Sabayon linux (in case that is somehow relevant). I will probably upgrade my SD card in the near future, but I&#8217;m in no rush.</p>
+<p>Also, I&#8217;ve been directed to the XDA thread for the updated RAM hack, and things seem much better after completing that procedure. </p>
+<p>Thanks again to all involved. This community is really something special, and I&#8217;m very glad I made the leap to Android.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4194">
+        <div id="dsq-comment-header-4194" class="dsq-comment-header">
+            <cite id="dsq-cite-4194">
+                <span id="dsq-author-user-4194">Jordan</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4194" class="dsq-comment-body">
+            <div id="dsq-comment-message-4194" class="dsq-comment-message"><p>Eclair lock screen please!   Awesome build thanks</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4196">
+        <div id="dsq-comment-header-4196" class="dsq-comment-header">
+            <cite id="dsq-cite-4196">
+                <span id="dsq-author-user-4196">eric</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4196" class="dsq-comment-body">
+            <div id="dsq-comment-message-4196" class="dsq-comment-message"><p>dialer does not work in landscape mode. it always force closes.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4197">
+        <div id="dsq-comment-header-4197" class="dsq-comment-header">
+            <cite id="dsq-cite-4197">
+                <span id="dsq-author-user-4197">greg b</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4197" class="dsq-comment-body">
+            <div id="dsq-comment-message-4197" class="dsq-comment-message"><p>Everything works great but when I have my head phones plugged into the usb and turn the music off then a few minutes later I unplug the head phones the stock music player starts but doesn&#8217;t show up in the notification bar you have to open the music program push play then push stop. It sucks cause say you unplug for a phone call music starts up over call. Same problem with 4.2.8.1 went back to 4.2.5.  I hope you Ger it resolved</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4199">
+        <div id="dsq-comment-header-4199" class="dsq-comment-header">
+            <cite id="dsq-cite-4199">
+                <span id="dsq-author-user-4199">stan</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4199" class="dsq-comment-body">
+            <div id="dsq-comment-message-4199" class="dsq-comment-message"><p>Still can&#8217;t update Google maps I need help on this</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4200">
+        <div id="dsq-comment-header-4200" class="dsq-comment-header">
+            <cite id="dsq-cite-4200">
+                <span id="dsq-author-user-4200">Doug</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4200" class="dsq-comment-body">
+            <div id="dsq-comment-message-4200" class="dsq-comment-message"><p>Hi there,<br />
+I am running 4.2.8. This issue occurs in other 4.2.*</p>
+<p>I have partitioned my sdcard for app2sd and it is working OK. I also upgrade my 2nd partition to ext4. But now occasionally, my phone just hangs randomly.<br />
+After rebooting the phone the SDcard is gone. I have to remove/insert the sdcard seceral times to make it recognized. And then I need to reboot it again.<br />
+But then when everything seems to be OK, I cannot start any apps installed previsouly in the sdcard.</p>
+<p>My question is: Is this because of my sdcard? I have the PNY 8GB class 4 (made in Japan from Bestbuy).<br />
+Does anybody experience the same sort of issue?</p>
+<p>Thanks for helping</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4201">
+        <div id="dsq-comment-header-4201" class="dsq-comment-header">
+            <cite id="dsq-cite-4201">
+                <span id="dsq-author-user-4201">greg b</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4201" class="dsq-comment-body">
+            <div id="dsq-comment-message-4201" class="dsq-comment-message"><p>Mt3g by the way</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4202">
+        <div id="dsq-comment-header-4202" class="dsq-comment-header">
+            <cite id="dsq-cite-4202">
+                <span id="dsq-author-user-4202">Gustav</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4202" class="dsq-comment-body">
+            <div id="dsq-comment-message-4202" class="dsq-comment-message"><p>How is it that my mytouch is running so slow and everyone elses phone is running blazing fast on 4.2.8?? Im running compcache too! Should i wipe and reinstall? I have many apps i dont want to lose and sms texts as well&#8230; how can i back al that up?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4204">
+        <div id="dsq-comment-header-4204" class="dsq-comment-header">
+            <cite id="dsq-cite-4204">
+                <span id="dsq-author-user-4204">marcelo</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4204" class="dsq-comment-body">
+            <div id="dsq-comment-message-4204" class="dsq-comment-message"><p>I&#8217;m having random reboots. no aparent cause.<br />
+anyone knows anything about?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4210">
+        <div id="dsq-comment-header-4210" class="dsq-comment-header">
+            <cite id="dsq-cite-4210">
+http://www.twisted-tech.webs.com                <span id="dsq-author-user-4210">Michael</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4210" class="dsq-comment-body">
+            <div id="dsq-comment-message-4210" class="dsq-comment-message"><p>Is there going to be any attention to the google maps problem each new update since like 4.2.7 i see atleast 2 &#8211; 5 people not being able to update, i myself, can&#8217;t update it :\ Please smeone help out</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4211">
+        <div id="dsq-comment-header-4211" class="dsq-comment-header">
+            <cite id="dsq-cite-4211">
+                <span id="dsq-author-user-4211">william</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4211" class="dsq-comment-body">
+            <div id="dsq-comment-message-4211" class="dsq-comment-message"><p>also getting the random music thing&#8230; notification sounds are set correctly as far as i can tell.  running 4.2.8, not 4.2.8.1.  has it been fixed since?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4213">
+        <div id="dsq-comment-header-4213" class="dsq-comment-header">
+            <cite id="dsq-cite-4213">
+                <span id="dsq-author-user-4213">Everett</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4213" class="dsq-comment-body">
+            <div id="dsq-comment-message-4213" class="dsq-comment-message"><p>I too have been getting the random reboot issue for the last few point-releases, including the new latest. I&#8217;ve even tried a fresh wipe and flash, to no avail.</p>
+<p>It sometimes happens when the phone is sitting idle, sometimes while I&#8217;m on a call, and perhaps 1/4 times when I plug in a USB cable.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4214">
+        <div id="dsq-comment-header-4214" class="dsq-comment-header">
+            <cite id="dsq-cite-4214">
+                <span id="dsq-author-user-4214">Asa Long</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4214" class="dsq-comment-body">
+            <div id="dsq-comment-message-4214" class="dsq-comment-message"><p>My phone is going F&#8217;n haywire. I&#8217;m getting random reboots&#8230;..Rebooted when I tried to use the mobile buzz widget, Twidroid, Gmail from my notifications bar. Pretty much when I try to do anything I normally do.</p>
+<p>It&#8217;ll reboot, then reboot again, before the other reboot is even finished, and then turn completely off on it&#8217;s own. After that I can&#8217;t even turn the phone back on unless I take the battery out and put it back in. A couple of times I had weird looking white screens during bootup.</p>
+<p>Been doing this since i installed 4.2.8. STILL doing it on 4.2.8.1</p>
+<p>My opinion is that this particular build is BUSTED, and I&#8217;m going back to 4.2.7.1 until further notice.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4215">
+        <div id="dsq-comment-header-4215" class="dsq-comment-header">
+            <cite id="dsq-cite-4215">
+                <span id="dsq-author-user-4215">Azereal</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4215" class="dsq-comment-body">
+            <div id="dsq-comment-message-4215" class="dsq-comment-message"><p>Anyone having this problem?  My phone keeps reseting, and sometimes takes a few boots to start up, or it seems to start up when connected to power.  It&#8217;s battery life has dropped off considerably in like a week and the the time it takes to charge.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4216">
+        <div id="dsq-comment-header-4216" class="dsq-comment-header">
+            <cite id="dsq-cite-4216">
+                <span id="dsq-author-user-4216">Cam</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4216" class="dsq-comment-body">
+            <div id="dsq-comment-message-4216" class="dsq-comment-message"><p>Ok so since yesterday, I&#8217;ve had some random system freezes and reboots.  The random music problem has also resurfaced.  Sometimes when I open the Music Player, the music starts right up without me pressing the play button.  I was able to replicate the problem by killing the music player in task killer, then opening music back up.</p>
+<p>The only other time I can&#8217;t explain was when my phone was on silent and it started blasting Minor Threat during my management final when my gmail arrived.  I thought silent mode would kill the notifications as well, but it seems that notifications in this build are controlled by media volume?  Not sure, just a thought.</p>
+<p>Still, I am very happy with my cyanogen-powered g1!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4217">
+        <div id="dsq-comment-header-4217" class="dsq-comment-header">
+            <cite id="dsq-cite-4217">
+                <span id="dsq-author-user-4217">Jehu</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4217" class="dsq-comment-body">
+            <div id="dsq-comment-message-4217" class="dsq-comment-message"><p>Better performance than former ROM, but still these problems:</p>
+<p>- Music player starts and stops playing music by itself randomly.<br />
+- Auto-Sync not working, i have  to uncheck/check it manually for sync</p>
+<p>Hope, it will be fixed soon.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4219">
+        <div id="dsq-comment-header-4219" class="dsq-comment-header">
+            <cite id="dsq-cite-4219">
+                <span id="dsq-author-user-4219">Asa Long</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4219" class="dsq-comment-body">
+            <div id="dsq-comment-message-4219" class="dsq-comment-message"><p>Yes Azereal I&#8217;m having the same problem, except mine&#8217;s worse.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4221">
+        <div id="dsq-comment-header-4221" class="dsq-comment-header">
+            <cite id="dsq-cite-4221">
+                <span id="dsq-author-user-4221">ob3</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4221" class="dsq-comment-body">
+            <div id="dsq-comment-message-4221" class="dsq-comment-message"><p>I&#8217;m with a lot of you guys. This is on a G1. A ton of random freezes. When someone tries to call me, sms me, I use the browser, I use the search bar, I rotate the screen, upload anything, etc.</p>
+<p>I&#8217;m going back to 4.2.7.1 too. 4.2.8.x has been an unusually rough ride.</p>
+<p>Hope this helps!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4222">
+        <div id="dsq-comment-header-4222" class="dsq-comment-header">
+            <cite id="dsq-cite-4222">
+                <span id="dsq-author-user-4222">miamig1</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4222" class="dsq-comment-body">
+            <div id="dsq-comment-message-4222" class="dsq-comment-message"><p>I like the ROM its been rocking, i just instale 4.2.8.1  and everytime some one calls i get a call not sent. not sure why</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4224">
+        <div id="dsq-comment-header-4224" class="dsq-comment-header">
+            <cite id="dsq-cite-4224">
+                <span id="dsq-author-user-4224">Matt105</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4224" class="dsq-comment-body">
+            <div id="dsq-comment-message-4224" class="dsq-comment-message"><p>For the longest time, and through many CM updates, I have had a problem on my MyTouch3G. It seems like once every 30 minutes, when I go to unlock phone, it just goes to a blank screen with no icons/widgets. I then have to wait about 30 seconds and the icons will finally reappear along with the widgets. This seems trivial but considering it happens like 20 times a day, it is madly frustrating. I don&#8217;t know if this is a CM problem, an android problem, or a MT3G problem. Can anyone shed some light?</p>
+<p>On the latest CM build, I have also been getting many force closes by Google Maps app running in the background for Latitude. It didn&#8217;t do this 1 version ago, so I don&#8217;t know what the heck is going on &gt;_&gt;</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4225">
+        <div id="dsq-comment-header-4225" class="dsq-comment-header">
+            <cite id="dsq-cite-4225">
+                <span id="dsq-author-user-4225">Matt105</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4225" class="dsq-comment-body">
+            <div id="dsq-comment-message-4225" class="dsq-comment-message"><p>Just to follow up. I just updated from 4.2.8 to 4.2.8.1, and after 5 minutes of use, my phone has randomly rebooted twice <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' />  I&#8217;m gonna try to downgrade I think&#8230;</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4226">
+        <div id="dsq-comment-header-4226" class="dsq-comment-header">
+            <cite id="dsq-cite-4226">
+                <span id="dsq-author-user-4226">Joeg05</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4226" class="dsq-comment-body">
+            <div id="dsq-comment-message-4226" class="dsq-comment-message"><p>I just rooted my phone last night, and flashed 4.2.8.1, and now for some reason I cannot send text messages.  I can receive them fine, but get an &#8216;unable to send&#8217; error every time.  If anyone can shed some light on this it would be greatly appreciated.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4227">
+        <div id="dsq-comment-header-4227" class="dsq-comment-header">
+            <cite id="dsq-cite-4227">
+                <span id="dsq-author-user-4227">MJ</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4227" class="dsq-comment-body">
+            <div id="dsq-comment-message-4227" class="dsq-comment-message"><p>Great work thanks a lot!  only problem I have is the home screen takes a long time to load every time I exit from an app.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-4228">
+        <div id="dsq-comment-header-4228" class="dsq-comment-header">
+            <cite id="dsq-cite-4228">
+                <span id="dsq-author-user-4228">Andrew</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4228" class="dsq-comment-body">
+            <div id="dsq-comment-message-4228" class="dsq-comment-message"><p>I currently have version 4.2.6 installed on my G1.  Can I jump right to 4.2.8.1 or do I have to do each update in between?</p>
+<p>Thanks in advance for any help.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-4229">
+        <div id="dsq-comment-header-4229" class="dsq-comment-header">
+            <cite id="dsq-cite-4229">
+                <span id="dsq-author-user-4229">dancingwombat</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-4229" class="dsq-comment-body">
+            <div id="dsq-comment-message-4229" class="dsq-comment-message"><p>Last night I upgraded from 4.1.11.1 to 4.2.8.1 .  I followed the wiki and also did a wipe.  Everything is great, except I also get the &#8220;random&#8221; music.  I think I&#8217;ve set my notification sounds correctly, but the music still starts.  It does not display in the status bar, but if I open the music player, &#8220;play&#8221; the music, and then &#8220;pause&#8221; the music, then all sound stops.  Events that triggered the music so far:  First time I ran CM updater and checked for updates; first time I opened the gallery and deleted a photo.</p>
+</div>
+        </div>
+
+    </li>
+            </ul>
+
+            <div class="navigation">
+                <div class="nav-previous"><a href="http://www.cyanogenmod.org/blog/cyanogenmod-4-2-8/comment-page-2#comments" ><span class="meta-nav">&larr;</span> Older Comments</a></div>
+                <div class="nav-next"><a href="http://www.cyanogenmod.org/blog/cyanogenmod-4-2-8#comments" >Newer Comments <span class="meta-nav">&rarr;</span></a></div>
+            </div><!-- .navigation -->
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://www.cyanogenmod.org/blog/cyanogenmod-4-2-8';
+    var disqus_identifier = '515 http://www.cyanogenmod.com/home/cyanogenmod-4-2-8';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'cyngn';
+    var disqus_title = "CyanogenMod-4.2.8";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+        config.language = '';
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '?cf_action=sync_comments&post_id=515';
+
+            var firstScript = document.getElementsByTagName( "script" )[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+        });
+                    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/www.cyanogenmod.org\/blog\/cyanogenmod-4-2-8\/trackback"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+</article>
+			</div>
+
+		</div><!-- End Content row -->
+		
+		<aside id="sidebar" class="four columns hide-on-phones" role="complementary">
+	<div class="sidebar-box">
+		<article id="recent-comments-4" class="row widget widget_recent_comments"><div class="sidebar-section twelve columns"><h6><strong>Recent Comments</strong></h6><ul id="recentcomments"><li class="recentcomments">Rakesh Lingechetty on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65376">CyanogenMod 11 M12</a></li><li class="recentcomments">zamarax on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65375">CyanogenMod 11 M12</a></li><li class="recentcomments">Avinash Sailesh on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65374">CyanogenMod 11 M12</a></li><li class="recentcomments">ibrahim biten on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65373">CyanogenMod 11 M12</a></li><li class="recentcomments">ibrahim biten on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65372">CyanogenMod 11 M12</a></li></ul></div></article>	</div>
+</aside><!-- /#sidebar -->		
+		</div><!-- End Main row -->
+		
+		<footer id="content-info" role="contentinfo" class="hide-on-phones" style="margin:40px 0 0 0;">
+			<div class="row">
+				<article id="nav_menu-4" class="three columns widget widget_nav_menu"><div class="footer-section"><h6><strong>Navigation</strong></h6><div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-798"><a href="http://www.cyanogenmod.org/about">About</a></li>
+<li id="menu-item-2403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2403"><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+<li id="menu-item-2404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2404"><a href="http://download.cyanogenmod.org">Download</a></li>
+<li id="menu-item-825" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-825"><a href="/blog">Blog</a></li>
+<li id="menu-item-904" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-904"><a href="http://forum.cyanogenmod.org">Forum</a></li>
+<li id="menu-item-829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-829"><a href="http://www.cyanogenmod.org/community">Community</a></li>
+<li id="menu-item-2405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2405"><a href="https://account.cyanogenmod.org/">Account</a></li>
+<li id="menu-item-2709" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2709"><a href="http://shop.cyanogenmod.org">Shop</a></li>
+</ul></div></div></article><article id="nav_menu-3" class="three columns widget widget_nav_menu"><div class="footer-section"><h6><strong>Social Networks</strong></h6><div class="menu-social-networks-container"><ul id="menu-social-networks" class="menu"><li id="menu-item-2173" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2173"><a href="https://www.facebook.com/CyanogenMod">Facebook</a></li>
+<li id="menu-item-2174" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2174"><a href="https://twitter.com/CyanogenMod">Twitter</a></li>
+<li id="menu-item-2175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2175"><a href="https://plus.google.com/+CyanogenMod/posts">Google+</a></li>
+</ul></div></div></article>                                <article class="three columns widget widget widget_nav_menu">
+                                    <div class="footer-section">
+                                        <h6><strong>Sponsored By</strong></h6>
+                                        <a href="http://twilio.com/?utm_source=cyanogenmod&utm_medium=webbadge&utm_campaign=cyanogenverify" style="text: decoration: none; display: inline-block; width: 166px; height: 0; overflow: hidden; padding-top: 31px; background: url(http://www.twilio.com/packages/company/img/logos_icon_poweredbysmall.png) no-repeat;">powered by twilio™</a>
+                                    </div>
+                                </article>
+			</div>
+		</footer>
+        
+      <div id="navigation" class="row mobile-footer show-on-phones">
+			<div class="twelve columns">
+            	<h6>Navigate cyanogenmod.org</h6>
+            	<ul>
+                	<li><a href="/about">About</a></li>
+                    <!--<li><a href="#">Features</a></li>-->
+                    <li><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+                    <li><a href="http://download.cyanogenmod.org/">Download</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="http://forum.cyanogenmod.org">Forum</a></li>
+                    <li><a href="/community">Community</a></li>  
+                    <li><a href="https://account.cyanogenmod.org">Account</a></li>
+                    <li><a href="http://shop.cyanogenmod.org">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+			
+	</div><!-- Container End -->
+    
+
+	<!-- Included JS Files of Foundation -->
+	<script src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/foundation.js"></script>
+	<script src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/app.js"></script>
+	
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	     chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7]>
+		<script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+		<script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+	
+	<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 12/23 queries in 0.028 seconds using apc
+Object Caching 1016/1216 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:20:10 by W3 Total Cache -->

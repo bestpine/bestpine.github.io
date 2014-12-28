@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: IRC now available through website.</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/irc-now-available-through-website/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/irc-now-available-through-website</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: Gueat</title>
+		<link>http://www.cyanogenmod.org/blog/irc-now-available-through-website/comment-page-1#comment-49388</link>
+		<dc:creator>Gueat</dc:creator>
+		<pubDate>Tue, 20 Dec 2011 21:04:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=330#comment-49388</guid>
+		<description><![CDATA[specific browser requirements? doesn&#039;t work for me]]></description>
+		<content:encoded><![CDATA[<p>specific browser requirements? doesn&#8217;t work for me</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Pontorez.com</title>
+		<link>http://www.cyanogenmod.org/blog/irc-now-available-through-website/comment-page-1#comment-35072</link>
+		<dc:creator>Pontorez.com</dc:creator>
+		<pubDate>Wed, 24 Aug 2011 11:49:38 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=330#comment-35072</guid>
+		<description><![CDATA[http://www.cyanogenmod.com/irc doesn&#039;t work for me.]]></description>
+		<content:encoded><![CDATA[<p><a href="http://www.cyanogenmod.com/irc" rel="nofollow">http://www.cyanogenmod.com/irc</a> doesn&#8217;t work for me.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Pistol4413</title>
+		<link>http://www.cyanogenmod.org/blog/irc-now-available-through-website/comment-page-1#comment-748</link>
+		<dc:creator>Pistol4413</dc:creator>
+		<pubDate>Sun, 20 Sep 2009 15:41:59 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/?p=330#comment-748</guid>
+		<description><![CDATA[Sweet making things even easier keep up the great work Cyanogen &amp; Ahmet]]></description>
+		<content:encoded><![CDATA[<p>Sweet making things even easier keep up the great work Cyanogen &amp; Ahmet</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/10 queries in 0.025 seconds using apc
+Object Caching 225/227 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:19:13 by W3 Total Cache -->

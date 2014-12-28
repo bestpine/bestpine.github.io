@@ -1,0 +1,1016 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+
+	<title>CyanogenMod 11.0 M8 Released | CyanogenMod</title>
+	
+	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<!-- Included Foundation CSS Files -->
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/foundation.css">
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/app.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/tipTip.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/fonts/style.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/flexslider.css" type="text/css" media="screen" />
+	
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/style.css">
+	
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/ie.css">
+	<![endif]-->
+	
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Favicon and Feed -->
+	<link rel="shortcut icon" type="image/png" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="CyanogenMod Feed" href="http://www.cyanogenmod.org/feed/">
+	
+	<!--  iPhone Web App Home Screen Icon -->
+	<link rel="apple-touch-icon" sizes="72x72" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon-retina.png" />
+	<link rel="apple-touch-icon" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon.png" />
+	
+	<!-- Enable Startup Image for iOS Home Screen Web App -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/mobile-load.png" />
+
+	<!-- Startup Image iPad Landscape (748x1024) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load-ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" />
+	<!-- Startup Image iPad Portrait (768x1004) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load-ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" />
+	<!-- Startup Image iPhone (320x460) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load.png" media="screen and (max-device-width: 320px)" />
+	
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.jparallax.min.js" ></script>
+  <script defer type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.featureList-1.0.0.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.tipTip.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/easySlider1.7.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/modernizr.foundation.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.flexslider-min.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/custom.js"></script>
+  
+  <script type="text/javascript">
+    $(document).load(function(){
+
+	  // The slider being synced must be initialized first
+	  $('.flexslider').flexslider({
+		animation: "slide",
+		controlNav: false,
+	  });
+	  
+    });
+  </script>
+  
+  	<link rel="alternate" type="application/rss+xml" title="CyanogenMod &raquo; CyanogenMod 11.0 M8 Released Comments Feed" href="http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m8-released/feed" />
+<script type='text/javascript' src='http://www.cyanogenmod.org/wp-includes/js/comment-reply.min.js?ver=3.5.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.cyanogenmod.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.cyanogenmod.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='The &#8220;L&#8221; is for Later' href='http://www.cyanogenmod.org/blog/the-l-is-for-later' />
+<link rel='next' title='CyanogenMod 11.0 M9 Released' href='http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m9-released' />
+<meta name="generator" content="WordPress 3.5.2" />
+<link rel='shortlink' href='http://www.cyanogenmod.org/?p=2753' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<!-- All in One SEO Pack 2.0.2 by Michael Torbert of Semper Fi Web Design[493,530] -->
+<link rel="author" href="http://google.com/+AbhisekDevkota" />
+<meta name="description" content="Not to be confused with the device from the makers of humongous tinfoil catamarans, the M8 release of CyanogenMod 11.0 is well under way. Builds began last" />
+
+<link rel="canonical" href="http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m8-released" />
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-39737599-3']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+<!-- /all in one seo pack -->
+</head>
+
+<body class="single single-post postid-2753 single-format-standard">
+
+	<div class="menusto hide-on-phones"></div>
+	<!-- Start the main container -->
+	<div id="container" class="container" role="document" style="padding:80px 0 0 0;">
+		
+        
+        <div class="row mobile-header show-on-phones">
+            <div class="nine">
+            	<a href="http://www.cyanogenmod.org" title="CyanogenMod" class="logo-mobile"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/logo-mobile.png" alt=""/></a>
+            </div>
+            <a href="#navigation" class="mobile-menu"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/btn-menu-mobile.png" alt=""/></a>
+        </div>
+        
+		<!-- Row for blog navigation -->
+		<div class="row hide-on-phones">
+			<header class="twelve columns" role="banner">
+				<div class="reverie-header">
+                	<a href="http://www.cyanogenmod.org" title="CyanogenMod" class="logo"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/logo.png" alt=""/></a>
+                    <div id="glavno" class="nav hide-on-phones">
+                        <ul id="glavno">                   
+                            <li><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+                            <!--<li><a href="http://cyanogenmod.org/about/features">Features</a></li>-->
+                            <li><a href="http://download.cyanogenmod.org/">Download</a></li>
+                            <li><a href="http://www.cyanogenmod.org/blog/">Blog</a></li>
+                            <li><a href="http://forum.cyanogenmod.org/">Forum</a></li>
+                            <li>
+                            	<a href="http://www.cyanogenmod.org/community">Community</a>
+                                <div style="opacity: 0; display: none; width:100%" class="sub">
+                                    <ul>
+                                    	<div style="width:980px; margin:0 auto; color:#fff;">
+                                        	<div class="contributesub">
+                                            	<h2>Contribute</h2>
+                                                
+                                                <h4><a href="http://review.cyanogenmod.org/">Gerrit Review</a></h4>
+                                                <p>Gerrit is a web based code review system, facilitating online code reviews for projects using the Git version control system.</p>
+                                                    
+                                                <h4><a href="http://wiki.cyanogenmod.org/">Wiki</a></h4>
+                                                <p>Our Wiki is a comprehensive tool for users to find information. This also needs contributions to keep it fresh and relevant.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/community">Join The Team</a></h4>
+                                                <p>We love working with others. You can submit code via Gerrit. If you think there is something else you can help with, get in touch with us on the forums.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub">
+                                            	<h2>Help</h2>
+                                                
+                                                <h4><a href="http://forum.cyanogenmod.org/">Forum</a></h4>
+                                                <p>Our forums have a wealth of knowledge and resources. All of it is free and accessible from both your desktop and mobile phone.</p>
+                                                    
+                                                <h4><a href="irc://irc.freenode.net/cyanogenmod">IRC</a></h4>
+                                                <p>If you are comfortable with IRC and would like instant help and assistance from both developers and others users alike.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/blog">Blog</a></h4>
+                                                <p>Our blogs will contain the latest news and releases as well as other related news concerning the distribution.</p>
+                                                    
+                                                <h4><a href="http://wiki.cyanogenmod.org/">Wiki</a></h4>
+                                                <p>Our Wiki is a comprehensive tool for users to find information. This also needs contributions to keep it fresh and relevant.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub">
+                                            	<h2>Information</h2>
+                                                
+                                                <h4><a href="http://www.cyanogenmod.org/changelog">Change Log</a></h4>
+                                                <p>Our development of the ROM is always changing. We add new features and fix bugs all the time. Check the latest change log here.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/bugs">Bug Tracker</a></h4>
+                                                <p>This is the official Bug Tracker where you can submit and review bugs that users may experience.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/github">Github Repo</a></h4>
+                                                <p>Our source is free and open. you can check the Github page to see what we do and how you can contribute.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/stats">Installation Statistics</a></h4>
+                                                <p>We have an opt-in feature in our ROMS to enable us to gain statistics on users as well as devices used.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub last">
+                                            	<h2>Support</h2>
+                                                
+                                                <h4><a href="/cdn-cgi/l/email-protection#aacecfdcd8cfc6eac9d3cbc4c5cdcfc4c7c5ce84c5d8cd">Developer Relations</a></h4>
+                                                <p>If you wish to contact us regarding development contributions, please do so here.</p>
+                                                    
+                                                <h4><a href="/cdn-cgi/l/email-protection#bddcd9d0d4d3fddec4dcd3d2dad8d3d0d2d993d2cfda">Website Support</a></h4>
+                                                <p>This email is dedicated to website, forum, wiki and hosting support. We will not respond to ROM support.</p>
+                                                    
+                                                <h4><a href="/cdn-cgi/l/email-protection#543530393d3a14372d353a3b33313a393b307a3b2633">Social Network</a></h4>
+                                                <p>To contact us in relation to our Social media structure.</p>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                    
+                                </div>
+                            </li>
+                            <li><a href="https://account.cyanogenmod.org">Account</a></li>
+                      </ul>
+                    </div>
+				</div>
+
+			</header>
+		</div>
+
+		
+		<!-- Row for main content area -->
+		<div id="main" class="row">
+		<!-- Row for main content area -->
+		<div id="content" class="eight columns" role="main">
+	
+			<div class="post-box">
+					<article class="post-2753 post type-post status-publish format-standard hentry category-blog" id="post-2753">
+		<header>
+        	<time class="updated" datetime="2014-07-08T12:49:21+00:00" pubdate>July 8th, 2014 &bull; Written by <a href="http://www.cyanogenmod.org/author/ciwrl" rel="author" class="fn">ciwrl</a></time>        	<h2 class="entry-title">CyanogenMod 11.0 M8 Released</h2>
+					</header>
+		<div class="entry-content">
+			<p>Not to be confused with the device from the makers of humongous tinfoil catamarans, the M8 release of CyanogenMod 11.0 is well under way. Builds began last night, and will continue into today. In lieu of posting a changelog, you can learn more about the majority of changes via our last recap <a href="http://www.cyanogenmod.org/blog/last-week-in-cm-jun-19-2014">post</a>.</p>
+<p>A quick FAQ for those common questions asked:</p>
+<ol>
+<ol>
+<li><strong>When was M8 branched?</strong>  The M8 code was branched to stable on June 30th and is based on Android 4.4.4.</li>
+<li><strong>What is the last &#8216;safe&#8217; nightly I can upgrade from?</strong> The last nightly you can upgrade from without chance of issues is June 29th.</li>
+<li><strong>I didn&#8217;t see/know there were such considerations as #1 and #2, and now Settings is crashing &#8211; what can I do? </strong>Clear the data for the Settings app &#8211; this can be accessed via the recents menu (long press the Settings multitask item).</li>
+<li><strong>Why is #3 happening? </strong>By being on a newer nightly than June 30th, your Settings database version is higher than that of the M release &#8211; and downgrades of database versions are not allowed in Android.</li>
+<li><strong>Where is my device?</strong> Currently, the builds have not yet completed, your device may yet still be under way. In the event your device did not get an M8 release, then consider it not deemed ready by your maintainer.</li>
+<li><strong>What about [xyz device] that CM doesn&#8217;t yet support? </strong>Aliens</li>
+<li><strong>CM SUCKS AND BROKE ALL THE THINGS! </strong>Thank you for your valuable feedback &#8211; please direct your bug report to our <a href="https://jira.cyanogenmod.org/">JIRA instance</a> with a log so we can suck less.</li>
+<li><strong>Why did CM abandon [xyz device]?</strong> We didn&#8217;t. If we discontinued support for a device, we would announce the reasons why. No M8 release for your device does not equate to abandonment &#8211; it means we know something is broken, and would rather not subject the masses to that item.</li>
+</ol>
+</ol>
+<p>Happy Flashing</p>
+<p>The CyanogenMod Team</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+		</div>
+
+<div id="disqus_thread">
+                    <div id="dsq-content">
+
+            <div class="navigation">
+                <div class="nav-previous"><a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m8-released/comment-page-3#comments" ><span class="meta-nav">&larr;</span> Older Comments</a></div>
+                <div class="nav-next"><a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m8-released/comment-page-5#comments" >Newer Comments <span class="meta-nav">&rarr;</span></a></div>
+            </div> <!-- .navigation -->
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-62625">
+        <div id="dsq-comment-header-62625" class="dsq-comment-header">
+            <cite id="dsq-cite-62625">
+                <span id="dsq-author-user-62625">kokoko</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62625" class="dsq-comment-body">
+            <div id="dsq-comment-message-62625" class="dsq-comment-message"><p>its not M8, the M8 he/she was talking about was the snapshot M8 -_-</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62626">
+        <div id="dsq-comment-header-62626" class="dsq-comment-header">
+            <cite id="dsq-cite-62626">
+                <span id="dsq-author-user-62626">Brian Oswald</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62626" class="dsq-comment-body">
+            <div id="dsq-comment-message-62626" class="dsq-comment-message"><p>Flashed without issue on my Nexus 5. Thanks for all the great work!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62627">
+        <div id="dsq-comment-header-62627" class="dsq-comment-header">
+            <cite id="dsq-cite-62627">
+http://www.techyou.in/                <span id="dsq-author-user-62627">Aashish Dhand</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62627" class="dsq-comment-body">
+            <div id="dsq-comment-message-62627" class="dsq-comment-message"><p>It&#8217;s already available on OTA.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62628">
+        <div id="dsq-comment-header-62628" class="dsq-comment-header">
+            <cite id="dsq-cite-62628">
+                <span id="dsq-author-user-62628">Rafa Oviol</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62628" class="dsq-comment-body">
+            <div id="dsq-comment-message-62628" class="dsq-comment-message"><p>Sadly it doesn&#8217;t seem so&#8230; I installed CM with the Installer and from February no updates have been available. My current release is 11.0-InstallerXNPQ808Q. Thanks anyway!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62629">
+        <div id="dsq-comment-header-62629" class="dsq-comment-header">
+            <cite id="dsq-cite-62629">
+                <span id="dsq-author-user-62629">ShinakoX2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62629" class="dsq-comment-body">
+            <div id="dsq-comment-message-62629" class="dsq-comment-message"><p>Every time I boot my phone I get a pop-up that says &#8220;com.android.systemui&#8221; has stopped and the wallpaper goes back to default, but I&#8217;m not having any other system UI problems. Are you talking about the same thing?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62630">
+        <div id="dsq-comment-header-62630" class="dsq-comment-header">
+            <cite id="dsq-cite-62630">
+                <span id="dsq-author-user-62630">ShinakoX2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62630" class="dsq-comment-body">
+            <div id="dsq-comment-message-62630" class="dsq-comment-message"><p>My phone was running fine at first, but after a day System UI crashes on boot. The only thing it&#8217;s done is reset my wallpaper, so idk if it&#8217;s a big enough issue to worry about.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62631">
+        <div id="dsq-comment-header-62631" class="dsq-comment-header">
+            <cite id="dsq-cite-62631">
+                <span id="dsq-author-user-62631">ShinakoX2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62631" class="dsq-comment-body">
+            <div id="dsq-comment-message-62631" class="dsq-comment-message"><p>I&#8217;ve had battery issues too, but it seems to be a problem with some of the gapps, possibly google+.</p>
+<p>One option is to disable all syncing through google+, or maybe uninstall and redownload it. I&#8217;ll try and remember to update this if I figure it out.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62632">
+        <div id="dsq-comment-header-62632" class="dsq-comment-header">
+            <cite id="dsq-cite-62632">
+                <span id="dsq-author-user-62632">ShinakoX2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62632" class="dsq-comment-body">
+            <div id="dsq-comment-message-62632" class="dsq-comment-message"><p>Yes, you can open &#8220;protected apps&#8221; by long pressing on the home screen. Then at the bottom of screen there is a menu you can pull out, and at the bottom of that menu is protected apps. Open that, and then open the options, and there will be a reset option</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62633">
+        <div id="dsq-comment-header-62633" class="dsq-comment-header">
+            <cite id="dsq-cite-62633">
+                <span id="dsq-author-user-62633">ShinakoX2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62633" class="dsq-comment-body">
+            <div id="dsq-comment-message-62633" class="dsq-comment-message"><p>This needs to be more visible. I&#8217;ve been having the same issue, but thankfully all that happens is I lose my wallpaper. It also only happens on boot.</p>
+<p>Also, I&#8217;m not familiar with headsup. Can you explain what you mean by enabling it?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62634">
+        <div id="dsq-comment-header-62634" class="dsq-comment-header">
+            <cite id="dsq-cite-62634">
+                <span id="dsq-author-user-62634">ShinakoX2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62634" class="dsq-comment-body">
+            <div id="dsq-comment-message-62634" class="dsq-comment-message"><p>Open the settings so it will crash, then go to recent apps (default long press home button for most people) and long press &#8220;settings&#8221;, go to app info and clear data</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62635">
+        <div id="dsq-comment-header-62635" class="dsq-comment-header">
+            <cite id="dsq-cite-62635">
+                <span id="dsq-author-user-62635">ShinakoX2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62635" class="dsq-comment-body">
+            <div id="dsq-comment-message-62635" class="dsq-comment-message"><p>Sounds like you&#8217;re having an issue with the proximity sensor on the front of the phone</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62636">
+        <div id="dsq-comment-header-62636" class="dsq-comment-header">
+            <cite id="dsq-cite-62636">
+                <span id="dsq-author-user-62636">ShinakoX2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62636" class="dsq-comment-body">
+            <div id="dsq-comment-message-62636" class="dsq-comment-message"><p>All I did was change the wallpaper and systemUI crashes and resets the wallpaper, but this only happen on booting the phone</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62637">
+        <div id="dsq-comment-header-62637" class="dsq-comment-header">
+            <cite id="dsq-cite-62637">
+                <span id="dsq-author-user-62637">ShinakoX2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62637" class="dsq-comment-body">
+            <div id="dsq-comment-message-62637" class="dsq-comment-message"><p>I heard that it&#8217;s a known bug and will hopefully be fixed in the next release</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62638">
+        <div id="dsq-comment-header-62638" class="dsq-comment-header">
+            <cite id="dsq-cite-62638">
+                <span id="dsq-author-user-62638">ShinakoX2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62638" class="dsq-comment-body">
+            <div id="dsq-comment-message-62638" class="dsq-comment-message"><p>I haven&#8217;t been able to find an option for it either, I guess it&#8217;s not a feature anymore, but it&#8217;s the one I miss the most</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62639">
+        <div id="dsq-comment-header-62639" class="dsq-comment-header">
+            <cite id="dsq-cite-62639">
+http://www.aquademica.se/besiktning/husbesiktning/                <span id="dsq-author-user-62639">husbesiktning</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62639" class="dsq-comment-body">
+            <div id="dsq-comment-message-62639" class="dsq-comment-message"><p>Excellent</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62640">
+        <div id="dsq-comment-header-62640" class="dsq-comment-header">
+            <cite id="dsq-cite-62640">
+                <span id="dsq-author-user-62640">Sergio López Sánchez</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62640" class="dsq-comment-body">
+            <div id="dsq-comment-message-62640" class="dsq-comment-message"><p>What happens if i choose FORMAT DATA in TWRP?<br />
+Now I can install cm.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62641">
+        <div id="dsq-comment-header-62641" class="dsq-comment-header">
+            <cite id="dsq-cite-62641">
+                <span id="dsq-author-user-62641">Brian Flores</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62641" class="dsq-comment-body">
+            <div id="dsq-comment-message-62641" class="dsq-comment-message"><p>Is there any way to fix it? It&#8217;s only during calls and nothing else. Oh and when I get a call, I have to have my ear buds plugged in so the screen can turn on. Any clues on why that is happening? </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62642">
+        <div id="dsq-comment-header-62642" class="dsq-comment-header">
+            <cite id="dsq-cite-62642">
+                <span id="dsq-author-user-62642">Brian Flores</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62642" class="dsq-comment-body">
+            <div id="dsq-comment-message-62642" class="dsq-comment-message"><p>Is there any way to fix it? It&#8217;s only during calls and nothing else. Oh and when I get a call, I have to have my ear buds plugged in so the screen can turn on. Any clues on why that is happening</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62643">
+        <div id="dsq-comment-header-62643" class="dsq-comment-header">
+            <cite id="dsq-cite-62643">
+                <span id="dsq-author-user-62643">Brian Flores</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62643" class="dsq-comment-body">
+            <div id="dsq-comment-message-62643" class="dsq-comment-message"><p>Oh and when I downgrade to like cm 10, everything works fine so I don&#8217;t think it&#8217;s a proximity sensor issue. I think it&#8217;s the update but for some reason I feel like it&#8217;s only my phone. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62644">
+        <div id="dsq-comment-header-62644" class="dsq-comment-header">
+            <cite id="dsq-cite-62644">
+                <span id="dsq-author-user-62644">dragos</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62644" class="dsq-comment-body">
+            <div id="dsq-comment-message-62644" class="dsq-comment-message"><p>ok. i have updated from m7 to m8 and i have this problem</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62645">
+        <div id="dsq-comment-header-62645" class="dsq-comment-header">
+            <cite id="dsq-cite-62645">
+                <span id="dsq-author-user-62645">Isidoro Fernandez</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62645" class="dsq-comment-body">
+            <div id="dsq-comment-message-62645" class="dsq-comment-message"><p>I am new in this blob and in CM. Two days ago I install the CM ROM with the installer. The version was 4.4.2. Could I install the 4.4.4 versio? How have i to do this?<br />
+Thank you very much</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62646">
+        <div id="dsq-comment-header-62646" class="dsq-comment-header">
+            <cite id="dsq-cite-62646">
+                <span id="dsq-author-user-62646">amirul</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62646" class="dsq-comment-body">
+            <div id="dsq-comment-message-62646" class="dsq-comment-message"><p>Need help here..just install m8 today on my g2..i try to change my icon pack,theme..but system said unfortunately.systemui has stop working&#8230;btw the theme and icon change was succesful..just when i try to change it..system always mention systemui has stop working..weird..please help</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62647">
+        <div id="dsq-comment-header-62647" class="dsq-comment-header">
+            <cite id="dsq-cite-62647">
+                <span id="dsq-author-user-62647">Pure Drive GT</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62647" class="dsq-comment-body">
+            <div id="dsq-comment-message-62647" class="dsq-comment-message"><p>Yeah, I also have that issue with CWM, but the problem is, there is no official CWM nor TWRP available for the X9076 atm. So I guess I&#8217;ll just wait until something pops up. I&#8217;ve been using Gummy CWM until now, which seems the most reliable on this device as of now.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62648">
+        <div id="dsq-comment-header-62648" class="dsq-comment-header">
+            <cite id="dsq-cite-62648">
+                <span id="dsq-author-user-62648">Pure Drive GT</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62648" class="dsq-comment-body">
+            <div id="dsq-comment-message-62648" class="dsq-comment-message"><p>As of today there is no official TWRP available. So i&#8217;ll just have to wait. Was wondering what they were using to flash it, since there is no official recovery as of now. Wanted to know if flashing through fastboot is possible with &#8220;fastboot update &#8220;</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62649">
+        <div id="dsq-comment-header-62649" class="dsq-comment-header">
+            <cite id="dsq-cite-62649">
+                <span id="dsq-author-user-62649">chris baxter</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62649" class="dsq-comment-body">
+            <div id="dsq-comment-message-62649" class="dsq-comment-message"><p>Is there any way they could add a stealth mode with root. I have to unroot with super user to run barclays app. Obviously each time I update I&#8217;m back to root again. I&#8217;v tried various methods for temp unroot but none seem to work. Think sky go has same issue but I&#8217;m not with sky.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62650">
+        <div id="dsq-comment-header-62650" class="dsq-comment-header">
+            <cite id="dsq-cite-62650">
+                <span id="dsq-author-user-62650">chris baxter</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62650" class="dsq-comment-body">
+            <div id="dsq-comment-message-62650" class="dsq-comment-message"><p>I&#8217;m on nightly 9/7/14</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62651">
+        <div id="dsq-comment-header-62651" class="dsq-comment-header">
+            <cite id="dsq-cite-62651">
+                <span id="dsq-author-user-62651">ejzllanes</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62651" class="dsq-comment-body">
+            <div id="dsq-comment-message-62651" class="dsq-comment-message"><p>Can I flash an M8 build from a M6 build or do I have to flash an M7 first then an M8? I&#8217;m on a Galaxy S2 i9100 btw. Also do I have to flash new gapps?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62652">
+        <div id="dsq-comment-header-62652" class="dsq-comment-header">
+            <cite id="dsq-cite-62652">
+                <span id="dsq-author-user-62652">Gaurav Kumar</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62652" class="dsq-comment-body">
+            <div id="dsq-comment-message-62652" class="dsq-comment-message"><p>Phone &#8211; Samsung Galaxy S3 (International &#8211; GSM)<br />
+Update: CM 11.8 M8 : 20140708<br />
+Flashed on &#8211; 9th July&#8217;2014 (India)</p>
+<p>Hi there,<br />
+I have flashed CM 11.8 M8 last night (9th July&#8217;14) in IND, since then I am experiencing many issue related to &#8220;Unfortunately, camera has stopped, android.process.media, gallery, settings has stopped&#8221; prompts.</p>
+<p>Now, When ever I am trying to open &#8216;Settings&#8217; from the notification drawer I am getting &#8220;Unfortunately, settings has stopped&#8221; message. I am unable to open &#8220;settings&#8221; by any means. Even, rebooting, shutting down the phone many times didn&#8217;t work. Still facing the issue. Moreover, Hard Key (Volume Up+Power Button+Home button) to open in recovery mode is not working. </p>
+<p>Please help me getting this issue fixed asap. I am totally pissed off. As the phone is not working, and crashing for almost every apps.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62653">
+        <div id="dsq-comment-header-62653" class="dsq-comment-header">
+            <cite id="dsq-cite-62653">
+                <span id="dsq-author-user-62653">I Brick Phones</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62653" class="dsq-comment-body">
+            <div id="dsq-comment-message-62653" class="dsq-comment-message"><p>What do you mean &#8220;long press on the home screen&#8221;? you talking about in the trebuchet menu or what? thanks.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62654">
+        <div id="dsq-comment-header-62654" class="dsq-comment-header">
+            <cite id="dsq-cite-62654">
+                <span id="dsq-author-user-62654">Gaurav Kumar</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62654" class="dsq-comment-body">
+            <div id="dsq-comment-message-62654" class="dsq-comment-message"><p>You can directly flash M8, but I strongly suggest not to flash M8. Its with loads of bugs. Better go for latest nightly. <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62655">
+        <div id="dsq-comment-header-62655" class="dsq-comment-header">
+            <cite id="dsq-cite-62655">
+                <span id="dsq-author-user-62655">Fernando Luiz Ferraz</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62655" class="dsq-comment-body">
+            <div id="dsq-comment-message-62655" class="dsq-comment-message"><p>I&#8217;d like to know if I can flash the ROM of S4 Snapdragon &#8220;i9505&#8243; to S4 Snapdragon &#8220;i9515L&#8221; (Value Edition), whereas the specs are the same&#8230; The model i9515 is &#8220;not so well known&#8221;, but the sales are growing in Brazil and nobody answers this question. Grateful. And congrats for the amazing job.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62656">
+        <div id="dsq-comment-header-62656" class="dsq-comment-header">
+            <cite id="dsq-cite-62656">
+http://thenikhilmishra.blogspot.in/                <span id="dsq-author-user-62656">Nikhil</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62656" class="dsq-comment-body">
+            <div id="dsq-comment-message-62656" class="dsq-comment-message"><p>TAb 2..? ?? ? ? ?? ? plz give a stable version of CM 11&#8230;!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62657">
+        <div id="dsq-comment-header-62657" class="dsq-comment-header">
+            <cite id="dsq-cite-62657">
+                <span id="dsq-author-user-62657">Nitin Bagul</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62657" class="dsq-comment-body">
+            <div id="dsq-comment-message-62657" class="dsq-comment-message"><p>i9305 not listed yet. Can I use i9300 snapshot for my i9305 SG3 LTE international version</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62658">
+        <div id="dsq-comment-header-62658" class="dsq-comment-header">
+            <cite id="dsq-cite-62658">
+                <span id="dsq-author-user-62658">ShinakoX2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62658" class="dsq-comment-body">
+            <div id="dsq-comment-message-62658" class="dsq-comment-message"><p>Yes, the trebuchet menu</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62659">
+        <div id="dsq-comment-header-62659" class="dsq-comment-header">
+            <cite id="dsq-cite-62659">
+                <span id="dsq-author-user-62659">I Brick Phones</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62659" class="dsq-comment-body">
+            <div id="dsq-comment-message-62659" class="dsq-comment-message"><p>dude i have no clue what the heck you are talking about&#8230; in the trebuchet menu if you press on the home screen it selects the screen and allows you to rearrange the screens left/right.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62660">
+        <div id="dsq-comment-header-62660" class="dsq-comment-header">
+            <cite id="dsq-cite-62660">
+                <span id="dsq-author-user-62660">ShinakoX2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62660" class="dsq-comment-body">
+            <div id="dsq-comment-message-62660" class="dsq-comment-message"><p>What device are you on? You&#8217;re using M8, right? In the trebuchet menu, there should be 3 buttons at the bottom: &#8220;wallpapers, widgets, themes&#8221; </p>
+<p>Above those 3 buttons is an arrow. Pull the arrow up to access a menu.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62661">
+        <div id="dsq-comment-header-62661" class="dsq-comment-header">
+            <cite id="dsq-cite-62661">
+                <span id="dsq-author-user-62661">I Brick Phones</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62661" class="dsq-comment-body">
+            <div id="dsq-comment-message-62661" class="dsq-comment-message"><p>yes i know how to get into the menu. what i don&#8217;t see is this reset button that you mentioned. all i see at the bottom is &#8220;Protected apps&#8221;</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62662">
+        <div id="dsq-comment-header-62662" class="dsq-comment-header">
+            <cite id="dsq-cite-62662">
+                <span id="dsq-author-user-62662">ShinakoX2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62662" class="dsq-comment-body">
+            <div id="dsq-comment-message-62662" class="dsq-comment-message"><p>My god how old are you? Do you need me to hold your hand and walk across the street too?</p>
+<p>Click &#8220;protected apps&#8221;<br />
+Enter your lock screen pattern if prompted.<br />
+Hit the menu button, or the &#8230; button in the upper right corner.<br />
+Select &#8220;Reset pattern lock&#8221;<br />
+Enter new unlock pattern, and then enter it again to confirm.</p>
+<p>Don&#8217;t forget to wipe your ass after you take a shit too.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62663">
+        <div id="dsq-comment-header-62663" class="dsq-comment-header">
+            <cite id="dsq-cite-62663">
+                <span id="dsq-author-user-62663">I Brick Phones</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62663" class="dsq-comment-body">
+            <div id="dsq-comment-message-62663" class="dsq-comment-message"><p>listen you pathetic piece of $hit&#8230; if you would have read my original fu cking question you would have realized i need to reset the pattern&#8230; meaning i don&#8217;t know what my pattern is and need to reset it&#8230; go fuc k yourself bitch</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62664">
+        <div id="dsq-comment-header-62664" class="dsq-comment-header">
+            <cite id="dsq-cite-62664">
+                <span id="dsq-author-user-62664">ShinakoX2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62664" class="dsq-comment-body">
+            <div id="dsq-comment-message-62664" class="dsq-comment-message"><p>HAHA you forgot your pattern??? You&#8217;re an idiot. Good luck with that</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62665">
+        <div id="dsq-comment-header-62665" class="dsq-comment-header">
+            <cite id="dsq-cite-62665">
+                <span id="dsq-author-user-62665">I Brick Phones</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62665" class="dsq-comment-body">
+            <div id="dsq-comment-message-62665" class="dsq-comment-message"><p>good job wasting people&#8217;s time fuckface&#8230; and you don&#8217;t long press on the home screen to do anything idiot&#8230; stop giving people stupid fucking advice.</p>
+<p>also i know i can reset it by clearing data for the trebuchet app so  i do know what to do&#8230; i was just wanting to see if there was another option before you ended up giving shitty advice and wasting my time</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62666">
+        <div id="dsq-comment-header-62666" class="dsq-comment-header">
+            <cite id="dsq-cite-62666">
+                <span id="dsq-author-user-62666">ShinakoX2</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62666" class="dsq-comment-body">
+            <div id="dsq-comment-message-62666" class="dsq-comment-message"><p>It&#8217;s your fault for not being clear what your issue was. You said &#8220;Any way to reset the pattern for protected apps in trebuchet?&#8221;</p>
+<p>I gave directions on how to get to the &#8220;reset pattern&#8221; option within &#8220;protected apps&#8221;. You never said anything about how you&#8217;ve forgotten your pattern in the first place.</p>
+<p>And long pressing on the home screen open the Trebuchet menu, unless I&#8217;m using the wrong words to describe that.</p>
+<p>btw you&#8217;ll probably just have to wipe your phone if you want to reset protected apps. I hope you have a backup!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62667">
+        <div id="dsq-comment-header-62667" class="dsq-comment-header">
+            <cite id="dsq-cite-62667">
+                <span id="dsq-author-user-62667">Blitz69</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62667" class="dsq-comment-body">
+            <div id="dsq-comment-message-62667" class="dsq-comment-message"><p>Ok i finally found where it is. In case anyone wonder:<br />
+Long press your screen in a blank space on the launcher,and click on the 3 dots on the bottom part of the screen</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62669">
+        <div id="dsq-comment-header-62669" class="dsq-comment-header">
+            <cite id="dsq-cite-62669">
+                <span id="dsq-author-user-62669">Banana26</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62669" class="dsq-comment-body">
+            <div id="dsq-comment-message-62669" class="dsq-comment-message"><p>Hey,  after I installed this rom,  I can&#8217;t view videos on YouTube or download things in the playstore.  How can I fix that?  My friend told me that I had to download newer gapps and I did but still got the same problem. Hope anyone helps me. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62670">
+        <div id="dsq-comment-header-62670" class="dsq-comment-header">
+            <cite id="dsq-cite-62670">
+                <span id="dsq-author-user-62670">Ahmed</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62670" class="dsq-comment-body">
+            <div id="dsq-comment-message-62670" class="dsq-comment-message"><p>Hey Rob, can you explain how you did the upgrade. Did you just flash the new file or .. Thanks</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62671">
+        <div id="dsq-comment-header-62671" class="dsq-comment-header">
+            <cite id="dsq-cite-62671">
+                <span id="dsq-author-user-62671">Arthur Feitosa</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62671" class="dsq-comment-body">
+            <div id="dsq-comment-message-62671" class="dsq-comment-message"><p>i can&#8217;t turn on wifi on my GS2 (i9100) after installed the M8.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62672">
+        <div id="dsq-comment-header-62672" class="dsq-comment-header">
+            <cite id="dsq-cite-62672">
+                <span id="dsq-author-user-62672">Vitaly Gurevich</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62672" class="dsq-comment-body">
+            <div id="dsq-comment-message-62672" class="dsq-comment-message"><p>As with any other version of CM on GS3 ATT, I keep running into the same problem. The cant reconnect to data. Example, before i got inside a building i have 4g data. Inside no data. I come out still no data. It does not reconnect to data until i reboot the device. Any help?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62673">
+        <div id="dsq-comment-header-62673" class="dsq-comment-header">
+            <cite id="dsq-cite-62673">
+                <span id="dsq-author-user-62673">agonia</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62673" class="dsq-comment-body">
+            <div id="dsq-comment-message-62673" class="dsq-comment-message"><p>You have to flash manually to get OTA updates</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-62674">
+        <div id="dsq-comment-header-62674" class="dsq-comment-header">
+            <cite id="dsq-cite-62674">
+                <span id="dsq-author-user-62674">kokoko</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62674" class="dsq-comment-body">
+            <div id="dsq-comment-message-62674" class="dsq-comment-message"><p>theme chooser keeps on crashing&#8230; =( and it automatically change to cyan theme every after reboot =(</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62678">
+        <div id="dsq-comment-header-62678" class="dsq-comment-header">
+            <cite id="dsq-cite-62678">
+                <span id="dsq-author-user-62678">Rohan</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-62678" class="dsq-comment-body">
+            <div id="dsq-comment-message-62678" class="dsq-comment-message"><p>if you install xposed module framework and then root cloak that should work.</p>
+</div>
+        </div>
+
+    </li>
+            </ul>
+
+            <div class="navigation">
+                <div class="nav-previous"><a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m8-released/comment-page-3#comments" ><span class="meta-nav">&larr;</span> Older Comments</a></div>
+                <div class="nav-next"><a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m8-released/comment-page-5#comments" >Newer Comments <span class="meta-nav">&rarr;</span></a></div>
+            </div><!-- .navigation -->
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://www.cyanogenmod.org/blog/cyanogenmod-11-0-m8-released';
+    var disqus_identifier = '2753 http://www.cyanogenmod.org/?p=2753';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'cyngn';
+    var disqus_title = "CyanogenMod 11.0 M8 Released";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+        config.language = '';
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '?cf_action=sync_comments&post_id=2753';
+
+            var firstScript = document.getElementsByTagName( "script" )[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+        });
+                    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/www.cyanogenmod.org\/blog\/cyanogenmod-11-0-m8-released\/trackback"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+</article>
+			</div>
+
+		</div><!-- End Content row -->
+		
+		<aside id="sidebar" class="four columns hide-on-phones" role="complementary">
+	<div class="sidebar-box">
+		<article id="recent-comments-4" class="row widget widget_recent_comments"><div class="sidebar-section twelve columns"><h6><strong>Recent Comments</strong></h6><ul id="recentcomments"><li class="recentcomments">Rakesh Lingechetty on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65376">CyanogenMod 11 M12</a></li><li class="recentcomments">zamarax on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65375">CyanogenMod 11 M12</a></li><li class="recentcomments">Avinash Sailesh on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65374">CyanogenMod 11 M12</a></li><li class="recentcomments">ibrahim biten on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65373">CyanogenMod 11 M12</a></li><li class="recentcomments">ibrahim biten on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65372">CyanogenMod 11 M12</a></li></ul></div></article>	</div>
+</aside><!-- /#sidebar -->		
+		</div><!-- End Main row -->
+		
+		<footer id="content-info" role="contentinfo" class="hide-on-phones" style="margin:40px 0 0 0;">
+			<div class="row">
+				<article id="nav_menu-4" class="three columns widget widget_nav_menu"><div class="footer-section"><h6><strong>Navigation</strong></h6><div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-798"><a href="http://www.cyanogenmod.org/about">About</a></li>
+<li id="menu-item-2403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2403"><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+<li id="menu-item-2404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2404"><a href="http://download.cyanogenmod.org">Download</a></li>
+<li id="menu-item-825" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-825"><a href="/blog">Blog</a></li>
+<li id="menu-item-904" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-904"><a href="http://forum.cyanogenmod.org">Forum</a></li>
+<li id="menu-item-829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-829"><a href="http://www.cyanogenmod.org/community">Community</a></li>
+<li id="menu-item-2405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2405"><a href="https://account.cyanogenmod.org/">Account</a></li>
+<li id="menu-item-2709" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2709"><a href="http://shop.cyanogenmod.org">Shop</a></li>
+</ul></div></div></article><article id="nav_menu-3" class="three columns widget widget_nav_menu"><div class="footer-section"><h6><strong>Social Networks</strong></h6><div class="menu-social-networks-container"><ul id="menu-social-networks" class="menu"><li id="menu-item-2173" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2173"><a href="https://www.facebook.com/CyanogenMod">Facebook</a></li>
+<li id="menu-item-2174" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2174"><a href="https://twitter.com/CyanogenMod">Twitter</a></li>
+<li id="menu-item-2175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2175"><a href="https://plus.google.com/+CyanogenMod/posts">Google+</a></li>
+</ul></div></div></article>                                <article class="three columns widget widget widget_nav_menu">
+                                    <div class="footer-section">
+                                        <h6><strong>Sponsored By</strong></h6>
+                                        <a href="http://twilio.com/?utm_source=cyanogenmod&utm_medium=webbadge&utm_campaign=cyanogenverify" style="text: decoration: none; display: inline-block; width: 166px; height: 0; overflow: hidden; padding-top: 31px; background: url(http://www.twilio.com/packages/company/img/logos_icon_poweredbysmall.png) no-repeat;">powered by twilio™</a>
+                                    </div>
+                                </article>
+			</div>
+		</footer>
+        
+      <div id="navigation" class="row mobile-footer show-on-phones">
+			<div class="twelve columns">
+            	<h6>Navigate cyanogenmod.org</h6>
+            	<ul>
+                	<li><a href="/about">About</a></li>
+                    <!--<li><a href="#">Features</a></li>-->
+                    <li><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+                    <li><a href="http://download.cyanogenmod.org/">Download</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="http://forum.cyanogenmod.org">Forum</a></li>
+                    <li><a href="/community">Community</a></li>  
+                    <li><a href="https://account.cyanogenmod.org">Account</a></li>
+                    <li><a href="http://shop.cyanogenmod.org">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+			
+	</div><!-- Container End -->
+    
+
+	<!-- Included JS Files of Foundation -->
+	<script src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/foundation.js"></script>
+	<script src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/app.js"></script>
+	
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	     chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7]>
+		<script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+		<script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+	
+	<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 10/23 queries in 0.033 seconds using apc
+Object Caching 994/1337 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:17:22 by W3 Total Cache -->

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Big Android BBQ 2013</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/big-android-bbq-2013/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/big-android-bbq-2013</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: Williams Alejandro</title>
+		<link>http://www.cyanogenmod.org/blog/big-android-bbq-2013/comment-page-1#comment-57750</link>
+		<dc:creator>Williams Alejandro</dc:creator>
+		<pubDate>Sat, 26 Oct 2013 23:18:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2415#comment-57750</guid>
+		<description><![CDATA[this will serve for all the android device that has the bootloander unlocked or it would also be an exception?
+
+Fits Sony Xperia E? if so I would like to try the beta]]></description>
+		<content:encoded><![CDATA[<p>this will serve for all the android device that has the bootloander unlocked or it would also be an exception?</p>
+<p>Fits Sony Xperia E? if so I would like to try the beta</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Caleb Howland</title>
+		<link>http://www.cyanogenmod.org/blog/big-android-bbq-2013/comment-page-1#comment-57749</link>
+		<dc:creator>Caleb Howland</dc:creator>
+		<pubDate>Fri, 25 Oct 2013 17:55:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2415#comment-57749</guid>
+		<description><![CDATA[Android ROM League? Why not the Android ROM Premier League (ARPL)? :)]]></description>
+		<content:encoded><![CDATA[<p>Android ROM League? Why not the Android ROM Premier League (ARPL)? <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: kayomarz97</title>
+		<link>http://www.cyanogenmod.org/blog/big-android-bbq-2013/comment-page-1#comment-57741</link>
+		<dc:creator>kayomarz97</dc:creator>
+		<pubDate>Tue, 22 Oct 2013 06:03:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2415#comment-57741</guid>
+		<description><![CDATA[Even if I install the pro version n den root my phone I will be getting all the usability of cm right ? 
+always wanted something like that 
+I sent a request to join your community on g+
+how much time will it take to accept me 
+and &#039;pro&#039; doesn&#039;t sound good 
+hope u ppl think of a better name
+U could use &#039;aurum&#039; it&#039;s Latin for gold :P
+Would love to experiment with ur software 
+love all the work u do. n that too for free
+Thank you!!  :D]]></description>
+		<content:encoded><![CDATA[<p>Even if I install the pro version n den root my phone I will be getting all the usability of cm right ?<br />
+always wanted something like that<br />
+I sent a request to join your community on g+<br />
+how much time will it take to accept me<br />
+and &#8216;pro&#8217; doesn&#8217;t sound good<br />
+hope u ppl think of a better name<br />
+U could use &#8216;aurum&#8217; it&#8217;s Latin for gold <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_razz.gif' alt=':P' class='wp-smiley' /><br />
+Would love to experiment with ur software<br />
+love all the work u do. n that too for free<br />
+Thank you!!  <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: ciwrl</title>
+		<link>http://www.cyanogenmod.org/blog/big-android-bbq-2013/comment-page-1#comment-57740</link>
+		<dc:creator>ciwrl</dc:creator>
+		<pubDate>Tue, 22 Oct 2013 02:23:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2415#comment-57740</guid>
+		<description><![CDATA[&quot;we will start for free for THIS version but will add more for money?&quot; No. Core functionality will not be charged for. When we discuss avenues for eventual charge we lean more towards the service side (hypothetical example: say we build Secure storage - you get x amount free, and $y to add more). 
+
+&quot;So will community version be less secure because of root or will they make it less secure for sake of using PRO?&quot; Yes (but not for some nefarious plot). 
+
+Signing with test_keys is and has always been counter to Android&#039;s security model ( http://developer.android.com/tools/publishing/app-signing.html ) - &quot;The Android system requires that all installed applications be digitally signed with a certificate whose private key is held by the application&#039;s developer.&quot; This applies at a system level too (ie each OEM has a key or multiple keys).
+
+We&#039;ve historically signed with test_keys (ie not secure or private keys) because &#039;hacking&#039; is so core to the CM userbase - users like flashing external mods/frameworks/hacks/etc. Signing with priv_keys would prevent that level of freedom. 
+
+
+So yes, the CE version is less secure because root (also highly dangerous) and the key signing situation - but the other side of that coin is that these systems are more hackable/customizeable by power users. We merely offer you the choice of which route matters more to you. 
+
+
+&#039;Pro&#039; (I hate that name) will likely see a paired down build cycle (ie every 2 weeks instead of nightly) for that. Easy updates will be handled with incremental builds (easier for us to do with the paired down release cycle) and appear to the end user as no different than a Google/Carrier/OEM ota - just from us instead.]]></description>
+		<content:encoded><![CDATA[<p>&#8220;we will start for free for THIS version but will add more for money?&#8221; No. Core functionality will not be charged for. When we discuss avenues for eventual charge we lean more towards the service side (hypothetical example: say we build Secure storage &#8211; you get x amount free, and $y to add more). </p>
+<p>&#8220;So will community version be less secure because of root or will they make it less secure for sake of using PRO?&#8221; Yes (but not for some nefarious plot). </p>
+<p>Signing with test_keys is and has always been counter to Android&#8217;s security model ( <a href="http://developer.android.com/tools/publishing/app-signing.html" rel="nofollow">http://developer.android.com/tools/publishing/app-signing.html</a> ) &#8211; &#8220;The Android system requires that all installed applications be digitally signed with a certificate whose private key is held by the application&#8217;s developer.&#8221; This applies at a system level too (ie each OEM has a key or multiple keys).</p>
+<p>We&#8217;ve historically signed with test_keys (ie not secure or private keys) because &#8216;hacking&#8217; is so core to the CM userbase &#8211; users like flashing external mods/frameworks/hacks/etc. Signing with priv_keys would prevent that level of freedom. </p>
+<p>So yes, the CE version is less secure because root (also highly dangerous) and the key signing situation &#8211; but the other side of that coin is that these systems are more hackable/customizeable by power users. We merely offer you the choice of which route matters more to you. </p>
+<p>&#8216;Pro&#8217; (I hate that name) will likely see a paired down build cycle (ie every 2 weeks instead of nightly) for that. Easy updates will be handled with incremental builds (easier for us to do with the paired down release cycle) and appear to the end user as no different than a Google/Carrier/OEM ota &#8211; just from us instead.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: ciwrl</title>
+		<link>http://www.cyanogenmod.org/blog/big-android-bbq-2013/comment-page-1#comment-57739</link>
+		<dc:creator>ciwrl</dc:creator>
+		<pubDate>Tue, 22 Oct 2013 02:17:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2415#comment-57739</guid>
+		<description><![CDATA[Lack of a better name for now. May change in the near future (I&#039;m personally not a fan of the &#039;pro&#039; name).]]></description>
+		<content:encoded><![CDATA[<p>Lack of a better name for now. May change in the near future (I&#8217;m personally not a fan of the &#8216;pro&#8217; name).</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: ciwrl</title>
+		<link>http://www.cyanogenmod.org/blog/big-android-bbq-2013/comment-page-1#comment-57738</link>
+		<dc:creator>ciwrl</dc:creator>
+		<pubDate>Tue, 22 Oct 2013 02:16:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2415#comment-57738</guid>
+		<description><![CDATA[Thanks. Fixed]]></description>
+		<content:encoded><![CDATA[<p>Thanks. Fixed</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: ciwrl</title>
+		<link>http://www.cyanogenmod.org/blog/big-android-bbq-2013/comment-page-1#comment-57737</link>
+		<dc:creator>ciwrl</dc:creator>
+		<pubDate>Tue, 22 Oct 2013 02:15:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2415#comment-57737</guid>
+		<description><![CDATA[Gotta keep moving forward always.]]></description>
+		<content:encoded><![CDATA[<p>Gotta keep moving forward always.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: CSRedRat</title>
+		<link>http://www.cyanogenmod.org/blog/big-android-bbq-2013/comment-page-1#comment-57734</link>
+		<dc:creator>CSRedRat</dc:creator>
+		<pubDate>Mon, 21 Oct 2013 18:21:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2415#comment-57734</guid>
+		<description><![CDATA[Why called Community and Pro?]]></description>
+		<content:encoded><![CDATA[<p>Why called Community and Pro?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: venorme</title>
+		<link>http://www.cyanogenmod.org/blog/big-android-bbq-2013/comment-page-1#comment-57725</link>
+		<dc:creator>venorme</dc:creator>
+		<pubDate>Sun, 20 Oct 2013 18:51:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2415#comment-57725</guid>
+		<description><![CDATA[Just few quotes from them:
+
+&quot;The Pro name usually implies that such a software version would cost money or would offer features for pro users, but that’s not what’s happening with THIS ROM version&quot; - does this goes for - we will start for free for THIS version but will add more for money?
+
+Also they state that &quot;Community Edition Designed for hackability
+
+Pro Edition Designed for security &quot;
+So will community version be less secure because of root or will they make it less secure for sake of using PRO?
+
+And for all this easy updates for PRO - what happens to easy updates for nightlies?]]></description>
+		<content:encoded><![CDATA[<p>Just few quotes from them:</p>
+<p>&#8220;The Pro name usually implies that such a software version would cost money or would offer features for pro users, but that’s not what’s happening with THIS ROM version&#8221; &#8211; does this goes for &#8211; we will start for free for THIS version but will add more for money?</p>
+<p>Also they state that &#8220;Community Edition Designed for hackability</p>
+<p>Pro Edition Designed for security &#8221;<br />
+So will community version be less secure because of root or will they make it less secure for sake of using PRO?</p>
+<p>And for all this easy updates for PRO &#8211; what happens to easy updates for nightlies?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Fatal1ty_93_RUS</title>
+		<link>http://www.cyanogenmod.org/blog/big-android-bbq-2013/comment-page-1#comment-57723</link>
+		<dc:creator>Fatal1ty_93_RUS</dc:creator>
+		<pubDate>Sun, 20 Oct 2013 17:46:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.org/?p=2415#comment-57723</guid>
+		<description><![CDATA[HighRollerUSA link is broken]]></description>
+		<content:encoded><![CDATA[<p>HighRollerUSA link is broken</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 4/19 queries in 0.033 seconds using apc
+Object Caching 362/368 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 03:14:11 by W3 Total Cache -->

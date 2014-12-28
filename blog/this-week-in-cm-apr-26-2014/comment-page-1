@@ -1,0 +1,1019 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+
+	<title>Last Week in CyanogenMod | CyanogenMod</title>
+	
+	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<!-- Included Foundation CSS Files -->
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/foundation.css">
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/app.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/tipTip.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/fonts/style.css">
+    <link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/flexslider.css" type="text/css" media="screen" />
+	
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/style.css">
+	
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/css/ie.css">
+	<![endif]-->
+	
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Favicon and Feed -->
+	<link rel="shortcut icon" type="image/png" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="CyanogenMod Feed" href="http://www.cyanogenmod.org/feed/">
+	
+	<!--  iPhone Web App Home Screen Icon -->
+	<link rel="apple-touch-icon" sizes="72x72" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon-retina.png" />
+	<link rel="apple-touch-icon" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-icon.png" />
+	
+	<!-- Enable Startup Image for iOS Home Screen Web App -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/mobile-load.png" />
+
+	<!-- Startup Image iPad Landscape (748x1024) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load-ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" />
+	<!-- Startup Image iPad Portrait (768x1004) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load-ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" />
+	<!-- Startup Image iPhone (320x460) -->
+	<link rel="apple-touch-startup-image" href="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/devices/reverie-load.png" media="screen and (max-device-width: 320px)" />
+	
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.jparallax.min.js" ></script>
+  <script defer type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.featureList-1.0.0.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.tipTip.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/easySlider1.7.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/modernizr.foundation.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/jquery.flexslider-min.js"></script>
+  <script type="text/javascript" src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/custom.js"></script>
+  
+  <script type="text/javascript">
+    $(document).load(function(){
+
+	  // The slider being synced must be initialized first
+	  $('.flexslider').flexslider({
+		animation: "slide",
+		controlNav: false,
+	  });
+	  
+    });
+  </script>
+  
+  	<link rel="alternate" type="application/rss+xml" title="CyanogenMod &raquo; Last Week in CyanogenMod Comments Feed" href="http://www.cyanogenmod.org/blog/this-week-in-cm-apr-26-2014/feed" />
+<script type='text/javascript' src='http://www.cyanogenmod.org/wp-includes/js/comment-reply.min.js?ver=3.5.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.cyanogenmod.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.cyanogenmod.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Cyanogen Event in San Francisco' href='http://www.cyanogenmod.org/blog/cyanogen-event-in-sf' />
+<link rel='next' title='PSA: HTC Devices recovery updates' href='http://www.cyanogenmod.org/blog/psa-htc-devices-recovery-updates' />
+<meta name="generator" content="WordPress 3.5.2" />
+<link rel='shortlink' href='http://www.cyanogenmod.org/?p=2673' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<!-- All in One SEO Pack 2.0.2 by Michael Torbert of Semper Fi Web Design[493,526] -->
+<link rel="author" href="http://google.com/+AbhisekDevkota" />
+<meta name="description" content="Week Ending: April 26, 2014 “This Week in CyanogenMod” is an ongoing feature that aims to serve as a one-stop shop for weekly updates. Topics discussed are" />
+
+<link rel="canonical" href="http://www.cyanogenmod.org/blog/this-week-in-cm-apr-26-2014" />
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-39737599-3']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+<!-- /all in one seo pack -->
+</head>
+
+<body class="single single-post postid-2673 single-format-standard">
+
+	<div class="menusto hide-on-phones"></div>
+	<!-- Start the main container -->
+	<div id="container" class="container" role="document" style="padding:80px 0 0 0;">
+		
+        
+        <div class="row mobile-header show-on-phones">
+            <div class="nine">
+            	<a href="http://www.cyanogenmod.org" title="CyanogenMod" class="logo-mobile"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/logo-mobile.png" alt=""/></a>
+            </div>
+            <a href="#navigation" class="mobile-menu"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/btn-menu-mobile.png" alt=""/></a>
+        </div>
+        
+		<!-- Row for blog navigation -->
+		<div class="row hide-on-phones">
+			<header class="twelve columns" role="banner">
+				<div class="reverie-header">
+                	<a href="http://www.cyanogenmod.org" title="CyanogenMod" class="logo"><img src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/images/logo.png" alt=""/></a>
+                    <div id="glavno" class="nav hide-on-phones">
+                        <ul id="glavno">                   
+                            <li><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+                            <!--<li><a href="http://cyanogenmod.org/about/features">Features</a></li>-->
+                            <li><a href="http://download.cyanogenmod.org/">Download</a></li>
+                            <li><a href="http://www.cyanogenmod.org/blog/">Blog</a></li>
+                            <li><a href="http://forum.cyanogenmod.org/">Forum</a></li>
+                            <li>
+                            	<a href="http://www.cyanogenmod.org/community">Community</a>
+                                <div style="opacity: 0; display: none; width:100%" class="sub">
+                                    <ul>
+                                    	<div style="width:980px; margin:0 auto; color:#fff;">
+                                        	<div class="contributesub">
+                                            	<h2>Contribute</h2>
+                                                
+                                                <h4><a href="http://review.cyanogenmod.org/">Gerrit Review</a></h4>
+                                                <p>Gerrit is a web based code review system, facilitating online code reviews for projects using the Git version control system.</p>
+                                                    
+                                                <h4><a href="http://wiki.cyanogenmod.org/">Wiki</a></h4>
+                                                <p>Our Wiki is a comprehensive tool for users to find information. This also needs contributions to keep it fresh and relevant.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/community">Join The Team</a></h4>
+                                                <p>We love working with others. You can submit code via Gerrit. If you think there is something else you can help with, get in touch with us on the forums.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub">
+                                            	<h2>Help</h2>
+                                                
+                                                <h4><a href="http://forum.cyanogenmod.org/">Forum</a></h4>
+                                                <p>Our forums have a wealth of knowledge and resources. All of it is free and accessible from both your desktop and mobile phone.</p>
+                                                    
+                                                <h4><a href="irc://irc.freenode.net/cyanogenmod">IRC</a></h4>
+                                                <p>If you are comfortable with IRC and would like instant help and assistance from both developers and others users alike.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/blog">Blog</a></h4>
+                                                <p>Our blogs will contain the latest news and releases as well as other related news concerning the distribution.</p>
+                                                    
+                                                <h4><a href="http://wiki.cyanogenmod.org/">Wiki</a></h4>
+                                                <p>Our Wiki is a comprehensive tool for users to find information. This also needs contributions to keep it fresh and relevant.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub">
+                                            	<h2>Information</h2>
+                                                
+                                                <h4><a href="http://www.cyanogenmod.org/changelog">Change Log</a></h4>
+                                                <p>Our development of the ROM is always changing. We add new features and fix bugs all the time. Check the latest change log here.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/bugs">Bug Tracker</a></h4>
+                                                <p>This is the official Bug Tracker where you can submit and review bugs that users may experience.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/github">Github Repo</a></h4>
+                                                <p>Our source is free and open. you can check the Github page to see what we do and how you can contribute.</p>
+                                                    
+                                                <h4><a href="http://www.cyanogenmod.org/stats">Installation Statistics</a></h4>
+                                                <p>We have an opt-in feature in our ROMS to enable us to gain statistics on users as well as devices used.</p>
+                                            </div>
+                                            
+                                        	<div class="contributesub last">
+                                            	<h2>Support</h2>
+                                                
+                                                <h4><a href="/cdn-cgi/l/email-protection#cfabaab9bdaaa38facb6aea1a0a8aaa1a2a0abe1a0bda8">Developer Relations</a></h4>
+                                                <p>If you wish to contact us regarding development contributions, please do so here.</p>
+                                                    
+                                                <h4><a href="/cdn-cgi/l/email-protection#a3c2c7cecacde3c0dac2cdccc4c6cdceccc78dccd1c4">Website Support</a></h4>
+                                                <p>This email is dedicated to website, forum, wiki and hosting support. We will not respond to ROM support.</p>
+                                                    
+                                                <h4><a href="/cdn-cgi/l/email-protection#650401080c0b25061c040b0a02000b080a014b0a1702">Social Network</a></h4>
+                                                <p>To contact us in relation to our Social media structure.</p>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                    
+                                </div>
+                            </li>
+                            <li><a href="https://account.cyanogenmod.org">Account</a></li>
+                      </ul>
+                    </div>
+				</div>
+
+			</header>
+		</div>
+
+		
+		<!-- Row for main content area -->
+		<div id="main" class="row">
+		<!-- Row for main content area -->
+		<div id="content" class="eight columns" role="main">
+	
+			<div class="post-box">
+					<article class="post-2673 post type-post status-publish format-standard hentry category-blog" id="post-2673">
+		<header>
+        	<time class="updated" datetime="2014-04-28T02:03:31+00:00" pubdate>April 28th, 2014 &bull; Written by <a href="http://www.cyanogenmod.org/author/ciwrl" rel="author" class="fn">ciwrl</a></time>        	<h2 class="entry-title">Last Week in CyanogenMod</h2>
+					</header>
+		<div class="entry-content">
+			<p dir="ltr">Week Ending: April 26, 2014</p>
+<p><em>“This Week in CyanogenMod” is an ongoing feature that aims to serve as a one-stop shop for weekly updates. Topics discussed are culled from our social media accounts, gerrit, status updates and general thoughts.</em></p>
+<p>As the team works toward the preparations for M6, its time for another wrap up.</p>
+<p><span style="text-decoration: underline;">Gerrit reviews</span></p>
+<p>A quick stroll through our recent items merged in to CM 11 mainline:</p>
+<p style="padding-left: 30px;">* Theme Engine &#8211; Improve performance and support for Legacy themes</p>
+<p style="padding-left: 30px;">* Trebuchet &#8211; Hide Apps</p>
+<p style="padding-left: 30px;">* Trebuchet &#8211; Hide app labels</p>
+<p style="padding-left: 30px;">* Quick Settings &#8211; Make it possible to show smaller QS Tiles</p>
+<p style="padding-left: 30px;">* Translations &#8211; Crowdin import</p>
+<p style="padding-left: 30px;">* JF/D2 platform &#8211; Fix all the APN &amp; Data issues, all blockers for M6 should be resolved</p>
+<p style="padding-left: 30px;">* Bluetooth &#8211; Bluedroid updates.</p>
+<p style="padding-left: 30px;"> * MultiSim &#8211; additional fixes and layout changes</p>
+<p style="padding-left: 30px;">* Recovery &#8211; Resolve custom key mappings</p>
+<p style="padding-left: 30px;">* Phone/Dialer &#8211; Landscape support (for docks)</p>
+<p style="padding-left: 30px;">* Dialer &#8211; Support for paid Open CNAM accounts (CallerID)</p>
+<p style="padding-left: 30px;">* WhisperPush &#8211; #holoyolo</p>
+<p style="padding-left: 30px;">* Security Fix &#8211; Fix <a href="http://ibrahimbalic.com/2014/android-os-memory-corruption-bug/">Memory Corruption Bug</a> with long app names</p>
+<p style="padding-left: 30px;">* cLock &#8211; Display date range for multi-day or all-day appointments</p>
+<p style="padding-left: 30px;">* APN Updates</p>
+<p>As we move forward with the M6 release date approaching, we will be squashing any show-stopper bugs that are remaining.</p>
+<p style="padding-left: 30px;"><span style="text-decoration: underline;">Known show-stopper</span></p>
+<p style="padding-left: 30px;">* Disconnecting BT A2dp may result incorrect audio router, requires toggling BT on/off to fix (must fix for M6)</p>
+<p style="padding-left: 30px;">* Know something else that should be elevated in status? Let me know in the comments</p>
+<p><span style="text-decoration: underline;">Upcoming devices</span></p>
+<p>Our maintainers are working on all of the new flagships, including the new HTC One, S5, Note 3 Exynos and the Oppo Find 7a. More immediately, the Galaxy Tab Pro 8.4 Wifi (mondrianwifi) and Xperia SP (huashan) are near ready for nightly support. We&#8217;ll do a post on our G+ account when these nightlies kick off officially.</p>
+<p><span style="text-decoration: underline;">Some Housekeeping</span></p>
+<p>As Cyanogen Inc. continues to grow, it has become necessary to split blog posts to more readily describe what news updates affect each project. I will still be managing the updates for both avenues, but you will soon be seeing a separate blog for the company and its ventures. This should keep a clear distinction of which points overlap and which points apply specifically to the CyanogenMod Project.</p>
+<p>Both projects are also seeing an increased need to keep track of regressions more thoroughly. There will be some policy changes regarding JIRA and bug reports to help assist that process. We&#8217;ll do a separate post when those changes are ready to deploy.</p>
+<p><em>Got a suggestion for a topic you’d like to see in the next round-up? Let us know in the comments below. </em><strong><em>All device/port requests will be ignored.</em></strong></p>
+		</div>
+
+<div id="disqus_thread">
+                    <div id="dsq-content">
+
+            <div class="navigation">
+                <div class="nav-previous"></div>
+                <div class="nav-next"><a href="http://www.cyanogenmod.org/blog/this-week-in-cm-apr-26-2014/comment-page-2#comments" >Newer Comments <span class="meta-nav">&rarr;</span></a></div>
+            </div> <!-- .navigation -->
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-61105">
+        <div id="dsq-comment-header-61105" class="dsq-comment-header">
+            <cite id="dsq-cite-61105">
+                <span id="dsq-author-user-61105">WitnessG</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61105" class="dsq-comment-body">
+            <div id="dsq-comment-message-61105" class="dsq-comment-message"><p>Will the front end for the theme engine be ready for M6?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61106">
+        <div id="dsq-comment-header-61106" class="dsq-comment-header">
+            <cite id="dsq-cite-61106">
+                <span id="dsq-author-user-61106">tejajuloori</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61106" class="dsq-comment-body">
+            <div id="dsq-comment-message-61106" class="dsq-comment-message"><p>good news for jf/d2 devices, thanks for the hard work devs! been waiting patiently for this</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61107">
+        <div id="dsq-comment-header-61107" class="dsq-comment-header">
+            <cite id="dsq-cite-61107">
+                <span id="dsq-author-user-61107">KGee</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61107" class="dsq-comment-body">
+            <div id="dsq-comment-message-61107" class="dsq-comment-message"><p>Any word on S3 compatibility? haven&#8217;t seen an upgrade since M2 <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' />  Dont forget about us!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61108">
+        <div id="dsq-comment-header-61108" class="dsq-comment-header">
+            <cite id="dsq-cite-61108">
+http://cyanogenmod.org/                <span id="dsq-author-user-61108">ciwrl</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61108" class="dsq-comment-body">
+            <div id="dsq-comment-message-61108" class="dsq-comment-message"><p>I have it on my device &#8211; have been dogfooding it. We&#8217;ve also released it to themers to create new content. It will most likely be there for M6 (but don&#8217;t hold me to that).</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61109">
+        <div id="dsq-comment-header-61109" class="dsq-comment-header">
+            <cite id="dsq-cite-61109">
+                <span id="dsq-author-user-61109">Siddharth Moghe</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61109" class="dsq-comment-body">
+            <div id="dsq-comment-message-61109" class="dsq-comment-message"><p>i had lots issues with cell broadcasts on M5 hence had to revert to M4. No change in the setting except the build change. AM i the only one having these issues or were they reported earlier by someone else ?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61110">
+        <div id="dsq-comment-header-61110" class="dsq-comment-header">
+            <cite id="dsq-cite-61110">
+http://cyanogenmod.org/                <span id="dsq-author-user-61110">ciwrl</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61110" class="dsq-comment-body">
+            <div id="dsq-comment-message-61110" class="dsq-comment-message"><p>S3 == d2. Update contained in this post. </p>
+<p>Unless you mean the i9300, which has gotten every M5 so far.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61111">
+        <div id="dsq-comment-header-61111" class="dsq-comment-header">
+            <cite id="dsq-cite-61111">
+http://blog.michna.com/                <span id="dsq-author-user-61111">Hans-Georg Michna</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61111" class="dsq-comment-body">
+            <div id="dsq-comment-message-61111" class="dsq-comment-message"><p>Is the APN data included for the German simquadrat and the Kenyan Safaricom providers? If not, where can I send them? To have the latest APN data included seems to be a perpetual struggle.</p>
+<p>I am also wondering whether this happens in open-source Android or only in the CyanogenMod version. AOSP would be better, I think.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61112">
+        <div id="dsq-comment-header-61112" class="dsq-comment-header">
+            <cite id="dsq-cite-61112">
+                <span id="dsq-author-user-61112">KGee</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61112" class="dsq-comment-body">
+            <div id="dsq-comment-message-61112" class="dsq-comment-message"><p>D2&#8230; yes! i overlooked that! haha thank you sir! I have the i747 and haven&#8217;t received an update since M2, I&#8217;ll be eagerly awaiting the update then <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' /> </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61113">
+        <div id="dsq-comment-header-61113" class="dsq-comment-header">
+            <cite id="dsq-cite-61113">
+                <span id="dsq-author-user-61113">Siddharth Moghe</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61113" class="dsq-comment-body">
+            <div id="dsq-comment-message-61113" class="dsq-comment-message"><p>had issues with continuous cell broadcasts on M5. Not sure what caused it but not in M4 that i am currently using. is this issue reported or fixed ?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61114">
+        <div id="dsq-comment-header-61114" class="dsq-comment-header">
+            <cite id="dsq-cite-61114">
+http://cyanogenmod.org/                <span id="dsq-author-user-61114">ciwrl</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61114" class="dsq-comment-body">
+            <div id="dsq-comment-message-61114" class="dsq-comment-message"><p>Not aware of this one. Are you saying you are getting Cell Broadcast alerts constantly? Like the alarm one?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61115">
+        <div id="dsq-comment-header-61115" class="dsq-comment-header">
+            <cite id="dsq-cite-61115">
+http://cyanogenmod.org/                <span id="dsq-author-user-61115">ciwrl</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61115" class="dsq-comment-body">
+            <div id="dsq-comment-message-61115" class="dsq-comment-message"><p>Open a JIRA ticket under CyanogenMod &gt; improvement, and I will take a look at the APNs. </p>
+<p>You can see the current APN list at <a href="https://github.com/CyanogenMod/android_vendor_cm/blob/cm-11.0/prebuilt/common/etc/apns-conf.xml" rel="nofollow">https://github.com/CyanogenMod/android_vendor_cm/blob/cm-11.0/prebuilt/common/etc/apns-conf.xml</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61116">
+        <div id="dsq-comment-header-61116" class="dsq-comment-header">
+            <cite id="dsq-cite-61116">
+                <span id="dsq-author-user-61116">Siddharth Moghe</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61116" class="dsq-comment-body">
+            <div id="dsq-comment-message-61116" class="dsq-comment-message"><p>yes &#8211; cell broadcasts &#8211; not the alarm type&#8230;but carrier messages and all that &#8230;same setting on m4 is working fine, but m5 the phone keeps buzzing like hell with those cell broadcasts. And the damn thing auto vibrates &#8211; couldn&#8217;t turn it off either so went back to M4, which is again working well&#8230;</p>
+<p>disabled everything that was there in cell broadcasts but it still kept persisted&#8230;.wiped cache and reinstalled &#8230;no change&#8230;went back to m4 , and came back to m5 after a week &#8211; same problem..</p>
+<p>not sure if the same issue is carried in to m6 if you say it was not reported till now . Dialer changes causing this ?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61117">
+        <div id="dsq-comment-header-61117" class="dsq-comment-header">
+            <cite id="dsq-cite-61117">
+                <span id="dsq-author-user-61117">Paco Inurreta</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61117" class="dsq-comment-body">
+            <div id="dsq-comment-message-61117" class="dsq-comment-message"><p>Please add an option to reduce the size of the notification drop down menu items, I find these squares way too big and it could display even more info with smaller items. Just so you get the things right, Im not talking about the quick settings, the one with the toggles.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61118">
+        <div id="dsq-comment-header-61118" class="dsq-comment-header">
+            <cite id="dsq-cite-61118">
+http://revanmj.pl/                <span id="dsq-author-user-61118">Michał Jakubowski</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61118" class="dsq-comment-body">
+            <div id="dsq-comment-message-61118" class="dsq-comment-message"><p>I think that new Theme Engine is not ready for M6 &#8211; at least on Maguro it is far from stable. For me the main problem now is its memory usage (causes lags that weren&#8217;t there with the old Theme Chooser), but some people on xda still report issues with system.ui FCs caused by new Theme Engine (which for me where fixed in the recent nightlies).</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61119">
+        <div id="dsq-comment-header-61119" class="dsq-comment-header">
+            <cite id="dsq-cite-61119">
+http://cyanogenmod.org/                <span id="dsq-author-user-61119">ciwrl</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61119" class="dsq-comment-body">
+            <div id="dsq-comment-message-61119" class="dsq-comment-message"><p>I haven&#8217;t seen anything. The only major dialer changes (outside of those listed in this post) were to expand multi-sim support for the dual sim Moto G.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61120">
+        <div id="dsq-comment-header-61120" class="dsq-comment-header">
+            <cite id="dsq-cite-61120">
+http://cyanogenmod.org/                <span id="dsq-author-user-61120">ciwrl</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61120" class="dsq-comment-body">
+            <div id="dsq-comment-message-61120" class="dsq-comment-message"><p><a href="http://review.cyanogenmod.org/#/c/62681/" rel="nofollow">http://review.cyanogenmod.org/#/c/62681/</a></p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61121">
+        <div id="dsq-comment-header-61121" class="dsq-comment-header">
+            <cite id="dsq-cite-61121">
+                <span id="dsq-author-user-61121">Lidor Aviman</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61121" class="dsq-comment-body">
+            <div id="dsq-comment-message-61121" class="dsq-comment-message"><p>Cannot send video via the whatsapp since the compression causing the whatsapp app to crush</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61122">
+        <div id="dsq-comment-header-61122" class="dsq-comment-header">
+            <cite id="dsq-cite-61122">
+http://cyanogenmod.org/                <span id="dsq-author-user-61122">ciwrl</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61122" class="dsq-comment-body">
+            <div id="dsq-comment-message-61122" class="dsq-comment-message"><p>Which device?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61123">
+        <div id="dsq-comment-header-61123" class="dsq-comment-header">
+            <cite id="dsq-cite-61123">
+                <span id="dsq-author-user-61123">Lidor Aviman</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61123" class="dsq-comment-body">
+            <div id="dsq-comment-message-61123" class="dsq-comment-message"><p>Camera is not working properly, sometimes you can take only one pic and then the camera stuck.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61124">
+        <div id="dsq-comment-header-61124" class="dsq-comment-header">
+            <cite id="dsq-cite-61124">
+http://cyanogenmod.org/                <span id="dsq-author-user-61124">ciwrl</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61124" class="dsq-comment-body">
+            <div id="dsq-comment-message-61124" class="dsq-comment-message"><p>This is something we are also looking into. We are testing against a crespo to force low-memory situation. Clark is working on a patch.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61125">
+        <div id="dsq-comment-header-61125" class="dsq-comment-header">
+            <cite id="dsq-cite-61125">
+http://cyanogenmod.org/                <span id="dsq-author-user-61125">ciwrl</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61125" class="dsq-comment-body">
+            <div id="dsq-comment-message-61125" class="dsq-comment-message"><p>Again, what device? <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61126">
+        <div id="dsq-comment-header-61126" class="dsq-comment-header">
+            <cite id="dsq-cite-61126">
+                <span id="dsq-author-user-61126">Paco Inurreta</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61126" class="dsq-comment-body">
+            <div id="dsq-comment-message-61126" class="dsq-comment-message"><p>Wasnt really talking about the toggles. In that link the screenshots, look at the Avast notification, IS WAY TOO BIG!</p>
+<p>We could get more information in the screen, remember that there are notification center recident apps and if you add 6 different apps notifications you have to scroll down.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61127">
+        <div id="dsq-comment-header-61127" class="dsq-comment-header">
+            <cite id="dsq-cite-61127">
+                <span id="dsq-author-user-61127">Oli Watts</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61127" class="dsq-comment-body">
+            <div id="dsq-comment-message-61127" class="dsq-comment-message"><p>Had camera problems with CM11 for a long while hence moving From Nightlies to M5+ but not better. I currently have to flash the JB camera over the top (which works perfectly).  SGS3 International. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61129">
+        <div id="dsq-comment-header-61129" class="dsq-comment-header">
+            <cite id="dsq-cite-61129">
+                <span id="dsq-author-user-61129">russel51</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61129" class="dsq-comment-body">
+            <div id="dsq-comment-message-61129" class="dsq-comment-message"><p>Galaxy s2 i9100 has a bug with usb connector: whatever usb cable is connected the phone sense it as &#8220;in charge&#8221; (e.g. with usb otg cable &#8211; usb OTG doesn&#8217;t work at the moment &#8211; ).</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61130">
+        <div id="dsq-comment-header-61130" class="dsq-comment-header">
+            <cite id="dsq-cite-61130">
+                <span id="dsq-author-user-61130">Paco Inurreta</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61130" class="dsq-comment-body">
+            <div id="dsq-comment-message-61130" class="dsq-comment-message"><p>Look at this, I don&#8217;t even use the quick settings and my notification center is clustered. If the squares/running notifications were smaller more info would be available and easier to read. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61131">
+        <div id="dsq-comment-header-61131" class="dsq-comment-header">
+            <cite id="dsq-cite-61131">
+                <span id="dsq-author-user-61131">Siddharth Moghe</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61131" class="dsq-comment-body">
+            <div id="dsq-comment-message-61131" class="dsq-comment-message"><p>ETA for M6 builds ?</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61132">
+        <div id="dsq-comment-header-61132" class="dsq-comment-header">
+            <cite id="dsq-cite-61132">
+https://plus.google.com/+IzzazIskandar/                <span id="dsq-author-user-61132">Izzaz Iskandar</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61132" class="dsq-comment-body">
+            <div id="dsq-comment-message-61132" class="dsq-comment-message"><p>gt-i9300&#8230;. Camera is really bad and crippled. Even using other camera apps it seems to crash and the only way to fix it is to reboot the device. Seems like whatever uses the camera API ends up broken</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61133">
+        <div id="dsq-comment-header-61133" class="dsq-comment-header">
+            <cite id="dsq-cite-61133">
+                <span id="dsq-author-user-61133">Mateusz Urbanowicz</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61133" class="dsq-comment-body">
+            <div id="dsq-comment-message-61133" class="dsq-comment-message"><p>GT-i9300 (int)</p>
+<p>1. Camera sometimes stuck after one or 2-3 shots. When want to start again, comes message that camera is in use.<br />
+2. When i scroll down the top bar, whole system stuck and after a while restart (not reboot) interface to lock screen.</p>
+<p>These two things happen a lot lately.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61134">
+        <div id="dsq-comment-header-61134" class="dsq-comment-header">
+            <cite id="dsq-cite-61134">
+                <span id="dsq-author-user-61134">WitnessG</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61134" class="dsq-comment-body">
+            <div id="dsq-comment-message-61134" class="dsq-comment-message"><p>Friday/Saturday. M builds are released in the first weekend of the month.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61135">
+        <div id="dsq-comment-header-61135" class="dsq-comment-header">
+            <cite id="dsq-cite-61135">
+                <span id="dsq-author-user-61135">Desideriu Kiss</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61135" class="dsq-comment-body">
+            <div id="dsq-comment-message-61135" class="dsq-comment-message"><p>Hy, I start to use also on GT-I9100 (galaxy S2) and working perfectly. Just some minor bug I detect. After a while the sound is going mute, but not set to mute, after restart is OK and another issue is that nobody can call me ( like turn off phone status) and after restart is OK&#8230; in rest is perfect !!! Maybe will be some updates to fix this issues.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61136">
+        <div id="dsq-comment-header-61136" class="dsq-comment-header">
+            <cite id="dsq-cite-61136">
+                <span id="dsq-author-user-61136">Lidor Aviman</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61136" class="dsq-comment-body">
+            <div id="dsq-comment-message-61136" class="dsq-comment-message"><p>SG3</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61137">
+        <div id="dsq-comment-header-61137" class="dsq-comment-header">
+            <cite id="dsq-cite-61137">
+                <span id="dsq-author-user-61137">infected_</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61137" class="dsq-comment-body">
+            <div id="dsq-comment-message-61137" class="dsq-comment-message"><p>LG G Pad 8.3&#8243; (v500) .. Connection issues with WiFi. Timeouts, slow connection, have to toggle on/off to work again. Doesn&#8217;t happens to all routers/APs, but its a known issue on the official CM 11 thread on XDA.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61138">
+        <div id="dsq-comment-header-61138" class="dsq-comment-header">
+            <cite id="dsq-cite-61138">
+                <span id="dsq-author-user-61138">Michael Rowland</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61138" class="dsq-comment-body">
+            <div id="dsq-comment-message-61138" class="dsq-comment-message"><p>Whats happened to the HTC One X+? There was no M5 release!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61139">
+        <div id="dsq-comment-header-61139" class="dsq-comment-header">
+            <cite id="dsq-cite-61139">
+                <span id="dsq-author-user-61139">Amanda</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61139" class="dsq-comment-body">
+            <div id="dsq-comment-message-61139" class="dsq-comment-message"><p>Galaxy Note 2/ Galaxy S3 &#8211; When listening to Music via Spotify/Play Music etc. Via headset &amp; open Google now(mic.) Sound stops even after closing the app. Have to restart the phone. This problem only happens when headset is connected and anything that turns on the mic stops the music even when the screen shows playing no sound is heard.  A restart is required. Please fix this issue.Gr8 work so far!:) Thx!:) Turned off GEL launcher &amp; shut off &#8220;OK Google&#8221;. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61140">
+        <div id="dsq-comment-header-61140" class="dsq-comment-header">
+            <cite id="dsq-cite-61140">
+                <span id="dsq-author-user-61140">Alex</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61140" class="dsq-comment-body">
+            <div id="dsq-comment-message-61140" class="dsq-comment-message"><p>I&#8217;m using Galaxy Nexus GSM with CM11 M5 and everytime I open the phone app and try to switch to the dialer, it does&#8217;nt show up.. it always needs a second try to show the numberpad for dialling numbers.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61141">
+        <div id="dsq-comment-header-61141" class="dsq-comment-header">
+            <cite id="dsq-cite-61141">
+                <span id="dsq-author-user-61141">Toomkee</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61141" class="dsq-comment-body">
+            <div id="dsq-comment-message-61141" class="dsq-comment-message"><p>the fastest way to change this size is to adjust the system DPI setting. but that does not only change the size of these notification strips, it also changes ALL elements of the system. just imagine u have a 1080p screen with a DPI runnung at 480 and want to set 380. its like running in a tablet mode. almost. if u set it even lower the UI changes automatical (when ur running an aosp based rom) to a tablet/phablet mode (seperate notification/quicktoggle drop down menu more icon rows and collums and lots more).</p>
+<p>there are tools like build.prob editor on the gplay store. but be careful <img src='http://www.cyanogenmod.org/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  test some settings out before using them as base. some apps may be broken or the ui cant be displayed correctly. or the gplay store will show that some apps are now incompatible (using appstore fixes module (or something like that) from xposed will fix that again).</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61142">
+        <div id="dsq-comment-header-61142" class="dsq-comment-header">
+            <cite id="dsq-cite-61142">
+http://cyanogenmod.org/                <span id="dsq-author-user-61142">ciwrl</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61142" class="dsq-comment-body">
+            <div id="dsq-comment-message-61142" class="dsq-comment-message"><p>Oh, sorry, misunderstood what you meant by &#8216;toggles. </p>
+<p>No current plans to shrink notification sizes.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61143">
+        <div id="dsq-comment-header-61143" class="dsq-comment-header">
+            <cite id="dsq-cite-61143">
+                <span id="dsq-author-user-61143">Lidor Aviman</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61143" class="dsq-comment-body">
+            <div id="dsq-comment-message-61143" class="dsq-comment-message"><p>does someone find soultion???</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61144">
+        <div id="dsq-comment-header-61144" class="dsq-comment-header">
+            <cite id="dsq-cite-61144">
+                <span id="dsq-author-user-61144">Roberto</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61144" class="dsq-comment-body">
+            <div id="dsq-comment-message-61144" class="dsq-comment-message"><p>There&#8217;s a bug on galaxy nexus since m3 release on incoming call screen the navbar persists instead of be hidden. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61145">
+        <div id="dsq-comment-header-61145" class="dsq-comment-header">
+            <cite id="dsq-cite-61145">
+                <span id="dsq-author-user-61145">Guilherme Moreira</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61145" class="dsq-comment-body">
+            <div id="dsq-comment-message-61145" class="dsq-comment-message"><p>Tks!</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61146">
+        <div id="dsq-comment-header-61146" class="dsq-comment-header">
+            <cite id="dsq-cite-61146">
+                <span id="dsq-author-user-61146">sp0ot-n1ck</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61146" class="dsq-comment-body">
+            <div id="dsq-comment-message-61146" class="dsq-comment-message"><p>Sometimes when I unlock my S3 (International)  and the homescreen appears,  the phone freezes and 5 seconds later I end up with a locked phone again. </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61147">
+        <div id="dsq-comment-header-61147" class="dsq-comment-header">
+            <cite id="dsq-cite-61147">
+                <span id="dsq-author-user-61147">TomaHawk</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61147" class="dsq-comment-body">
+            <div id="dsq-comment-message-61147" class="dsq-comment-message"><p>Will be the OnePlus One theme avaible for everyone? I love it so much &lt;3</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61148">
+        <div id="dsq-comment-header-61148" class="dsq-comment-header">
+            <cite id="dsq-cite-61148">
+                <span id="dsq-author-user-61148">mickael flageul</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61148" class="dsq-comment-body">
+            <div id="dsq-comment-message-61148" class="dsq-comment-message"><p>Hi on m&#8217;y GT 5110 everything seem all right but thé bluetooth it allways say bluetooth app stop no Mather if i can block it </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61149">
+        <div id="dsq-comment-header-61149" class="dsq-comment-header">
+            <cite id="dsq-cite-61149">
+                <span id="dsq-author-user-61149">synth3</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61149" class="dsq-comment-body">
+            <div id="dsq-comment-message-61149" class="dsq-comment-message"><p>With the latest 11 Milestone my HTC one m7 phone APP always crashes when trying to accept incomming ip-calls.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61150">
+        <div id="dsq-comment-header-61150" class="dsq-comment-header">
+            <cite id="dsq-cite-61150">
+                <span id="dsq-author-user-61150">aluk4rd</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61150" class="dsq-comment-body">
+            <div id="dsq-comment-message-61150" class="dsq-comment-message"><p>wifi priority don&#8217;t work properly. (hamerhead) </p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61151">
+        <div id="dsq-comment-header-61151" class="dsq-comment-header">
+            <cite id="dsq-cite-61151">
+                <span id="dsq-author-user-61151">Piotr Trzęsicki</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61151" class="dsq-comment-body">
+            <div id="dsq-comment-message-61151" class="dsq-comment-message"><p>Dialer: When connected to an IVR system and trying to dial any number, this number isn&#8217;t displayed on the screen and isn&#8217;t sent to the IVR system either. This happened to me recently, I&#8217;m on M5.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61152">
+        <div id="dsq-comment-header-61152" class="dsq-comment-header">
+            <cite id="dsq-cite-61152">
+                <span id="dsq-author-user-61152">Fabian Kindgen</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61152" class="dsq-comment-body">
+            <div id="dsq-comment-message-61152" class="dsq-comment-message"><p>Miracast doesn&#8217;t work correctly. I&#8217;m not able to connect my Nexus 4 with my TV.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61153">
+        <div id="dsq-comment-header-61153" class="dsq-comment-header">
+            <cite id="dsq-cite-61153">
+                <span id="dsq-author-user-61153">Dani</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61153" class="dsq-comment-body">
+            <div id="dsq-comment-message-61153" class="dsq-comment-message"><p>One question, if I have a nightly of yesterday (the night of April 26) and I wait for M6 and then download it as ota, can install normally without problems or it would be a sort of a downgrade? How for the future I can see that? And normally what are the last feature you put into a mounthly from a nightly, because I would be interested to hide icons into the drawer and I would know if you would think to put it into the M6? Sorry for my poor english grammar, I am an italian students.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-61154">
+        <div id="dsq-comment-header-61154" class="dsq-comment-header">
+            <cite id="dsq-cite-61154">
+                <span id="dsq-author-user-61154">Manfred von Lühmann</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61154" class="dsq-comment-body">
+            <div id="dsq-comment-message-61154" class="dsq-comment-message"><p>on cm11 m5 the search bar disappears whenever i uninstall an app.</p>
+</div>
+        </div>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-61155">
+        <div id="dsq-comment-header-61155" class="dsq-comment-header">
+            <cite id="dsq-cite-61155">
+                <span id="dsq-author-user-61155">SMR</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-61155" class="dsq-comment-body">
+            <div id="dsq-comment-message-61155" class="dsq-comment-message"><p>I love what Cyanogenmod has done to my i9300. It performs multiple times faster than any i9300 on stock rom while doing trivial tasks. Thank you CM team for that.</p>
+<p>But I find it a little awkward when a Moto G performs smoother than my i9300 on CM 11 M5. Can anybody point out probable reasons despite galaxy s3 having a superior cpu compared to Moto G</p>
+<p>Does it have to do anything with AMOLED LCD difference</p>
+</div>
+        </div>
+
+    </li>
+            </ul>
+
+            <div class="navigation">
+                <div class="nav-previous"></div>
+                <div class="nav-next"><a href="http://www.cyanogenmod.org/blog/this-week-in-cm-apr-26-2014/comment-page-2#comments" >Newer Comments <span class="meta-nav">&rarr;</span></a></div>
+            </div><!-- .navigation -->
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://www.cyanogenmod.org/blog/this-week-in-cm-apr-26-2014';
+    var disqus_identifier = '2673 http://www.cyanogenmod.org/?p=2673';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'cyngn';
+    var disqus_title = "Last Week in CyanogenMod";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+        config.language = '';
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '?cf_action=sync_comments&post_id=2673';
+
+            var firstScript = document.getElementsByTagName( "script" )[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+        });
+                    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/www.cyanogenmod.org\/blog\/this-week-in-cm-apr-26-2014\/trackback"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+</article>
+			</div>
+
+		</div><!-- End Content row -->
+		
+		<aside id="sidebar" class="four columns hide-on-phones" role="complementary">
+	<div class="sidebar-box">
+		<article id="recent-comments-4" class="row widget widget_recent_comments"><div class="sidebar-section twelve columns"><h6><strong>Recent Comments</strong></h6><ul id="recentcomments"><li class="recentcomments">Rakesh Lingechetty on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65376">CyanogenMod 11 M12</a></li><li class="recentcomments">zamarax on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65375">CyanogenMod 11 M12</a></li><li class="recentcomments">Avinash Sailesh on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65374">CyanogenMod 11 M12</a></li><li class="recentcomments">ibrahim biten on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65373">CyanogenMod 11 M12</a></li><li class="recentcomments">ibrahim biten on <a href="http://www.cyanogenmod.org/blog/cyanogenmod-11-m12/comment-page-6#comment-65372">CyanogenMod 11 M12</a></li></ul></div></article>	</div>
+</aside><!-- /#sidebar -->		
+		</div><!-- End Main row -->
+		
+		<footer id="content-info" role="contentinfo" class="hide-on-phones" style="margin:40px 0 0 0;">
+			<div class="row">
+				<article id="nav_menu-4" class="three columns widget widget_nav_menu"><div class="footer-section"><h6><strong>Navigation</strong></h6><div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-798"><a href="http://www.cyanogenmod.org/about">About</a></li>
+<li id="menu-item-2403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2403"><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+<li id="menu-item-2404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2404"><a href="http://download.cyanogenmod.org">Download</a></li>
+<li id="menu-item-825" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-825"><a href="/blog">Blog</a></li>
+<li id="menu-item-904" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-904"><a href="http://forum.cyanogenmod.org">Forum</a></li>
+<li id="menu-item-829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-829"><a href="http://www.cyanogenmod.org/community">Community</a></li>
+<li id="menu-item-2405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2405"><a href="https://account.cyanogenmod.org/">Account</a></li>
+<li id="menu-item-2709" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2709"><a href="http://shop.cyanogenmod.org">Shop</a></li>
+</ul></div></div></article><article id="nav_menu-3" class="three columns widget widget_nav_menu"><div class="footer-section"><h6><strong>Social Networks</strong></h6><div class="menu-social-networks-container"><ul id="menu-social-networks" class="menu"><li id="menu-item-2173" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2173"><a href="https://www.facebook.com/CyanogenMod">Facebook</a></li>
+<li id="menu-item-2174" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2174"><a href="https://twitter.com/CyanogenMod">Twitter</a></li>
+<li id="menu-item-2175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2175"><a href="https://plus.google.com/+CyanogenMod/posts">Google+</a></li>
+</ul></div></div></article>                                <article class="three columns widget widget widget_nav_menu">
+                                    <div class="footer-section">
+                                        <h6><strong>Sponsored By</strong></h6>
+                                        <a href="http://twilio.com/?utm_source=cyanogenmod&utm_medium=webbadge&utm_campaign=cyanogenverify" style="text: decoration: none; display: inline-block; width: 166px; height: 0; overflow: hidden; padding-top: 31px; background: url(http://www.twilio.com/packages/company/img/logos_icon_poweredbysmall.png) no-repeat;">powered by twilio™</a>
+                                    </div>
+                                </article>
+			</div>
+		</footer>
+        
+      <div id="navigation" class="row mobile-footer show-on-phones">
+			<div class="twelve columns">
+            	<h6>Navigate cyanogenmod.org</h6>
+            	<ul>
+                	<li><a href="/about">About</a></li>
+                    <!--<li><a href="#">Features</a></li>-->
+                    <li><a href="http://wiki.cyanogenmod.org/">Wiki</a></li>
+                    <li><a href="http://download.cyanogenmod.org/">Download</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="http://forum.cyanogenmod.org">Forum</a></li>
+                    <li><a href="/community">Community</a></li>  
+                    <li><a href="https://account.cyanogenmod.org">Account</a></li>
+                    <li><a href="http://shop.cyanogenmod.org">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+			
+	</div><!-- Container End -->
+    
+
+	<!-- Included JS Files of Foundation -->
+	<script src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/foundation.js"></script>
+	<script src="http://www.cyanogenmod.org/wp-content/themes/cyanogenmodv3/js/app.js"></script>
+	
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	     chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7]>
+		<script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+		<script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+	
+	<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 9/22 queries in 0.030 seconds using apc
+Object Caching 989/1176 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:17:33 by W3 Total Cache -->

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: 4.0.4 is out!</title>
+	<atom:link href="http://www.cyanogenmod.org/blog/4-0-4-is-out/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.cyanogenmod.org/blog/4-0-4-is-out</link>
+	<description>CyanogenMod Android ROM</description>
+	<lastBuildDate>Sun, 28 Dec 2014 02:16:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+	<item>
+		<title>By: danny</title>
+		<link>http://www.cyanogenmod.org/blog/4-0-4-is-out/comment-page-1#comment-772</link>
+		<dc:creator>danny</dc:creator>
+		<pubDate>Mon, 21 Sep 2009 11:57:08 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-0-4-is-out#comment-772</guid>
+		<description><![CDATA[I have the black tmobile G1. I rooted it and flashed the newest recovery img. I downloaded cyanogen 4.0.4 but when I hit alt+s it opens the update but then it says it was aborted cause its not signed and that&#039;s it. What am I doing wrong? Can anyone help me?]]></description>
+		<content:encoded><![CDATA[<p>I have the black tmobile G1. I rooted it and flashed the newest recovery img. I downloaded cyanogen 4.0.4 but when I hit alt+s it opens the update but then it says it was aborted cause its not signed and that&#8217;s it. What am I doing wrong? Can anyone help me?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: justinf</title>
+		<link>http://www.cyanogenmod.org/blog/4-0-4-is-out/comment-page-1#comment-767</link>
+		<dc:creator>justinf</dc:creator>
+		<pubDate>Mon, 21 Sep 2009 07:54:19 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-0-4-is-out#comment-767</guid>
+		<description><![CDATA[hey all. Lovin the rom. Anyone had any issues with the volume rocker not working in call?]]></description>
+		<content:encoded><![CDATA[<p>hey all. Lovin the rom. Anyone had any issues with the volume rocker not working in call?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: feydreva</title>
+		<link>http://www.cyanogenmod.org/blog/4-0-4-is-out/comment-page-1#comment-189</link>
+		<dc:creator>feydreva</dc:creator>
+		<pubDate>Sat, 05 Sep 2009 00:38:08 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-0-4-is-out#comment-189</guid>
+		<description><![CDATA[using CM-updater, 
+it dowloads it,after you click install, it reboot the phone in recovery mode, but cannot find the zip file, and do not do anything after you reboot..
+
+solution is after the reboot in recovery mode, go to console mode
+cd /sdcard
+cp cm-updates/* .
+
+reboot
+go in recovery mode
+Apply any zip from sd card
+choose the rev you want to apply....
+
+
+I do no know why cm-updater do not work correctly]]></description>
+		<content:encoded><![CDATA[<p>using CM-updater,<br />
+it dowloads it,after you click install, it reboot the phone in recovery mode, but cannot find the zip file, and do not do anything after you reboot..</p>
+<p>solution is after the reboot in recovery mode, go to console mode<br />
+cd /sdcard<br />
+cp cm-updates/* .</p>
+<p>reboot<br />
+go in recovery mode<br />
+Apply any zip from sd card<br />
+choose the rev you want to apply&#8230;.</p>
+<p>I do no know why cm-updater do not work correctly</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: bluboy</title>
+		<link>http://www.cyanogenmod.org/blog/4-0-4-is-out/comment-page-1#comment-157</link>
+		<dc:creator>bluboy</dc:creator>
+		<pubDate>Mon, 31 Aug 2009 23:10:51 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-0-4-is-out#comment-157</guid>
+		<description><![CDATA[touch input (hero keyboard) is awesome thanks man]]></description>
+		<content:encoded><![CDATA[<p>touch input (hero keyboard) is awesome thanks man</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: noguerol</title>
+		<link>http://www.cyanogenmod.org/blog/4-0-4-is-out/comment-page-1#comment-130</link>
+		<dc:creator>noguerol</dc:creator>
+		<pubDate>Mon, 31 Aug 2009 00:38:14 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-0-4-is-out#comment-130</guid>
+		<description><![CDATA[&lt;blockquote cite=&quot;#commentbody-112&quot;&gt;
+&lt;strong&gt;&lt;a href=&quot;#comment-112&quot; rel=&quot;nofollow&quot;&gt;Dad E&lt;/a&gt; :&lt;/strong&gt;
+          A little help…when I update using CM updater on the phone, it gets to the point of “writing BOOT” and sits there. The options pop backup to reboot, apply update.zip…etc. Its been sitting for 30 min. and I do not want to choose reboot as it may brick…correct? Any input please.
+         &lt;/blockquote&gt;
+
+Don&#039;t worry, that&#039;s normal. Just reboot.]]></description>
+		<content:encoded><![CDATA[<blockquote cite="#commentbody-112"><p>
+<strong><a href="#comment-112" rel="nofollow">Dad E</a> :</strong><br />
+          A little help…when I update using CM updater on the phone, it gets to the point of “writing BOOT” and sits there. The options pop backup to reboot, apply update.zip…etc. Its been sitting for 30 min. and I do not want to choose reboot as it may brick…correct? Any input please.
+         </p></blockquote>
+<p>Don&#8217;t worry, that&#8217;s normal. Just reboot.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Hecto</title>
+		<link>http://www.cyanogenmod.org/blog/4-0-4-is-out/comment-page-1#comment-118</link>
+		<dc:creator>Hecto</dc:creator>
+		<pubDate>Sun, 30 Aug 2009 17:39:51 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-0-4-is-out#comment-118</guid>
+		<description><![CDATA[&lt;blockquote cite=&quot;#commentbody-92&quot;&gt;
+&lt;strong&gt;&lt;a href=&quot;#comment-92&quot; rel=&quot;nofollow&quot;&gt;Justin&lt;/a&gt; :&lt;/strong&gt;Anybody else having problems with the screen re-orienting itself? When I open the screen, it switches to landscape, but when I close the screen, it stays in landscape.&lt;/blockquote&gt;
+
+I also had that problem. I disables auto rotate]]></description>
+		<content:encoded><![CDATA[<blockquote cite="#commentbody-92"><p>
+<strong><a href="#comment-92" rel="nofollow">Justin</a> :</strong>Anybody else having problems with the screen re-orienting itself? When I open the screen, it switches to landscape, but when I close the screen, it stays in landscape.</p></blockquote>
+<p>I also had that problem. I disables auto rotate</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: ((RayDar))</title>
+		<link>http://www.cyanogenmod.org/blog/4-0-4-is-out/comment-page-1#comment-115</link>
+		<dc:creator>((RayDar))</dc:creator>
+		<pubDate>Sun, 30 Aug 2009 16:02:35 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-0-4-is-out#comment-115</guid>
+		<description><![CDATA[I too would like to build it myself and/or contribute code to the project.]]></description>
+		<content:encoded><![CDATA[<p>I too would like to build it myself and/or contribute code to the project.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Robert B.</title>
+		<link>http://www.cyanogenmod.org/blog/4-0-4-is-out/comment-page-1#comment-114</link>
+		<dc:creator>Robert B.</dc:creator>
+		<pubDate>Sun, 30 Aug 2009 15:10:33 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-0-4-is-out#comment-114</guid>
+		<description><![CDATA[Thanks for your hard work on the roms.]]></description>
+		<content:encoded><![CDATA[<p>Thanks for your hard work on the roms.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Robert N. Lee</title>
+		<link>http://www.cyanogenmod.org/blog/4-0-4-is-out/comment-page-1#comment-113</link>
+		<dc:creator>Robert N. Lee</dc:creator>
+		<pubDate>Sun, 30 Aug 2009 14:13:10 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-0-4-is-out#comment-113</guid>
+		<description><![CDATA[I&#039;ve updated to 4.0.4 twice, now, and both times I lose everything on all home screens. If I drag apps out or put widgets on or whatever and reboot, I lose everything again. 
+
+I&#039;m good, I went back to my last good 4.0.2 backup - just wanted to report. I&#039;m on a myTouch, BTW.]]></description>
+		<content:encoded><![CDATA[<p>I&#8217;ve updated to 4.0.4 twice, now, and both times I lose everything on all home screens. If I drag apps out or put widgets on or whatever and reboot, I lose everything again. </p>
+<p>I&#8217;m good, I went back to my last good 4.0.2 backup &#8211; just wanted to report. I&#8217;m on a myTouch, BTW.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Dad E</title>
+		<link>http://www.cyanogenmod.org/blog/4-0-4-is-out/comment-page-1#comment-112</link>
+		<dc:creator>Dad E</dc:creator>
+		<pubDate>Sun, 30 Aug 2009 14:02:05 +0000</pubDate>
+		<guid isPermaLink="false">http://www.cyanogenmod.com/home/4-0-4-is-out#comment-112</guid>
+		<description><![CDATA[A little help...when I update using CM updater on the phone, it gets to the point of &quot;writing BOOT&quot; and sits there. The options pop backup to reboot, apply update.zip...etc. Its been sitting for 30 min. and I do not want to choose reboot as it may brick...correct? Any input please.]]></description>
+		<content:encoded><![CDATA[<p>A little help&#8230;when I update using CM updater on the phone, it gets to the point of &#8220;writing BOOT&#8221; and sits there. The options pop backup to reboot, apply update.zip&#8230;etc. Its been sitting for 30 min. and I do not want to choose reboot as it may brick&#8230;correct? Any input please.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching 1/17 queries in 0.031 seconds using apc
+Object Caching 351/353 objects using apc
+
+ Served from: www.cyanogenmod.org @ 2014-12-28 02:16:10 by W3 Total Cache -->
